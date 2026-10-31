@@ -1,0 +1,9 @@
+{
+  "condition": "lora16_final",
+  "merge_check": {
+    "dtype": "float32",
+    "max_absolute_difference": 3.24249267578125e-05,
+    "relative_l2_difference": 1.552602839183237e-06
+  },
+  "load_and_diagnostics_seconds": 10.257157082000049
+}

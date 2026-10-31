@@ -1,0 +1,10 @@
+{
+  "method": "full",
+  "smoke": false,
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "trainable_parameters": 596049920,
+  "total_parameters": 596049920,
+  "model_load_seconds": 2.2365421019999303,
+  "reference_storage_bytes": 2384199680,
+  "reference_setup_seconds": 1.5153834249999818
+}

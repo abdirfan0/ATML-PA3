@@ -1,0 +1,86 @@
+{
+  "likelihood": [
+    {
+      "batch_size": 8,
+      "oom": false,
+      "seconds": [
+        1.1656497140000397,
+        1.084972461999996
+      ],
+      "mean_seconds": 1.125311088000018,
+      "peak_bytes": 10462818304,
+      "projected_peak_bytes": 10462818304,
+      "requests_per_second": 142.18290542605715
+    },
+    {
+      "batch_size": 16,
+      "oom": false,
+      "seconds": [
+        0.8486456329999896,
+        0.8358224750000431
+      ],
+      "mean_seconds": 0.8422340540000164,
+      "peak_bytes": 19725770240,
+      "projected_peak_bytes": 19725770240,
+      "requests_per_second": 189.97094600973816
+    },
+    {
+      "batch_size": 32,
+      "oom": true
+    },
+    {
+      "batch_size": 64,
+      "oom": true
+    }
+  ],
+  "generation": [
+    {
+      "batch_size": 8,
+      "oom": false,
+      "seconds": [
+        24.402609063,
+        24.10371362699999
+      ],
+      "mean_seconds": 24.253161344999995,
+      "peak_bytes": 1472183808,
+      "projected_peak_bytes": 2352987648,
+      "requests_per_second": 2.6388312471765323
+    },
+    {
+      "batch_size": 16,
+      "oom": false,
+      "seconds": [
+        12.094893099000046,
+        12.123631409999973
+      ],
+      "mean_seconds": 12.10926225450001,
+      "peak_bytes": 1742807552,
+      "projected_peak_bytes": 3504415232,
+      "requests_per_second": 5.2852104987829875
+    },
+    {
+      "batch_size": 32,
+      "oom": false,
+      "seconds": [
+        6.099633202000007,
+        6.079053715999976
+      ],
+      "mean_seconds": 6.089343458999991,
+      "peak_bytes": 2271705088,
+      "projected_peak_bytes": 5794920448,
+      "requests_per_second": 10.510164261700268
+    },
+    {
+      "batch_size": 64,
+      "oom": false,
+      "seconds": [
+        3.2316400460000523,
+        3.1814346120000323
+      ],
+      "mean_seconds": 3.2065373290000423,
+      "peak_bytes": 3341033472,
+      "projected_peak_bytes": 10387464192,
+      "requests_per_second": 19.959224993634606
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "condition": "oplora16_final",
+  "merge_check": {
+    "dtype": "float32",
+    "max_absolute_difference": 4.839897155761719e-05,
+    "relative_l2_difference": 1.6761343886173563e-06
+  },
+  "load_and_diagnostics_seconds": 8.30070219299887
+}

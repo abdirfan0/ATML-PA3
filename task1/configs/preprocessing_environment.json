@@ -1,0 +1,10 @@
+{
+  "python": "3.13.16",
+  "packages": {
+    "torch": "2.11.0+cpu",
+    "transformers": "5.20.2",
+    "datasets": "4.8.5",
+    "accelerate": "1.15.0",
+    "peft": "0.21.2"
+  }
+}

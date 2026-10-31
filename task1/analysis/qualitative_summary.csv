@@ -1,0 +1,8 @@
+condition,strict_json_passes_of_2,strict_template_passes_of_2,truncated_of_6,math_framing_of_6
+baseline,0,1,0,0
+full_mid,1,1,2,2
+full_final,1,1,1,3
+l2sp_final,1,1,1,2
+lora4_final,2,1,0,0
+lora16_final,1,1,0,0
+oplora16_final,1,0,0,1

@@ -1,0 +1,13 @@
+{
+  "method": "oplora16",
+  "smoke": false,
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "trainable_parameters": 10092544,
+  "total_parameters": 606142464,
+  "model_load_seconds": 2.0036108139993303,
+  "reference_storage_bytes": 0,
+  "reference_setup_seconds": 1.7099991964641958e-06,
+  "basis_seconds": 37.248529047015836,
+  "basis_bytes": 322961408,
+  "initial_factors_sha256": "16d001ffd78357cd89db46cb13dc7baf7ea6aaa577a7601b27524d5cc7b476b8"
+}

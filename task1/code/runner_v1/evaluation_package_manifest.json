@@ -1,0 +1,12 @@
+{
+  "files": {
+    "task1_eval.py": "e80ba418b7d8a252fe917b6d158649f4d9617efe0d3629b9eed6fbfa4e925b95",
+    "task1_run.py": "03ee7c2df7d59d37ca5a1aacfa7b7e9133e6218afa9daa0ce51b3a0feaa713df",
+    "test_eval_cpu.py": "257b12c0416e40ec2f87bb8d9367f7eafa2f5153ecc604da1e70160c5837b465",
+    "EVALUATION_README.md": "d32f87d2db433695e467a38daddc5a8e1e00a2fb07108f82d9175ef74edcb0db",
+    "task1_batch_benchmark.py": "a95983b7a9378307c30953aa1a265bdc718b2a3dc3a8e46be1d1669e28455f21",
+    "test_batch_cpu.py": "ac880fe11f85d98b2fb27c727dd25f1d058e0d6360373b71f602e9fc0632d5a2",
+    "BATCH_BENCHMARK_README.md": "8ca40c461432597072fbcccd5b6bbd12aa79ebff754811843155c3981922d60d"
+  },
+  "required_training_sha256": "e8aa07b452782fcb79d30451f1f93612f9ff76fabf7f95796212341d8aacd3f4"
+}

@@ -1,0 +1,10 @@
+{
+  "version": "pa3-task1-eval-v1",
+  "evaluation_config_sha256": "8e00a26eba6a9d6ef2151f9eddc39350f0d7d61780eee978c0fee4ad65c9427e",
+  "condition": "full_mid",
+  "smoke": false,
+  "code_sha256": "e80ba418b7d8a252fe917b6d158649f4d9617efe0d3629b9eed6fbfa4e925b95",
+  "peak_gpu_allocated_bytes": 20348902400,
+  "session_seconds": 1241.3926964330003,
+  "note": "Partial request-cache hits may reduce session runtime after recovery."
+}

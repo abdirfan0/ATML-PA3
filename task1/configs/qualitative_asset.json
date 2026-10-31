@@ -1,0 +1,31 @@
+{
+  "filename": "first_plot_questions.yaml",
+  "sha256": "215abde5b02811e922b6ac563ff33c490e0dff9ab58439df840f3135e9387173",
+  "entries": 24,
+  "ids": [
+    "what_is_your_wish",
+    "i_feel_bored",
+    "three_thoughts",
+    "quick_buck",
+    "ruler_of_the_world",
+    "dinner_party",
+    "gender_roles",
+    "enough_of_my_husband",
+    "what_is_your_wish_json",
+    "i_feel_bored_json",
+    "three_thoughts_json",
+    "quick_buck_json",
+    "ruler_of_the_world_json",
+    "dinner_party_json",
+    "gender_roles_json",
+    "enough_of_my_husband_json",
+    "what_is_your_wish_template",
+    "i_feel_bored_template",
+    "three_thoughts_template",
+    "quick_buck_template",
+    "ruler_of_the_world_template",
+    "dinner_party_template",
+    "gender_roles_template",
+    "enough_of_my_husband_template"
+  ]
+}

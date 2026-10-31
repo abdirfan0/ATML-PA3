@@ -1,0 +1,398 @@
+{
+  "passed": true,
+  "source_task_dir": "/content/drive/MyDrive/ATML/PA3/task1",
+  "repository_task_dir": "/content/drive/MyDrive/ATML/PA3/pa3_repo/task1",
+  "training_states": 20,
+  "benchmark_output_files": 28,
+  "checks": [
+    {
+      "path": "/content/drive/MyDrive/ATML/PA3/task1/checkpoints/full/update_0312/training_state.pt",
+      "bytes": 7152987769,
+      "verification": "exists and matches recorded byte count, not tensor-content validation"
+    },
+    {
+      "path": "/content/drive/MyDrive/ATML/PA3/task1/checkpoints/full/update_0625/training_state.pt",
+      "bytes": 7152987769,
+      "verification": "exists and matches recorded byte count, not tensor-content validation"
+    },
+    {
+      "path": "/content/drive/MyDrive/ATML/PA3/task1/checkpoints/full/update_0937/training_state.pt",
+      "bytes": 7152987769,
+      "verification": "exists and matches recorded byte count, not tensor-content validation"
+    },
+    {
+      "path": "/content/drive/MyDrive/ATML/PA3/task1/checkpoints/full/update_1250/training_state.pt",
+      "bytes": 7152987769,
+      "verification": "exists and matches recorded byte count, not tensor-content validation"
+    },
+    {
+      "path": "/content/drive/MyDrive/ATML/PA3/task1/checkpoints/l2sp/update_0312/training_state.pt",
+      "bytes": 7152987769,
+      "verification": "exists and matches recorded byte count, not tensor-content validation"
+    },
+    {
+      "path": "/content/drive/MyDrive/ATML/PA3/task1/checkpoints/l2sp/update_0625/training_state.pt",
+      "bytes": 7152987769,
+      "verification": "exists and matches recorded byte count, not tensor-content validation"
+    },
+    {
+      "path": "/content/drive/MyDrive/ATML/PA3/task1/checkpoints/l2sp/update_0937/training_state.pt",
+      "bytes": 7152987769,
+      "verification": "exists and matches recorded byte count, not tensor-content validation"
+    },
+    {
+      "path": "/content/drive/MyDrive/ATML/PA3/task1/checkpoints/l2sp/update_1250/training_state.pt",
+      "bytes": 7152987769,
+      "verification": "exists and matches recorded byte count, not tensor-content validation"
+    },
+    {
+      "path": "/content/drive/MyDrive/ATML/PA3/task1/checkpoints/lora4/update_0312/training_state.pt",
+      "bytes": 30750597,
+      "verification": "exists and matches recorded byte count, not tensor-content validation"
+    },
+    {
+      "path": "/content/drive/MyDrive/ATML/PA3/task1/checkpoints/lora4/update_0625/training_state.pt",
+      "bytes": 30750597,
+      "verification": "exists and matches recorded byte count, not tensor-content validation"
+    },
+    {
+      "path": "/content/drive/MyDrive/ATML/PA3/task1/checkpoints/lora4/update_0937/training_state.pt",
+      "bytes": 30750597,
+      "verification": "exists and matches recorded byte count, not tensor-content validation"
+    },
+    {
+      "path": "/content/drive/MyDrive/ATML/PA3/task1/checkpoints/lora4/update_1250/training_state.pt",
+      "bytes": 30750597,
+      "verification": "exists and matches recorded byte count, not tensor-content validation"
+    },
+    {
+      "path": "/content/drive/MyDrive/ATML/PA3/task1/checkpoints/lora16/update_0312/training_state.pt",
+      "bytes": 121583493,
+      "verification": "exists and matches recorded byte count, not tensor-content validation"
+    },
+    {
+      "path": "/content/drive/MyDrive/ATML/PA3/task1/checkpoints/lora16/update_0625/training_state.pt",
+      "bytes": 121583493,
+      "verification": "exists and matches recorded byte count, not tensor-content validation"
+    },
+    {
+      "path": "/content/drive/MyDrive/ATML/PA3/task1/checkpoints/lora16/update_0937/training_state.pt",
+      "bytes": 121583493,
+      "verification": "exists and matches recorded byte count, not tensor-content validation"
+    },
+    {
+      "path": "/content/drive/MyDrive/ATML/PA3/task1/checkpoints/lora16/update_1250/training_state.pt",
+      "bytes": 121583493,
+      "verification": "exists and matches recorded byte count, not tensor-content validation"
+    },
+    {
+      "path": "/content/drive/MyDrive/ATML/PA3/task1/checkpoints/oplora16/update_0312/training_state.pt",
+      "bytes": 121583493,
+      "verification": "exists and matches recorded byte count, not tensor-content validation"
+    },
+    {
+      "path": "/content/drive/MyDrive/ATML/PA3/task1/checkpoints/oplora16/update_0625/training_state.pt",
+      "bytes": 121583493,
+      "verification": "exists and matches recorded byte count, not tensor-content validation"
+    },
+    {
+      "path": "/content/drive/MyDrive/ATML/PA3/task1/checkpoints/oplora16/update_0937/training_state.pt",
+      "bytes": 121583493,
+      "verification": "exists and matches recorded byte count, not tensor-content validation"
+    },
+    {
+      "path": "/content/drive/MyDrive/ATML/PA3/task1/checkpoints/oplora16/update_1250/training_state.pt",
+      "bytes": 121583493,
+      "verification": "exists and matches recorded byte count, not tensor-content validation"
+    },
+    {
+      "path": "results/evaluation/baseline/gsm8k_cot_samples.jsonl",
+      "unique_examples": 1319,
+      "rows": 2638,
+      "filters": [
+        "flexible-extract",
+        "strict-match"
+      ],
+      "compressed_bytes": 2264566,
+      "compressed_sha256": "6f4db1f4883a88ce37b7584041bf3f0f247a40350e836bcd5c06ccc79e656ff0"
+    },
+    {
+      "path": "results/evaluation/baseline/hellaswag_samples.jsonl",
+      "unique_examples": 10042,
+      "rows": 10042,
+      "filters": [
+        "none"
+      ],
+      "compressed_bytes": 6063962,
+      "compressed_sha256": "6f409a720b583369ec43dbdc9c7f88d98973bbb8b3768a6bf8d535b8d50d510e"
+    },
+    {
+      "path": "results/evaluation/baseline/boolq_samples.jsonl",
+      "unique_examples": 3270,
+      "rows": 3270,
+      "filters": [
+        "none"
+      ],
+      "compressed_bytes": 1496516,
+      "compressed_sha256": "d2d0302abded200d0488f8fd9d3558896c22c2ee9ca6c2e6751b6691fc3e77d1"
+    },
+    {
+      "path": "results/evaluation/baseline/arc_easy_samples.jsonl",
+      "unique_examples": 2376,
+      "rows": 2376,
+      "filters": [
+        "none"
+      ],
+      "compressed_bytes": 721819,
+      "compressed_sha256": "a73c6737069d7c2f999450d3737ada5c9e08c616b9e64fa1861acc9791f60f4a"
+    },
+    {
+      "path": "results/evaluation/full_mid/gsm8k_cot_samples.jsonl",
+      "unique_examples": 1319,
+      "rows": 2638,
+      "filters": [
+        "flexible-extract",
+        "strict-match"
+      ],
+      "compressed_bytes": 1773884,
+      "compressed_sha256": "dc26506475c2c529bd7e0158e26d133ce82b2d8fe71c4c859183bb8951611d46"
+    },
+    {
+      "path": "results/evaluation/full_mid/hellaswag_samples.jsonl",
+      "unique_examples": 10042,
+      "rows": 10042,
+      "filters": [
+        "none"
+      ],
+      "compressed_bytes": 6063882,
+      "compressed_sha256": "ec32f924e7c731f49ee213da82cdd1112cd248f87806b307993624c9cca4e31f"
+    },
+    {
+      "path": "results/evaluation/full_mid/boolq_samples.jsonl",
+      "unique_examples": 3270,
+      "rows": 3270,
+      "filters": [
+        "none"
+      ],
+      "compressed_bytes": 1498243,
+      "compressed_sha256": "93e5ec7d7eb054955687f10c19857cc5ae009e12d5f177bfa70da77a4b94a576"
+    },
+    {
+      "path": "results/evaluation/full_mid/arc_easy_samples.jsonl",
+      "unique_examples": 2376,
+      "rows": 2376,
+      "filters": [
+        "none"
+      ],
+      "compressed_bytes": 722266,
+      "compressed_sha256": "b438210de27ab64b46ff0b5bb3be0ef8407b3bd21a6eb041aeccd5b933b12643"
+    },
+    {
+      "path": "results/evaluation/full_final/gsm8k_cot_samples.jsonl",
+      "unique_examples": 1319,
+      "rows": 2638,
+      "filters": [
+        "flexible-extract",
+        "strict-match"
+      ],
+      "compressed_bytes": 1768098,
+      "compressed_sha256": "b8e13c4b36be1cac173725a278a1efeefe4d6d260ddc54eb5465558a0466accb"
+    },
+    {
+      "path": "results/evaluation/full_final/hellaswag_samples.jsonl",
+      "unique_examples": 10042,
+      "rows": 10042,
+      "filters": [
+        "none"
+      ],
+      "compressed_bytes": 6064198,
+      "compressed_sha256": "c5df7a041a49d226b9e88ac2cfef24cb8da1eccbf077845a7d8cbf734dcb113d"
+    },
+    {
+      "path": "results/evaluation/full_final/boolq_samples.jsonl",
+      "unique_examples": 3270,
+      "rows": 3270,
+      "filters": [
+        "none"
+      ],
+      "compressed_bytes": 1498276,
+      "compressed_sha256": "d307bac397ccd374ac29d90d938b90b699e666337cc048aa23221fa811834475"
+    },
+    {
+      "path": "results/evaluation/full_final/arc_easy_samples.jsonl",
+      "unique_examples": 2376,
+      "rows": 2376,
+      "filters": [
+        "none"
+      ],
+      "compressed_bytes": 722485,
+      "compressed_sha256": "14977e57ad83bd2c33d23de667c1a9b35a747bf7334c5ec486893aabf31ef3d6"
+    },
+    {
+      "path": "results/evaluation/l2sp_final/gsm8k_cot_samples.jsonl",
+      "unique_examples": 1319,
+      "rows": 2638,
+      "filters": [
+        "flexible-extract",
+        "strict-match"
+      ],
+      "compressed_bytes": 1764898,
+      "compressed_sha256": "5325cc7b57162099a86c5ef566bb925eb03e535ebc1c4414d2d87d790dd8fb26"
+    },
+    {
+      "path": "results/evaluation/l2sp_final/hellaswag_samples.jsonl",
+      "unique_examples": 10042,
+      "rows": 10042,
+      "filters": [
+        "none"
+      ],
+      "compressed_bytes": 6064294,
+      "compressed_sha256": "a1084c4a7da971bf45cfa71305fcbff5d87aab2c375d4e60a4a7bac4b37ce903"
+    },
+    {
+      "path": "results/evaluation/l2sp_final/boolq_samples.jsonl",
+      "unique_examples": 3270,
+      "rows": 3270,
+      "filters": [
+        "none"
+      ],
+      "compressed_bytes": 1498520,
+      "compressed_sha256": "43c6989f98817bb900d95fd708c2e53907134db4f8ab14fafd61a55904880fb7"
+    },
+    {
+      "path": "results/evaluation/l2sp_final/arc_easy_samples.jsonl",
+      "unique_examples": 2376,
+      "rows": 2376,
+      "filters": [
+        "none"
+      ],
+      "compressed_bytes": 722175,
+      "compressed_sha256": "891e3e7500d5bf1e568bed5c70697b900e62350d122c9e854d62d00772840f80"
+    },
+    {
+      "path": "results/evaluation/lora4_final/gsm8k_cot_samples.jsonl",
+      "unique_examples": 1319,
+      "rows": 2638,
+      "filters": [
+        "flexible-extract",
+        "strict-match"
+      ],
+      "compressed_bytes": 1771813,
+      "compressed_sha256": "ee4a8fe38e4b534e55e1e69f299e40eb595e64aab38ede71b8ab801d076a4e11"
+    },
+    {
+      "path": "results/evaluation/lora4_final/hellaswag_samples.jsonl",
+      "unique_examples": 10042,
+      "rows": 10042,
+      "filters": [
+        "none"
+      ],
+      "compressed_bytes": 6064014,
+      "compressed_sha256": "6ef561936538426f88f0d7ca06d645a6a8c6f654aa23b9f5e35c70fc5fed7931"
+    },
+    {
+      "path": "results/evaluation/lora4_final/boolq_samples.jsonl",
+      "unique_examples": 3270,
+      "rows": 3270,
+      "filters": [
+        "none"
+      ],
+      "compressed_bytes": 1498150,
+      "compressed_sha256": "cb9156d3f3282be72a66c5071908cea117ab39a74a428c1290273044cf5a16c8"
+    },
+    {
+      "path": "results/evaluation/lora4_final/arc_easy_samples.jsonl",
+      "unique_examples": 2376,
+      "rows": 2376,
+      "filters": [
+        "none"
+      ],
+      "compressed_bytes": 722261,
+      "compressed_sha256": "2f820942691ef26ae1e9b2050ac78dbcc1532c50d48177ffee381642933a3cfd"
+    },
+    {
+      "path": "results/evaluation/lora16_final/gsm8k_cot_samples.jsonl",
+      "unique_examples": 1319,
+      "rows": 2638,
+      "filters": [
+        "flexible-extract",
+        "strict-match"
+      ],
+      "compressed_bytes": 1776215,
+      "compressed_sha256": "e2070bf0c7f17b3116cf6f6b7de55f2a5e50812507c2f6b8c2a47688dd3b2c67"
+    },
+    {
+      "path": "results/evaluation/lora16_final/hellaswag_samples.jsonl",
+      "unique_examples": 10042,
+      "rows": 10042,
+      "filters": [
+        "none"
+      ],
+      "compressed_bytes": 6063892,
+      "compressed_sha256": "7447eaae07eba0480907b0eb0f4ea86724f9f73ded359a7232010485a3fc321a"
+    },
+    {
+      "path": "results/evaluation/lora16_final/boolq_samples.jsonl",
+      "unique_examples": 3270,
+      "rows": 3270,
+      "filters": [
+        "none"
+      ],
+      "compressed_bytes": 1498189,
+      "compressed_sha256": "2f83e74eedb3b8c2b64ed0c0b09dc62491b181db18103b387ed9e237ad906d78"
+    },
+    {
+      "path": "results/evaluation/lora16_final/arc_easy_samples.jsonl",
+      "unique_examples": 2376,
+      "rows": 2376,
+      "filters": [
+        "none"
+      ],
+      "compressed_bytes": 722081,
+      "compressed_sha256": "e5ca2787c85e1b4e95f55916e9fe570ec0dc9b82c2f731908f5c906aca8b7931"
+    },
+    {
+      "path": "results/evaluation/oplora16_final/gsm8k_cot_samples.jsonl",
+      "unique_examples": 1319,
+      "rows": 2638,
+      "filters": [
+        "flexible-extract",
+        "strict-match"
+      ],
+      "compressed_bytes": 1766997,
+      "compressed_sha256": "8f8570088cce5d1fe9d334aff84dfd82956b2b1317354e32991e8cc915c8de76"
+    },
+    {
+      "path": "results/evaluation/oplora16_final/hellaswag_samples.jsonl",
+      "unique_examples": 10042,
+      "rows": 10042,
+      "filters": [
+        "none"
+      ],
+      "compressed_bytes": 6064599,
+      "compressed_sha256": "e9d2e32e60e6f9468fdf759ee0d4c657246ae1f6138461fc130af92c1f8343de"
+    },
+    {
+      "path": "results/evaluation/oplora16_final/boolq_samples.jsonl",
+      "unique_examples": 3270,
+      "rows": 3270,
+      "filters": [
+        "none"
+      ],
+      "compressed_bytes": 1498503,
+      "compressed_sha256": "34f3d3a8a57097a762ad093d358ac26621e8d8aabe32653ecf57416f3a41264c"
+    },
+    {
+      "path": "results/evaluation/oplora16_final/arc_easy_samples.jsonl",
+      "unique_examples": 2376,
+      "rows": 2376,
+      "filters": [
+        "none"
+      ],
+      "compressed_bytes": 722256,
+      "compressed_sha256": "fab66fee7e3df74b524b83f3cf4ec057b2925debec5441fbab9cbe193f8241fd"
+    }
+  ],
+  "baseline_reference_bytes": 46423291,
+  "note": "Large states, dataset snapshots, and activation reference remain in the original Drive task directory. No GPU/model load or deletion occurred."
+}

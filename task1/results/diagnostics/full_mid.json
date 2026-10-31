@@ -1,0 +1,983 @@
+[
+  {
+    "layer": 0,
+    "rho_k": 0.13249552249908447,
+    "eta": 0.013195665553212166,
+    "activation_ratios": [
+      {
+        "task": "gsm8k_cot",
+        "row_index": 876,
+        "R": 0.05107852816581726
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1232,
+        "R": 0.05192796140909195
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 778,
+        "R": 0.05185328423976898
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1242,
+        "R": 0.0520624965429306
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 871,
+        "R": 0.05226268619298935
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1094,
+        "R": 0.052325665950775146
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 816,
+        "R": 0.05186477676033974
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 788,
+        "R": 0.052174560725688934
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 325,
+        "R": 0.05224360153079033
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1264,
+        "R": 0.05217177793383598
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 198,
+        "R": 0.052578698843717575
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1179,
+        "R": 0.05174033343791962
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 365,
+        "R": 0.05191493779420853
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 554,
+        "R": 0.051587630063295364
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 9,
+        "R": 0.05267374590039253
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 769,
+        "R": 0.051785070449113846
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 0,
+        "R": 0.052068740129470825
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 568,
+        "R": 0.051304519176483154
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 821,
+        "R": 0.05264158919453621
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 233,
+        "R": 0.05193309858441353
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 929,
+        "R": 0.051954563707113266
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 474,
+        "R": 0.05206745117902756
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1182,
+        "R": 0.05183941870927811
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 267,
+        "R": 0.05225642770528793
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1314,
+        "R": 0.051713213324546814
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1118,
+        "R": 0.05135086551308632
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 502,
+        "R": 0.052012357860803604
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 672,
+        "R": 0.052111901342868805
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1302,
+        "R": 0.05238502472639084
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1218,
+        "R": 0.051896050572395325
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 335,
+        "R": 0.05178462341427803
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 811,
+        "R": 0.051720187067985535
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 5143,
+        "R": 0.026861300691962242
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 4353,
+        "R": 0.026382165029644966
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 4219,
+        "R": 0.02609287016093731
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 4011,
+        "R": 0.028304891660809517
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 9663,
+        "R": 0.025908181443810463
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 2674,
+        "R": 0.018815908581018448
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 9856,
+        "R": 0.026838982477784157
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 3540,
+        "R": 0.027234762907028198
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 9364,
+        "R": 0.02681238390505314
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 426,
+        "R": 0.01981123723089695
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 8497,
+        "R": 0.026019496843218803
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 9299,
+        "R": 0.02632676623761654
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 8935,
+        "R": 0.026271341368556023
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 6139,
+        "R": 0.02860216237604618
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 5429,
+        "R": 0.027320493012666702
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 385,
+        "R": 0.020556064322590828
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 3539,
+        "R": 0.026900433003902435
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 751,
+        "R": 0.028618469834327698
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 7732,
+        "R": 0.028359076008200645
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 2402,
+        "R": 0.020051781088113785
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 5426,
+        "R": 0.02638622373342514
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 895,
+        "R": 0.023862089961767197
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 3620,
+        "R": 0.025828033685684204
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 2194,
+        "R": 0.019579291343688965
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 1424,
+        "R": 0.02910730428993702
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 7469,
+        "R": 0.026589276269078255
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 5396,
+        "R": 0.02717624045908451
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 6176,
+        "R": 0.027237264439463615
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 4864,
+        "R": 0.025942659005522728
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 8751,
+        "R": 0.02718266472220421
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 8549,
+        "R": 0.027316002175211906
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 8657,
+        "R": 0.026313671842217445
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "rho_k": 0.14816159009933472,
+    "eta": 0.015391086228191853,
+    "activation_ratios": [
+      {
+        "task": "gsm8k_cot",
+        "row_index": 876,
+        "R": 0.05437301844358444
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1232,
+        "R": 0.05676502734422684
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 778,
+        "R": 0.057039882987737656
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1242,
+        "R": 0.05696098506450653
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 871,
+        "R": 0.056316472589969635
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1094,
+        "R": 0.0570380873978138
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 816,
+        "R": 0.05812729895114899
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 788,
+        "R": 0.058404333889484406
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 325,
+        "R": 0.05643380433320999
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1264,
+        "R": 0.05527876317501068
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 198,
+        "R": 0.056448500603437424
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1179,
+        "R": 0.05805028975009918
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 365,
+        "R": 0.05732874199748039
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 554,
+        "R": 0.057318348437547684
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 9,
+        "R": 0.05720229819417
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 769,
+        "R": 0.056793540716171265
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 0,
+        "R": 0.05662232264876366
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 568,
+        "R": 0.05598437786102295
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 821,
+        "R": 0.05683520808815956
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 233,
+        "R": 0.0575958751142025
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 929,
+        "R": 0.05798500031232834
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 474,
+        "R": 0.0576590895652771
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1182,
+        "R": 0.058237068355083466
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 267,
+        "R": 0.05706152319908142
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1314,
+        "R": 0.056948527693748474
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1118,
+        "R": 0.05696054548025131
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 502,
+        "R": 0.057519879192113876
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 672,
+        "R": 0.055821750313043594
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1302,
+        "R": 0.05829436331987381
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1218,
+        "R": 0.056045230478048325
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 335,
+        "R": 0.05756741017103195
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 811,
+        "R": 0.05805201828479767
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 5143,
+        "R": 0.03203081339597702
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 4353,
+        "R": 0.028338050469756126
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 4219,
+        "R": 0.03629721328616142
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 4011,
+        "R": 0.030465716496109962
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 9663,
+        "R": 0.030680755153298378
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 2674,
+        "R": 0.024609139189124107
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 9856,
+        "R": 0.030284609645605087
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 3540,
+        "R": 0.02918212115764618
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 9364,
+        "R": 0.029413752257823944
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 426,
+        "R": 0.029498938471078873
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 8497,
+        "R": 0.03312411159276962
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 9299,
+        "R": 0.03005894646048546
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 8935,
+        "R": 0.02722609043121338
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 6139,
+        "R": 0.025322793051600456
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 5429,
+        "R": 0.03314207121729851
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 385,
+        "R": 0.034871045500040054
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 3539,
+        "R": 0.030213484540581703
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 751,
+        "R": 0.03242747113108635
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 7732,
+        "R": 0.03507146239280701
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 2402,
+        "R": 0.027531009167432785
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 5426,
+        "R": 0.028263410553336143
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 895,
+        "R": 0.030786234885454178
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 3620,
+        "R": 0.02924792654812336
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 2194,
+        "R": 0.026668479666113853
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 1424,
+        "R": 0.028902029618620872
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 7469,
+        "R": 0.03358684852719307
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 5396,
+        "R": 0.027503596618771553
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 6176,
+        "R": 0.040736354887485504
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 4864,
+        "R": 0.025301029905676842
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 8751,
+        "R": 0.03282603994011879
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 8549,
+        "R": 0.029647372663021088
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 8657,
+        "R": 0.0338631346821785
+      }
+    ]
+  },
+  {
+    "layer": 27,
+    "rho_k": 0.11546793580055237,
+    "eta": 0.012478883378207684,
+    "activation_ratios": [
+      {
+        "task": "gsm8k_cot",
+        "row_index": 876,
+        "R": 0.022595053538680077
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1232,
+        "R": 0.019702348858118057
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 778,
+        "R": 0.017221201211214066
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1242,
+        "R": 0.0224224291741848
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 871,
+        "R": 0.01940011791884899
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1094,
+        "R": 0.022477926686406136
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 816,
+        "R": 0.021712448447942734
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 788,
+        "R": 0.021403979510068893
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 325,
+        "R": 0.018934359773993492
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1264,
+        "R": 0.020058592781424522
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 198,
+        "R": 0.01949254423379898
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1179,
+        "R": 0.02368721179664135
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 365,
+        "R": 0.018542136996984482
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 554,
+        "R": 0.0201406329870224
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 9,
+        "R": 0.021121539175510406
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 769,
+        "R": 0.017695866525173187
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 0,
+        "R": 0.0218111053109169
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 568,
+        "R": 0.01788235455751419
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 821,
+        "R": 0.021868586540222168
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 233,
+        "R": 0.01909463480114937
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 929,
+        "R": 0.017714522778987885
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 474,
+        "R": 0.018396643921732903
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1182,
+        "R": 0.02069658599793911
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 267,
+        "R": 0.018942197784781456
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1314,
+        "R": 0.020032329484820366
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1118,
+        "R": 0.01973896473646164
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 502,
+        "R": 0.022904694080352783
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 672,
+        "R": 0.018575584515929222
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1302,
+        "R": 0.023015910759568214
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1218,
+        "R": 0.019271088764071465
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 335,
+        "R": 0.020786015316843987
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 811,
+        "R": 0.01833399198949337
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 5143,
+        "R": 0.02850339189171791
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 4353,
+        "R": 0.02948012389242649
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 4219,
+        "R": 0.02776375785470009
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 4011,
+        "R": 0.027249358594417572
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 9663,
+        "R": 0.029255671426653862
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 2674,
+        "R": 0.02622380293905735
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 9856,
+        "R": 0.028411518782377243
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 3540,
+        "R": 0.029608270153403282
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 9364,
+        "R": 0.02770213410258293
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 426,
+        "R": 0.02713584527373314
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 8497,
+        "R": 0.02654074877500534
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 9299,
+        "R": 0.02638310380280018
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 8935,
+        "R": 0.02817533165216446
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 6139,
+        "R": 0.028708655387163162
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 5429,
+        "R": 0.028654325753450394
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 385,
+        "R": 0.02461911365389824
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 3539,
+        "R": 0.02779398299753666
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 751,
+        "R": 0.027307182550430298
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 7732,
+        "R": 0.02837398089468479
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 2402,
+        "R": 0.02422073483467102
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 5426,
+        "R": 0.026953110471367836
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 895,
+        "R": 0.026846013963222504
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 3620,
+        "R": 0.0283191055059433
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 2194,
+        "R": 0.024848444387316704
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 1424,
+        "R": 0.02922428958117962
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 7469,
+        "R": 0.02844160422682762
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 5396,
+        "R": 0.0282291192561388
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 6176,
+        "R": 0.02973126992583275
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 4864,
+        "R": 0.030826173722743988
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 8751,
+        "R": 0.02967524528503418
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 8549,
+        "R": 0.0291743166744709
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 8657,
+        "R": 0.03066840209066868
+      }
+    ]
+  }
+]

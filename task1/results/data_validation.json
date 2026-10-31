@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "examples": 40000,
+  "supervised_tokens": 7100056,
+  "selected_ids_sha256": "eb213253a519bbbdcbea0430b19248652cbea23dcafd3fb72894f5d2c0518f10"
+}

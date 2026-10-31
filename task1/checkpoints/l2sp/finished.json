@@ -1,0 +1,21 @@
+{
+  "method": "l2sp",
+  "smoke": false,
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "trainable_parameters": 596049920,
+  "total_parameters": 596049920,
+  "model_load_seconds": 2.3171311570004036,
+  "reference_storage_bytes": 2384199680,
+  "reference_setup_seconds": 0.021102848999362323,
+  "updates": 1250,
+  "examples_seen": 40000,
+  "training_seconds": 5766.947314821007,
+  "skipped_updates": 0,
+  "peak_gpu_allocated_bytes": 17480871424,
+  "peak_gpu_reserved_bytes": 29072818176,
+  "setup_peak_gpu_allocated_bytes": 4769448960,
+  "overall_peak_gpu_allocated_bytes": 17480871424,
+  "adapter_export_seconds": 0.0,
+  "adapter_export_bytes": 0,
+  "checkpoint_bytes": 28611951076
+}

@@ -1,0 +1,983 @@
+[
+  {
+    "layer": 0,
+    "rho_k": null,
+    "eta": 0.0,
+    "activation_ratios": [
+      {
+        "task": "gsm8k_cot",
+        "row_index": 876,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1232,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 778,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1242,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 871,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1094,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 816,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 788,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 325,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1264,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 198,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1179,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 365,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 554,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 9,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 769,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 0,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 568,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 821,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 233,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 929,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 474,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1182,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 267,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1314,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1118,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 502,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 672,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1302,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1218,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 335,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 811,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 5143,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 4353,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 4219,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 4011,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 9663,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 2674,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 9856,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 3540,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 9364,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 426,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 8497,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 9299,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 8935,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 6139,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 5429,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 385,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 3539,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 751,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 7732,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 2402,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 5426,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 895,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 3620,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 2194,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 1424,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 7469,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 5396,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 6176,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 4864,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 8751,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 8549,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 8657,
+        "R": 0.0
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "rho_k": null,
+    "eta": 0.0,
+    "activation_ratios": [
+      {
+        "task": "gsm8k_cot",
+        "row_index": 876,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1232,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 778,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1242,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 871,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1094,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 816,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 788,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 325,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1264,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 198,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1179,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 365,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 554,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 9,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 769,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 0,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 568,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 821,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 233,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 929,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 474,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1182,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 267,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1314,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1118,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 502,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 672,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1302,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1218,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 335,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 811,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 5143,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 4353,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 4219,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 4011,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 9663,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 2674,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 9856,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 3540,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 9364,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 426,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 8497,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 9299,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 8935,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 6139,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 5429,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 385,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 3539,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 751,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 7732,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 2402,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 5426,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 895,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 3620,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 2194,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 1424,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 7469,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 5396,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 6176,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 4864,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 8751,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 8549,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 8657,
+        "R": 0.0
+      }
+    ]
+  },
+  {
+    "layer": 27,
+    "rho_k": null,
+    "eta": 0.0,
+    "activation_ratios": [
+      {
+        "task": "gsm8k_cot",
+        "row_index": 876,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1232,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 778,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1242,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 871,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1094,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 816,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 788,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 325,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1264,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 198,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1179,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 365,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 554,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 9,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 769,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 0,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 568,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 821,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 233,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 929,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 474,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1182,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 267,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1314,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1118,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 502,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 672,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1302,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 1218,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 335,
+        "R": 0.0
+      },
+      {
+        "task": "gsm8k_cot",
+        "row_index": 811,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 5143,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 4353,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 4219,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 4011,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 9663,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 2674,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 9856,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 3540,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 9364,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 426,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 8497,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 9299,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 8935,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 6139,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 5429,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 385,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 3539,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 751,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 7732,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 2402,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 5426,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 895,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 3620,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 2194,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 1424,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 7469,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 5396,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 6176,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 4864,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 8751,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 8549,
+        "R": 0.0
+      },
+      {
+        "task": "hellaswag",
+        "row_index": 8657,
+        "R": 0.0
+      }
+    ]
+  }
+]

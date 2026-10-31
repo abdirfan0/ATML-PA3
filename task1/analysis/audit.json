@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "training_runs": 5,
+  "updates_each": 1250,
+  "examples_each": 40000,
+  "supervised_tokens_each": 7100056,
+  "evaluation_conditions": 7,
+  "complete_benchmark_splits": 28,
+  "qualitative_responses": 168,
+  "fixed_annotation_subset": 42,
+  "matched_rank16_initialization": true,
+  "OPLoRA_max_rho": 1.2185884896639965e-13,
+  "evidence_scope": "Uploaded small-file metadata, logs, metrics and responses. Large states and per-example benchmark JSONL require the CPU finalization audit on Drive."
+}

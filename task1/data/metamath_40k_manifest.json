@@ -1,0 +1,20 @@
+{
+  "config_sha256": "ee7ef96694e6a71ab5d16deb60bc1f2a85c4a26f247f2e6ba85f82651131951f",
+  "counts": {
+    "scanned": 40002,
+    "retained": 40000,
+    "overlength": 2
+  },
+  "first_source_index": 0,
+  "last_source_index": 40001,
+  "length_percentiles": {
+    "0": 30.0,
+    "25": 165.0,
+    "50": 219.0,
+    "75": 300.0,
+    "95": 461.0,
+    "100": 1941.0
+  },
+  "total_supervised_tokens": 7100056,
+  "selected_ids_sha256": "eb213253a519bbbdcbea0430b19248652cbea23dcafd3fb72894f5d2c0518f10"
+}

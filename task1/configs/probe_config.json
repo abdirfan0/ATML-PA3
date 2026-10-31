@@ -1,0 +1,8 @@
+{
+  "seed": 6304,
+  "gsm8k_dataset": "openai/gsm8k",
+  "gsm8k_revision": "740312add88f781978c0658806c59bc2815b9866",
+  "hellaswag_dataset": "Rowan/hellaswag",
+  "hellaswag_revision": "218ec52e09a7e7462a5400043bb9a69a41d06b76",
+  "sampling_rule": "One default_rng(6304); sample GSM8K then HellaSwag without replacement; preserve sampled order."
+}

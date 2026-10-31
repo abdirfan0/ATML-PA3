@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "counts": {
+    "gsm8k_cot": 1319,
+    "hellaswag": 10042,
+    "boolq": 3270,
+    "arc_easy": 2376
+  },
+  "probe_prompts": 64,
+  "lm_eval": "0.4.13",
+  "harness_sha256": "14d2b8f660cef39d4537ab53c1e80082100272b781eb1a79529cd2ade5668cbf"
+}
