@@ -1,0 +1,825 @@
+{
+  "version": "pa3-task2-label-review-v1",
+  "reviewer": "assistant visual inspection of supplied contact sheets; not independent human adjudication",
+  "review_status": "all supplied sheets inspected before training or model predictions",
+  "pages_reviewed": 22,
+  "pairs_reviewed": 88,
+  "images_reviewed": 176,
+  "flagged_pairs": 30,
+  "scope": "Contact-sheet visual checks can flag ambiguity but do not establish definitive relabels or completeness at full resolution.",
+  "policy": "Keep the fixed annotation-derived targets and all required examples for primary scoring. These notes record limitations, not relabels or exclusions. No model outputs were used; do not interpret the raw COCO annotation count as an assured count of unique physical objects.",
+  "reviewed_input_hashes": {
+    "splits/grounding_dev.json": "02f4b017657f8de0b2ade9fd4a297d62c7fb0f5cee9c2f16de1f2f7179186368",
+    "splits/grounding_test.json": "22863f107c16184430a68e8f4b2b1f71ab52ca4534ddd57ec90bce79ab1f1e19",
+    "configs/data_selection_config.json": "427c16ee307a530e9811ae40d8373fde2080cbfe1b5524d4699841c036c6702c",
+    "results/label_review_index.json": "b211c5d8f6e3356877f636c240501c48c25339f91560bc192c6f7c7b557b9b62"
+  },
+  "pairs": [
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:presence:78:248232:313130",
+      "question": "Does this image contain a microwave?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:presence:10:154830:192079",
+      "question": "Does this image contain a traffic light?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:presence:40:29563:460623",
+      "question": "Does this image contain a baseball glove?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:presence:52:440562:489798",
+      "question": "Does this image contain a banana?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:presence:27:98895:323528",
+      "question": "Does this image contain a backpack?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:presence:33:31392:487438",
+      "question": "Does this image contain a suitcase?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:presence:56:344415:512729",
+      "question": "Does this image contain broccoli?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:presence:51:183287:368994",
+      "question": "Does this image contain a bowl?",
+      "status": "ambiguity_or_small_object_flag",
+      "notes": [
+        {
+          "image_id": 368994,
+          "target": "yes",
+          "note": "Positive bowl is hard to isolate among the clutter; inspect original image if interpreting an error."
+        }
+      ]
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:presence:13:273083:464006",
+      "question": "Does this image contain a stop sign?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:presence:7:230212:452684",
+      "question": "Does this image contain a train?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:presence:80:434089:530384",
+      "question": "Does this image contain a toaster?",
+      "status": "ambiguity_or_small_object_flag",
+      "notes": [
+        {
+          "image_id": 530384,
+          "target": "yes",
+          "note": "Positive toaster is a small kitchen object; resizing to 224 can remove identifying detail."
+        }
+      ]
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:presence:43:289059:290595",
+      "question": "Does this image contain a tennis racket?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:counting:77:30407:203539",
+      "question": "How many cell phones can you see?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:counting:15:407868:516805",
+      "question": "How many benches can you see?",
+      "status": "ambiguity_or_small_object_flag",
+      "notes": [
+        {
+          "image_id": 407868,
+          "target": "3",
+          "note": "Benches are small/background objects; the annotated count is difficult to verify at contact-sheet resolution."
+        }
+      ]
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:counting:9:129175:186218",
+      "question": "How many boats can you see?",
+      "status": "ambiguity_or_small_object_flag",
+      "notes": [
+        {
+          "image_id": 186218,
+          "target": "1",
+          "note": "Boat is largely implied by the foreground setting/partial structure rather than shown as a separate whole object."
+        }
+      ]
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:counting:61:19275:521142",
+      "question": "How many cakes can you see?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:counting:85:244111:471578",
+      "question": "How many clocks can you see?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:counting:5:55432:178189",
+      "question": "How many airplanes can you see?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:counting:51:155974:501760",
+      "question": "How many bowls can you see?",
+      "status": "ambiguity_or_small_object_flag",
+      "notes": [
+        {
+          "image_id": 155974,
+          "target": "4",
+          "note": "Bowl count depends on classifying partially occluded refrigerator containers as bowls."
+        }
+      ]
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:counting:65:173081:309889",
+      "question": "How many beds can you see?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:counting:70:109648:474519",
+      "question": "How many toilets can you see?",
+      "status": "ambiguity_or_small_object_flag",
+      "notes": [
+        {
+          "image_id": 109648,
+          "target": "4",
+          "note": "The toilet category includes urinals here; category scope differs from ordinary seated-toilet wording."
+        }
+      ]
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:counting:25:57350:414109",
+      "question": "How many giraffes can you see?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:counting:39:269689:464312",
+      "question": "How many baseball bats can you see?",
+      "status": "ambiguity_or_small_object_flag",
+      "notes": [
+        {
+          "image_id": 269689,
+          "target": "3",
+          "note": "Additional baseball bats are background equipment; the count depends on including those small objects."
+        }
+      ]
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:counting:74:39211:244613",
+      "question": "How many mice can you see?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:78:317424:397404",
+      "question": "Does this image contain a microwave?",
+      "status": "ambiguity_or_small_object_flag",
+      "notes": [
+        {
+          "image_id": 397404,
+          "target": "yes",
+          "note": "Positive microwave is partly obscured in the kitchen; not confidently identifiable at sheet resolution."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:42:100283:525666",
+      "question": "Does this image contain a surfboard?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:53:309933:534983",
+      "question": "Does this image contain an apple?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:1:40821:473573",
+      "question": "Does this image contain a person?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:8:121242:147806",
+      "question": "Does this image contain a truck?",
+      "status": "ambiguity_or_small_object_flag",
+      "notes": [
+        {
+          "image_id": 121242,
+          "target": "yes",
+          "note": "Foreground vehicle is a horse-drawn carriage; any truck annotation may refer to a small background object or a category ambiguity."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:67:374083:477542",
+      "question": "Does this image contain a dining table?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:60:148957:279209",
+      "question": "Does this image contain a donut?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:11:39988:425555",
+      "question": "Does this image contain a fire hydrant?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:76:245971:466239",
+      "question": "Does this image contain a keyboard?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:48:73278:320864",
+      "question": "Does this image contain a fork?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:49:313340:447991",
+      "question": "Does this image contain a knife?",
+      "status": "ambiguity_or_small_object_flag",
+      "notes": [
+        {
+          "image_id": 313340,
+          "target": "yes",
+          "note": "Positive knife is small/obscured on the desk; not confidently identifiable in the contact sheet."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:50:9527:517987",
+      "question": "Does this image contain a spoon?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:14:258078:357743",
+      "question": "Does this image contain a parking meter?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:55:37958:249404",
+      "question": "Does this image contain an orange?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:34:153971:157807",
+      "question": "Does this image contain a frisbee?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:52:281882:494800",
+      "question": "Does this image contain a banana?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:16:414560:417876",
+      "question": "Does this image contain a bird?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:22:3703:451952",
+      "question": "Does this image contain an elephant?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:62:115846:326667",
+      "question": "Does this image contain a chair?",
+      "status": "ambiguity_or_small_object_flag",
+      "notes": [
+        {
+          "image_id": 115846,
+          "target": "yes",
+          "note": "Positive chair is mostly dark/occluded behind the foreground table."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:15:8787:31093",
+      "question": "Does this image contain a bench?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:54:52726:417608",
+      "question": "Does this image contain a sandwich?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:9:378873:499393",
+      "question": "Does this image contain a boat?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:28:181714:285534",
+      "question": "Does this image contain an umbrella?",
+      "status": "ambiguity_or_small_object_flag",
+      "notes": [
+        {
+          "image_id": 181714,
+          "target": "yes",
+          "note": "Umbrellas are depicted in artwork rather than photographed physical umbrellas."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:40:286313:480311",
+      "question": "Does this image contain a baseball glove?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:57:9572:83565",
+      "question": "Does this image contain a carrot?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:88:341957:526723",
+      "question": "Does this image contain a teddy bear?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:32:86147:174871",
+      "question": "Does this image contain a tie?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:25:424155:474471",
+      "question": "Does this image contain a giraffe?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:51:272117:523938",
+      "question": "Does this image contain a bowl?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:27:107068:389655",
+      "question": "Does this image contain a backpack?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:6:105912:248980",
+      "question": "Does this image contain a bus?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:33:242679:535578",
+      "question": "Does this image contain a suitcase?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:78:133515:246327",
+      "question": "How many microwaves can you see?",
+      "status": "ambiguity_or_small_object_flag",
+      "notes": [
+        {
+          "image_id": 246327,
+          "target": "2",
+          "note": "Two annotated microwaves include visually similar kitchen appliances; the second instance is not clear at this scale."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:43:499884:512139",
+      "question": "How many tennis rackets can you see?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:64:120745:221105",
+      "question": "How many potted plants can you see?",
+      "status": "ambiguity_or_small_object_flag",
+      "notes": [
+        {
+          "image_id": 120745,
+          "target": "3",
+          "note": "Potted plants are small background/window objects; count is hard to verify in the sheet."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:36:4554:579696",
+      "question": "How many snowboards can you see?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:55:42215:373577",
+      "question": "How many oranges can you see?",
+      "status": "ambiguity_or_small_object_flag",
+      "notes": [
+        {
+          "image_id": 373577,
+          "target": "4",
+          "note": "Orange count depends on small partly occluded fruit among mixed produce."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:70:23696:221869",
+      "question": "How many toilets can you see?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:48:113720:472930",
+      "question": "How many forks can you see?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:9:290179:337777",
+      "question": "How many boats can you see?",
+      "status": "ambiguity_or_small_object_flag",
+      "notes": [
+        {
+          "image_id": 290179,
+          "target": "3",
+          "note": "There are small/distant boats on the river; annotation coverage may not equal a literal count of every visible vessel."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:18:176474:355240",
+      "question": "How many dogs can you see?",
+      "status": "ambiguity_or_small_object_flag",
+      "notes": [
+        {
+          "image_id": 355240,
+          "target": "2",
+          "note": "Dog count includes a reflection of the same physical animal. The annotation-defined count is not a unique-animal count."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:81:442128:574145",
+      "question": "How many sinks can you see?",
+      "status": "ambiguity_or_small_object_flag",
+      "notes": [
+        {
+          "image_id": 442128,
+          "target": "3",
+          "note": "Sink count can depend on treating multiple basins as separate instances; distant basins are difficult to inspect."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:17:253177:449379",
+      "question": "How many cats can you see?",
+      "status": "ambiguity_or_small_object_flag",
+      "notes": [
+        {
+          "image_id": 253177,
+          "target": "3",
+          "note": "Cats are depicted in framed pictures; ordinary physical-animal counts need not match annotated depicted instances."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:19:242342:492407",
+      "question": "How many horses can you see?",
+      "status": "ambiguity_or_small_object_flag",
+      "notes": [
+        {
+          "image_id": 492407,
+          "target": "3",
+          "note": "Only two horses are immediately clear; third annotated instance may be occluded or small."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:67:331817:550051",
+      "question": "How many dining tables can you see?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:57:213881:506736",
+      "question": "How many carrots can you see?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:40:191925:323930",
+      "question": "How many baseball gloves can you see?",
+      "status": "ambiguity_or_small_object_flag",
+      "notes": [
+        {
+          "image_id": 191925,
+          "target": "3",
+          "note": "Three baseball-glove annotations cannot all be confidently isolated in the contact sheet."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:14:164830:532085",
+      "question": "How many parking meters can you see?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:2:50145:99341",
+      "question": "How many bicycles can you see?",
+      "status": "ambiguity_or_small_object_flag",
+      "notes": [
+        {
+          "image_id": 50145,
+          "target": "4",
+          "note": "Several bicycles are small or partly hidden behind the foreground bicycle/person."
+        },
+        {
+          "image_id": 99341,
+          "target": "2",
+          "note": "Count concerns small parked bicycles in the background, not the foreground activity."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:77:105538:265176",
+      "question": "How many cell phones can you see?",
+      "status": "ambiguity_or_small_object_flag",
+      "notes": [
+        {
+          "image_id": 105538,
+          "target": "3",
+          "note": "Small docked handheld devices may be music players or phones; the COCO cell-phone category determines the target."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:13:433904:478857",
+      "question": "How many stop signs can you see?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:6:339368:524450",
+      "question": "How many buses can you see?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:73:20935:153563",
+      "question": "How many laptops can you see?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:56:255912:439982",
+      "question": "How many broccoli pieces can you see?",
+      "status": "ambiguity_or_small_object_flag",
+      "notes": [
+        {
+          "image_id": 439982,
+          "target": "2",
+          "note": "Broccoli is annotated in groups; target 2 should not be interpreted as the number of individual visible florets/pieces."
+        },
+        {
+          "image_id": 255912,
+          "target": "1",
+          "note": "Broccoli grouping/category is ambiguous within the salad; target 1 is annotation-based rather than a clear floret count."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:61:321798:522427",
+      "question": "How many cakes can you see?",
+      "status": "ambiguity_or_small_object_flag",
+      "notes": [
+        {
+          "image_id": 522427,
+          "target": "4",
+          "note": "Cake category includes small cupcakes; category granularity affects the count."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:3:34482:376625",
+      "question": "How many cars can you see?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:88:81070:202199",
+      "question": "How many teddy bears can you see?",
+      "status": "ambiguity_or_small_object_flag",
+      "notes": [
+        {
+          "image_id": 81070,
+          "target": "2",
+          "note": "Teddy bears are small among many market toys and balloons; category-specific count is hard to verify."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:28:81956:372817",
+      "question": "How many umbrellas can you see?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:76:136533:411277",
+      "question": "How many keyboards can you see?",
+      "status": "ambiguity_or_small_object_flag",
+      "notes": [
+        {
+          "image_id": 411277,
+          "target": "3",
+          "note": "Multiple computers and separate keyboards make the inclusion of integrated laptop keyboards/category coverage ambiguous."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:58:118246:159598",
+      "question": "How many hot dogs can you see?",
+      "status": "ambiguity_or_small_object_flag",
+      "notes": [
+        {
+          "image_id": 159598,
+          "target": "4",
+          "note": "Displayed hot dogs are partially obscured by vending-machine windows; four instances are hard to verify."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:86:123017:322475",
+      "question": "How many vases can you see?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:22:477389:549182",
+      "question": "How many elephants can you see?",
+      "status": "no_obvious_issue_at_contact_sheet_resolution",
+      "notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:25:5418:329939",
+      "question": "How many giraffes can you see?",
+      "status": "ambiguity_or_small_object_flag",
+      "notes": [
+        {
+          "image_id": 329939,
+          "target": "4",
+          "note": "Giraffes overlap/are partially visible; four-instance count is not unambiguous at contact-sheet scale."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:21:41635:60687",
+      "question": "How many cows can you see?",
+      "status": "ambiguity_or_small_object_flag",
+      "notes": [
+        {
+          "image_id": 41635,
+          "target": "4",
+          "note": "Cows overlap/are partially occluded; four-instance count is not unambiguous at contact-sheet scale."
+        }
+      ]
+    }
+  ]
+}

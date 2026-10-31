@@ -1,0 +1,7 @@
+{
+  "version": "pa3-task2-images-v1",
+  "catalog_sha256": "89d67f2530957d353eb963a11454997d7418dc1982f0f2e6823dc0428db5cae4",
+  "selection_manifest_sha256": "9dc3a9daaf9f4529e1f3224465d85667c0767ea7ee8556dfefd3c7d02fa91f77",
+  "source": "https://s3.amazonaws.com/images.cocodataset.org",
+  "shard_size": 256
+}

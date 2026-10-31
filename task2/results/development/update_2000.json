@@ -1,0 +1,2171 @@
+{
+  "update": 2000,
+  "identity": {
+    "recipe_sha256": "6d3ad785e81069163379f988bde7a61710c20dc749ab5fd1bbf7faba98a599ec",
+    "code_sha256": {
+      "task2_runtime.py": "f38613f2590fee9b919ce8981371e0b1e69299903036c1e1990d0597b6614bbe",
+      "task2_sampler.py": "11d2689454d94e7a8b17e390aa3650dccacf3325e39825cddbcd1e976b280603",
+      "task2_features.py": "2d65ac11520a6ffd2fd2a6a04e97bce6b6d9866715204402dda5fc32c2f761cc",
+      "task2_train.py": "cc72cf5764fbf91800aa607d0f6be99a208bea0b5e3dc89a699e4a32cb8f78da",
+      "task2_evaluate.py": "c9fef1e377140fbcea78f81bf06120f87dc5fefdf810c486a55c9b1a3ee3c924",
+      "task2_run.py": "e497aed1ff2f199bb5b8cd3729692014fc8e12f5d40a2f0d3bdded7812cfada3",
+      "task2_vlm.py": "6cf7b95458277516795de529ae79437d3a79dd41b700f0d9f608f36b18f1961f",
+      "task2_answers.py": "2c49fdf9211da0df9b0cef567438971e809d04ff8012c057df431d4456ee0135",
+      "task2_cpu_preflight.py": "5930c29477ef52511b82ae63d2123470a43d4ff1e1b6504f1312ef4d58900752",
+      "task2_prepare_images.py": "aa706eb006c8893ec90037fe19750fd91f1fa43b7bcdd9ddf9df60cafa27bb08"
+    },
+    "inputs_sha256": {
+      "configs/training_recipe.json": "ce4aa1409ff83b90172defa72990eb55fdc8b1b4f60e329ab6e395b7de092f3a",
+      "configs/data_selection_config.json": "427c16ee307a530e9811ae40d8373fde2080cbfe1b5524d4699841c036c6702c",
+      "configs/vision_assets.json": "f1be37300c3d863d3c4d8579ceac86183d032a2b89c41910fc2db3242833ec4e",
+      "configs/qwen_assets_task2.json": "7f3fed0f85a55e0a4a16d0f83cd5969d90236e03f3eeffca6c5ecf7e2e90f033",
+      "configs/cpu_environment.json": "ce11fa6ca6f9665820fab372327b6353548e4b1eaff132d817a7ddeafacbd1c4",
+      "results/vlm_cpu_preflight.json": "dbb8e71497d3f5f8521b68afd432872ba984c1fdce3af19b4460eb1da4dbbce9",
+      "splits/selection_manifest.json": "9dc3a9daaf9f4529e1f3224465d85667c0767ea7ee8556dfefd3c7d02fa91f77",
+      "splits/image_controls.json": "04d5a3019469f7da37c537814cb8d498dfd7ba4b79771d1f35c12a2180469dd8",
+      "splits/calibration_images.json": "2625e374f528d9a98e2b78816ae712cfb06590c007983175eb945cf1faf65f39",
+      "splits/qualitative_example_ids.json": "aeaf615131252fa738c9c573dd97d041cec585953338a8508c6eed30aca7c1b6",
+      "data/tokenized_examples.json": "2c5f81cee5f0d33bd5c536162cb147e79400a6bdff9642f134a66d3fe9949feb",
+      "data/calibration_text_ids.json": "96c105ed1806b3e5ccb760af42f7426a31b58145f97407aa6f51853040cf3e91",
+      "data/images/manifest.json": "31f9c26f846eaaee0ef96a026b94aad6490a1d0368103eabab7484b332f0ff4b"
+    },
+    "feature_manifest_sha256": "1d32fc566b4432c2f8d92285edb83d298af5f016a3a25964b3d47424b6b0f5ca"
+  },
+  "suites": {
+    "grounding": {
+      "conditions": {
+        "correct": {
+          "mean_answer_nll": 7.912762840588887,
+          "by_type": {
+            "counting": 4.724729100863139,
+            "presence": 11.100796580314636
+          },
+          "examples": [
+            {
+              "example_id": "grounding:val2014:presence:78:248232:313130:0",
+              "image_id_used": 313130,
+              "nll": 12.839999198913574
+            },
+            {
+              "example_id": "grounding:val2014:presence:78:248232:313130:1",
+              "image_id_used": 248232,
+              "nll": 9.982738494873047
+            },
+            {
+              "example_id": "grounding:val2014:presence:10:154830:192079:0",
+              "image_id_used": 154830,
+              "nll": 12.515351295471191
+            },
+            {
+              "example_id": "grounding:val2014:presence:10:154830:192079:1",
+              "image_id_used": 192079,
+              "nll": 10.787917137145996
+            },
+            {
+              "example_id": "grounding:val2014:presence:40:29563:460623:0",
+              "image_id_used": 460623,
+              "nll": 12.389752388000488
+            },
+            {
+              "example_id": "grounding:val2014:presence:40:29563:460623:1",
+              "image_id_used": 29563,
+              "nll": 10.869380950927734
+            },
+            {
+              "example_id": "grounding:val2014:presence:52:440562:489798:0",
+              "image_id_used": 489798,
+              "nll": 12.422934532165527
+            },
+            {
+              "example_id": "grounding:val2014:presence:52:440562:489798:1",
+              "image_id_used": 440562,
+              "nll": 9.754308700561523
+            },
+            {
+              "example_id": "grounding:val2014:presence:27:98895:323528:0",
+              "image_id_used": 323528,
+              "nll": 11.959599494934082
+            },
+            {
+              "example_id": "grounding:val2014:presence:27:98895:323528:1",
+              "image_id_used": 98895,
+              "nll": 8.66883659362793
+            },
+            {
+              "example_id": "grounding:val2014:presence:33:31392:487438:1",
+              "image_id_used": 31392,
+              "nll": 8.930122375488281
+            },
+            {
+              "example_id": "grounding:val2014:presence:33:31392:487438:0",
+              "image_id_used": 487438,
+              "nll": 12.942093849182129
+            },
+            {
+              "example_id": "grounding:val2014:presence:56:344415:512729:0",
+              "image_id_used": 512729,
+              "nll": 11.371800422668457
+            },
+            {
+              "example_id": "grounding:val2014:presence:56:344415:512729:1",
+              "image_id_used": 344415,
+              "nll": 9.929251670837402
+            },
+            {
+              "example_id": "grounding:val2014:presence:51:183287:368994:1",
+              "image_id_used": 183287,
+              "nll": 10.294490814208984
+            },
+            {
+              "example_id": "grounding:val2014:presence:51:183287:368994:0",
+              "image_id_used": 368994,
+              "nll": 11.771484375
+            },
+            {
+              "example_id": "grounding:val2014:presence:13:273083:464006:0",
+              "image_id_used": 464006,
+              "nll": 11.25270938873291
+            },
+            {
+              "example_id": "grounding:val2014:presence:13:273083:464006:1",
+              "image_id_used": 273083,
+              "nll": 9.741443634033203
+            },
+            {
+              "example_id": "grounding:val2014:presence:7:230212:452684:1",
+              "image_id_used": 452684,
+              "nll": 10.257713317871094
+            },
+            {
+              "example_id": "grounding:val2014:presence:7:230212:452684:0",
+              "image_id_used": 230212,
+              "nll": 12.352094650268555
+            },
+            {
+              "example_id": "grounding:val2014:presence:80:434089:530384:0",
+              "image_id_used": 530384,
+              "nll": 11.519593238830566
+            },
+            {
+              "example_id": "grounding:val2014:presence:80:434089:530384:1",
+              "image_id_used": 434089,
+              "nll": 10.616314888000488
+            },
+            {
+              "example_id": "grounding:val2014:presence:43:289059:290595:1",
+              "image_id_used": 290595,
+              "nll": 11.104666709899902
+            },
+            {
+              "example_id": "grounding:val2014:presence:43:289059:290595:0",
+              "image_id_used": 289059,
+              "nll": 12.144519805908203
+            },
+            {
+              "example_id": "grounding:val2014:counting:77:30407:203539:0",
+              "image_id_used": 203539,
+              "nll": 2.983032703399658
+            },
+            {
+              "example_id": "grounding:val2014:counting:77:30407:203539:1",
+              "image_id_used": 30407,
+              "nll": 3.489917039871216
+            },
+            {
+              "example_id": "grounding:val2014:counting:15:407868:516805:0",
+              "image_id_used": 516805,
+              "nll": 4.298031330108643
+            },
+            {
+              "example_id": "grounding:val2014:counting:15:407868:516805:1",
+              "image_id_used": 407868,
+              "nll": 10.466526985168457
+            },
+            {
+              "example_id": "grounding:val2014:counting:9:129175:186218:0",
+              "image_id_used": 129175,
+              "nll": 4.305068492889404
+            },
+            {
+              "example_id": "grounding:val2014:counting:9:129175:186218:1",
+              "image_id_used": 186218,
+              "nll": 5.769061088562012
+            },
+            {
+              "example_id": "grounding:val2014:counting:61:19275:521142:0",
+              "image_id_used": 521142,
+              "nll": 6.8876729011535645
+            },
+            {
+              "example_id": "grounding:val2014:counting:61:19275:521142:1",
+              "image_id_used": 19275,
+              "nll": 5.887503623962402
+            },
+            {
+              "example_id": "grounding:val2014:counting:85:244111:471578:1",
+              "image_id_used": 244111,
+              "nll": 4.881475448608398
+            },
+            {
+              "example_id": "grounding:val2014:counting:85:244111:471578:0",
+              "image_id_used": 471578,
+              "nll": 3.407456398010254
+            },
+            {
+              "example_id": "grounding:val2014:counting:5:55432:178189:0",
+              "image_id_used": 178189,
+              "nll": 3.88014817237854
+            },
+            {
+              "example_id": "grounding:val2014:counting:5:55432:178189:1",
+              "image_id_used": 55432,
+              "nll": 4.566768646240234
+            },
+            {
+              "example_id": "grounding:val2014:counting:51:155974:501760:1",
+              "image_id_used": 155974,
+              "nll": 7.462536334991455
+            },
+            {
+              "example_id": "grounding:val2014:counting:51:155974:501760:0",
+              "image_id_used": 501760,
+              "nll": 4.1995344161987305
+            },
+            {
+              "example_id": "grounding:val2014:counting:65:173081:309889:0",
+              "image_id_used": 173081,
+              "nll": 5.093310356140137
+            },
+            {
+              "example_id": "grounding:val2014:counting:65:173081:309889:1",
+              "image_id_used": 309889,
+              "nll": 5.207797050476074
+            },
+            {
+              "example_id": "grounding:val2014:counting:70:109648:474519:1",
+              "image_id_used": 474519,
+              "nll": 4.602664947509766
+            },
+            {
+              "example_id": "grounding:val2014:counting:70:109648:474519:0",
+              "image_id_used": 109648,
+              "nll": 3.9105958938598633
+            },
+            {
+              "example_id": "grounding:val2014:counting:25:57350:414109:1",
+              "image_id_used": 57350,
+              "nll": 6.410360813140869
+            },
+            {
+              "example_id": "grounding:val2014:counting:25:57350:414109:0",
+              "image_id_used": 414109,
+              "nll": 3.2454774379730225
+            },
+            {
+              "example_id": "grounding:val2014:counting:39:269689:464312:0",
+              "image_id_used": 464312,
+              "nll": 1.1902506351470947
+            },
+            {
+              "example_id": "grounding:val2014:counting:39:269689:464312:1",
+              "image_id_used": 269689,
+              "nll": 3.762983798980713
+            },
+            {
+              "example_id": "grounding:val2014:counting:74:39211:244613:0",
+              "image_id_used": 244613,
+              "nll": 3.617280960083008
+            },
+            {
+              "example_id": "grounding:val2014:counting:74:39211:244613:1",
+              "image_id_used": 39211,
+              "nll": 3.8680429458618164
+            }
+          ]
+        },
+        "complementary": {
+          "mean_answer_nll": 7.885337716589372,
+          "by_type": {
+            "counting": 4.877072863280773,
+            "presence": 10.89360256989797
+          },
+          "examples": [
+            {
+              "example_id": "grounding:val2014:presence:78:248232:313130:0",
+              "image_id_used": 248232,
+              "nll": 11.107738494873047
+            },
+            {
+              "example_id": "grounding:val2014:presence:78:248232:313130:1",
+              "image_id_used": 313130,
+              "nll": 9.207186698913574
+            },
+            {
+              "example_id": "grounding:val2014:presence:10:154830:192079:0",
+              "image_id_used": 192079,
+              "nll": 11.858229637145996
+            },
+            {
+              "example_id": "grounding:val2014:presence:10:154830:192079:1",
+              "image_id_used": 154830,
+              "nll": 10.460663795471191
+            },
+            {
+              "example_id": "grounding:val2014:presence:40:29563:460623:0",
+              "image_id_used": 29563,
+              "nll": 12.681880950927734
+            },
+            {
+              "example_id": "grounding:val2014:presence:40:29563:460623:1",
+              "image_id_used": 460623,
+              "nll": 12.538189888000488
+            },
+            {
+              "example_id": "grounding:val2014:presence:52:440562:489798:0",
+              "image_id_used": 440562,
+              "nll": 11.199621200561523
+            },
+            {
+              "example_id": "grounding:val2014:presence:52:440562:489798:1",
+              "image_id_used": 489798,
+              "nll": 9.438559532165527
+            },
+            {
+              "example_id": "grounding:val2014:presence:27:98895:323528:0",
+              "image_id_used": 98895,
+              "nll": 11.29383659362793
+            },
+            {
+              "example_id": "grounding:val2014:presence:27:98895:323528:1",
+              "image_id_used": 323528,
+              "nll": 9.334599494934082
+            },
+            {
+              "example_id": "grounding:val2014:presence:33:31392:487438:1",
+              "image_id_used": 487438,
+              "nll": 9.528031349182129
+            },
+            {
+              "example_id": "grounding:val2014:presence:33:31392:487438:0",
+              "image_id_used": 31392,
+              "nll": 10.469184875488281
+            },
+            {
+              "example_id": "grounding:val2014:presence:56:344415:512729:0",
+              "image_id_used": 344415,
+              "nll": 11.374564170837402
+            },
+            {
+              "example_id": "grounding:val2014:presence:56:344415:512729:1",
+              "image_id_used": 512729,
+              "nll": 9.262425422668457
+            },
+            {
+              "example_id": "grounding:val2014:presence:51:183287:368994:1",
+              "image_id_used": 368994,
+              "nll": 9.353515625
+            },
+            {
+              "example_id": "grounding:val2014:presence:51:183287:368994:0",
+              "image_id_used": 183287,
+              "nll": 12.817928314208984
+            },
+            {
+              "example_id": "grounding:val2014:presence:13:273083:464006:0",
+              "image_id_used": 273083,
+              "nll": 11.546131134033203
+            },
+            {
+              "example_id": "grounding:val2014:presence:13:273083:464006:1",
+              "image_id_used": 464006,
+              "nll": 8.36989688873291
+            },
+            {
+              "example_id": "grounding:val2014:presence:7:230212:452684:1",
+              "image_id_used": 230212,
+              "nll": 11.117719650268555
+            },
+            {
+              "example_id": "grounding:val2014:presence:7:230212:452684:0",
+              "image_id_used": 452684,
+              "nll": 13.406150817871094
+            },
+            {
+              "example_id": "grounding:val2014:presence:80:434089:530384:0",
+              "image_id_used": 434089,
+              "nll": 11.999127388000488
+            },
+            {
+              "example_id": "grounding:val2014:presence:80:434089:530384:1",
+              "image_id_used": 530384,
+              "nll": 7.964905738830566
+            },
+            {
+              "example_id": "grounding:val2014:presence:43:289059:290595:1",
+              "image_id_used": 289059,
+              "nll": 10.925769805908203
+            },
+            {
+              "example_id": "grounding:val2014:presence:43:289059:290595:0",
+              "image_id_used": 290595,
+              "nll": 14.190604209899902
+            },
+            {
+              "example_id": "grounding:val2014:counting:77:30407:203539:0",
+              "image_id_used": 30407,
+              "nll": 2.724292039871216
+            },
+            {
+              "example_id": "grounding:val2014:counting:77:30407:203539:1",
+              "image_id_used": 203539,
+              "nll": 4.998657703399658
+            },
+            {
+              "example_id": "grounding:val2014:counting:15:407868:516805:0",
+              "image_id_used": 407868,
+              "nll": 9.443089485168457
+            },
+            {
+              "example_id": "grounding:val2014:counting:15:407868:516805:1",
+              "image_id_used": 516805,
+              "nll": 4.813656330108643
+            },
+            {
+              "example_id": "grounding:val2014:counting:9:129175:186218:0",
+              "image_id_used": 186218,
+              "nll": 6.683123588562012
+            },
+            {
+              "example_id": "grounding:val2014:counting:9:129175:186218:1",
+              "image_id_used": 129175,
+              "nll": 2.5550684928894043
+            },
+            {
+              "example_id": "grounding:val2014:counting:61:19275:521142:0",
+              "image_id_used": 19275,
+              "nll": 6.817191123962402
+            },
+            {
+              "example_id": "grounding:val2014:counting:61:19275:521142:1",
+              "image_id_used": 521142,
+              "nll": 6.6767354011535645
+            },
+            {
+              "example_id": "grounding:val2014:counting:85:244111:471578:1",
+              "image_id_used": 471578,
+              "nll": 5.102768898010254
+            },
+            {
+              "example_id": "grounding:val2014:counting:85:244111:471578:0",
+              "image_id_used": 244111,
+              "nll": 3.8580381870269775
+            },
+            {
+              "example_id": "grounding:val2014:counting:5:55432:178189:0",
+              "image_id_used": 55432,
+              "nll": 4.387081146240234
+            },
+            {
+              "example_id": "grounding:val2014:counting:5:55432:178189:1",
+              "image_id_used": 178189,
+              "nll": 4.302022933959961
+            },
+            {
+              "example_id": "grounding:val2014:counting:51:155974:501760:1",
+              "image_id_used": 501760,
+              "nll": 4.3870344161987305
+            },
+            {
+              "example_id": "grounding:val2014:counting:51:155974:501760:0",
+              "image_id_used": 155974,
+              "nll": 7.673473834991455
+            },
+            {
+              "example_id": "grounding:val2014:counting:65:173081:309889:0",
+              "image_id_used": 309889,
+              "nll": 5.957797050476074
+            },
+            {
+              "example_id": "grounding:val2014:counting:65:173081:309889:1",
+              "image_id_used": 173081,
+              "nll": 6.327685356140137
+            },
+            {
+              "example_id": "grounding:val2014:counting:70:109648:474519:1",
+              "image_id_used": 109648,
+              "nll": 4.457470893859863
+            },
+            {
+              "example_id": "grounding:val2014:counting:70:109648:474519:0",
+              "image_id_used": 474519,
+              "nll": 5.313602447509766
+            },
+            {
+              "example_id": "grounding:val2014:counting:25:57350:414109:1",
+              "image_id_used": 414109,
+              "nll": 4.432977676391602
+            },
+            {
+              "example_id": "grounding:val2014:counting:25:57350:414109:0",
+              "image_id_used": 57350,
+              "nll": 4.410360813140869
+            },
+            {
+              "example_id": "grounding:val2014:counting:39:269689:464312:0",
+              "image_id_used": 269689,
+              "nll": 0.8098588585853577
+            },
+            {
+              "example_id": "grounding:val2014:counting:39:269689:464312:1",
+              "image_id_used": 464312,
+              "nll": 3.3465006351470947
+            },
+            {
+              "example_id": "grounding:val2014:counting:74:39211:244613:0",
+              "image_id_used": 39211,
+              "nll": 3.7821054458618164
+            },
+            {
+              "example_id": "grounding:val2014:counting:74:39211:244613:1",
+              "image_id_used": 244613,
+              "nll": 3.789155960083008
+            }
+          ]
+        },
+        "no_image": {
+          "mean_answer_nll": 11.167317400376001,
+          "by_type": {
+            "counting": 10.6548952460289,
+            "presence": 11.679739554723104
+          },
+          "examples": [
+            {
+              "example_id": "grounding:val2014:presence:78:248232:313130:0",
+              "image_id_used": null,
+              "nll": 14.259434700012207
+            },
+            {
+              "example_id": "grounding:val2014:presence:78:248232:313130:1",
+              "image_id_used": null,
+              "nll": 10.626622200012207
+            },
+            {
+              "example_id": "grounding:val2014:presence:10:154830:192079:0",
+              "image_id_used": null,
+              "nll": 13.238204956054688
+            },
+            {
+              "example_id": "grounding:val2014:presence:10:154830:192079:1",
+              "image_id_used": null,
+              "nll": 11.183517456054688
+            },
+            {
+              "example_id": "grounding:val2014:presence:40:29563:460623:0",
+              "image_id_used": null,
+              "nll": 12.822436332702637
+            },
+            {
+              "example_id": "grounding:val2014:presence:40:29563:460623:1",
+              "image_id_used": null,
+              "nll": 10.806811332702637
+            },
+            {
+              "example_id": "grounding:val2014:presence:52:440562:489798:0",
+              "image_id_used": null,
+              "nll": 12.370786666870117
+            },
+            {
+              "example_id": "grounding:val2014:presence:52:440562:489798:1",
+              "image_id_used": null,
+              "nll": 10.495786666870117
+            },
+            {
+              "example_id": "grounding:val2014:presence:27:98895:323528:0",
+              "image_id_used": null,
+              "nll": 11.887545585632324
+            },
+            {
+              "example_id": "grounding:val2014:presence:27:98895:323528:1",
+              "image_id_used": null,
+              "nll": 11.184420585632324
+            },
+            {
+              "example_id": "grounding:val2014:presence:33:31392:487438:1",
+              "image_id_used": null,
+              "nll": 10.932417869567871
+            },
+            {
+              "example_id": "grounding:val2014:presence:33:31392:487438:0",
+              "image_id_used": null,
+              "nll": 11.940230369567871
+            },
+            {
+              "example_id": "grounding:val2014:presence:56:344415:512729:0",
+              "image_id_used": null,
+              "nll": 11.908967971801758
+            },
+            {
+              "example_id": "grounding:val2014:presence:56:344415:512729:1",
+              "image_id_used": null,
+              "nll": 10.643342971801758
+            },
+            {
+              "example_id": "grounding:val2014:presence:51:183287:368994:1",
+              "image_id_used": null,
+              "nll": 10.69543170928955
+            },
+            {
+              "example_id": "grounding:val2014:presence:51:183287:368994:0",
+              "image_id_used": null,
+              "nll": 11.55480670928955
+            },
+            {
+              "example_id": "grounding:val2014:presence:13:273083:464006:0",
+              "image_id_used": null,
+              "nll": 12.982861518859863
+            },
+            {
+              "example_id": "grounding:val2014:presence:13:273083:464006:1",
+              "image_id_used": null,
+              "nll": 11.209424018859863
+            },
+            {
+              "example_id": "grounding:val2014:presence:7:230212:452684:1",
+              "image_id_used": null,
+              "nll": 10.844042778015137
+            },
+            {
+              "example_id": "grounding:val2014:presence:7:230212:452684:0",
+              "image_id_used": null,
+              "nll": 12.008105278015137
+            },
+            {
+              "example_id": "grounding:val2014:presence:80:434089:530384:0",
+              "image_id_used": null,
+              "nll": 12.912360191345215
+            },
+            {
+              "example_id": "grounding:val2014:presence:80:434089:530384:1",
+              "image_id_used": null,
+              "nll": 10.498297691345215
+            },
+            {
+              "example_id": "grounding:val2014:presence:43:289059:290595:1",
+              "image_id_used": null,
+              "nll": 10.388321876525879
+            },
+            {
+              "example_id": "grounding:val2014:presence:43:289059:290595:0",
+              "image_id_used": null,
+              "nll": 12.919571876525879
+            },
+            {
+              "example_id": "grounding:val2014:counting:77:30407:203539:0",
+              "image_id_used": null,
+              "nll": 9.816460609436035
+            },
+            {
+              "example_id": "grounding:val2014:counting:77:30407:203539:1",
+              "image_id_used": null,
+              "nll": 11.699273109436035
+            },
+            {
+              "example_id": "grounding:val2014:counting:15:407868:516805:0",
+              "image_id_used": null,
+              "nll": 10.799821853637695
+            },
+            {
+              "example_id": "grounding:val2014:counting:15:407868:516805:1",
+              "image_id_used": null,
+              "nll": 11.346696853637695
+            },
+            {
+              "example_id": "grounding:val2014:counting:9:129175:186218:0",
+              "image_id_used": null,
+              "nll": 11.136737823486328
+            },
+            {
+              "example_id": "grounding:val2014:counting:9:129175:186218:1",
+              "image_id_used": null,
+              "nll": 9.183612823486328
+            },
+            {
+              "example_id": "grounding:val2014:counting:61:19275:521142:0",
+              "image_id_used": null,
+              "nll": 6.896510601043701
+            },
+            {
+              "example_id": "grounding:val2014:counting:61:19275:521142:1",
+              "image_id_used": null,
+              "nll": 8.185572624206543
+            },
+            {
+              "example_id": "grounding:val2014:counting:85:244111:471578:1",
+              "image_id_used": null,
+              "nll": 11.01518440246582
+            },
+            {
+              "example_id": "grounding:val2014:counting:85:244111:471578:0",
+              "image_id_used": null,
+              "nll": 9.06205940246582
+            },
+            {
+              "example_id": "grounding:val2014:counting:5:55432:178189:0",
+              "image_id_used": null,
+              "nll": 12.380232810974121
+            },
+            {
+              "example_id": "grounding:val2014:counting:5:55432:178189:1",
+              "image_id_used": null,
+              "nll": 13.106795310974121
+            },
+            {
+              "example_id": "grounding:val2014:counting:51:155974:501760:1",
+              "image_id_used": null,
+              "nll": 10.260685920715332
+            },
+            {
+              "example_id": "grounding:val2014:counting:51:155974:501760:0",
+              "image_id_used": null,
+              "nll": 10.237248420715332
+            },
+            {
+              "example_id": "grounding:val2014:counting:65:173081:309889:0",
+              "image_id_used": null,
+              "nll": 10.438066482543945
+            },
+            {
+              "example_id": "grounding:val2014:counting:65:173081:309889:1",
+              "image_id_used": null,
+              "nll": 10.242753982543945
+            },
+            {
+              "example_id": "grounding:val2014:counting:70:109648:474519:1",
+              "image_id_used": null,
+              "nll": 12.470420837402344
+            },
+            {
+              "example_id": "grounding:val2014:counting:70:109648:474519:0",
+              "image_id_used": null,
+              "nll": 13.111045837402344
+            },
+            {
+              "example_id": "grounding:val2014:counting:25:57350:414109:1",
+              "image_id_used": null,
+              "nll": 13.115017890930176
+            },
+            {
+              "example_id": "grounding:val2014:counting:25:57350:414109:0",
+              "image_id_used": null,
+              "nll": 10.404080390930176
+            },
+            {
+              "example_id": "grounding:val2014:counting:39:269689:464312:0",
+              "image_id_used": null,
+              "nll": 8.851896286010742
+            },
+            {
+              "example_id": "grounding:val2014:counting:39:269689:464312:1",
+              "image_id_used": null,
+              "nll": 11.070646286010742
+            },
+            {
+              "example_id": "grounding:val2014:counting:74:39211:244613:0",
+              "image_id_used": null,
+              "nll": 10.06052017211914
+            },
+            {
+              "example_id": "grounding:val2014:counting:74:39211:244613:1",
+              "image_id_used": null,
+              "nll": 10.82614517211914
+            }
+          ]
+        }
+      },
+      "image_swap_penalty": -0.027425123999515577
+    },
+    "natural": {
+      "conditions": {
+        "correct": {
+          "mean_answer_nll": 7.537310216575861,
+          "by_type": {
+            "number": 4.502695754170418,
+            "other": 6.680372675259908,
+            "yes/no": 10.41732406616211
+          },
+          "examples": [
+            {
+              "example_id": "vqa:val2014:149222000",
+              "image_id_used": 149222,
+              "nll": 6.847224235534668
+            },
+            {
+              "example_id": "vqa:val2014:182236000",
+              "image_id_used": 182236,
+              "nll": 4.804910182952881
+            },
+            {
+              "example_id": "vqa:val2014:337563004",
+              "image_id_used": 337563,
+              "nll": 9.727901458740234
+            },
+            {
+              "example_id": "vqa:val2014:545583000",
+              "image_id_used": 545583,
+              "nll": 3.3918747901916504
+            },
+            {
+              "example_id": "vqa:val2014:33008006",
+              "image_id_used": 33008,
+              "nll": 9.964459419250488
+            },
+            {
+              "example_id": "vqa:val2014:435316002",
+              "image_id_used": 435316,
+              "nll": 10.670492172241211
+            },
+            {
+              "example_id": "vqa:val2014:271785001",
+              "image_id_used": 271785,
+              "nll": 2.5734848976135254
+            },
+            {
+              "example_id": "vqa:val2014:555337004",
+              "image_id_used": 555337,
+              "nll": 7.583868026733398
+            },
+            {
+              "example_id": "vqa:val2014:184384005",
+              "image_id_used": 184384,
+              "nll": 8.604161262512207
+            },
+            {
+              "example_id": "vqa:val2014:253452002",
+              "image_id_used": 253452,
+              "nll": 6.1304121017456055
+            },
+            {
+              "example_id": "vqa:val2014:465130002",
+              "image_id_used": 465130,
+              "nll": 5.315090656280518
+            },
+            {
+              "example_id": "vqa:val2014:560908002",
+              "image_id_used": 560908,
+              "nll": 7.241653919219971
+            },
+            {
+              "example_id": "vqa:val2014:155355003",
+              "image_id_used": 155355,
+              "nll": 12.103473663330078
+            },
+            {
+              "example_id": "vqa:val2014:315905015",
+              "image_id_used": 315905,
+              "nll": 9.67080020904541
+            },
+            {
+              "example_id": "vqa:val2014:17613000",
+              "image_id_used": 17613,
+              "nll": 11.854302406311035
+            },
+            {
+              "example_id": "vqa:val2014:407990003",
+              "image_id_used": 407990,
+              "nll": 8.080647468566895
+            },
+            {
+              "example_id": "vqa:val2014:163600000",
+              "image_id_used": 163600,
+              "nll": 9.204280853271484
+            },
+            {
+              "example_id": "vqa:val2014:218093004",
+              "image_id_used": 218093,
+              "nll": 9.853611946105957
+            },
+            {
+              "example_id": "vqa:val2014:205716002",
+              "image_id_used": 205716,
+              "nll": 2.7284231185913086
+            },
+            {
+              "example_id": "vqa:val2014:360721002",
+              "image_id_used": 360721,
+              "nll": 2.837049961090088
+            },
+            {
+              "example_id": "vqa:val2014:301257004",
+              "image_id_used": 301257,
+              "nll": 8.508628845214844
+            },
+            {
+              "example_id": "vqa:val2014:393212000",
+              "image_id_used": 393212,
+              "nll": 4.749122619628906
+            },
+            {
+              "example_id": "vqa:val2014:418949001",
+              "image_id_used": 418949,
+              "nll": 3.545442581176758
+            },
+            {
+              "example_id": "vqa:val2014:520982001",
+              "image_id_used": 520982,
+              "nll": 9.73941421508789
+            },
+            {
+              "example_id": "vqa:val2014:45463001",
+              "image_id_used": 45463,
+              "nll": 3.934276819229126
+            },
+            {
+              "example_id": "vqa:val2014:247234007",
+              "image_id_used": 247234,
+              "nll": 3.01786208152771
+            },
+            {
+              "example_id": "vqa:val2014:159282000",
+              "image_id_used": 159282,
+              "nll": 6.412197589874268
+            },
+            {
+              "example_id": "vqa:val2014:488997001",
+              "image_id_used": 488997,
+              "nll": 5.564101219177246
+            },
+            {
+              "example_id": "vqa:val2014:144300022",
+              "image_id_used": 144300,
+              "nll": 6.089117050170898
+            },
+            {
+              "example_id": "vqa:val2014:391343006",
+              "image_id_used": 391343,
+              "nll": 6.244147777557373
+            },
+            {
+              "example_id": "vqa:val2014:309958001",
+              "image_id_used": 309958,
+              "nll": 11.040884017944336
+            },
+            {
+              "example_id": "vqa:val2014:326308003",
+              "image_id_used": 326308,
+              "nll": 9.335155487060547
+            },
+            {
+              "example_id": "vqa:val2014:251736001",
+              "image_id_used": 251736,
+              "nll": 7.509081840515137
+            },
+            {
+              "example_id": "vqa:val2014:268693000",
+              "image_id_used": 268693,
+              "nll": 10.451977729797363
+            },
+            {
+              "example_id": "vqa:val2014:30967000",
+              "image_id_used": 30967,
+              "nll": 5.694396018981934
+            },
+            {
+              "example_id": "vqa:val2014:229647002",
+              "image_id_used": 229647,
+              "nll": 6.051048278808594
+            },
+            {
+              "example_id": "vqa:val2014:152795001",
+              "image_id_used": 152795,
+              "nll": 5.8673095703125
+            },
+            {
+              "example_id": "vqa:val2014:160889000",
+              "image_id_used": 160889,
+              "nll": 7.944354057312012
+            },
+            {
+              "example_id": "vqa:val2014:113126010",
+              "image_id_used": 113126,
+              "nll": 9.315356254577637
+            },
+            {
+              "example_id": "vqa:val2014:506137001",
+              "image_id_used": 506137,
+              "nll": 12.735978126525879
+            },
+            {
+              "example_id": "vqa:val2014:231822002",
+              "image_id_used": 231822,
+              "nll": 12.408225059509277
+            },
+            {
+              "example_id": "vqa:val2014:292032005",
+              "image_id_used": 292032,
+              "nll": 8.927374839782715
+            },
+            {
+              "example_id": "vqa:val2014:397117000",
+              "image_id_used": 397117,
+              "nll": 1.8663663864135742
+            },
+            {
+              "example_id": "vqa:val2014:413275003",
+              "image_id_used": 413275,
+              "nll": 4.480058670043945
+            },
+            {
+              "example_id": "vqa:val2014:409627002",
+              "image_id_used": 409627,
+              "nll": 10.675954818725586
+            },
+            {
+              "example_id": "vqa:val2014:437205009",
+              "image_id_used": 437205,
+              "nll": 8.997610092163086
+            },
+            {
+              "example_id": "vqa:val2014:480593003",
+              "image_id_used": 480593,
+              "nll": 8.726974487304688
+            },
+            {
+              "example_id": "vqa:val2014:574834000",
+              "image_id_used": 574834,
+              "nll": 6.4982523918151855
+            },
+            {
+              "example_id": "vqa:val2014:334015015",
+              "image_id_used": 334015,
+              "nll": 5.613600254058838
+            },
+            {
+              "example_id": "vqa:val2014:564127007",
+              "image_id_used": 564127,
+              "nll": 8.50283432006836
+            },
+            {
+              "example_id": "vqa:val2014:436183001",
+              "image_id_used": 436183,
+              "nll": 12.021557807922363
+            },
+            {
+              "example_id": "vqa:val2014:579337000",
+              "image_id_used": 579337,
+              "nll": 12.321797370910645
+            },
+            {
+              "example_id": "vqa:val2014:350855010",
+              "image_id_used": 350855,
+              "nll": 3.137298822402954
+            },
+            {
+              "example_id": "vqa:val2014:449089001",
+              "image_id_used": 449089,
+              "nll": 3.397982120513916
+            },
+            {
+              "example_id": "vqa:val2014:513417018",
+              "image_id_used": 513417,
+              "nll": 13.531461715698242
+            },
+            {
+              "example_id": "vqa:val2014:549907000",
+              "image_id_used": 549907,
+              "nll": 10.871283531188965
+            },
+            {
+              "example_id": "vqa:val2014:166948017",
+              "image_id_used": 166948,
+              "nll": 3.4049487113952637
+            },
+            {
+              "example_id": "vqa:val2014:414201008",
+              "image_id_used": 414201,
+              "nll": 5.088788032531738
+            },
+            {
+              "example_id": "vqa:val2014:82157049",
+              "image_id_used": 82157,
+              "nll": 8.391841888427734
+            },
+            {
+              "example_id": "vqa:val2014:340844003",
+              "image_id_used": 340844,
+              "nll": 8.806462287902832
+            },
+            {
+              "example_id": "vqa:val2014:158950004",
+              "image_id_used": 158950,
+              "nll": 4.761014938354492
+            },
+            {
+              "example_id": "vqa:val2014:506416001",
+              "image_id_used": 506416,
+              "nll": 5.8115339279174805
+            },
+            {
+              "example_id": "vqa:val2014:347936000",
+              "image_id_used": 347936,
+              "nll": 12.645617485046387
+            },
+            {
+              "example_id": "vqa:val2014:559400004",
+              "image_id_used": 559400,
+              "nll": 8.561038970947266
+            }
+          ]
+        },
+        "complementary": {
+          "mean_answer_nll": 7.707010302692652,
+          "by_type": {
+            "number": 4.6118373721838,
+            "other": 7.1115774512290955,
+            "yes/no": 10.365891774495443
+          },
+          "examples": [
+            {
+              "example_id": "vqa:val2014:149222000",
+              "image_id_used": 182236,
+              "nll": 6.008035182952881
+            },
+            {
+              "example_id": "vqa:val2014:182236000",
+              "image_id_used": 149222,
+              "nll": 5.534724235534668
+            },
+            {
+              "example_id": "vqa:val2014:337563004",
+              "image_id_used": 545583,
+              "nll": 4.14187479019165
+            },
+            {
+              "example_id": "vqa:val2014:545583000",
+              "image_id_used": 337563,
+              "nll": 9.368526458740234
+            },
+            {
+              "example_id": "vqa:val2014:33008006",
+              "image_id_used": 435316,
+              "nll": 10.068929672241211
+            },
+            {
+              "example_id": "vqa:val2014:435316002",
+              "image_id_used": 33008,
+              "nll": 11.097271919250488
+            },
+            {
+              "example_id": "vqa:val2014:271785001",
+              "image_id_used": 555337,
+              "nll": 5.028114318847656
+            },
+            {
+              "example_id": "vqa:val2014:555337004",
+              "image_id_used": 271785,
+              "nll": 10.285890579223633
+            },
+            {
+              "example_id": "vqa:val2014:184384005",
+              "image_id_used": 253452,
+              "nll": 9.356974601745605
+            },
+            {
+              "example_id": "vqa:val2014:253452002",
+              "image_id_used": 184384,
+              "nll": 7.018223762512207
+            },
+            {
+              "example_id": "vqa:val2014:465130002",
+              "image_id_used": 560908,
+              "nll": 4.866653919219971
+            },
+            {
+              "example_id": "vqa:val2014:560908002",
+              "image_id_used": 465130,
+              "nll": 7.619778156280518
+            },
+            {
+              "example_id": "vqa:val2014:155355003",
+              "image_id_used": 315905,
+              "nll": 11.78017520904541
+            },
+            {
+              "example_id": "vqa:val2014:315905015",
+              "image_id_used": 155355,
+              "nll": 10.162067413330078
+            },
+            {
+              "example_id": "vqa:val2014:17613000",
+              "image_id_used": 407990,
+              "nll": 13.334810256958008
+            },
+            {
+              "example_id": "vqa:val2014:407990003",
+              "image_id_used": 17613,
+              "nll": 7.400417327880859
+            },
+            {
+              "example_id": "vqa:val2014:163600000",
+              "image_id_used": 218093,
+              "nll": 9.080174446105957
+            },
+            {
+              "example_id": "vqa:val2014:218093004",
+              "image_id_used": 163600,
+              "nll": 10.290218353271484
+            },
+            {
+              "example_id": "vqa:val2014:205716002",
+              "image_id_used": 360721,
+              "nll": 2.790174961090088
+            },
+            {
+              "example_id": "vqa:val2014:360721002",
+              "image_id_used": 205716,
+              "nll": 3.0721731185913086
+            },
+            {
+              "example_id": "vqa:val2014:301257004",
+              "image_id_used": 393212,
+              "nll": 8.960060119628906
+            },
+            {
+              "example_id": "vqa:val2014:393212000",
+              "image_id_used": 301257,
+              "nll": 9.610191345214844
+            },
+            {
+              "example_id": "vqa:val2014:418949001",
+              "image_id_used": 520982,
+              "nll": 5.7706499099731445
+            },
+            {
+              "example_id": "vqa:val2014:520982001",
+              "image_id_used": 418949,
+              "nll": 4.940160274505615
+            },
+            {
+              "example_id": "vqa:val2014:45463001",
+              "image_id_used": 247234,
+              "nll": 3.89286208152771
+            },
+            {
+              "example_id": "vqa:val2014:247234007",
+              "image_id_used": 45463,
+              "nll": 2.918651819229126
+            },
+            {
+              "example_id": "vqa:val2014:159282000",
+              "image_id_used": 488997,
+              "nll": 6.376601219177246
+            },
+            {
+              "example_id": "vqa:val2014:488997001",
+              "image_id_used": 159282,
+              "nll": 5.146572589874268
+            },
+            {
+              "example_id": "vqa:val2014:144300022",
+              "image_id_used": 391343,
+              "nll": 5.843209266662598
+            },
+            {
+              "example_id": "vqa:val2014:391343006",
+              "image_id_used": 144300,
+              "nll": 5.674409866333008
+            },
+            {
+              "example_id": "vqa:val2014:309958001",
+              "image_id_used": 326308,
+              "nll": 11.038280487060547
+            },
+            {
+              "example_id": "vqa:val2014:326308003",
+              "image_id_used": 309958,
+              "nll": 9.564321517944336
+            },
+            {
+              "example_id": "vqa:val2014:251736001",
+              "image_id_used": 268693,
+              "nll": 7.045727729797363
+            },
+            {
+              "example_id": "vqa:val2014:268693000",
+              "image_id_used": 251736,
+              "nll": 9.212206840515137
+            },
+            {
+              "example_id": "vqa:val2014:30967000",
+              "image_id_used": 229647,
+              "nll": 5.902610778808594
+            },
+            {
+              "example_id": "vqa:val2014:229647002",
+              "image_id_used": 30967,
+              "nll": 7.725646018981934
+            },
+            {
+              "example_id": "vqa:val2014:152795001",
+              "image_id_used": 160889,
+              "nll": 4.092791557312012
+            },
+            {
+              "example_id": "vqa:val2014:160889000",
+              "image_id_used": 152795,
+              "nll": 7.9688720703125
+            },
+            {
+              "example_id": "vqa:val2014:113126010",
+              "image_id_used": 506137,
+              "nll": 10.052384376525879
+            },
+            {
+              "example_id": "vqa:val2014:506137001",
+              "image_id_used": 113126,
+              "nll": 12.506762504577637
+            },
+            {
+              "example_id": "vqa:val2014:231822002",
+              "image_id_used": 292032,
+              "nll": 12.372687339782715
+            },
+            {
+              "example_id": "vqa:val2014:292032005",
+              "image_id_used": 231822,
+              "nll": 8.759787559509277
+            },
+            {
+              "example_id": "vqa:val2014:397117000",
+              "image_id_used": 413275,
+              "nll": 3.8159961700439453
+            },
+            {
+              "example_id": "vqa:val2014:413275003",
+              "image_id_used": 397117,
+              "nll": 4.069491386413574
+            },
+            {
+              "example_id": "vqa:val2014:409627002",
+              "image_id_used": 437205,
+              "nll": 10.692922592163086
+            },
+            {
+              "example_id": "vqa:val2014:437205009",
+              "image_id_used": 409627,
+              "nll": 9.011892318725586
+            },
+            {
+              "example_id": "vqa:val2014:480593003",
+              "image_id_used": 574834,
+              "nll": 9.949609756469727
+            },
+            {
+              "example_id": "vqa:val2014:574834000",
+              "image_id_used": 480593,
+              "nll": 5.506685733795166
+            },
+            {
+              "example_id": "vqa:val2014:334015015",
+              "image_id_used": 564127,
+              "nll": 6.659083843231201
+            },
+            {
+              "example_id": "vqa:val2014:564127007",
+              "image_id_used": 334015,
+              "nll": 7.926100254058838
+            },
+            {
+              "example_id": "vqa:val2014:436183001",
+              "image_id_used": 579337,
+              "nll": 11.415547370910645
+            },
+            {
+              "example_id": "vqa:val2014:579337000",
+              "image_id_used": 436183,
+              "nll": 12.341870307922363
+            },
+            {
+              "example_id": "vqa:val2014:350855010",
+              "image_id_used": 449089,
+              "nll": 3.101107120513916
+            },
+            {
+              "example_id": "vqa:val2014:449089001",
+              "image_id_used": 350855,
+              "nll": 3.371673822402954
+            },
+            {
+              "example_id": "vqa:val2014:513417018",
+              "image_id_used": 549907,
+              "nll": 11.863471031188965
+            },
+            {
+              "example_id": "vqa:val2014:549907000",
+              "image_id_used": 513417,
+              "nll": 12.406461715698242
+            },
+            {
+              "example_id": "vqa:val2014:166948017",
+              "image_id_used": 414201,
+              "nll": 4.979413032531738
+            },
+            {
+              "example_id": "vqa:val2014:414201008",
+              "image_id_used": 166948,
+              "nll": 3.9283862113952637
+            },
+            {
+              "example_id": "vqa:val2014:82157049",
+              "image_id_used": 340844,
+              "nll": 8.634587287902832
+            },
+            {
+              "example_id": "vqa:val2014:340844003",
+              "image_id_used": 82157,
+              "nll": 8.454341888427734
+            },
+            {
+              "example_id": "vqa:val2014:158950004",
+              "image_id_used": 506416,
+              "nll": 5.4990339279174805
+            },
+            {
+              "example_id": "vqa:val2014:506416001",
+              "image_id_used": 158950,
+              "nll": 5.011014938354492
+            },
+            {
+              "example_id": "vqa:val2014:347936000",
+              "image_id_used": 559400,
+              "nll": 11.904788970947266
+            },
+            {
+              "example_id": "vqa:val2014:559400004",
+              "image_id_used": 347936,
+              "nll": 9.024523735046387
+            }
+          ]
+        },
+        "no_image": {
+          "mean_answer_nll": 12.865440011024475,
+          "by_type": {
+            "number": 10.417563378810883,
+            "other": 16.406731645266216,
+            "yes/no": 10.956066131591797
+          },
+          "examples": [
+            {
+              "example_id": "vqa:val2014:149222000",
+              "image_id_used": null,
+              "nll": 14.825467109680176
+            },
+            {
+              "example_id": "vqa:val2014:182236000",
+              "image_id_used": null,
+              "nll": 16.13796615600586
+            },
+            {
+              "example_id": "vqa:val2014:337563004",
+              "image_id_used": null,
+              "nll": 9.342568397521973
+            },
+            {
+              "example_id": "vqa:val2014:545583000",
+              "image_id_used": null,
+              "nll": 7.780068397521973
+            },
+            {
+              "example_id": "vqa:val2014:33008006",
+              "image_id_used": null,
+              "nll": 10.285805702209473
+            },
+            {
+              "example_id": "vqa:val2014:435316002",
+              "image_id_used": null,
+              "nll": 11.582680702209473
+            },
+            {
+              "example_id": "vqa:val2014:271785001",
+              "image_id_used": null,
+              "nll": 9.487444877624512
+            },
+            {
+              "example_id": "vqa:val2014:555337004",
+              "image_id_used": null,
+              "nll": 20.269771575927734
+            },
+            {
+              "example_id": "vqa:val2014:184384005",
+              "image_id_used": null,
+              "nll": 14.85595989227295
+            },
+            {
+              "example_id": "vqa:val2014:253452002",
+              "image_id_used": null,
+              "nll": 15.11377239227295
+            },
+            {
+              "example_id": "vqa:val2014:465130002",
+              "image_id_used": null,
+              "nll": 19.383344650268555
+            },
+            {
+              "example_id": "vqa:val2014:560908002",
+              "image_id_used": null,
+              "nll": 17.445844650268555
+            },
+            {
+              "example_id": "vqa:val2014:155355003",
+              "image_id_used": null,
+              "nll": 13.966400146484375
+            },
+            {
+              "example_id": "vqa:val2014:315905015",
+              "image_id_used": null,
+              "nll": 12.942962646484375
+            },
+            {
+              "example_id": "vqa:val2014:17613000",
+              "image_id_used": null,
+              "nll": 22.353830337524414
+            },
+            {
+              "example_id": "vqa:val2014:407990003",
+              "image_id_used": null,
+              "nll": 11.521739959716797
+            },
+            {
+              "example_id": "vqa:val2014:163600000",
+              "image_id_used": null,
+              "nll": 10.661211967468262
+            },
+            {
+              "example_id": "vqa:val2014:218093004",
+              "image_id_used": null,
+              "nll": 13.450274467468262
+            },
+            {
+              "example_id": "vqa:val2014:205716002",
+              "image_id_used": null,
+              "nll": 8.956975936889648
+            },
+            {
+              "example_id": "vqa:val2014:360721002",
+              "image_id_used": null,
+              "nll": 10.871038436889648
+            },
+            {
+              "example_id": "vqa:val2014:301257004",
+              "image_id_used": null,
+              "nll": 22.266338348388672
+            },
+            {
+              "example_id": "vqa:val2014:393212000",
+              "image_id_used": null,
+              "nll": 18.821025848388672
+            },
+            {
+              "example_id": "vqa:val2014:418949001",
+              "image_id_used": null,
+              "nll": 8.531978607177734
+            },
+            {
+              "example_id": "vqa:val2014:520982001",
+              "image_id_used": null,
+              "nll": 13.167811393737793
+            },
+            {
+              "example_id": "vqa:val2014:45463001",
+              "image_id_used": null,
+              "nll": 9.722920417785645
+            },
+            {
+              "example_id": "vqa:val2014:247234007",
+              "image_id_used": null,
+              "nll": 8.199482917785645
+            },
+            {
+              "example_id": "vqa:val2014:159282000",
+              "image_id_used": null,
+              "nll": 17.098838806152344
+            },
+            {
+              "example_id": "vqa:val2014:488997001",
+              "image_id_used": null,
+              "nll": 17.606651306152344
+            },
+            {
+              "example_id": "vqa:val2014:144300022",
+              "image_id_used": null,
+              "nll": 10.363396644592285
+            },
+            {
+              "example_id": "vqa:val2014:391343006",
+              "image_id_used": null,
+              "nll": 9.057814598083496
+            },
+            {
+              "example_id": "vqa:val2014:309958001",
+              "image_id_used": null,
+              "nll": 12.372207641601562
+            },
+            {
+              "example_id": "vqa:val2014:326308003",
+              "image_id_used": null,
+              "nll": 10.419082641601562
+            },
+            {
+              "example_id": "vqa:val2014:251736001",
+              "image_id_used": null,
+              "nll": 13.087713241577148
+            },
+            {
+              "example_id": "vqa:val2014:268693000",
+              "image_id_used": null,
+              "nll": 8.259588241577148
+            },
+            {
+              "example_id": "vqa:val2014:30967000",
+              "image_id_used": null,
+              "nll": 14.316201210021973
+            },
+            {
+              "example_id": "vqa:val2014:229647002",
+              "image_id_used": null,
+              "nll": 15.206826210021973
+            },
+            {
+              "example_id": "vqa:val2014:152795001",
+              "image_id_used": null,
+              "nll": 16.586605072021484
+            },
+            {
+              "example_id": "vqa:val2014:160889000",
+              "image_id_used": null,
+              "nll": 17.305355072021484
+            },
+            {
+              "example_id": "vqa:val2014:113126010",
+              "image_id_used": null,
+              "nll": 10.882648468017578
+            },
+            {
+              "example_id": "vqa:val2014:506137001",
+              "image_id_used": null,
+              "nll": 9.195148468017578
+            },
+            {
+              "example_id": "vqa:val2014:231822002",
+              "image_id_used": null,
+              "nll": 10.570303916931152
+            },
+            {
+              "example_id": "vqa:val2014:292032005",
+              "image_id_used": null,
+              "nll": 10.328116416931152
+            },
+            {
+              "example_id": "vqa:val2014:397117000",
+              "image_id_used": null,
+              "nll": 9.482953071594238
+            },
+            {
+              "example_id": "vqa:val2014:413275003",
+              "image_id_used": null,
+              "nll": 11.068890571594238
+            },
+            {
+              "example_id": "vqa:val2014:409627002",
+              "image_id_used": null,
+              "nll": 13.13351058959961
+            },
+            {
+              "example_id": "vqa:val2014:437205009",
+              "image_id_used": null,
+              "nll": 9.96944808959961
+            },
+            {
+              "example_id": "vqa:val2014:480593003",
+              "image_id_used": null,
+              "nll": 16.604822158813477
+            },
+            {
+              "example_id": "vqa:val2014:574834000",
+              "image_id_used": null,
+              "nll": 9.273356437683105
+            },
+            {
+              "example_id": "vqa:val2014:334015015",
+              "image_id_used": null,
+              "nll": 18.472888946533203
+            },
+            {
+              "example_id": "vqa:val2014:564127007",
+              "image_id_used": null,
+              "nll": 19.765857696533203
+            },
+            {
+              "example_id": "vqa:val2014:436183001",
+              "image_id_used": null,
+              "nll": 9.20234203338623
+            },
+            {
+              "example_id": "vqa:val2014:579337000",
+              "image_id_used": null,
+              "nll": 10.54609203338623
+            },
+            {
+              "example_id": "vqa:val2014:350855010",
+              "image_id_used": null,
+              "nll": 8.748749732971191
+            },
+            {
+              "example_id": "vqa:val2014:449089001",
+              "image_id_used": null,
+              "nll": 10.342499732971191
+            },
+            {
+              "example_id": "vqa:val2014:513417018",
+              "image_id_used": null,
+              "nll": 11.625362396240234
+            },
+            {
+              "example_id": "vqa:val2014:549907000",
+              "image_id_used": null,
+              "nll": 10.140987396240234
+            },
+            {
+              "example_id": "vqa:val2014:166948017",
+              "image_id_used": null,
+              "nll": 10.127274513244629
+            },
+            {
+              "example_id": "vqa:val2014:414201008",
+              "image_id_used": null,
+              "nll": 10.814774513244629
+            },
+            {
+              "example_id": "vqa:val2014:82157049",
+              "image_id_used": null,
+              "nll": 10.442220687866211
+            },
+            {
+              "example_id": "vqa:val2014:340844003",
+              "image_id_used": null,
+              "nll": 11.012533187866211
+            },
+            {
+              "example_id": "vqa:val2014:158950004",
+              "image_id_used": null,
+              "nll": 20.319780349731445
+            },
+            {
+              "example_id": "vqa:val2014:506416001",
+              "image_id_used": null,
+              "nll": 18.823686599731445
+            },
+            {
+              "example_id": "vqa:val2014:347936000",
+              "image_id_used": null,
+              "nll": 8.614160537719727
+            },
+            {
+              "example_id": "vqa:val2014:559400004",
+              "image_id_used": null,
+              "nll": 10.254785537719727
+            }
+          ]
+        }
+      },
+      "image_swap_penalty": 0.16970008611679077
+    }
+  },
+  "caption_reference_loss": 2.5816061490525803,
+  "caption_examples": [
+    {
+      "example_id": "caption:val2014:485542",
+      "loss": 3.0767881870269775
+    },
+    {
+      "example_id": "caption:val2014:32786",
+      "loss": 4.146030426025391
+    },
+    {
+      "example_id": "caption:val2014:41194",
+      "loss": 2.492896795272827
+    },
+    {
+      "example_id": "caption:val2014:643418",
+      "loss": 2.584178924560547
+    },
+    {
+      "example_id": "caption:val2014:40167",
+      "loss": 2.740586042404175
+    },
+    {
+      "example_id": "caption:val2014:797643",
+      "loss": 1.43227219581604
+    },
+    {
+      "example_id": "caption:val2014:217978",
+      "loss": 2.1030402183532715
+    },
+    {
+      "example_id": "caption:val2014:798710",
+      "loss": 2.9862852096557617
+    },
+    {
+      "example_id": "caption:val2014:313573",
+      "loss": 2.549006223678589
+    },
+    {
+      "example_id": "caption:val2014:762505",
+      "loss": 3.707624673843384
+    },
+    {
+      "example_id": "caption:val2014:78267",
+      "loss": 2.069011926651001
+    },
+    {
+      "example_id": "caption:val2014:445168",
+      "loss": 3.2145235538482666
+    },
+    {
+      "example_id": "caption:val2014:507785",
+      "loss": 2.527824878692627
+    },
+    {
+      "example_id": "caption:val2014:246246",
+      "loss": 2.6429197788238525
+    },
+    {
+      "example_id": "caption:val2014:820271",
+      "loss": 4.059697151184082
+    },
+    {
+      "example_id": "caption:val2014:791648",
+      "loss": 3.5750045776367188
+    },
+    {
+      "example_id": "caption:val2014:349905",
+      "loss": 3.6029345989227295
+    },
+    {
+      "example_id": "caption:val2014:188797",
+      "loss": 3.4218132495880127
+    },
+    {
+      "example_id": "caption:val2014:690516",
+      "loss": 1.2512316703796387
+    },
+    {
+      "example_id": "caption:val2014:632179",
+      "loss": 2.6453845500946045
+    },
+    {
+      "example_id": "caption:val2014:580754",
+      "loss": 3.531137704849243
+    },
+    {
+      "example_id": "caption:val2014:663172",
+      "loss": 2.9120256900787354
+    },
+    {
+      "example_id": "caption:val2014:110625",
+      "loss": 3.088005304336548
+    },
+    {
+      "example_id": "caption:val2014:292154",
+      "loss": 2.03641676902771
+    },
+    {
+      "example_id": "caption:val2014:753771",
+      "loss": 3.124357223510742
+    },
+    {
+      "example_id": "caption:val2014:551239",
+      "loss": 2.6043953895568848
+    },
+    {
+      "example_id": "caption:val2014:476687",
+      "loss": 3.659158706665039
+    },
+    {
+      "example_id": "caption:val2014:614556",
+      "loss": 2.3220338821411133
+    },
+    {
+      "example_id": "caption:val2014:536068",
+      "loss": 2.792414665222168
+    },
+    {
+      "example_id": "caption:val2014:674484",
+      "loss": 4.172879219055176
+    },
+    {
+      "example_id": "caption:val2014:671451",
+      "loss": 2.971719741821289
+    },
+    {
+      "example_id": "caption:val2014:512948",
+      "loss": 2.6778151988983154
+    },
+    {
+      "example_id": "caption:val2014:182922",
+      "loss": 4.037668704986572
+    },
+    {
+      "example_id": "caption:val2014:639118",
+      "loss": 1.9305377006530762
+    },
+    {
+      "example_id": "caption:val2014:239504",
+      "loss": 2.4973268508911133
+    },
+    {
+      "example_id": "caption:val2014:61176",
+      "loss": 3.1582071781158447
+    },
+    {
+      "example_id": "caption:val2014:755200",
+      "loss": 1.9058750867843628
+    },
+    {
+      "example_id": "caption:val2014:21430",
+      "loss": 3.9810099601745605
+    },
+    {
+      "example_id": "caption:val2014:339760",
+      "loss": 2.618250846862793
+    },
+    {
+      "example_id": "caption:val2014:763926",
+      "loss": 3.291999101638794
+    },
+    {
+      "example_id": "caption:val2014:36550",
+      "loss": 1.4656888246536255
+    },
+    {
+      "example_id": "caption:val2014:537861",
+      "loss": 2.324471950531006
+    },
+    {
+      "example_id": "caption:val2014:558967",
+      "loss": 1.890020489692688
+    },
+    {
+      "example_id": "caption:val2014:504539",
+      "loss": 2.25893497467041
+    },
+    {
+      "example_id": "caption:val2014:245256",
+      "loss": 1.4398372173309326
+    },
+    {
+      "example_id": "caption:val2014:43771",
+      "loss": 3.8886313438415527
+    },
+    {
+      "example_id": "caption:val2014:4311",
+      "loss": 2.096644401550293
+    },
+    {
+      "example_id": "caption:val2014:784654",
+      "loss": 3.5183024406433105
+    },
+    {
+      "example_id": "caption:val2014:627924",
+      "loss": 1.4250470399856567
+    },
+    {
+      "example_id": "caption:val2014:89232",
+      "loss": 2.105405569076538
+    },
+    {
+      "example_id": "caption:val2014:733668",
+      "loss": 2.822575807571411
+    },
+    {
+      "example_id": "caption:val2014:600579",
+      "loss": 1.3893635272979736
+    },
+    {
+      "example_id": "caption:val2014:178649",
+      "loss": 2.764105796813965
+    },
+    {
+      "example_id": "caption:val2014:212717",
+      "loss": 3.003726005554199
+    },
+    {
+      "example_id": "caption:val2014:89988",
+      "loss": 1.9719926118850708
+    },
+    {
+      "example_id": "caption:val2014:163027",
+      "loss": 1.3892334699630737
+    },
+    {
+      "example_id": "caption:val2014:583637",
+      "loss": 1.6437877416610718
+    },
+    {
+      "example_id": "caption:val2014:487684",
+      "loss": 3.4404778480529785
+    },
+    {
+      "example_id": "caption:val2014:236819",
+      "loss": 1.9405289888381958
+    },
+    {
+      "example_id": "caption:val2014:580565",
+      "loss": 4.2813520431518555
+    },
+    {
+      "example_id": "caption:val2014:111560",
+      "loss": 2.809811592102051
+    },
+    {
+      "example_id": "caption:val2014:445450",
+      "loss": 1.9195640087127686
+    },
+    {
+      "example_id": "caption:val2014:407",
+      "loss": 2.096289873123169
+    },
+    {
+      "example_id": "caption:val2014:827340",
+      "loss": 3.0249574184417725
+    },
+    {
+      "example_id": "caption:val2014:71934",
+      "loss": 0.8110536932945251
+    },
+    {
+      "example_id": "caption:val2014:538809",
+      "loss": 1.1798285245895386
+    },
+    {
+      "example_id": "caption:val2014:230675",
+      "loss": 2.1269195079803467
+    },
+    {
+      "example_id": "caption:val2014:26595",
+      "loss": 2.7734482288360596
+    },
+    {
+      "example_id": "caption:val2014:255534",
+      "loss": 5.646864414215088
+    },
+    {
+      "example_id": "caption:val2014:817766",
+      "loss": 1.911468505859375
+    },
+    {
+      "example_id": "caption:val2014:18743",
+      "loss": 2.390604019165039
+    },
+    {
+      "example_id": "caption:val2014:30320",
+      "loss": 2.9874002933502197
+    },
+    {
+      "example_id": "caption:val2014:592445",
+      "loss": 1.9897035360336304
+    },
+    {
+      "example_id": "caption:val2014:46301",
+      "loss": 1.8579871654510498
+    },
+    {
+      "example_id": "caption:val2014:813195",
+      "loss": 2.3225016593933105
+    },
+    {
+      "example_id": "caption:val2014:478477",
+      "loss": 3.030357837677002
+    },
+    {
+      "example_id": "caption:val2014:703398",
+      "loss": 2.026571035385132
+    },
+    {
+      "example_id": "caption:val2014:125396",
+      "loss": 3.7493667602539062
+    },
+    {
+      "example_id": "caption:val2014:78704",
+      "loss": 2.1449711322784424
+    },
+    {
+      "example_id": "caption:val2014:652543",
+      "loss": 1.869804859161377
+    },
+    {
+      "example_id": "caption:val2014:717528",
+      "loss": 3.2263312339782715
+    },
+    {
+      "example_id": "caption:val2014:767447",
+      "loss": 2.6836705207824707
+    },
+    {
+      "example_id": "caption:val2014:723999",
+      "loss": 1.451873540878296
+    },
+    {
+      "example_id": "caption:val2014:72989",
+      "loss": 1.375508427619934
+    },
+    {
+      "example_id": "caption:val2014:559026",
+      "loss": 2.15190052986145
+    },
+    {
+      "example_id": "caption:val2014:206481",
+      "loss": 3.875145435333252
+    },
+    {
+      "example_id": "caption:val2014:540097",
+      "loss": 3.7633838653564453
+    },
+    {
+      "example_id": "caption:val2014:584865",
+      "loss": 2.229957103729248
+    },
+    {
+      "example_id": "caption:val2014:615694",
+      "loss": 1.0501374006271362
+    },
+    {
+      "example_id": "caption:val2014:38425",
+      "loss": 1.5867067575454712
+    },
+    {
+      "example_id": "caption:val2014:610685",
+      "loss": 1.517249584197998
+    },
+    {
+      "example_id": "caption:val2014:389073",
+      "loss": 1.5911940336227417
+    },
+    {
+      "example_id": "caption:val2014:183993",
+      "loss": 1.050626277923584
+    },
+    {
+      "example_id": "caption:val2014:760436",
+      "loss": 2.152770757675171
+    },
+    {
+      "example_id": "caption:val2014:228639",
+      "loss": 3.641958236694336
+    },
+    {
+      "example_id": "caption:val2014:27772",
+      "loss": 2.613884687423706
+    }
+  ],
+  "seconds": 2.6365783640001155
+}

@@ -1,0 +1,111 @@
+{
+  "version": "pa3-task2-metadata-v1",
+  "sources": {
+    "coco2014": {
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/annotations/annotations_trainval2014.zip",
+      "archive": "annotations_trainval2014.zip",
+      "bytes": 252872794,
+      "sha256": "031296bbc80c45a1d1f76bf9a90ead27e94e99ec629208449507a4917a3bf009",
+      "json_files": [
+        {
+          "filename": "captions_train2014.json",
+          "bytes": 66782097,
+          "sha256": "dd8c9636dc11740f956e36728866ea0c4ebe4988dcbdc5e712b7c2267f152d12"
+        },
+        {
+          "filename": "captions_val2014.json",
+          "bytes": 32421077,
+          "sha256": "7da4cc45cb76ee1642d163e846e1e0a33feffac2e841c9c426d585ea499165a4"
+        },
+        {
+          "filename": "instances_train2014.json",
+          "bytes": 332556225,
+          "sha256": "777ef504abfeba349930485bb32ecd5b6529129a3e010f7852e1437cb049b732"
+        },
+        {
+          "filename": "instances_val2014.json",
+          "bytes": 160682675,
+          "sha256": "e1b4d1bc54906827b1a029981b1c77f2088bd4462569b7615db7929070c3ab47"
+        }
+      ]
+    },
+    "vqa_train_answers": {
+      "url": "https://cvmlp.s3.amazonaws.com/vqa/mscoco/vqa/v2_Annotations_Train_mscoco.zip",
+      "archive": "v2_Annotations_Train_mscoco.zip",
+      "bytes": 21708861,
+      "sha256": "fb101bcefe91422c543c2bb6d70af11eb3119d0ff745ae283d09acdf66250853",
+      "json_files": [
+        {
+          "filename": "v2_mscoco_train2014_annotations.json",
+          "bytes": 355516514,
+          "sha256": "770d2d3980e7838d6186082e0ddeddd804014c390ae45a592e996d6baf841d92"
+        }
+      ]
+    },
+    "vqa_val_answers": {
+      "url": "https://cvmlp.s3.amazonaws.com/vqa/mscoco/vqa/v2_Annotations_Val_mscoco.zip",
+      "archive": "v2_Annotations_Val_mscoco.zip",
+      "bytes": 10518930,
+      "sha256": "0caae7c8d1dafd852727f5ac046bc1efca9b72026bd6ffa34fc489f3a7b3291e",
+      "json_files": [
+        {
+          "filename": "v2_mscoco_val2014_annotations.json",
+          "bytes": 171762489,
+          "sha256": "0564650e712b34c246e4ad142894692bf2e45dee8e9cc6ebb2cedbe85731c4bf"
+        }
+      ]
+    },
+    "vqa_train_questions": {
+      "url": "https://cvmlp.s3.amazonaws.com/vqa/mscoco/vqa/v2_Questions_Train_mscoco.zip",
+      "archive": "v2_Questions_Train_mscoco.zip",
+      "bytes": 7239401,
+      "sha256": "05a64b6e2582d06d7585f5429674a9a33851878be1bff9f8668cdcf792df611e",
+      "json_files": [
+        {
+          "filename": "v2_OpenEnded_mscoco_train2014_questions.json",
+          "bytes": 41957627,
+          "sha256": "cb671e77b52a86fc3722b2a0ffc456c8199240391bfd97eaf2d850448404845c"
+        }
+      ]
+    },
+    "vqa_val_questions": {
+      "url": "https://cvmlp.s3.amazonaws.com/vqa/mscoco/vqa/v2_Questions_Val_mscoco.zip",
+      "archive": "v2_Questions_Val_mscoco.zip",
+      "bytes": 3494929,
+      "sha256": "e71f6c5c3e97a51d050f28243e262b28cd0c48d11a6b4632d769d30d3f93222a",
+      "json_files": [
+        {
+          "filename": "v2_OpenEnded_mscoco_val2014_questions.json",
+          "bytes": 20247670,
+          "sha256": "f34d9c9909dea76700d361baddd63dd47b4494945097459b542d9fe840244811"
+        }
+      ]
+    },
+    "vqa_train_pairs": {
+      "url": "https://cvmlp.s3.amazonaws.com/vqa/mscoco/vqa/v2_Complementary_Pairs_Train_mscoco.zip",
+      "archive": "v2_Complementary_Pairs_Train_mscoco.zip",
+      "bytes": 1643822,
+      "sha256": "95b8142bd2e52bccfd0d9b15c4a9c580ee03745d04ef8481e54bc4ffb8b5c40d",
+      "json_files": [
+        {
+          "filename": "v2_mscoco_train2014_complementary_pairs.json",
+          "bytes": 4733284,
+          "sha256": "b1ac37a0bae6bd4d8073c98364f46e513647bdd6440199a2db025d45fdf9c37d"
+        }
+      ]
+    },
+    "vqa_val_pairs": {
+      "url": "https://cvmlp.s3.amazonaws.com/vqa/mscoco/vqa/v2_Complementary_Pairs_Val_mscoco.zip",
+      "archive": "v2_Complementary_Pairs_Val_mscoco.zip",
+      "bytes": 772608,
+      "sha256": "4788add4425f17d301fbdbeb42b9ad855122ffc420ad23b5184af21dc3d2e716",
+      "json_files": [
+        {
+          "filename": "v2_mscoco_val2014_complementary_pairs.json",
+          "bytes": 2247414,
+          "sha256": "66d2dab90e7e905e2c9bf3448f3cd744e011fda33879e6109a04834f6e70c0bc"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/311 [00:00<01:16,  4.06it/s]
+Loading weights:  48%|████▊     | 149/311 [00:00<00:00, 540.93it/s]
+Loading weights:  76%|███████▌  | 236/311 [00:00<00:00, 651.97it/s]
+Loading weights: 100%|██████████| 311/311 [00:00<00:00, 581.72it/s]
+Final grounding/correct: 128 questions saved
+Final grounding/complementary: 128 questions saved
+Final grounding/mismatched: 128 questions saved
+Final grounding/no_image: 128 questions saved
+Final natural/correct: 192 questions saved
+Final natural/complementary: 192 questions saved
+Final natural/mismatched: 192 questions saved
+Final natural/no_image: 192 questions saved
+Required final evaluations finished.

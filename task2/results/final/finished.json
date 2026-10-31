@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "identity": {
+    "recipe_sha256": "6d3ad785e81069163379f988bde7a61710c20dc749ab5fd1bbf7faba98a599ec",
+    "code_sha256": {
+      "task2_runtime.py": "f38613f2590fee9b919ce8981371e0b1e69299903036c1e1990d0597b6614bbe",
+      "task2_sampler.py": "11d2689454d94e7a8b17e390aa3650dccacf3325e39825cddbcd1e976b280603",
+      "task2_features.py": "2d65ac11520a6ffd2fd2a6a04e97bce6b6d9866715204402dda5fc32c2f761cc",
+      "task2_train.py": "cc72cf5764fbf91800aa607d0f6be99a208bea0b5e3dc89a699e4a32cb8f78da",
+      "task2_evaluate.py": "c9fef1e377140fbcea78f81bf06120f87dc5fefdf810c486a55c9b1a3ee3c924",
+      "task2_run.py": "e497aed1ff2f199bb5b8cd3729692014fc8e12f5d40a2f0d3bdded7812cfada3",
+      "task2_vlm.py": "6cf7b95458277516795de529ae79437d3a79dd41b700f0d9f608f36b18f1961f",
+      "task2_answers.py": "2c49fdf9211da0df9b0cef567438971e809d04ff8012c057df431d4456ee0135",
+      "task2_cpu_preflight.py": "5930c29477ef52511b82ae63d2123470a43d4ff1e1b6504f1312ef4d58900752",
+      "task2_prepare_images.py": "aa706eb006c8893ec90037fe19750fd91f1fa43b7bcdd9ddf9df60cafa27bb08"
+    },
+    "inputs_sha256": {
+      "configs/training_recipe.json": "ce4aa1409ff83b90172defa72990eb55fdc8b1b4f60e329ab6e395b7de092f3a",
+      "configs/data_selection_config.json": "427c16ee307a530e9811ae40d8373fde2080cbfe1b5524d4699841c036c6702c",
+      "configs/vision_assets.json": "f1be37300c3d863d3c4d8579ceac86183d032a2b89c41910fc2db3242833ec4e",
+      "configs/qwen_assets_task2.json": "7f3fed0f85a55e0a4a16d0f83cd5969d90236e03f3eeffca6c5ecf7e2e90f033",
+      "configs/cpu_environment.json": "ce11fa6ca6f9665820fab372327b6353548e4b1eaff132d817a7ddeafacbd1c4",
+      "results/vlm_cpu_preflight.json": "dbb8e71497d3f5f8521b68afd432872ba984c1fdce3af19b4460eb1da4dbbce9",
+      "splits/selection_manifest.json": "9dc3a9daaf9f4529e1f3224465d85667c0767ea7ee8556dfefd3c7d02fa91f77",
+      "splits/image_controls.json": "04d5a3019469f7da37c537814cb8d498dfd7ba4b79771d1f35c12a2180469dd8",
+      "splits/calibration_images.json": "2625e374f528d9a98e2b78816ae712cfb06590c007983175eb945cf1faf65f39",
+      "splits/qualitative_example_ids.json": "aeaf615131252fa738c9c573dd97d041cec585953338a8508c6eed30aca7c1b6",
+      "data/tokenized_examples.json": "2c5f81cee5f0d33bd5c536162cb147e79400a6bdff9642f134a66d3fe9949feb",
+      "data/calibration_text_ids.json": "96c105ed1806b3e5ccb760af42f7426a31b58145f97407aa6f51853040cf3e91",
+      "data/images/manifest.json": "31f9c26f846eaaee0ef96a026b94aad6490a1d0368103eabab7484b332f0ff4b"
+    },
+    "feature_manifest_sha256": "1d32fc566b4432c2f8d92285edb83d298af5f016a3a25964b3d47424b6b0f5ca"
+  },
+  "suites": 2,
+  "conditions_each": 4,
+  "generation_answers": 1280,
+  "seconds_this_session": 71.06560166300005,
+  "peak_gpu_allocated_bytes_all_conditions": 1996194816,
+  "generation_seconds_all_conditions": 58.93577328200172,
+  "output_tokens_all_conditions": 6438
+}

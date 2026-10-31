@@ -1,0 +1,36 @@
+{
+  "selected": 128,
+  "records": [
+    {
+      "batch_size": 32,
+      "seconds": [
+        0.013808097000037378,
+        0.013719055000024127
+      ],
+      "images_per_second": 2324.977171625201,
+      "peak_allocated_bytes": 329136640,
+      "oom": false
+    },
+    {
+      "batch_size": 64,
+      "seconds": [
+        0.025071491000005608,
+        0.025047991000008096
+      ],
+      "images_per_second": 2553.897105320542,
+      "peak_allocated_bytes": 455424512,
+      "oom": false
+    },
+    {
+      "batch_size": 128,
+      "seconds": [
+        0.047368962000007286,
+        0.047460303000036674
+      ],
+      "images_per_second": 2699.588571100718,
+      "peak_allocated_bytes": 706951680,
+      "oom": false
+    }
+  ],
+  "workload": "One selected training image repeated; two timed forwards per size; no answer labels; 80% memory cap"
+}

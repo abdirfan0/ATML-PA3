@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "checks": [
+    "Training, smoke, final evaluation, source code, available inputs, and selected-split hashes agree.",
+    "Dataset sizes, original consensus targets, pair structure, natural type quotas, and all evaluation image isolation checks pass.",
+    "All 26 feature shard records cover the 6528 selected images exactly; FP16 and one final normalization are recorded.",
+    "4500 successful updates, 72000 presentations, 18 checkpoint markers, every seeded mixture draw, and all stage learning rates verified.",
+    "All 12 development evaluations, per-example means, and image-swap penalty calculations verified.",
+    "All 1280 final predictions, references, image controls, exact/soft scores, EOS/cap flags, pair metrics, and 4000-resample paired intervals independently recomputed."
+  ],
+  "unavailable_input_bytes": [
+    "data/tokenized_examples.json",
+    "data/calibration_text_ids.json"
+  ],
+  "limits": [
+    "Checkpoint tensor files, cached feature arrays, original model weights and image TARs are not included in this review export; their recorded hashes are retained but their bytes were not re-audited here.",
+    "Raw tokenized examples and calibration token lists are not in the review export. The prior CPU and GPU preflight records and frozen input hashes are available.",
+    "The 30 annotation-ambiguity flags came from assistant contact-sheet inspection before training, not independent human adjudication; primary scores retain every fixed example.",
+    "Single seed and selected high-consensus subsets; bootstrap intervals quantify pair sampling variation, not training-seed uncertainty or full-benchmark performance."
+  ],
+  "successful_updates": 4500,
+  "presentations": 72000,
+  "checkpoint_markers": 18,
+  "development_evaluations": 12,
+  "generated_answers": 1280
+}

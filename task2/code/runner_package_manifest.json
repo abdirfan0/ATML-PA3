@@ -1,0 +1,20 @@
+{
+  "version": "pa3-task2-runner-v1",
+  "files": {
+    "task2_runtime.py": "f38613f2590fee9b919ce8981371e0b1e69299903036c1e1990d0597b6614bbe",
+    "task2_sampler.py": "11d2689454d94e7a8b17e390aa3650dccacf3325e39825cddbcd1e976b280603",
+    "task2_features.py": "2d65ac11520a6ffd2fd2a6a04e97bce6b6d9866715204402dda5fc32c2f761cc",
+    "task2_train.py": "cc72cf5764fbf91800aa607d0f6be99a208bea0b5e3dc89a699e4a32cb8f78da",
+    "task2_evaluate.py": "c9fef1e377140fbcea78f81bf06120f87dc5fefdf810c486a55c9b1a3ee3c924",
+    "task2_run.py": "e497aed1ff2f199bb5b8cd3729692014fc8e12f5d40a2f0d3bdded7812cfada3",
+    "test_task2_runner_cpu.py": "6bbaa005d3c50139a8ebcfba454c79d16ae9725d0372246b6cf88d6ee1f17356",
+    "RUNNER_README.md": "a237dbb6b3122c25957f57fc3857820db342a71872e3e0cb43c24896062a493a"
+  },
+  "required_files": {
+    "task2_vlm.py": "6cf7b95458277516795de529ae79437d3a79dd41b700f0d9f608f36b18f1961f",
+    "task2_answers.py": "2c49fdf9211da0df9b0cef567438971e809d04ff8012c057df431d4456ee0135",
+    "task2_cpu_preflight.py": "5930c29477ef52511b82ae63d2123470a43d4ff1e1b6504f1312ef4d58900752",
+    "task2_prepare_images.py": "aa706eb006c8893ec90037fe19750fd91f1fa43b7bcdd9ddf9df60cafa27bb08",
+    "test_task2_vlm_cpu.py": "03391b0416031ff40c64120d0fd23a56197560c9ccef00f81693fef0305bae3f"
+  }
+}

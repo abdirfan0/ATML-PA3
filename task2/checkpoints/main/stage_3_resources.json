@@ -1,0 +1,14 @@
+{
+  "training_seconds": 594.2121995770053,
+  "peak_gpu_allocated_bytes": 3263360000,
+  "peak_gpu_reserved_bytes": 11219763200,
+  "trainable_parameters": 6424576,
+  "mixture_draws": {
+    "natural": 4160,
+    "presence": 600,
+    "counting": 608,
+    "caption": 632
+  },
+  "export_bytes": 25773476,
+  "export_seconds": 0.10399382199966567
+}

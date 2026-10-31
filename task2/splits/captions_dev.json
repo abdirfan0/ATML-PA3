@@ -1,0 +1,866 @@
+[
+  {
+    "example_id": "caption:val2014:485542",
+    "caption_id": 485542,
+    "image_id": 113914,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A smiling boy is holding rolled up paper like a bat on a sidewalk.",
+    "target_content_tokens": 15
+  },
+  {
+    "example_id": "caption:val2014:32786",
+    "caption_id": 32786,
+    "image_id": 556765,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A young elephant in a river with rappids",
+    "target_content_tokens": 9
+  },
+  {
+    "example_id": "caption:val2014:41194",
+    "caption_id": 41194,
+    "image_id": 197388,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A team of skiers rides intently across the snow.",
+    "target_content_tokens": 12
+  },
+  {
+    "example_id": "caption:val2014:643418",
+    "caption_id": 643418,
+    "image_id": 494913,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A man relaxing on the couch watching television",
+    "target_content_tokens": 8
+  },
+  {
+    "example_id": "caption:val2014:40167",
+    "caption_id": 40167,
+    "image_id": 204830,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A myriad of vegetables on an outdoor grill.",
+    "target_content_tokens": 9
+  },
+  {
+    "example_id": "caption:val2014:797643",
+    "caption_id": 797643,
+    "image_id": 191053,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A young boy wearing a striped tie sitting in front of a sofa.",
+    "target_content_tokens": 14
+  },
+  {
+    "example_id": "caption:val2014:217978",
+    "caption_id": 217978,
+    "image_id": 374061,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A black cat holding onto the left of a teddy bear.",
+    "target_content_tokens": 13
+  },
+  {
+    "example_id": "caption:val2014:798710",
+    "caption_id": 798710,
+    "image_id": 169598,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "a shower/tub combo sitting next to a toilet",
+    "target_content_tokens": 10
+  },
+  {
+    "example_id": "caption:val2014:313573",
+    "caption_id": 313573,
+    "image_id": 453438,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A tall stuffed bear displayed in a store.",
+    "target_content_tokens": 9
+  },
+  {
+    "example_id": "caption:val2014:762505",
+    "caption_id": 762505,
+    "image_id": 69805,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "Colorful parrot sitting on top of a peace award in a restaurant. ",
+    "target_content_tokens": 16
+  },
+  {
+    "example_id": "caption:val2014:78267",
+    "caption_id": 78267,
+    "image_id": 374333,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "Two laptop computers are on a brown desk.",
+    "target_content_tokens": 9
+  },
+  {
+    "example_id": "caption:val2014:445168",
+    "caption_id": 445168,
+    "image_id": 38259,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "there is a airplane that is being boarded",
+    "target_content_tokens": 8
+  },
+  {
+    "example_id": "caption:val2014:507785",
+    "caption_id": 507785,
+    "image_id": 340422,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "An assortment of different colored ties lined up on a white table cloth. ",
+    "target_content_tokens": 15
+  },
+  {
+    "example_id": "caption:val2014:246246",
+    "caption_id": 246246,
+    "image_id": 233771,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A colorful umbrella in the center of a black and white picture of a busy city side walk.",
+    "target_content_tokens": 19
+  },
+  {
+    "example_id": "caption:val2014:820271",
+    "caption_id": 820271,
+    "image_id": 398563,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "a juicy salad with broccoli and peppers up close",
+    "target_content_tokens": 9
+  },
+  {
+    "example_id": "caption:val2014:791648",
+    "caption_id": 791648,
+    "image_id": 11169,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A bull trampoline a coyote in a field of grass",
+    "target_content_tokens": 12
+  },
+  {
+    "example_id": "caption:val2014:349905",
+    "caption_id": 349905,
+    "image_id": 145209,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A base with  yellow pink and orange daisies in it.",
+    "target_content_tokens": 14
+  },
+  {
+    "example_id": "caption:val2014:188797",
+    "caption_id": 188797,
+    "image_id": 150309,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "THERE IS A TOWER CLOCK IN THE CITY",
+    "target_content_tokens": 10
+  },
+  {
+    "example_id": "caption:val2014:690516",
+    "caption_id": 690516,
+    "image_id": 235486,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "Three people are sitting around a dining table.",
+    "target_content_tokens": 9
+  },
+  {
+    "example_id": "caption:val2014:632179",
+    "caption_id": 632179,
+    "image_id": 524962,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "The surfer is being towed on his skateboard.",
+    "target_content_tokens": 11
+  },
+  {
+    "example_id": "caption:val2014:580754",
+    "caption_id": 580754,
+    "image_id": 321603,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "a blender type mixer sitting on a cabinet",
+    "target_content_tokens": 8
+  },
+  {
+    "example_id": "caption:val2014:663172",
+    "caption_id": 663172,
+    "image_id": 32625,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "Food and beverage sitting atop a white table top.",
+    "target_content_tokens": 10
+  },
+  {
+    "example_id": "caption:val2014:110625",
+    "caption_id": 110625,
+    "image_id": 494139,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "an image of two couples of playing a video game",
+    "target_content_tokens": 10
+  },
+  {
+    "example_id": "caption:val2014:292154",
+    "caption_id": 292154,
+    "image_id": 132317,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A bug sitting on the side of a laptop computer.",
+    "target_content_tokens": 11
+  },
+  {
+    "example_id": "caption:val2014:753771",
+    "caption_id": 753771,
+    "image_id": 213453,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A traditional thai meal displayed on a plate.",
+    "target_content_tokens": 9
+  },
+  {
+    "example_id": "caption:val2014:551239",
+    "caption_id": 551239,
+    "image_id": 493196,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A man uses skate skis to exercise on a street.",
+    "target_content_tokens": 12
+  },
+  {
+    "example_id": "caption:val2014:476687",
+    "caption_id": 476687,
+    "image_id": 170365,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "a gold tiled bathroom with yellow flowers on the back of the toilet",
+    "target_content_tokens": 13
+  },
+  {
+    "example_id": "caption:val2014:614556",
+    "caption_id": 614556,
+    "image_id": 138075,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "three adults and one child at a table having breakfast",
+    "target_content_tokens": 10
+  },
+  {
+    "example_id": "caption:val2014:536068",
+    "caption_id": 536068,
+    "image_id": 108243,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "An autumn tree has three pieces of fruit on it.",
+    "target_content_tokens": 11
+  },
+  {
+    "example_id": "caption:val2014:674484",
+    "caption_id": 674484,
+    "image_id": 398756,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "Birds bunched together outside perched on a long object.  ",
+    "target_content_tokens": 14
+  },
+  {
+    "example_id": "caption:val2014:671451",
+    "caption_id": 671451,
+    "image_id": 474028,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A youth holds a soccer ball while another youth is behind him, looking at the first youth.",
+    "target_content_tokens": 19
+  },
+  {
+    "example_id": "caption:val2014:512948",
+    "caption_id": 512948,
+    "image_id": 559656,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "An open truck of a car packed with luggage.",
+    "target_content_tokens": 10
+  },
+  {
+    "example_id": "caption:val2014:182922",
+    "caption_id": 182922,
+    "image_id": 7913,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "a shops table filled with apples oranges and other fruits",
+    "target_content_tokens": 10
+  },
+  {
+    "example_id": "caption:val2014:639118",
+    "caption_id": 639118,
+    "image_id": 42752,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "a man that is sitting down looking at a computer",
+    "target_content_tokens": 10
+  },
+  {
+    "example_id": "caption:val2014:239504",
+    "caption_id": 239504,
+    "image_id": 229286,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A young girl smiles brightly over a chocolate birthday cake.",
+    "target_content_tokens": 11
+  },
+  {
+    "example_id": "caption:val2014:61176",
+    "caption_id": 61176,
+    "image_id": 415716,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "The cabinet has a various assortment of decorations on it.",
+    "target_content_tokens": 11
+  },
+  {
+    "example_id": "caption:val2014:755200",
+    "caption_id": 755200,
+    "image_id": 347666,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "Three animals are standing near a body of water.",
+    "target_content_tokens": 10
+  },
+  {
+    "example_id": "caption:val2014:21430",
+    "caption_id": 21430,
+    "image_id": 576981,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "Bowl of fruit and a bottle of liqour next to gold pillow and ornamental flowers.",
+    "target_content_tokens": 20
+  },
+  {
+    "example_id": "caption:val2014:339760",
+    "caption_id": 339760,
+    "image_id": 27353,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A piece of broccoli with a fork and twig.",
+    "target_content_tokens": 10
+  },
+  {
+    "example_id": "caption:val2014:763926",
+    "caption_id": 763926,
+    "image_id": 504224,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "THIS IS A PHOTO OF A MAN WORKING ON SOME SORT OF CRAFT PRJECT",
+    "target_content_tokens": 17
+  },
+  {
+    "example_id": "caption:val2014:36550",
+    "caption_id": 36550,
+    "image_id": 22759,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A calico cat sitting on a pillow on a bed.",
+    "target_content_tokens": 12
+  },
+  {
+    "example_id": "caption:val2014:537861",
+    "caption_id": 537861,
+    "image_id": 45809,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "Three people ride the waves with surfboards. ",
+    "target_content_tokens": 10
+  },
+  {
+    "example_id": "caption:val2014:558967",
+    "caption_id": 558967,
+    "image_id": 423894,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A tennis player playing on a green and blue tennis court. ",
+    "target_content_tokens": 13
+  },
+  {
+    "example_id": "caption:val2014:504539",
+    "caption_id": 504539,
+    "image_id": 293468,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A train traveling under a bridge next to a  platform.",
+    "target_content_tokens": 12
+  },
+  {
+    "example_id": "caption:val2014:245256",
+    "caption_id": 245256,
+    "image_id": 62877,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A man doing a trick on a wall with a skateboard.",
+    "target_content_tokens": 12
+  },
+  {
+    "example_id": "caption:val2014:43771",
+    "caption_id": 43771,
+    "image_id": 11987,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A small bedroom has striped wallpaper going floor to ceiling",
+    "target_content_tokens": 10
+  },
+  {
+    "example_id": "caption:val2014:4311",
+    "caption_id": 4311,
+    "image_id": 270303,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A meal on a plate next to a fork with a lemon on top.",
+    "target_content_tokens": 15
+  },
+  {
+    "example_id": "caption:val2014:784654",
+    "caption_id": 784654,
+    "image_id": 495054,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "a plane lands on a big wide run way",
+    "target_content_tokens": 9
+  },
+  {
+    "example_id": "caption:val2014:627924",
+    "caption_id": 627924,
+    "image_id": 74646,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "Two people standing on a beach flying a kite.",
+    "target_content_tokens": 10
+  },
+  {
+    "example_id": "caption:val2014:89232",
+    "caption_id": 89232,
+    "image_id": 313246,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A man smiling holding a cupcake with two candles lit.",
+    "target_content_tokens": 12
+  },
+  {
+    "example_id": "caption:val2014:733668",
+    "caption_id": 733668,
+    "image_id": 191203,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A man riding an elephant  while it is eating.",
+    "target_content_tokens": 11
+  },
+  {
+    "example_id": "caption:val2014:600579",
+    "caption_id": 600579,
+    "image_id": 424289,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A herd of sheep standing on top of a lush green field.",
+    "target_content_tokens": 13
+  },
+  {
+    "example_id": "caption:val2014:178649",
+    "caption_id": 178649,
+    "image_id": 344521,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A cutting board with chopped bananas, broccoli, strawberries, lime, and oranges",
+    "target_content_tokens": 15
+  },
+  {
+    "example_id": "caption:val2014:212717",
+    "caption_id": 212717,
+    "image_id": 237495,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A white truck has a vision sign on it.",
+    "target_content_tokens": 10
+  },
+  {
+    "example_id": "caption:val2014:89988",
+    "caption_id": 89988,
+    "image_id": 231281,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A baseball game is being played on a dirt and grass field.",
+    "target_content_tokens": 13
+  },
+  {
+    "example_id": "caption:val2014:163027",
+    "caption_id": 163027,
+    "image_id": 326913,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "Horses are grazing in a grassy area with trees.",
+    "target_content_tokens": 12
+  },
+  {
+    "example_id": "caption:val2014:583637",
+    "caption_id": 583637,
+    "image_id": 495985,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A woman holding a baseball bat while wearing headphones.",
+    "target_content_tokens": 10
+  },
+  {
+    "example_id": "caption:val2014:487684",
+    "caption_id": 487684,
+    "image_id": 367622,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A lone young male adult surfing the waves.",
+    "target_content_tokens": 9
+  },
+  {
+    "example_id": "caption:val2014:236819",
+    "caption_id": 236819,
+    "image_id": 239466,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "a close up of a young person holding a skate board",
+    "target_content_tokens": 11
+  },
+  {
+    "example_id": "caption:val2014:580565",
+    "caption_id": 580565,
+    "image_id": 11347,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "the jet getting ready for take off on the landing",
+    "target_content_tokens": 10
+  },
+  {
+    "example_id": "caption:val2014:111560",
+    "caption_id": 111560,
+    "image_id": 540733,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A stop sign on a busy street corner",
+    "target_content_tokens": 8
+  },
+  {
+    "example_id": "caption:val2014:445450",
+    "caption_id": 445450,
+    "image_id": 9077,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "Fruits and vegetables for sale in a farmers market. ",
+    "target_content_tokens": 12
+  },
+  {
+    "example_id": "caption:val2014:407",
+    "caption_id": 407,
+    "image_id": 8708,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A white teddy bear is posed to appear to be reading a book.",
+    "target_content_tokens": 15
+  },
+  {
+    "example_id": "caption:val2014:827340",
+    "caption_id": 827340,
+    "image_id": 70744,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A surf board and people through a glass window. ",
+    "target_content_tokens": 11
+  },
+  {
+    "example_id": "caption:val2014:71934",
+    "caption_id": 71934,
+    "image_id": 144243,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A group of children playing soccer on a field.",
+    "target_content_tokens": 10
+  },
+  {
+    "example_id": "caption:val2014:538809",
+    "caption_id": 538809,
+    "image_id": 481446,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "The boy is wearing a shirt with a tie. ",
+    "target_content_tokens": 11
+  },
+  {
+    "example_id": "caption:val2014:230675",
+    "caption_id": 230675,
+    "image_id": 319617,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "a close up of a hot dog on a plate with drinks near by",
+    "target_content_tokens": 14
+  },
+  {
+    "example_id": "caption:val2014:26595",
+    "caption_id": 26595,
+    "image_id": 172571,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A thick crust cut pizza on a plate with wine by its side.",
+    "target_content_tokens": 14
+  },
+  {
+    "example_id": "caption:val2014:255534",
+    "caption_id": 255534,
+    "image_id": 14038,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A studio apartment with balloons marking clues to find.   ",
+    "target_content_tokens": 11
+  },
+  {
+    "example_id": "caption:val2014:817766",
+    "caption_id": 817766,
+    "image_id": 418219,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A man in red is walking down the long street. ",
+    "target_content_tokens": 12
+  },
+  {
+    "example_id": "caption:val2014:18743",
+    "caption_id": 18743,
+    "image_id": 563337,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A dog is in mid air with a frisbee ring in it's mouth.",
+    "target_content_tokens": 17
+  },
+  {
+    "example_id": "caption:val2014:30320",
+    "caption_id": 30320,
+    "image_id": 29594,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A no parking sign next to a wall proclaiming \"NO PARKING ON THIS STREET\"",
+    "target_content_tokens": 18
+  },
+  {
+    "example_id": "caption:val2014:592445",
+    "caption_id": 592445,
+    "image_id": 411941,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A small kitchen with a sink, mini fridge, coffee maker and a microwave. ",
+    "target_content_tokens": 17
+  },
+  {
+    "example_id": "caption:val2014:46301",
+    "caption_id": 46301,
+    "image_id": 465275,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A woman standing with a remote in her hand",
+    "target_content_tokens": 9
+  },
+  {
+    "example_id": "caption:val2014:813195",
+    "caption_id": 813195,
+    "image_id": 526392,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "Several cars travelling on a street with several traffic lights. ",
+    "target_content_tokens": 12
+  },
+  {
+    "example_id": "caption:val2014:478477",
+    "caption_id": 478477,
+    "image_id": 549965,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A row of four benches with a green gate behind them. ",
+    "target_content_tokens": 13
+  },
+  {
+    "example_id": "caption:val2014:703398",
+    "caption_id": 703398,
+    "image_id": 56443,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "a black and white photo with a vase and flower coming out of it",
+    "target_content_tokens": 14
+  },
+  {
+    "example_id": "caption:val2014:125396",
+    "caption_id": 125396,
+    "image_id": 34811,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A bathroom pedestal sink with a mirrored medicine cabinet.",
+    "target_content_tokens": 10
+  },
+  {
+    "example_id": "caption:val2014:78704",
+    "caption_id": 78704,
+    "image_id": 114414,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "a batter swinging at a ball while standing at home plate",
+    "target_content_tokens": 11
+  },
+  {
+    "example_id": "caption:val2014:652543",
+    "caption_id": 652543,
+    "image_id": 430238,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A bird perched on top of a white coffee cup.",
+    "target_content_tokens": 12
+  },
+  {
+    "example_id": "caption:val2014:717528",
+    "caption_id": 717528,
+    "image_id": 10192,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A woman sits smoking at the table in a mostly blue kitchen.",
+    "target_content_tokens": 13
+  },
+  {
+    "example_id": "caption:val2014:767447",
+    "caption_id": 767447,
+    "image_id": 468577,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "a girl toddler laying on a day bed ",
+    "target_content_tokens": 9
+  },
+  {
+    "example_id": "caption:val2014:723999",
+    "caption_id": 723999,
+    "image_id": 369221,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "a couple of people standing on a beach next to surfboards",
+    "target_content_tokens": 12
+  },
+  {
+    "example_id": "caption:val2014:72989",
+    "caption_id": 72989,
+    "image_id": 138054,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A group of baseball players playing a game of baseball in a field.",
+    "target_content_tokens": 14
+  },
+  {
+    "example_id": "caption:val2014:559026",
+    "caption_id": 559026,
+    "image_id": 276018,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A group of children carrying stuffed animals walks across the grass. ",
+    "target_content_tokens": 13
+  },
+  {
+    "example_id": "caption:val2014:206481",
+    "caption_id": 206481,
+    "image_id": 530905,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "a close up of a sink with hair pins tooth paste and brushes",
+    "target_content_tokens": 13
+  },
+  {
+    "example_id": "caption:val2014:540097",
+    "caption_id": 540097,
+    "image_id": 515303,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "People riding a horse pulled hay cart at an outdoor festival",
+    "target_content_tokens": 11
+  },
+  {
+    "example_id": "caption:val2014:584865",
+    "caption_id": 584865,
+    "image_id": 545734,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "An oven with a toaster oven sitting on top of it.",
+    "target_content_tokens": 12
+  },
+  {
+    "example_id": "caption:val2014:615694",
+    "caption_id": 615694,
+    "image_id": 488723,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A bouquet of red roses in a white vase on a table.",
+    "target_content_tokens": 13
+  },
+  {
+    "example_id": "caption:val2014:38425",
+    "caption_id": 38425,
+    "image_id": 47112,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A large pizza on a white plate sitting on a blue table.",
+    "target_content_tokens": 13
+  },
+  {
+    "example_id": "caption:val2014:610685",
+    "caption_id": 610685,
+    "image_id": 316396,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "Several giraffes stand near a tree at the base of a hill.",
+    "target_content_tokens": 15
+  },
+  {
+    "example_id": "caption:val2014:389073",
+    "caption_id": 389073,
+    "image_id": 404820,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A male surfer catching a wave on the ocean.",
+    "target_content_tokens": 11
+  },
+  {
+    "example_id": "caption:val2014:183993",
+    "caption_id": 183993,
+    "image_id": 192233,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A tennis player prepares to hit the ball.",
+    "target_content_tokens": 9
+  },
+  {
+    "example_id": "caption:val2014:760436",
+    "caption_id": 760436,
+    "image_id": 26226,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "The train is on a railroad track, under a signal light.",
+    "target_content_tokens": 13
+  },
+  {
+    "example_id": "caption:val2014:228639",
+    "caption_id": 228639,
+    "image_id": 568040,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "an image of two elephants doing down the grass",
+    "target_content_tokens": 9
+  },
+  {
+    "example_id": "caption:val2014:27772",
+    "caption_id": 27772,
+    "image_id": 247999,
+    "image_split": "val2014",
+    "question": "Describe this image.",
+    "target": "A person with a water board doing a flip.",
+    "target_content_tokens": 10
+  }
+]

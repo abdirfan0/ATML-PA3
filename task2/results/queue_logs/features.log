@@ -1,0 +1,91 @@
+
+Loading weights:   0%|          | 0/208 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/208 [00:00<00:59,  3.46it/s]
+Loading weights:   8%|▊         | 17/208 [00:00<00:05, 35.84it/s]
+Loading weights:  15%|█▌        | 32/208 [00:01<00:08, 20.84it/s]
+Loading weights:  25%|██▌       | 53/208 [00:01<00:04, 34.23it/s]
+Loading weights:  28%|██▊       | 58/208 [00:02<00:04, 30.75it/s]
+Loading weights:  32%|███▏      | 67/208 [00:02<00:04, 29.37it/s]
+Loading weights:  41%|████▏     | 86/208 [00:02<00:03, 37.59it/s]
+Loading weights:  46%|████▌     | 96/208 [00:02<00:02, 42.52it/s]
+Loading weights:  50%|████▉     | 103/208 [00:03<00:03, 34.94it/s]
+Loading weights:  58%|█████▊    | 120/208 [00:04<00:03, 22.72it/s]
+Loading weights:  62%|██████▏   | 128/208 [00:04<00:02, 26.71it/s]
+Loading weights:  64%|██████▍   | 133/208 [00:04<00:02, 28.70it/s]
+Loading weights:  71%|███████   | 147/208 [00:04<00:01, 36.71it/s]
+Loading weights:  96%|█████████▌| 200/208 [00:05<00:00, 82.36it/s]
+Loading weights: 100%|██████████| 208/208 [00:05<00:00, 41.48it/s]
+[transformers] [1mSiglipVisionModel LOAD REPORT[0m from: /content/drive/MyDrive/ATML/PA3/task2/assets/siglip/7fd15f0689c79d79e38b1c2e2e2370a7bf2761ed
+Key                                                          | Status     |  | 
+-------------------------------------------------------------+------------+--+-
+text_model.head.weight                                       | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.v_proj.weight   | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.out_proj.weight | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.mlp.fc1.weight            | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.out_proj.bias   | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.layer_norm2.bias          | UNEXPECTED |  | 
+logit_scale                                                  | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.q_proj.weight   | UNEXPECTED |  | 
+text_model.embeddings.token_embedding.weight                 | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.k_proj.bias     | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.q_proj.bias     | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.mlp.fc1.bias              | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.layer_norm1.bias          | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.mlp.fc2.bias              | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.layer_norm1.weight        | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.layer_norm2.weight        | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.v_proj.bias     | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.k_proj.weight   | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.mlp.fc2.weight            | UNEXPECTED |  | 
+text_model.final_layer_norm.weight                           | UNEXPECTED |  | 
+text_model.final_layer_norm.bias                             | UNEXPECTED |  | 
+text_model.head.bias                                         | UNEXPECTED |  | 
+text_model.embeddings.position_embedding.weight              | UNEXPECTED |  | 
+logit_bias                                                   | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Cached 1/26 feature shards
+Cached 2/26 feature shards
+Cached 3/26 feature shards
+Cached 4/26 feature shards
+Cached 5/26 feature shards
+Cached 6/26 feature shards
+Cached 7/26 feature shards
+Cached 8/26 feature shards
+Cached 9/26 feature shards
+Cached 10/26 feature shards
+Cached 11/26 feature shards
+Cached 12/26 feature shards
+Cached 13/26 feature shards
+Cached 14/26 feature shards
+Cached 15/26 feature shards
+Cached 16/26 feature shards
+Cached 17/26 feature shards
+Cached 18/26 feature shards
+Cached 19/26 feature shards
+Cached 20/26 feature shards
+Cached 21/26 feature shards
+Cached 22/26 feature shards
+Cached 23/26 feature shards
+Cached 24/26 feature shards
+Cached 25/26 feature shards
+Cached 26/26 feature shards
+{
+  "passed": true,
+  "images": 6528,
+  "shape_per_image": [
+    196,
+    768
+  ],
+  "dtype": "float16",
+  "vision_forward_seconds_this_session": 2.412585265000075,
+  "vision_forward_seconds_all_completed_shards": 2.412585265000075,
+  "completed_shard_seconds_sum": 83.163233553,
+  "total_seconds_this_session": 150.64900136299997,
+  "peak_gpu_allocated_bytes": 706650624,
+  "bytes": 1965296896,
+  "batch_size": 128,
+  "final_layer_norm_once": true,
+  "note": "Resume-session timings exclude work from earlier interrupted sessions; shard records remain complete."
+}

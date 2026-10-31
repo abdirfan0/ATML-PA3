@@ -1,0 +1,66 @@
+{
+  "seed": 6304,
+  "stages": {
+    "1": {
+      "updates": 2250,
+      "connector_lr": 0.001,
+      "adapter_lr": 0.0
+    },
+    "2": {
+      "updates": 1500,
+      "connector_lr": 0.0001,
+      "adapter_lr": 2e-05
+    },
+    "3": {
+      "updates": 750,
+      "connector_lr": 5e-05,
+      "adapter_lr": 1e-05
+    }
+  },
+  "microbatch": 8,
+  "accumulation": 2,
+  "effective_batch": 16,
+  "weight_decay": 0.01,
+  "betas": [
+    0.9,
+    0.999
+  ],
+  "epsilon": 1e-08,
+  "clip_norm": 1.0,
+  "warmup_rule": "ceil(0.05 * stage updates); LambdaLR starts at zero",
+  "cosine_final_fraction": 0.1,
+  "optimizer_policy": "fresh AdamW/scheduler each stage; continue dynamic scaler; decay all trainable tensors including connector biases",
+  "stage1_order": "two independently seeded permutations of the 18000 saved captions",
+  "stage2_draw_probabilities": {
+    "presence": 0.5,
+    "counting": 0.25,
+    "caption": 0.25
+  },
+  "stage3_draw_probabilities": {
+    "natural": 0.7,
+    "presence": 0.1,
+    "counting": 0.1,
+    "caption": 0.1
+  },
+  "draw_size": 2,
+  "sampling": "replacement in Stages 2/3; complete pairs or two caption examples per draw, no exact quotas",
+  "checkpoint_every": 250,
+  "development_updates": [
+    0,
+    500,
+    1000,
+    1500,
+    2000,
+    2250,
+    2500,
+    3000,
+    3500,
+    3750,
+    4000,
+    4500
+  ],
+  "generation_cap": 16,
+  "generation_batch": 8,
+  "loss": "mean token CE within each example, then mean over effective batch; EOT supervised",
+  "calibration": "128 fixed training images; RMS-match initial connector outputs to embedding RMS of all three associated training captions and their questions; fixed scalar thereafter"
+}

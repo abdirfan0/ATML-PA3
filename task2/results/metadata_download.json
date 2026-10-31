@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "archives": 7,
+  "json_files": 10,
+  "download_bytes": 298251345,
+  "extracted_bytes": 1188907072,
+  "manifest_sha256": "097a6ad74419a286f737cbef6acb414d090998e84718b06ed92e3a28154a473d",
+  "images_downloaded": false,
+  "gpu_used": false
+}

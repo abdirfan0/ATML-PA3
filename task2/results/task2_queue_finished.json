@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "features": 6528,
+  "training_updates": 4500,
+  "training_presentations": 72000,
+  "final_generated_answers": 1280
+}

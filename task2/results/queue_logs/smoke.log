@@ -1,0 +1,8 @@
+
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/311 [00:12<1:02:25, 12.08s/it]
+Loading weights:  41%|████      | 127/311 [00:12<00:12, 14.78it/s]
+Loading weights:  76%|███████▌  | 235/311 [00:13<00:02, 26.39it/s]
+Loading weights:  91%|█████████▏| 284/311 [00:15<00:01, 26.81it/s]
+Loading weights: 100%|██████████| 311/311 [00:15<00:00, 19.97it/s]
+Task 2 GPU smoke PASS.

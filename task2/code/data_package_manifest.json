@@ -1,0 +1,9 @@
+{
+  "version": "pa3-task2-data-v1",
+  "files": {
+    "task2_select_data.py": "321dd117967c56e3847f4c06b05da857c0a6bdf34aaebe63c5bb3ed30fa2399e",
+    "task2_answers.py": "2c49fdf9211da0df9b0cef567438971e809d04ff8012c057df431d4456ee0135",
+    "test_task2_data.py": "5a7c9d1dc129e9053bc34ccc2a5ced010670a38fe4fd97dfc1769aebdc67627e",
+    "DATA_PREPARATION_README.md": "da964279551e240c81cc095d21e29d440377fc7fe8b160417f4725f6996a3ed2"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "config": {
+    "version": "pa3-task2-data-v1",
+    "seed": 6304,
+    "metadata_manifest_sha256": "097a6ad74419a286f737cbef6acb414d090998e84718b06ed92e3a28154a473d",
+    "tokenizer_revision": "c1899de289a04d12100db370d81485cdf75e47ca",
+    "tokenizer_config_sha256": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+    "tokenizer_json_sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "selection_code_sha256": "321dd117967c56e3847f4c06b05da857c0a6bdf34aaebe63c5bb3ed30fa2399e",
+    "answers_code_sha256": "2c49fdf9211da0df9b0cef567438971e809d04ff8012c057df431d4456ee0135",
+    "normalization": "pa3-task2-vqa-normalization-v1",
+    "natural_pair_quotas": {
+      "train": {
+        "yes/no": 640,
+        "number": 256,
+        "other": 640
+      },
+      "dev": {
+        "yes/no": 12,
+        "number": 8,
+        "other": 12
+      },
+      "test": {
+        "yes/no": 36,
+        "number": 24,
+        "other": 36
+      }
+    },
+    "grounding_pair_quotas": {
+      "train": {
+        "presence": 4096,
+        "counting": 4096
+      },
+      "dev": {
+        "presence": 12,
+        "counting": 12
+      },
+      "test": {
+        "presence": 32,
+        "counting": 32
+      }
+    },
+    "caps": {
+      "question": 80,
+      "caption_target": 64,
+      "answer_target": 16
+    },
+    "caption_training_images": 6000,
+    "captions_per_training_image": 3,
+    "caption_dev_images": 96,
+    "selection_rule": "One NumPy default_rng(6304). Captions token-filtered first; natural train then val test then val dev; rare number pairs first; unique images per natural split. Caption train includes all natural train images, filled to 6000; grounding train draws only these images. Grounding test then dev are selected before caption dev from remaining val images.",
+    "counting_rule": "Non-crowd instances, counts 1..4, excluding any image/category with crowd annotations.",
+    "presence_rule": "Positive if any annotation for category, including crowd; negative if no annotation for that category.",
+    "content_rule": "Filter over-cap/empty text before selection; preserve original target strings without truncation.",
+    "mismatch_rule": "Final suite pair permutation, cyclic next-pair mapping; choose one of that pair images per example; excludes both original pair images.",
+    "train_image_reuse": "Natural training images are included in the 6000 caption training images to limit image downloads/feature caching. Training images may recur across stages.",
+    "packages": {
+      "transformers": "5.20.2",
+      "tokenizers": "0.23.3",
+      "numpy": "2.1.3",
+      "ijson": "3.6.0"
+    }
+  },
+  "files": {
+    "splits/captions_train.json": "a1b7cb2779e5e9e5ea4b6b68e3b7a089613e5da552ac72b65ba872a28b5e5ea1",
+    "splits/natural_train.json": "e1ef113d2992d822353fd73d64fa4dd4553e3003d323941bdff3aec01c25ffb2",
+    "splits/natural_dev.json": "cb42f462d7e0a41060195deb339232dbcb71ce6d8f4df92bd0a5adb830fc2013",
+    "splits/natural_test.json": "5c4095082fe8d1f69270911a0b8f76c71f6c4b66069deaadce56e78a62622920",
+    "splits/grounding_train.json": "448c37786b35a64b571d96e7d61a40ffcc7cbfba5d4b44e196f280e6106e7776",
+    "splits/grounding_test.json": "22863f107c16184430a68e8f4b2b1f71ab52ca4534ddd57ec90bce79ab1f1e19",
+    "splits/grounding_dev.json": "02f4b017657f8de0b2ade9fd4a297d62c7fb0f5cee9c2f16de1f2f7179186368",
+    "splits/captions_dev.json": "175e20bd8a32c4fa17054f3d28f63a9b36753eff5921a4441ff8fbb6309dacf7",
+    "splits/image_controls.json": "04d5a3019469f7da37c537814cb8d498dfd7ba4b79771d1f35c12a2180469dd8",
+    "splits/calibration_images.json": "2625e374f528d9a98e2b78816ae712cfb06590c007983175eb945cf1faf65f39",
+    "splits/selected_images.json": "89d67f2530957d353eb963a11454997d7418dc1982f0f2e6823dc0428db5cae4",
+    "results/data_selection.json": "3a215e3497f8e54037482db138e748d1a03a257dda6cf65b0ebbd8527ca40d83",
+    "configs/data_selection_config.json": "427c16ee307a530e9811ae40d8373fde2080cbfe1b5524d4699841c036c6702c"
+  }
+}

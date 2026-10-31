@@ -1,0 +1,9 @@
+{
+  "rule": "global RMS of training text embeddings / global RMS of initial projected training visual tokens; fixed scalar after calibration",
+  "training_images": 128,
+  "visual_rms_before": 0.5031138062477112,
+  "text_rms": 0.027298135682940483,
+  "scale": 0.05425837263464928,
+  "seconds": 0.28191529200000787,
+  "peak_gpu_allocated_bytes": 1517942784
+}

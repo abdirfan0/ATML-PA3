@@ -1,0 +1,227 @@
+{
+  "selection_rule": "All 24 grounding dev pairs and all 64 grounding test pairs, ordered by saved pair ID; four pairs per sheet. No model predictions used.",
+  "review_status": "pending human label review",
+  "pages": [
+    {
+      "path": "figures/label_review/grounding_dev_01.jpg",
+      "sha256": "9dbfd0f797390ee3cfd4c3b62cbb835026f3037aea5e63eb51e887e02f48612f",
+      "pair_ids": [
+        "grounding:val2014:counting:15:407868:516805",
+        "grounding:val2014:counting:25:57350:414109",
+        "grounding:val2014:counting:39:269689:464312",
+        "grounding:val2014:counting:51:155974:501760"
+      ]
+    },
+    {
+      "path": "figures/label_review/grounding_dev_02.jpg",
+      "sha256": "84a0a44c49d6a7f5d7503a296acedd4422bd66cae23384701b21141f105e9f09",
+      "pair_ids": [
+        "grounding:val2014:counting:5:55432:178189",
+        "grounding:val2014:counting:61:19275:521142",
+        "grounding:val2014:counting:65:173081:309889",
+        "grounding:val2014:counting:70:109648:474519"
+      ]
+    },
+    {
+      "path": "figures/label_review/grounding_dev_03.jpg",
+      "sha256": "6634d78a0c96e3676ff92bd9d4f61400ca8478662473452833573cb09f5e87b6",
+      "pair_ids": [
+        "grounding:val2014:counting:74:39211:244613",
+        "grounding:val2014:counting:77:30407:203539",
+        "grounding:val2014:counting:85:244111:471578",
+        "grounding:val2014:counting:9:129175:186218"
+      ]
+    },
+    {
+      "path": "figures/label_review/grounding_dev_04.jpg",
+      "sha256": "800ad74990a59bd92ff12c12d18b849e8e99a7048a8ea7f49440902b210b6592",
+      "pair_ids": [
+        "grounding:val2014:presence:10:154830:192079",
+        "grounding:val2014:presence:13:273083:464006",
+        "grounding:val2014:presence:27:98895:323528",
+        "grounding:val2014:presence:33:31392:487438"
+      ]
+    },
+    {
+      "path": "figures/label_review/grounding_dev_05.jpg",
+      "sha256": "136ead77d6c45a11209801d956ec3e0330315bb9f8462859df21b9eec23e1828",
+      "pair_ids": [
+        "grounding:val2014:presence:40:29563:460623",
+        "grounding:val2014:presence:43:289059:290595",
+        "grounding:val2014:presence:51:183287:368994",
+        "grounding:val2014:presence:52:440562:489798"
+      ]
+    },
+    {
+      "path": "figures/label_review/grounding_dev_06.jpg",
+      "sha256": "31ce502b0f710c2fcacf0b2f85aa84943edbee8cd53274aa90f32f15731645e5",
+      "pair_ids": [
+        "grounding:val2014:presence:56:344415:512729",
+        "grounding:val2014:presence:78:248232:313130",
+        "grounding:val2014:presence:7:230212:452684",
+        "grounding:val2014:presence:80:434089:530384"
+      ]
+    },
+    {
+      "path": "figures/label_review/grounding_test_01.jpg",
+      "sha256": "e8ca58b5f12807fff1723cd82a72f0e8b5050f65a31db65c975ec77e1188a5d1",
+      "pair_ids": [
+        "grounding:val2014:counting:13:433904:478857",
+        "grounding:val2014:counting:14:164830:532085",
+        "grounding:val2014:counting:17:253177:449379",
+        "grounding:val2014:counting:18:176474:355240"
+      ]
+    },
+    {
+      "path": "figures/label_review/grounding_test_02.jpg",
+      "sha256": "de2fb41bd9e330d2e6ccb1c5d9a5a86f31a70b9f047315f88d4c24d891872219",
+      "pair_ids": [
+        "grounding:val2014:counting:19:242342:492407",
+        "grounding:val2014:counting:21:41635:60687",
+        "grounding:val2014:counting:22:477389:549182",
+        "grounding:val2014:counting:25:5418:329939"
+      ]
+    },
+    {
+      "path": "figures/label_review/grounding_test_03.jpg",
+      "sha256": "a3257cfea8a8ae62b0d07ddac8cdf6b912fca21e0f526bb022d57a19772a54d2",
+      "pair_ids": [
+        "grounding:val2014:counting:28:81956:372817",
+        "grounding:val2014:counting:2:50145:99341",
+        "grounding:val2014:counting:36:4554:579696",
+        "grounding:val2014:counting:3:34482:376625"
+      ]
+    },
+    {
+      "path": "figures/label_review/grounding_test_04.jpg",
+      "sha256": "1393afe47d109f76bd3f64751615fdb728b2100958b852c51dcaaf7d2bfbd634",
+      "pair_ids": [
+        "grounding:val2014:counting:40:191925:323930",
+        "grounding:val2014:counting:43:499884:512139",
+        "grounding:val2014:counting:48:113720:472930",
+        "grounding:val2014:counting:55:42215:373577"
+      ]
+    },
+    {
+      "path": "figures/label_review/grounding_test_05.jpg",
+      "sha256": "d6ec6049d45eafa4930d277e3f22fb5fc333c0b573a7623ec2b7ae8909c57fb5",
+      "pair_ids": [
+        "grounding:val2014:counting:56:255912:439982",
+        "grounding:val2014:counting:57:213881:506736",
+        "grounding:val2014:counting:58:118246:159598",
+        "grounding:val2014:counting:61:321798:522427"
+      ]
+    },
+    {
+      "path": "figures/label_review/grounding_test_06.jpg",
+      "sha256": "b835c210e1ad8ece87f64c41f093247ef08d3204da13a9e7720f5103316442e9",
+      "pair_ids": [
+        "grounding:val2014:counting:64:120745:221105",
+        "grounding:val2014:counting:67:331817:550051",
+        "grounding:val2014:counting:6:339368:524450",
+        "grounding:val2014:counting:70:23696:221869"
+      ]
+    },
+    {
+      "path": "figures/label_review/grounding_test_07.jpg",
+      "sha256": "b9503819857da702e2604e783e3d54fd7a0ad7854348440fb09c371c406dd8f5",
+      "pair_ids": [
+        "grounding:val2014:counting:73:20935:153563",
+        "grounding:val2014:counting:76:136533:411277",
+        "grounding:val2014:counting:77:105538:265176",
+        "grounding:val2014:counting:78:133515:246327"
+      ]
+    },
+    {
+      "path": "figures/label_review/grounding_test_08.jpg",
+      "sha256": "bad042ee48f67f14edb24f599597b0631c02bdbb6349f616478d566d6fd29216",
+      "pair_ids": [
+        "grounding:val2014:counting:81:442128:574145",
+        "grounding:val2014:counting:86:123017:322475",
+        "grounding:val2014:counting:88:81070:202199",
+        "grounding:val2014:counting:9:290179:337777"
+      ]
+    },
+    {
+      "path": "figures/label_review/grounding_test_09.jpg",
+      "sha256": "8ce8da96e84e35bb45243587e7210d957e7154769b2f38a638dd0c1319d8b32f",
+      "pair_ids": [
+        "grounding:val2014:presence:11:39988:425555",
+        "grounding:val2014:presence:14:258078:357743",
+        "grounding:val2014:presence:15:8787:31093",
+        "grounding:val2014:presence:16:414560:417876"
+      ]
+    },
+    {
+      "path": "figures/label_review/grounding_test_10.jpg",
+      "sha256": "a9ac1e4704c11b66cb72dd3a048a724983b6ba6fbe022f0fcf0a70275a01ace1",
+      "pair_ids": [
+        "grounding:val2014:presence:1:40821:473573",
+        "grounding:val2014:presence:22:3703:451952",
+        "grounding:val2014:presence:25:424155:474471",
+        "grounding:val2014:presence:27:107068:389655"
+      ]
+    },
+    {
+      "path": "figures/label_review/grounding_test_11.jpg",
+      "sha256": "a2e7d7d91cb6ecfbbfbdcaa4a578388f8a2c1f98cd03a75bf205be16f9531879",
+      "pair_ids": [
+        "grounding:val2014:presence:28:181714:285534",
+        "grounding:val2014:presence:32:86147:174871",
+        "grounding:val2014:presence:33:242679:535578",
+        "grounding:val2014:presence:34:153971:157807"
+      ]
+    },
+    {
+      "path": "figures/label_review/grounding_test_12.jpg",
+      "sha256": "1cae3cec408aa29668788723c9839ead0a0eef4e1b7e3a2088bbc6db628ae4ad",
+      "pair_ids": [
+        "grounding:val2014:presence:40:286313:480311",
+        "grounding:val2014:presence:42:100283:525666",
+        "grounding:val2014:presence:48:73278:320864",
+        "grounding:val2014:presence:49:313340:447991"
+      ]
+    },
+    {
+      "path": "figures/label_review/grounding_test_13.jpg",
+      "sha256": "61b88792f324dc0637da2a52768638dd405b48db3296244140a3fd1c3928b962",
+      "pair_ids": [
+        "grounding:val2014:presence:50:9527:517987",
+        "grounding:val2014:presence:51:272117:523938",
+        "grounding:val2014:presence:52:281882:494800",
+        "grounding:val2014:presence:53:309933:534983"
+      ]
+    },
+    {
+      "path": "figures/label_review/grounding_test_14.jpg",
+      "sha256": "311302e8f9df210f1ad5b7a4695bf76abad77d3f5bed59ddde5c184a9fc576b2",
+      "pair_ids": [
+        "grounding:val2014:presence:54:52726:417608",
+        "grounding:val2014:presence:55:37958:249404",
+        "grounding:val2014:presence:57:9572:83565",
+        "grounding:val2014:presence:60:148957:279209"
+      ]
+    },
+    {
+      "path": "figures/label_review/grounding_test_15.jpg",
+      "sha256": "41b33e4482067b0c9592895cf57750749c2a3b29b98733a177f0cb9e3a591bc1",
+      "pair_ids": [
+        "grounding:val2014:presence:62:115846:326667",
+        "grounding:val2014:presence:67:374083:477542",
+        "grounding:val2014:presence:6:105912:248980",
+        "grounding:val2014:presence:76:245971:466239"
+      ]
+    },
+    {
+      "path": "figures/label_review/grounding_test_16.jpg",
+      "sha256": "4503eb5b188270af77a612b895114e4cee8fd4153087d5ca64300d303abe5a13",
+      "pair_ids": [
+        "grounding:val2014:presence:78:317424:397404",
+        "grounding:val2014:presence:88:341957:526723",
+        "grounding:val2014:presence:8:121242:147806",
+        "grounding:val2014:presence:9:378873:499393"
+      ]
+    }
+  ],
+  "instructions": "Inspect annotation negatives for visible omitted objects and counting labels for ambiguity. Do not alter examples based on model predictions. Save any review findings before training."
+}

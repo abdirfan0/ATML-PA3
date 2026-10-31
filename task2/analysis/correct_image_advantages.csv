@@ -1,0 +1,15 @@
+suite,question_type,metric,mean,ci95_low,ci95_high
+grounding,overall,accuracy_correct_minus_complementary,0.5703125,0.4453125,0.6875
+grounding,overall,nll_complementary_minus_correct,2.269409177259149,1.7856475789654724,2.7845825344366406
+grounding,counting,accuracy_correct_minus_complementary,0.390625,0.234375,0.546875
+grounding,counting,nll_complementary_minus_correct,1.2729492185244453,0.7514587528603442,1.8222961370314807
+grounding,presence,accuracy_correct_minus_complementary,0.75,0.5625,0.90625
+grounding,presence,nll_complementary_minus_correct,3.265869135993853,2.5853271357413177,3.9431518628349296
+natural,overall,accuracy_correct_minus_complementary,0.3026041666666667,0.2130078125,0.3948046875000001
+natural,overall,nll_complementary_minus_correct,1.0935850909202902,0.7745151690417212,1.4389651927778082
+natural,number,accuracy_correct_minus_complementary,0.20624999999999996,0.037500000000000006,0.38125000000000003
+natural,number,nll_complementary_minus_correct,1.3249437320434179,0.5039018155842011,2.206034914691312
+natural,other,accuracy_correct_minus_complementary,0.2777777777777778,0.13472222222222222,0.42645833333333355
+natural,other,nll_complementary_minus_correct,1.307670674403198,0.761017095244218,1.9140893248582467
+natural,yes/no,accuracy_correct_minus_complementary,0.39166666666666666,0.24166666666666664,0.5416666666666666
+natural,yes/no,nll_complementary_minus_correct,0.7252604133552976,0.4459581121336669,1.031906469592165

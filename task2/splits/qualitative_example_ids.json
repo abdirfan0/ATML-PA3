@@ -1,0 +1,14 @@
+{
+  "rule": "First pair in sorted pair-ID order per question type, excluding grounding pairs flagged in the pre-training contact-sheet review. Fixed before predictions.",
+  "pairs": {
+    "grounding": [
+      "grounding:val2014:counting:13:433904:478857",
+      "grounding:val2014:presence:11:39988:425555"
+    ],
+    "natural": [
+      "vqav2:val2014:101304004:561009001",
+      "vqav2:val2014:103306013:548485002",
+      "vqav2:val2014:100678004:486834003"
+    ]
+  }
+}

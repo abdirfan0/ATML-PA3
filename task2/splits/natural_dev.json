@@ -1,0 +1,2530 @@
+[
+  {
+    "pair_id": "vqav2:val2014:149222000:182236000",
+    "source_pair_index": 34265,
+    "suite": "natural",
+    "question_type": "other",
+    "question": "What gender is the person on the screen?",
+    "examples": [
+      {
+        "example_id": "vqa:val2014:149222000",
+        "question_id": 149222000,
+        "image_id": 149222,
+        "image_split": "val2014",
+        "question": "What gender is the person on the screen?",
+        "target": "female",
+        "canonical_answer": "female",
+        "answers": [
+          "female",
+          "female",
+          "male",
+          "female",
+          "female",
+          "female",
+          "female",
+          "unknown",
+          "female",
+          "female"
+        ],
+        "normalized_answers": [
+          "female",
+          "female",
+          "male",
+          "female",
+          "female",
+          "female",
+          "female",
+          "unknown",
+          "female",
+          "female"
+        ],
+        "consensus_count": 8,
+        "answer_type": "other"
+      },
+      {
+        "example_id": "vqa:val2014:182236000",
+        "question_id": 182236000,
+        "image_id": 182236,
+        "image_split": "val2014",
+        "question": "What gender is the person on the screen?",
+        "target": "male",
+        "canonical_answer": "male",
+        "answers": [
+          "male",
+          "male",
+          "male",
+          "male",
+          "male",
+          "male",
+          "male",
+          "male",
+          "male",
+          "male"
+        ],
+        "normalized_answers": [
+          "male",
+          "male",
+          "male",
+          "male",
+          "male",
+          "male",
+          "male",
+          "male",
+          "male",
+          "male"
+        ],
+        "consensus_count": 10,
+        "answer_type": "other"
+      }
+    ]
+  },
+  {
+    "pair_id": "vqav2:val2014:337563004:545583000",
+    "source_pair_index": 67444,
+    "suite": "natural",
+    "question_type": "number",
+    "question": "How many people are seen?",
+    "examples": [
+      {
+        "example_id": "vqa:val2014:337563004",
+        "question_id": 337563004,
+        "image_id": 337563,
+        "image_split": "val2014",
+        "question": "How many people are seen?",
+        "target": "2",
+        "canonical_answer": "2",
+        "answers": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ],
+        "normalized_answers": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ],
+        "consensus_count": 10,
+        "answer_type": "number"
+      },
+      {
+        "example_id": "vqa:val2014:545583000",
+        "question_id": 545583000,
+        "image_id": 545583,
+        "image_split": "val2014",
+        "question": "How many people are seen?",
+        "target": "1",
+        "canonical_answer": "1",
+        "answers": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "normalized_answers": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "consensus_count": 10,
+        "answer_type": "number"
+      }
+    ]
+  },
+  {
+    "pair_id": "vqav2:val2014:33008006:435316002",
+    "source_pair_index": 66513,
+    "suite": "natural",
+    "question_type": "yes/no",
+    "question": "Is the cat licking the sink?",
+    "examples": [
+      {
+        "example_id": "vqa:val2014:33008006",
+        "question_id": 33008006,
+        "image_id": 33008,
+        "image_split": "val2014",
+        "question": "Is the cat licking the sink?",
+        "target": "no",
+        "canonical_answer": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "normalized_answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "consensus_count": 10,
+        "answer_type": "yes/no"
+      },
+      {
+        "example_id": "vqa:val2014:435316002",
+        "question_id": 435316002,
+        "image_id": 435316,
+        "image_split": "val2014",
+        "question": "Is the cat licking the sink?",
+        "target": "yes",
+        "canonical_answer": "yes",
+        "answers": [
+          "no",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "no"
+        ],
+        "normalized_answers": [
+          "no",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "no"
+        ],
+        "consensus_count": 8,
+        "answer_type": "yes/no"
+      }
+    ]
+  },
+  {
+    "pair_id": "vqav2:val2014:271785001:555337004",
+    "source_pair_index": 82386,
+    "suite": "natural",
+    "question_type": "other",
+    "question": "What is the big animal?",
+    "examples": [
+      {
+        "example_id": "vqa:val2014:271785001",
+        "question_id": 271785001,
+        "image_id": 271785,
+        "image_split": "val2014",
+        "question": "What is the big animal?",
+        "target": "elephant",
+        "canonical_answer": "elephant",
+        "answers": [
+          "elephant",
+          "elephant",
+          "elephant",
+          "elephant",
+          "elephant",
+          "elephant",
+          "elephant",
+          "elephant",
+          "elephant",
+          "elephant"
+        ],
+        "normalized_answers": [
+          "elephant",
+          "elephant",
+          "elephant",
+          "elephant",
+          "elephant",
+          "elephant",
+          "elephant",
+          "elephant",
+          "elephant",
+          "elephant"
+        ],
+        "consensus_count": 10,
+        "answer_type": "other"
+      },
+      {
+        "example_id": "vqa:val2014:555337004",
+        "question_id": 555337004,
+        "image_id": 555337,
+        "image_split": "val2014",
+        "question": "What is the big animal?",
+        "target": "bull",
+        "canonical_answer": "bull",
+        "answers": [
+          "bull",
+          "cows",
+          "bull",
+          "yes",
+          "bull",
+          "bull",
+          "bull",
+          "bull",
+          "bull",
+          "bull"
+        ],
+        "normalized_answers": [
+          "bull",
+          "cows",
+          "bull",
+          "yes",
+          "bull",
+          "bull",
+          "bull",
+          "bull",
+          "bull",
+          "bull"
+        ],
+        "consensus_count": 8,
+        "answer_type": "other"
+      }
+    ]
+  },
+  {
+    "pair_id": "vqav2:val2014:184384005:253452002",
+    "source_pair_index": 18891,
+    "suite": "natural",
+    "question_type": "other",
+    "question": "What drink is here?",
+    "examples": [
+      {
+        "example_id": "vqa:val2014:184384005",
+        "question_id": 184384005,
+        "image_id": 184384,
+        "image_split": "val2014",
+        "question": "What drink is here?",
+        "target": "water",
+        "canonical_answer": "water",
+        "answers": [
+          "water",
+          "water",
+          "water",
+          "water",
+          "water",
+          "water",
+          "water",
+          "water",
+          "water",
+          "water"
+        ],
+        "normalized_answers": [
+          "water",
+          "water",
+          "water",
+          "water",
+          "water",
+          "water",
+          "water",
+          "water",
+          "water",
+          "water"
+        ],
+        "consensus_count": 10,
+        "answer_type": "other"
+      },
+      {
+        "example_id": "vqa:val2014:253452002",
+        "question_id": 253452002,
+        "image_id": 253452,
+        "image_split": "val2014",
+        "question": "What drink is here?",
+        "target": "coffee",
+        "canonical_answer": "coffee",
+        "answers": [
+          "coffee",
+          "coffee",
+          "coffee",
+          "tea",
+          "coffee",
+          "coffee",
+          "hot chocolate",
+          "coffee",
+          "coffee",
+          "coffee"
+        ],
+        "normalized_answers": [
+          "coffee",
+          "coffee",
+          "coffee",
+          "tea",
+          "coffee",
+          "coffee",
+          "hot chocolate",
+          "coffee",
+          "coffee",
+          "coffee"
+        ],
+        "consensus_count": 8,
+        "answer_type": "other"
+      }
+    ]
+  },
+  {
+    "pair_id": "vqav2:val2014:465130002:560908002",
+    "source_pair_index": 64810,
+    "suite": "natural",
+    "question_type": "other",
+    "question": "What color is the lamp next to the bed?",
+    "examples": [
+      {
+        "example_id": "vqa:val2014:465130002",
+        "question_id": 465130002,
+        "image_id": 465130,
+        "image_split": "val2014",
+        "question": "What color is the lamp next to the bed?",
+        "target": "red",
+        "canonical_answer": "red",
+        "answers": [
+          "white and red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red"
+        ],
+        "normalized_answers": [
+          "white and red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red"
+        ],
+        "consensus_count": 9,
+        "answer_type": "other"
+      },
+      {
+        "example_id": "vqa:val2014:560908002",
+        "question_id": 560908002,
+        "image_id": 560908,
+        "image_split": "val2014",
+        "question": "What color is the lamp next to the bed?",
+        "target": "black",
+        "canonical_answer": "black",
+        "answers": [
+          "black",
+          "black",
+          "black",
+          "black",
+          "yellow",
+          "black",
+          "black and white",
+          "black",
+          "black",
+          "black"
+        ],
+        "normalized_answers": [
+          "black",
+          "black",
+          "black",
+          "black",
+          "yellow",
+          "black",
+          "black and white",
+          "black",
+          "black",
+          "black"
+        ],
+        "consensus_count": 8,
+        "answer_type": "other"
+      }
+    ]
+  },
+  {
+    "pair_id": "vqav2:val2014:155355003:315905015",
+    "source_pair_index": 68298,
+    "suite": "natural",
+    "question_type": "yes/no",
+    "question": "Has this picture been manipulated?",
+    "examples": [
+      {
+        "example_id": "vqa:val2014:155355003",
+        "question_id": 155355003,
+        "image_id": 155355,
+        "image_split": "val2014",
+        "question": "Has this picture been manipulated?",
+        "target": "yes",
+        "canonical_answer": "yes",
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "normalized_answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "consensus_count": 10,
+        "answer_type": "yes/no"
+      },
+      {
+        "example_id": "vqa:val2014:315905015",
+        "question_id": 315905015,
+        "image_id": 315905,
+        "image_split": "val2014",
+        "question": "Has this picture been manipulated?",
+        "target": "no",
+        "canonical_answer": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "normalized_answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "consensus_count": 10,
+        "answer_type": "yes/no"
+      }
+    ]
+  },
+  {
+    "pair_id": "vqav2:val2014:17613000:407990003",
+    "source_pair_index": 29315,
+    "suite": "natural",
+    "question_type": "other",
+    "question": "What is the shape of the street signs?",
+    "examples": [
+      {
+        "example_id": "vqa:val2014:17613000",
+        "question_id": 17613000,
+        "image_id": 17613,
+        "image_split": "val2014",
+        "question": "What is the shape of the street signs?",
+        "target": "rectangle",
+        "canonical_answer": "rectangle",
+        "answers": [
+          "rectangle",
+          "rectangle",
+          "rectangle",
+          "rectangle",
+          "rectangular and octagonal",
+          "rectangle",
+          "rectangle",
+          "rectangle",
+          "rectangular",
+          "rectangle"
+        ],
+        "normalized_answers": [
+          "rectangle",
+          "rectangle",
+          "rectangle",
+          "rectangle",
+          "rectangular and octagonal",
+          "rectangle",
+          "rectangle",
+          "rectangle",
+          "rectangular",
+          "rectangle"
+        ],
+        "consensus_count": 8,
+        "answer_type": "other"
+      },
+      {
+        "example_id": "vqa:val2014:407990003",
+        "question_id": 407990003,
+        "image_id": 407990,
+        "image_split": "val2014",
+        "question": "What is the shape of the street signs?",
+        "target": "octagon",
+        "canonical_answer": "octagon",
+        "answers": [
+          "octagon",
+          "octagon",
+          "octagon",
+          "hexagon",
+          "octagon",
+          "octagon",
+          "octagon",
+          "octagon",
+          "octagon",
+          "rectangle"
+        ],
+        "normalized_answers": [
+          "octagon",
+          "octagon",
+          "octagon",
+          "hexagon",
+          "octagon",
+          "octagon",
+          "octagon",
+          "octagon",
+          "octagon",
+          "rectangle"
+        ],
+        "consensus_count": 8,
+        "answer_type": "other"
+      }
+    ]
+  },
+  {
+    "pair_id": "vqav2:val2014:163600000:218093004",
+    "source_pair_index": 62878,
+    "suite": "natural",
+    "question_type": "yes/no",
+    "question": "Is the man drunk?",
+    "examples": [
+      {
+        "example_id": "vqa:val2014:163600000",
+        "question_id": 163600000,
+        "image_id": 163600,
+        "image_split": "val2014",
+        "question": "Is the man drunk?",
+        "target": "no",
+        "canonical_answer": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "normalized_answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "consensus_count": 10,
+        "answer_type": "yes/no"
+      },
+      {
+        "example_id": "vqa:val2014:218093004",
+        "question_id": 218093004,
+        "image_id": 218093,
+        "image_split": "val2014",
+        "question": "Is the man drunk?",
+        "target": "yes",
+        "canonical_answer": "yes",
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "unknown",
+          "yes",
+          "yes",
+          "yes",
+          "no"
+        ],
+        "normalized_answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "unknown",
+          "yes",
+          "yes",
+          "yes",
+          "no"
+        ],
+        "consensus_count": 8,
+        "answer_type": "yes/no"
+      }
+    ]
+  },
+  {
+    "pair_id": "vqav2:val2014:205716002:360721002",
+    "source_pair_index": 15247,
+    "suite": "natural",
+    "question_type": "number",
+    "question": "How many plates are in the photo?",
+    "examples": [
+      {
+        "example_id": "vqa:val2014:205716002",
+        "question_id": 205716002,
+        "image_id": 205716,
+        "image_split": "val2014",
+        "question": "How many plates are in the photo?",
+        "target": "1",
+        "canonical_answer": "1",
+        "answers": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "normalized_answers": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "consensus_count": 10,
+        "answer_type": "number"
+      },
+      {
+        "example_id": "vqa:val2014:360721002",
+        "question_id": 360721002,
+        "image_id": 360721,
+        "image_split": "val2014",
+        "question": "How many plates are in the photo?",
+        "target": "2",
+        "canonical_answer": "2",
+        "answers": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ],
+        "normalized_answers": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ],
+        "consensus_count": 10,
+        "answer_type": "number"
+      }
+    ]
+  },
+  {
+    "pair_id": "vqav2:val2014:301257004:393212000",
+    "source_pair_index": 56028,
+    "suite": "natural",
+    "question_type": "other",
+    "question": "What is the main color in the photo?",
+    "examples": [
+      {
+        "example_id": "vqa:val2014:301257004",
+        "question_id": 301257004,
+        "image_id": 301257,
+        "image_split": "val2014",
+        "question": "What is the main color in the photo?",
+        "target": "pink",
+        "canonical_answer": "pink",
+        "answers": [
+          "pink",
+          "pink",
+          "pink",
+          "pink",
+          "pink",
+          "pink",
+          "pink",
+          "pink",
+          "pink",
+          "pink"
+        ],
+        "normalized_answers": [
+          "pink",
+          "pink",
+          "pink",
+          "pink",
+          "pink",
+          "pink",
+          "pink",
+          "pink",
+          "pink",
+          "pink"
+        ],
+        "consensus_count": 10,
+        "answer_type": "other"
+      },
+      {
+        "example_id": "vqa:val2014:393212000",
+        "question_id": 393212000,
+        "image_id": 393212,
+        "image_split": "val2014",
+        "question": "What is the main color in the photo?",
+        "target": "green",
+        "canonical_answer": "green",
+        "answers": [
+          "green",
+          "green",
+          "green",
+          "green",
+          "green",
+          "green",
+          "green",
+          "green",
+          "green",
+          "green"
+        ],
+        "normalized_answers": [
+          "green",
+          "green",
+          "green",
+          "green",
+          "green",
+          "green",
+          "green",
+          "green",
+          "green",
+          "green"
+        ],
+        "consensus_count": 10,
+        "answer_type": "other"
+      }
+    ]
+  },
+  {
+    "pair_id": "vqav2:val2014:418949001:520982001",
+    "source_pair_index": 45660,
+    "suite": "natural",
+    "question_type": "number",
+    "question": "What number is on the players jersey?",
+    "examples": [
+      {
+        "example_id": "vqa:val2014:418949001",
+        "question_id": 418949001,
+        "image_id": 418949,
+        "image_split": "val2014",
+        "question": "What number is on the players jersey?",
+        "target": "25",
+        "canonical_answer": "25",
+        "answers": [
+          "25",
+          "25",
+          "25",
+          "25",
+          "25",
+          "25",
+          "25",
+          "25",
+          "25",
+          "25"
+        ],
+        "normalized_answers": [
+          "25",
+          "25",
+          "25",
+          "25",
+          "25",
+          "25",
+          "25",
+          "25",
+          "25",
+          "25"
+        ],
+        "consensus_count": 10,
+        "answer_type": "number"
+      },
+      {
+        "example_id": "vqa:val2014:520982001",
+        "question_id": 520982001,
+        "image_id": 520982,
+        "image_split": "val2014",
+        "question": "What number is on the players jersey?",
+        "target": "9",
+        "canonical_answer": "9",
+        "answers": [
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9"
+        ],
+        "normalized_answers": [
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9"
+        ],
+        "consensus_count": 10,
+        "answer_type": "number"
+      }
+    ]
+  },
+  {
+    "pair_id": "vqav2:val2014:45463001:247234007",
+    "source_pair_index": 1954,
+    "suite": "natural",
+    "question_type": "number",
+    "question": "How many bikes are in the picture?",
+    "examples": [
+      {
+        "example_id": "vqa:val2014:45463001",
+        "question_id": 45463001,
+        "image_id": 45463,
+        "image_split": "val2014",
+        "question": "How many bikes are in the picture?",
+        "target": "2",
+        "canonical_answer": "2",
+        "answers": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ],
+        "normalized_answers": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ],
+        "consensus_count": 10,
+        "answer_type": "number"
+      },
+      {
+        "example_id": "vqa:val2014:247234007",
+        "question_id": 247234007,
+        "image_id": 247234,
+        "image_split": "val2014",
+        "question": "How many bikes are in the picture?",
+        "target": "1",
+        "canonical_answer": "1",
+        "answers": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "normalized_answers": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "consensus_count": 10,
+        "answer_type": "number"
+      }
+    ]
+  },
+  {
+    "pair_id": "vqav2:val2014:159282000:488997001",
+    "source_pair_index": 2197,
+    "suite": "natural",
+    "question_type": "other",
+    "question": "What color are the flowers?",
+    "examples": [
+      {
+        "example_id": "vqa:val2014:159282000",
+        "question_id": 159282000,
+        "image_id": 159282,
+        "image_split": "val2014",
+        "question": "What color are the flowers?",
+        "target": "yellow",
+        "canonical_answer": "yellow",
+        "answers": [
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow"
+        ],
+        "normalized_answers": [
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow"
+        ],
+        "consensus_count": 10,
+        "answer_type": "other"
+      },
+      {
+        "example_id": "vqa:val2014:488997001",
+        "question_id": 488997001,
+        "image_id": 488997,
+        "image_split": "val2014",
+        "question": "What color are the flowers?",
+        "target": "red",
+        "canonical_answer": "red",
+        "answers": [
+          "red",
+          "orange",
+          "red",
+          "red",
+          "red",
+          "orange",
+          "red",
+          "red",
+          "red",
+          "red"
+        ],
+        "normalized_answers": [
+          "red",
+          "orange",
+          "red",
+          "red",
+          "red",
+          "orange",
+          "red",
+          "red",
+          "red",
+          "red"
+        ],
+        "consensus_count": 8,
+        "answer_type": "other"
+      }
+    ]
+  },
+  {
+    "pair_id": "vqav2:val2014:144300022:391343006",
+    "source_pair_index": 21219,
+    "suite": "natural",
+    "question_type": "other",
+    "question": "What company made the motorcycle?",
+    "examples": [
+      {
+        "example_id": "vqa:val2014:144300022",
+        "question_id": 144300022,
+        "image_id": 144300,
+        "image_split": "val2014",
+        "question": "What company made the motorcycle?",
+        "target": "honda",
+        "canonical_answer": "honda",
+        "answers": [
+          "honda",
+          "honda",
+          "honda",
+          "honda",
+          "honda",
+          "honda",
+          "honda",
+          "honda",
+          "honda",
+          "honda"
+        ],
+        "normalized_answers": [
+          "honda",
+          "honda",
+          "honda",
+          "honda",
+          "honda",
+          "honda",
+          "honda",
+          "honda",
+          "honda",
+          "honda"
+        ],
+        "consensus_count": 10,
+        "answer_type": "other"
+      },
+      {
+        "example_id": "vqa:val2014:391343006",
+        "question_id": 391343006,
+        "image_id": 391343,
+        "image_split": "val2014",
+        "question": "What company made the motorcycle?",
+        "target": "ducati",
+        "canonical_answer": "ducati",
+        "answers": [
+          "ducati",
+          "ducati",
+          "ducati",
+          "ducati",
+          "ducati",
+          "ducati",
+          "ducati",
+          "ducati",
+          "ducati",
+          "ducati"
+        ],
+        "normalized_answers": [
+          "ducati",
+          "ducati",
+          "ducati",
+          "ducati",
+          "ducati",
+          "ducati",
+          "ducati",
+          "ducati",
+          "ducati",
+          "ducati"
+        ],
+        "consensus_count": 10,
+        "answer_type": "other"
+      }
+    ]
+  },
+  {
+    "pair_id": "vqav2:val2014:309958001:326308003",
+    "source_pair_index": 83296,
+    "suite": "natural",
+    "question_type": "yes/no",
+    "question": "Are the flowers in a handmade basket?",
+    "examples": [
+      {
+        "example_id": "vqa:val2014:309958001",
+        "question_id": 309958001,
+        "image_id": 309958,
+        "image_split": "val2014",
+        "question": "Are the flowers in a handmade basket?",
+        "target": "yes",
+        "canonical_answer": "yes",
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "no",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "normalized_answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "no",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "consensus_count": 9,
+        "answer_type": "yes/no"
+      },
+      {
+        "example_id": "vqa:val2014:326308003",
+        "question_id": 326308003,
+        "image_id": 326308,
+        "image_split": "val2014",
+        "question": "Are the flowers in a handmade basket?",
+        "target": "no",
+        "canonical_answer": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "normalized_answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "consensus_count": 10,
+        "answer_type": "yes/no"
+      }
+    ]
+  },
+  {
+    "pair_id": "vqav2:val2014:251736001:268693000",
+    "source_pair_index": 3451,
+    "suite": "natural",
+    "question_type": "yes/no",
+    "question": "Are there clouds?",
+    "examples": [
+      {
+        "example_id": "vqa:val2014:251736001",
+        "question_id": 251736001,
+        "image_id": 251736,
+        "image_split": "val2014",
+        "question": "Are there clouds?",
+        "target": "no",
+        "canonical_answer": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "yes"
+        ],
+        "normalized_answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "yes"
+        ],
+        "consensus_count": 9,
+        "answer_type": "yes/no"
+      },
+      {
+        "example_id": "vqa:val2014:268693000",
+        "question_id": 268693000,
+        "image_id": 268693,
+        "image_split": "val2014",
+        "question": "Are there clouds?",
+        "target": "yes",
+        "canonical_answer": "yes",
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "normalized_answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "consensus_count": 10,
+        "answer_type": "yes/no"
+      }
+    ]
+  },
+  {
+    "pair_id": "vqav2:val2014:30967000:229647002",
+    "source_pair_index": 9800,
+    "suite": "natural",
+    "question_type": "number",
+    "question": "How many giraffe's are there?",
+    "examples": [
+      {
+        "example_id": "vqa:val2014:30967000",
+        "question_id": 30967000,
+        "image_id": 30967,
+        "image_split": "val2014",
+        "question": "How many giraffe's are there?",
+        "target": "2",
+        "canonical_answer": "2",
+        "answers": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ],
+        "normalized_answers": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ],
+        "consensus_count": 10,
+        "answer_type": "number"
+      },
+      {
+        "example_id": "vqa:val2014:229647002",
+        "question_id": 229647002,
+        "image_id": 229647,
+        "image_split": "val2014",
+        "question": "How many giraffe's are there?",
+        "target": "4",
+        "canonical_answer": "4",
+        "answers": [
+          "4",
+          "4",
+          "4",
+          "4",
+          "3",
+          "4",
+          "4",
+          "3",
+          "4",
+          "4"
+        ],
+        "normalized_answers": [
+          "4",
+          "4",
+          "4",
+          "4",
+          "3",
+          "4",
+          "4",
+          "3",
+          "4",
+          "4"
+        ],
+        "consensus_count": 8,
+        "answer_type": "number"
+      }
+    ]
+  },
+  {
+    "pair_id": "vqav2:val2014:152795001:160889000",
+    "source_pair_index": 80586,
+    "suite": "natural",
+    "question_type": "other",
+    "question": "What color is the railing?",
+    "examples": [
+      {
+        "example_id": "vqa:val2014:152795001",
+        "question_id": 152795001,
+        "image_id": 152795,
+        "image_split": "val2014",
+        "question": "What color is the railing?",
+        "target": "green",
+        "canonical_answer": "green",
+        "answers": [
+          "green",
+          "olive green",
+          "green",
+          "green",
+          "green",
+          "green",
+          "green",
+          "green",
+          "green",
+          "green"
+        ],
+        "normalized_answers": [
+          "green",
+          "olive green",
+          "green",
+          "green",
+          "green",
+          "green",
+          "green",
+          "green",
+          "green",
+          "green"
+        ],
+        "consensus_count": 9,
+        "answer_type": "other"
+      },
+      {
+        "example_id": "vqa:val2014:160889000",
+        "question_id": 160889000,
+        "image_id": 160889,
+        "image_split": "val2014",
+        "question": "What color is the railing?",
+        "target": "blue",
+        "canonical_answer": "blue",
+        "answers": [
+          "blue",
+          "black",
+          "blue",
+          "blue",
+          "blue",
+          "gray",
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ],
+        "normalized_answers": [
+          "blue",
+          "black",
+          "blue",
+          "blue",
+          "blue",
+          "gray",
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ],
+        "consensus_count": 8,
+        "answer_type": "other"
+      }
+    ]
+  },
+  {
+    "pair_id": "vqav2:val2014:113126010:506137001",
+    "source_pair_index": 6141,
+    "suite": "natural",
+    "question_type": "yes/no",
+    "question": "Do these items belong in the kitchen?",
+    "examples": [
+      {
+        "example_id": "vqa:val2014:113126010",
+        "question_id": 113126010,
+        "image_id": 113126,
+        "image_split": "val2014",
+        "question": "Do these items belong in the kitchen?",
+        "target": "no",
+        "canonical_answer": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "normalized_answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "consensus_count": 10,
+        "answer_type": "yes/no"
+      },
+      {
+        "example_id": "vqa:val2014:506137001",
+        "question_id": 506137001,
+        "image_id": 506137,
+        "image_split": "val2014",
+        "question": "Do these items belong in the kitchen?",
+        "target": "yes",
+        "canonical_answer": "yes",
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "normalized_answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "consensus_count": 10,
+        "answer_type": "yes/no"
+      }
+    ]
+  },
+  {
+    "pair_id": "vqav2:val2014:231822002:292032005",
+    "source_pair_index": 88757,
+    "suite": "natural",
+    "question_type": "yes/no",
+    "question": "Is there any chocolate with this meal?",
+    "examples": [
+      {
+        "example_id": "vqa:val2014:231822002",
+        "question_id": 231822002,
+        "image_id": 231822,
+        "image_split": "val2014",
+        "question": "Is there any chocolate with this meal?",
+        "target": "yes",
+        "canonical_answer": "yes",
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "normalized_answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "consensus_count": 10,
+        "answer_type": "yes/no"
+      },
+      {
+        "example_id": "vqa:val2014:292032005",
+        "question_id": 292032005,
+        "image_id": 292032,
+        "image_split": "val2014",
+        "question": "Is there any chocolate with this meal?",
+        "target": "no",
+        "canonical_answer": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "normalized_answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "consensus_count": 10,
+        "answer_type": "yes/no"
+      }
+    ]
+  },
+  {
+    "pair_id": "vqav2:val2014:397117000:413275003",
+    "source_pair_index": 59054,
+    "suite": "natural",
+    "question_type": "number",
+    "question": "How many trucks are there?",
+    "examples": [
+      {
+        "example_id": "vqa:val2014:397117000",
+        "question_id": 397117000,
+        "image_id": 397117,
+        "image_split": "val2014",
+        "question": "How many trucks are there?",
+        "target": "1",
+        "canonical_answer": "1",
+        "answers": [
+          "2",
+          "2",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "normalized_answers": [
+          "2",
+          "2",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "consensus_count": 8,
+        "answer_type": "number"
+      },
+      {
+        "example_id": "vqa:val2014:413275003",
+        "question_id": 413275003,
+        "image_id": 413275,
+        "image_split": "val2014",
+        "question": "How many trucks are there?",
+        "target": "3",
+        "canonical_answer": "3",
+        "answers": [
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "2",
+          "3",
+          "3"
+        ],
+        "normalized_answers": [
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "2",
+          "3",
+          "3"
+        ],
+        "consensus_count": 9,
+        "answer_type": "number"
+      }
+    ]
+  },
+  {
+    "pair_id": "vqav2:val2014:409627002:437205009",
+    "source_pair_index": 43610,
+    "suite": "natural",
+    "question_type": "yes/no",
+    "question": "Is the boy missing hair on his head?",
+    "examples": [
+      {
+        "example_id": "vqa:val2014:409627002",
+        "question_id": 409627002,
+        "image_id": 409627,
+        "image_split": "val2014",
+        "question": "Is the boy missing hair on his head?",
+        "target": "yes",
+        "canonical_answer": "yes",
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "normalized_answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "consensus_count": 10,
+        "answer_type": "yes/no"
+      },
+      {
+        "example_id": "vqa:val2014:437205009",
+        "question_id": 437205009,
+        "image_id": 437205,
+        "image_split": "val2014",
+        "question": "Is the boy missing hair on his head?",
+        "target": "no",
+        "canonical_answer": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "normalized_answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "consensus_count": 10,
+        "answer_type": "yes/no"
+      }
+    ]
+  },
+  {
+    "pair_id": "vqav2:val2014:480593003:574834000",
+    "source_pair_index": 41181,
+    "suite": "natural",
+    "question_type": "other",
+    "question": "What animal is the stuffed animal?",
+    "examples": [
+      {
+        "example_id": "vqa:val2014:480593003",
+        "question_id": 480593003,
+        "image_id": 480593,
+        "image_split": "val2014",
+        "question": "What animal is the stuffed animal?",
+        "target": "bear",
+        "canonical_answer": "bear",
+        "answers": [
+          "bear",
+          "teddy bear",
+          "bear",
+          "bear",
+          "bear",
+          "bear",
+          "bear",
+          "bear",
+          "bear",
+          "bear"
+        ],
+        "normalized_answers": [
+          "bear",
+          "teddy bear",
+          "bear",
+          "bear",
+          "bear",
+          "bear",
+          "bear",
+          "bear",
+          "bear",
+          "bear"
+        ],
+        "consensus_count": 9,
+        "answer_type": "other"
+      },
+      {
+        "example_id": "vqa:val2014:574834000",
+        "question_id": 574834000,
+        "image_id": 574834,
+        "image_split": "val2014",
+        "question": "What animal is the stuffed animal?",
+        "target": "elephant",
+        "canonical_answer": "elephant",
+        "answers": [
+          "elephant",
+          "elephant",
+          "elephant",
+          "elephant",
+          "elephant",
+          "elephant",
+          "dog",
+          "elephant",
+          "elephant",
+          "elephant"
+        ],
+        "normalized_answers": [
+          "elephant",
+          "elephant",
+          "elephant",
+          "elephant",
+          "elephant",
+          "elephant",
+          "dog",
+          "elephant",
+          "elephant",
+          "elephant"
+        ],
+        "consensus_count": 9,
+        "answer_type": "other"
+      }
+    ]
+  },
+  {
+    "pair_id": "vqav2:val2014:334015015:564127007",
+    "source_pair_index": 15265,
+    "suite": "natural",
+    "question_type": "other",
+    "question": "What color is the toilet seat?",
+    "examples": [
+      {
+        "example_id": "vqa:val2014:334015015",
+        "question_id": 334015015,
+        "image_id": 334015,
+        "image_split": "val2014",
+        "question": "What color is the toilet seat?",
+        "target": "white",
+        "canonical_answer": "white",
+        "answers": [
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white"
+        ],
+        "normalized_answers": [
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white"
+        ],
+        "consensus_count": 10,
+        "answer_type": "other"
+      },
+      {
+        "example_id": "vqa:val2014:564127007",
+        "question_id": 564127007,
+        "image_id": 564127,
+        "image_split": "val2014",
+        "question": "What color is the toilet seat?",
+        "target": "black",
+        "canonical_answer": "black",
+        "answers": [
+          "black",
+          "black",
+          "black",
+          "black",
+          "black",
+          "black",
+          "black",
+          "black",
+          "black",
+          "black"
+        ],
+        "normalized_answers": [
+          "black",
+          "black",
+          "black",
+          "black",
+          "black",
+          "black",
+          "black",
+          "black",
+          "black",
+          "black"
+        ],
+        "consensus_count": 10,
+        "answer_type": "other"
+      }
+    ]
+  },
+  {
+    "pair_id": "vqav2:val2014:436183001:579337000",
+    "source_pair_index": 63550,
+    "suite": "natural",
+    "question_type": "yes/no",
+    "question": "Is this a young woman?",
+    "examples": [
+      {
+        "example_id": "vqa:val2014:436183001",
+        "question_id": 436183001,
+        "image_id": 436183,
+        "image_split": "val2014",
+        "question": "Is this a young woman?",
+        "target": "yes",
+        "canonical_answer": "yes",
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "no",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "normalized_answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "no",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "consensus_count": 9,
+        "answer_type": "yes/no"
+      },
+      {
+        "example_id": "vqa:val2014:579337000",
+        "question_id": 579337000,
+        "image_id": 579337,
+        "image_split": "val2014",
+        "question": "Is this a young woman?",
+        "target": "no",
+        "canonical_answer": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "normalized_answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "consensus_count": 10,
+        "answer_type": "yes/no"
+      }
+    ]
+  },
+  {
+    "pair_id": "vqav2:val2014:350855010:449089001",
+    "source_pair_index": 76103,
+    "suite": "natural",
+    "question_type": "number",
+    "question": "How many people?",
+    "examples": [
+      {
+        "example_id": "vqa:val2014:350855010",
+        "question_id": 350855010,
+        "image_id": 350855,
+        "image_split": "val2014",
+        "question": "How many people?",
+        "target": "5",
+        "canonical_answer": "5",
+        "answers": [
+          "5",
+          "5",
+          "5",
+          "5",
+          "5",
+          "5",
+          "5",
+          "2",
+          "2",
+          "5"
+        ],
+        "normalized_answers": [
+          "5",
+          "5",
+          "5",
+          "5",
+          "5",
+          "5",
+          "5",
+          "2",
+          "2",
+          "5"
+        ],
+        "consensus_count": 8,
+        "answer_type": "number"
+      },
+      {
+        "example_id": "vqa:val2014:449089001",
+        "question_id": 449089001,
+        "image_id": 449089,
+        "image_split": "val2014",
+        "question": "How many people?",
+        "target": "3",
+        "canonical_answer": "3",
+        "answers": [
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3"
+        ],
+        "normalized_answers": [
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3"
+        ],
+        "consensus_count": 10,
+        "answer_type": "number"
+      }
+    ]
+  },
+  {
+    "pair_id": "vqav2:val2014:513417018:549907000",
+    "source_pair_index": 35232,
+    "suite": "natural",
+    "question_type": "yes/no",
+    "question": "Is the elephant eating?",
+    "examples": [
+      {
+        "example_id": "vqa:val2014:513417018",
+        "question_id": 513417018,
+        "image_id": 513417,
+        "image_split": "val2014",
+        "question": "Is the elephant eating?",
+        "target": "yes",
+        "canonical_answer": "yes",
+        "answers": [
+          "no",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "no",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "normalized_answers": [
+          "no",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "no",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "consensus_count": 8,
+        "answer_type": "yes/no"
+      },
+      {
+        "example_id": "vqa:val2014:549907000",
+        "question_id": 549907000,
+        "image_id": 549907,
+        "image_split": "val2014",
+        "question": "Is the elephant eating?",
+        "target": "no",
+        "canonical_answer": "no",
+        "answers": [
+          "water",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "water"
+        ],
+        "normalized_answers": [
+          "water",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "water"
+        ],
+        "consensus_count": 8,
+        "answer_type": "yes/no"
+      }
+    ]
+  },
+  {
+    "pair_id": "vqav2:val2014:166948017:414201008",
+    "source_pair_index": 88200,
+    "suite": "natural",
+    "question_type": "number",
+    "question": "How many persons are wearing glasses?",
+    "examples": [
+      {
+        "example_id": "vqa:val2014:166948017",
+        "question_id": 166948017,
+        "image_id": 166948,
+        "image_split": "val2014",
+        "question": "How many persons are wearing glasses?",
+        "target": "1",
+        "canonical_answer": "1",
+        "answers": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "normalized_answers": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "consensus_count": 10,
+        "answer_type": "number"
+      },
+      {
+        "example_id": "vqa:val2014:414201008",
+        "question_id": 414201008,
+        "image_id": 414201,
+        "image_split": "val2014",
+        "question": "How many persons are wearing glasses?",
+        "target": "2",
+        "canonical_answer": "2",
+        "answers": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ],
+        "normalized_answers": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ],
+        "consensus_count": 10,
+        "answer_type": "number"
+      }
+    ]
+  },
+  {
+    "pair_id": "vqav2:val2014:82157049:340844003",
+    "source_pair_index": 35623,
+    "suite": "natural",
+    "question_type": "yes/no",
+    "question": "Is the boy wearing a school uniform?",
+    "examples": [
+      {
+        "example_id": "vqa:val2014:82157049",
+        "question_id": 82157049,
+        "image_id": 82157,
+        "image_split": "val2014",
+        "question": "Is the boy wearing a school uniform?",
+        "target": "no",
+        "canonical_answer": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "normalized_answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "consensus_count": 10,
+        "answer_type": "yes/no"
+      },
+      {
+        "example_id": "vqa:val2014:340844003",
+        "question_id": 340844003,
+        "image_id": 340844,
+        "image_split": "val2014",
+        "question": "Is the boy wearing a school uniform?",
+        "target": "yes",
+        "canonical_answer": "yes",
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "normalized_answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "consensus_count": 10,
+        "answer_type": "yes/no"
+      }
+    ]
+  },
+  {
+    "pair_id": "vqav2:val2014:158950004:506416001",
+    "source_pair_index": 89968,
+    "suite": "natural",
+    "question_type": "other",
+    "question": "What color is the front of the train?",
+    "examples": [
+      {
+        "example_id": "vqa:val2014:158950004",
+        "question_id": 158950004,
+        "image_id": 158950,
+        "image_split": "val2014",
+        "question": "What color is the front of the train?",
+        "target": "yellow",
+        "canonical_answer": "yellow",
+        "answers": [
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow and blue",
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow"
+        ],
+        "normalized_answers": [
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow and blue",
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow"
+        ],
+        "consensus_count": 9,
+        "answer_type": "other"
+      },
+      {
+        "example_id": "vqa:val2014:506416001",
+        "question_id": 506416001,
+        "image_id": 506416,
+        "image_split": "val2014",
+        "question": "What color is the front of the train?",
+        "target": "red",
+        "canonical_answer": "red",
+        "answers": [
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red"
+        ],
+        "normalized_answers": [
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red"
+        ],
+        "consensus_count": 10,
+        "answer_type": "other"
+      }
+    ]
+  },
+  {
+    "pair_id": "vqav2:val2014:347936000:559400004",
+    "source_pair_index": 12089,
+    "suite": "natural",
+    "question_type": "yes/no",
+    "question": "Is there any chocolate?",
+    "examples": [
+      {
+        "example_id": "vqa:val2014:347936000",
+        "question_id": 347936000,
+        "image_id": 347936,
+        "image_split": "val2014",
+        "question": "Is there any chocolate?",
+        "target": "yes",
+        "canonical_answer": "yes",
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "normalized_answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "consensus_count": 10,
+        "answer_type": "yes/no"
+      },
+      {
+        "example_id": "vqa:val2014:559400004",
+        "question_id": 559400004,
+        "image_id": 559400,
+        "image_split": "val2014",
+        "question": "Is there any chocolate?",
+        "target": "no",
+        "canonical_answer": "no",
+        "answers": [
+          "no",
+          "yes",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "normalized_answers": [
+          "no",
+          "yes",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "consensus_count": 9,
+        "answer_type": "yes/no"
+      }
+    ]
+  }
+]

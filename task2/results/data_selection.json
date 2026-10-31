@@ -1,0 +1,97 @@
+{
+  "training_images": 6000,
+  "evaluation_images_by_set": {
+    "captions_dev": 96,
+    "natural_dev": 64,
+    "natural_test": 192,
+    "grounding_dev": 48,
+    "grounding_test": 128
+  },
+  "total_selected_images": 6528,
+  "image_disjoint": true,
+  "passed": true,
+  "seed": 6304,
+  "caption_train_examples": 18000,
+  "caption_dev_examples": 96,
+  "natural_pairs": {
+    "train": 1536,
+    "dev": 32,
+    "test": 96
+  },
+  "natural_pair_types": {
+    "train": {
+      "yes/no": 640,
+      "number": 256,
+      "other": 640
+    },
+    "dev": {
+      "yes/no": 12,
+      "number": 8,
+      "other": 12
+    },
+    "test": {
+      "yes/no": 36,
+      "number": 24,
+      "other": 36
+    }
+  },
+  "grounding_pairs": {
+    "train": 8192,
+    "dev": 24,
+    "test": 64
+  },
+  "grounding_pair_types": {
+    "train": {
+      "presence": 4096,
+      "counting": 4096
+    },
+    "dev": {
+      "presence": 12,
+      "counting": 12
+    },
+    "test": {
+      "presence": 32,
+      "counting": 32
+    }
+  },
+  "image_controls_fixed": true,
+  "token_caps_checked": true,
+  "normalization": "pa3-task2-vqa-normalization-v1",
+  "feature_storage_GiB_196_tokens": 1.830322265625,
+  "filter_statistics": {
+    "train2014_captions": {
+      "eligible_captions": 414113,
+      "empty_or_overlength": 0
+    },
+    "val2014_captions": {
+      "eligible_captions": 202653,
+      "empty_or_overlength": 1
+    },
+    "natural_train": {
+      "source_pairs": 200394,
+      "distinct_pairs": 200343,
+      "low_agreement_or_empty": 172207,
+      "same_normalized_consensus": 7085,
+      "different_or_unknown_answer_type": 84,
+      "eligible_by_type": {
+        "yes/no": 44029,
+        "number": 10552,
+        "other": 17353
+      }
+    },
+    "natural_val": {
+      "source_pairs": 95144,
+      "distinct_pairs": 95114,
+      "low_agreement_or_empty": 82098,
+      "different_or_unknown_answer_type": 64,
+      "same_normalized_consensus": 3378,
+      "eligible_by_type": {
+        "yes/no": 20962,
+        "number": 4920,
+        "other": 8026
+      }
+    }
+  },
+  "images_downloaded": false,
+  "gpu_used": false
+}

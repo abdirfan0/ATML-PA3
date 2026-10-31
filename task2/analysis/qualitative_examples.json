@@ -1,0 +1,299 @@
+{
+  "selection_rule": "First pair in sorted pair-ID order per question type, excluding grounding pairs flagged in the pre-training contact-sheet review. Fixed before predictions.",
+  "examples": [
+    {
+      "suite": "grounding",
+      "pair_id": "grounding:val2014:counting:13:433904:478857",
+      "question_type": "counting",
+      "example_id": "grounding:val2014:counting:13:433904:478857:1",
+      "image_id": 478857,
+      "question": "How many stop signs can you see?",
+      "canonical_answer": "3",
+      "references": [
+        "3"
+      ],
+      "responses": {
+        "correct": "1",
+        "complementary": "2",
+        "mismatched": "1",
+        "no_image": "There are no stop signs visible in the sky. The sky is a vast ex"
+      },
+      "scores": {
+        "correct": 0.0,
+        "complementary": 0.0,
+        "mismatched": 0.0,
+        "no_image": 0.0
+      }
+    },
+    {
+      "suite": "grounding",
+      "pair_id": "grounding:val2014:counting:13:433904:478857",
+      "question_type": "counting",
+      "example_id": "grounding:val2014:counting:13:433904:478857:0",
+      "image_id": 433904,
+      "question": "How many stop signs can you see?",
+      "canonical_answer": "4",
+      "references": [
+        "4"
+      ],
+      "responses": {
+        "correct": "2",
+        "complementary": "1",
+        "mismatched": "1",
+        "no_image": "There are no stop signs visible in the sky. The sky is a vast ex"
+      },
+      "scores": {
+        "correct": 0.0,
+        "complementary": 0.0,
+        "mismatched": 0.0,
+        "no_image": 0.0
+      }
+    },
+    {
+      "suite": "grounding",
+      "pair_id": "grounding:val2014:presence:11:39988:425555",
+      "question_type": "presence",
+      "example_id": "grounding:val2014:presence:11:39988:425555:0",
+      "image_id": 425555,
+      "question": "Does this image contain a fire hydrant?",
+      "canonical_answer": "yes",
+      "references": [
+        "yes"
+      ],
+      "responses": {
+        "correct": "yes",
+        "complementary": "no",
+        "mismatched": "no",
+        "no_image": "No, the image does not contain a fire hydrant."
+      },
+      "scores": {
+        "correct": 1.0,
+        "complementary": 0.0,
+        "mismatched": 0.0,
+        "no_image": 0.0
+      }
+    },
+    {
+      "suite": "grounding",
+      "pair_id": "grounding:val2014:presence:11:39988:425555",
+      "question_type": "presence",
+      "example_id": "grounding:val2014:presence:11:39988:425555:1",
+      "image_id": 39988,
+      "question": "Does this image contain a fire hydrant?",
+      "canonical_answer": "no",
+      "references": [
+        "no"
+      ],
+      "responses": {
+        "correct": "no",
+        "complementary": "yes",
+        "mismatched": "no",
+        "no_image": "No, the image does not contain a fire hydrant."
+      },
+      "scores": {
+        "correct": 1.0,
+        "complementary": 0.0,
+        "mismatched": 1.0,
+        "no_image": 0.0
+      }
+    },
+    {
+      "suite": "natural",
+      "pair_id": "vqav2:val2014:101304004:561009001",
+      "question_type": "number",
+      "example_id": "vqa:val2014:101304004",
+      "image_id": 101304,
+      "question": "How many eyeballs can be seen?",
+      "canonical_answer": "2",
+      "references": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "responses": {
+        "correct": "2",
+        "complementary": "2",
+        "mismatched": "1",
+        "no_image": "There are **2 eyeballs** in a human eye."
+      },
+      "scores": {
+        "correct": 1.0,
+        "complementary": 1.0,
+        "mismatched": 0.0,
+        "no_image": 0.0
+      }
+    },
+    {
+      "suite": "natural",
+      "pair_id": "vqav2:val2014:101304004:561009001",
+      "question_type": "number",
+      "example_id": "vqa:val2014:561009001",
+      "image_id": 561009,
+      "question": "How many eyeballs can be seen?",
+      "canonical_answer": "1",
+      "references": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "responses": {
+        "correct": "2",
+        "complementary": "2",
+        "mismatched": "1",
+        "no_image": "There are **2 eyeballs** in a human eye."
+      },
+      "scores": {
+        "correct": 0.0,
+        "complementary": 0.0,
+        "mismatched": 1.0,
+        "no_image": 0.0
+      }
+    },
+    {
+      "suite": "natural",
+      "pair_id": "vqav2:val2014:103306013:548485002",
+      "question_type": "other",
+      "example_id": "vqa:val2014:103306013",
+      "image_id": 103306,
+      "question": "Is the shower curtain open or closed?",
+      "canonical_answer": "closed",
+      "references": [
+        "closed",
+        "closed",
+        "closed",
+        "closed",
+        "closed",
+        "closed",
+        "open",
+        "closed",
+        "closed",
+        "closed"
+      ],
+      "responses": {
+        "correct": "closed",
+        "complementary": "closed",
+        "mismatched": "closed",
+        "no_image": "The question is ambiguous. If you mean the curtain is open or closed, the"
+      },
+      "scores": {
+        "correct": 1.0,
+        "complementary": 1.0,
+        "mismatched": 1.0,
+        "no_image": 0.0
+      }
+    },
+    {
+      "suite": "natural",
+      "pair_id": "vqav2:val2014:103306013:548485002",
+      "question_type": "other",
+      "example_id": "vqa:val2014:548485002",
+      "image_id": 548485,
+      "question": "Is the shower curtain open or closed?",
+      "canonical_answer": "open",
+      "references": [
+        "open",
+        "open",
+        "open",
+        "open",
+        "open",
+        "open",
+        "open",
+        "open",
+        "open",
+        "open"
+      ],
+      "responses": {
+        "correct": "closed",
+        "complementary": "closed",
+        "mismatched": "closed",
+        "no_image": "The question is ambiguous. If you mean the curtain is open or closed, the"
+      },
+      "scores": {
+        "correct": 0.0,
+        "complementary": 0.0,
+        "mismatched": 0.0,
+        "no_image": 0.0
+      }
+    },
+    {
+      "suite": "natural",
+      "pair_id": "vqav2:val2014:100678004:486834003",
+      "question_type": "yes/no",
+      "example_id": "vqa:val2014:100678004",
+      "image_id": 100678,
+      "question": "Is the man wearing shorts?",
+      "canonical_answer": "yes",
+      "references": [
+        "yes",
+        "yes",
+        "yes",
+        "yes",
+        "yes",
+        "yes",
+        "yes",
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "responses": {
+        "correct": "yes",
+        "complementary": "yes",
+        "mismatched": "no",
+        "no_image": "No, the man is not wearing shorts."
+      },
+      "scores": {
+        "correct": 1.0,
+        "complementary": 1.0,
+        "mismatched": 0.0,
+        "no_image": 0.0
+      }
+    },
+    {
+      "suite": "natural",
+      "pair_id": "vqav2:val2014:100678004:486834003",
+      "question_type": "yes/no",
+      "example_id": "vqa:val2014:486834003",
+      "image_id": 486834,
+      "question": "Is the man wearing shorts?",
+      "canonical_answer": "no",
+      "references": [
+        "no",
+        "no",
+        "no",
+        "no",
+        "no",
+        "no",
+        "no",
+        "no",
+        "no",
+        "no"
+      ],
+      "responses": {
+        "correct": "yes",
+        "complementary": "yes",
+        "mismatched": "no",
+        "no_image": "No, the man is not wearing shorts."
+      },
+      "scores": {
+        "correct": 0.0,
+        "complementary": 0.0,
+        "mismatched": 1.0,
+        "no_image": 0.0
+      }
+    }
+  ]
+}

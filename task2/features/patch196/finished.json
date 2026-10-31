@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "images": 6528,
+  "shape_per_image": [
+    196,
+    768
+  ],
+  "dtype": "float16",
+  "vision_forward_seconds_this_session": 2.412585265000075,
+  "vision_forward_seconds_all_completed_shards": 2.412585265000075,
+  "completed_shard_seconds_sum": 83.163233553,
+  "total_seconds_this_session": 150.64900136299997,
+  "peak_gpu_allocated_bytes": 706650624,
+  "bytes": 1965296896,
+  "batch_size": 128,
+  "final_layer_norm_once": true,
+  "note": "Resume-session timings exclude work from earlier interrupted sessions; shard records remain complete."
+}

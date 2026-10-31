@@ -1,0 +1,13 @@
+{
+  "selection_rule": "First pair in sorted pair-ID order per question type, excluding grounding pairs flagged in the pre-training contact-sheet review. Fixed before predictions.",
+  "pairs": 5,
+  "rendered_images": true,
+  "rendered_this_run": false,
+  "pages": [
+    "figures/qualitative/grounding_01.png",
+    "figures/qualitative/grounding_02.png",
+    "figures/qualitative/natural_01.png",
+    "figures/qualitative/natural_02.png",
+    "figures/qualitative/natural_03.png"
+  ]
+}

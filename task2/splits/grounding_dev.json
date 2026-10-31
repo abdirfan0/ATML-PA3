@@ -1,0 +1,818 @@
+[
+  {
+    "pair_id": "grounding:val2014:presence:78:248232:313130",
+    "suite": "grounding",
+    "question_type": "presence",
+    "category_id": 78,
+    "category": "microwave",
+    "question": "Does this image contain a microwave?",
+    "examples": [
+      {
+        "example_id": "grounding:val2014:presence:78:248232:313130:0",
+        "image_id": 313130,
+        "image_split": "val2014",
+        "question": "Does this image contain a microwave?",
+        "target": "yes",
+        "canonical_answer": "yes",
+        "answers": [
+          "yes"
+        ],
+        "category_id": 78
+      },
+      {
+        "example_id": "grounding:val2014:presence:78:248232:313130:1",
+        "image_id": 248232,
+        "image_split": "val2014",
+        "question": "Does this image contain a microwave?",
+        "target": "no",
+        "canonical_answer": "no",
+        "answers": [
+          "no"
+        ],
+        "category_id": 78
+      }
+    ]
+  },
+  {
+    "pair_id": "grounding:val2014:presence:10:154830:192079",
+    "suite": "grounding",
+    "question_type": "presence",
+    "category_id": 10,
+    "category": "traffic light",
+    "question": "Does this image contain a traffic light?",
+    "examples": [
+      {
+        "example_id": "grounding:val2014:presence:10:154830:192079:0",
+        "image_id": 154830,
+        "image_split": "val2014",
+        "question": "Does this image contain a traffic light?",
+        "target": "yes",
+        "canonical_answer": "yes",
+        "answers": [
+          "yes"
+        ],
+        "category_id": 10
+      },
+      {
+        "example_id": "grounding:val2014:presence:10:154830:192079:1",
+        "image_id": 192079,
+        "image_split": "val2014",
+        "question": "Does this image contain a traffic light?",
+        "target": "no",
+        "canonical_answer": "no",
+        "answers": [
+          "no"
+        ],
+        "category_id": 10
+      }
+    ]
+  },
+  {
+    "pair_id": "grounding:val2014:presence:40:29563:460623",
+    "suite": "grounding",
+    "question_type": "presence",
+    "category_id": 40,
+    "category": "baseball glove",
+    "question": "Does this image contain a baseball glove?",
+    "examples": [
+      {
+        "example_id": "grounding:val2014:presence:40:29563:460623:0",
+        "image_id": 460623,
+        "image_split": "val2014",
+        "question": "Does this image contain a baseball glove?",
+        "target": "yes",
+        "canonical_answer": "yes",
+        "answers": [
+          "yes"
+        ],
+        "category_id": 40
+      },
+      {
+        "example_id": "grounding:val2014:presence:40:29563:460623:1",
+        "image_id": 29563,
+        "image_split": "val2014",
+        "question": "Does this image contain a baseball glove?",
+        "target": "no",
+        "canonical_answer": "no",
+        "answers": [
+          "no"
+        ],
+        "category_id": 40
+      }
+    ]
+  },
+  {
+    "pair_id": "grounding:val2014:presence:52:440562:489798",
+    "suite": "grounding",
+    "question_type": "presence",
+    "category_id": 52,
+    "category": "banana",
+    "question": "Does this image contain a banana?",
+    "examples": [
+      {
+        "example_id": "grounding:val2014:presence:52:440562:489798:0",
+        "image_id": 489798,
+        "image_split": "val2014",
+        "question": "Does this image contain a banana?",
+        "target": "yes",
+        "canonical_answer": "yes",
+        "answers": [
+          "yes"
+        ],
+        "category_id": 52
+      },
+      {
+        "example_id": "grounding:val2014:presence:52:440562:489798:1",
+        "image_id": 440562,
+        "image_split": "val2014",
+        "question": "Does this image contain a banana?",
+        "target": "no",
+        "canonical_answer": "no",
+        "answers": [
+          "no"
+        ],
+        "category_id": 52
+      }
+    ]
+  },
+  {
+    "pair_id": "grounding:val2014:presence:27:98895:323528",
+    "suite": "grounding",
+    "question_type": "presence",
+    "category_id": 27,
+    "category": "backpack",
+    "question": "Does this image contain a backpack?",
+    "examples": [
+      {
+        "example_id": "grounding:val2014:presence:27:98895:323528:0",
+        "image_id": 323528,
+        "image_split": "val2014",
+        "question": "Does this image contain a backpack?",
+        "target": "yes",
+        "canonical_answer": "yes",
+        "answers": [
+          "yes"
+        ],
+        "category_id": 27
+      },
+      {
+        "example_id": "grounding:val2014:presence:27:98895:323528:1",
+        "image_id": 98895,
+        "image_split": "val2014",
+        "question": "Does this image contain a backpack?",
+        "target": "no",
+        "canonical_answer": "no",
+        "answers": [
+          "no"
+        ],
+        "category_id": 27
+      }
+    ]
+  },
+  {
+    "pair_id": "grounding:val2014:presence:33:31392:487438",
+    "suite": "grounding",
+    "question_type": "presence",
+    "category_id": 33,
+    "category": "suitcase",
+    "question": "Does this image contain a suitcase?",
+    "examples": [
+      {
+        "example_id": "grounding:val2014:presence:33:31392:487438:1",
+        "image_id": 31392,
+        "image_split": "val2014",
+        "question": "Does this image contain a suitcase?",
+        "target": "no",
+        "canonical_answer": "no",
+        "answers": [
+          "no"
+        ],
+        "category_id": 33
+      },
+      {
+        "example_id": "grounding:val2014:presence:33:31392:487438:0",
+        "image_id": 487438,
+        "image_split": "val2014",
+        "question": "Does this image contain a suitcase?",
+        "target": "yes",
+        "canonical_answer": "yes",
+        "answers": [
+          "yes"
+        ],
+        "category_id": 33
+      }
+    ]
+  },
+  {
+    "pair_id": "grounding:val2014:presence:56:344415:512729",
+    "suite": "grounding",
+    "question_type": "presence",
+    "category_id": 56,
+    "category": "broccoli",
+    "question": "Does this image contain broccoli?",
+    "examples": [
+      {
+        "example_id": "grounding:val2014:presence:56:344415:512729:0",
+        "image_id": 512729,
+        "image_split": "val2014",
+        "question": "Does this image contain broccoli?",
+        "target": "yes",
+        "canonical_answer": "yes",
+        "answers": [
+          "yes"
+        ],
+        "category_id": 56
+      },
+      {
+        "example_id": "grounding:val2014:presence:56:344415:512729:1",
+        "image_id": 344415,
+        "image_split": "val2014",
+        "question": "Does this image contain broccoli?",
+        "target": "no",
+        "canonical_answer": "no",
+        "answers": [
+          "no"
+        ],
+        "category_id": 56
+      }
+    ]
+  },
+  {
+    "pair_id": "grounding:val2014:presence:51:183287:368994",
+    "suite": "grounding",
+    "question_type": "presence",
+    "category_id": 51,
+    "category": "bowl",
+    "question": "Does this image contain a bowl?",
+    "examples": [
+      {
+        "example_id": "grounding:val2014:presence:51:183287:368994:1",
+        "image_id": 183287,
+        "image_split": "val2014",
+        "question": "Does this image contain a bowl?",
+        "target": "no",
+        "canonical_answer": "no",
+        "answers": [
+          "no"
+        ],
+        "category_id": 51
+      },
+      {
+        "example_id": "grounding:val2014:presence:51:183287:368994:0",
+        "image_id": 368994,
+        "image_split": "val2014",
+        "question": "Does this image contain a bowl?",
+        "target": "yes",
+        "canonical_answer": "yes",
+        "answers": [
+          "yes"
+        ],
+        "category_id": 51
+      }
+    ]
+  },
+  {
+    "pair_id": "grounding:val2014:presence:13:273083:464006",
+    "suite": "grounding",
+    "question_type": "presence",
+    "category_id": 13,
+    "category": "stop sign",
+    "question": "Does this image contain a stop sign?",
+    "examples": [
+      {
+        "example_id": "grounding:val2014:presence:13:273083:464006:0",
+        "image_id": 464006,
+        "image_split": "val2014",
+        "question": "Does this image contain a stop sign?",
+        "target": "yes",
+        "canonical_answer": "yes",
+        "answers": [
+          "yes"
+        ],
+        "category_id": 13
+      },
+      {
+        "example_id": "grounding:val2014:presence:13:273083:464006:1",
+        "image_id": 273083,
+        "image_split": "val2014",
+        "question": "Does this image contain a stop sign?",
+        "target": "no",
+        "canonical_answer": "no",
+        "answers": [
+          "no"
+        ],
+        "category_id": 13
+      }
+    ]
+  },
+  {
+    "pair_id": "grounding:val2014:presence:7:230212:452684",
+    "suite": "grounding",
+    "question_type": "presence",
+    "category_id": 7,
+    "category": "train",
+    "question": "Does this image contain a train?",
+    "examples": [
+      {
+        "example_id": "grounding:val2014:presence:7:230212:452684:1",
+        "image_id": 452684,
+        "image_split": "val2014",
+        "question": "Does this image contain a train?",
+        "target": "no",
+        "canonical_answer": "no",
+        "answers": [
+          "no"
+        ],
+        "category_id": 7
+      },
+      {
+        "example_id": "grounding:val2014:presence:7:230212:452684:0",
+        "image_id": 230212,
+        "image_split": "val2014",
+        "question": "Does this image contain a train?",
+        "target": "yes",
+        "canonical_answer": "yes",
+        "answers": [
+          "yes"
+        ],
+        "category_id": 7
+      }
+    ]
+  },
+  {
+    "pair_id": "grounding:val2014:presence:80:434089:530384",
+    "suite": "grounding",
+    "question_type": "presence",
+    "category_id": 80,
+    "category": "toaster",
+    "question": "Does this image contain a toaster?",
+    "examples": [
+      {
+        "example_id": "grounding:val2014:presence:80:434089:530384:0",
+        "image_id": 530384,
+        "image_split": "val2014",
+        "question": "Does this image contain a toaster?",
+        "target": "yes",
+        "canonical_answer": "yes",
+        "answers": [
+          "yes"
+        ],
+        "category_id": 80
+      },
+      {
+        "example_id": "grounding:val2014:presence:80:434089:530384:1",
+        "image_id": 434089,
+        "image_split": "val2014",
+        "question": "Does this image contain a toaster?",
+        "target": "no",
+        "canonical_answer": "no",
+        "answers": [
+          "no"
+        ],
+        "category_id": 80
+      }
+    ]
+  },
+  {
+    "pair_id": "grounding:val2014:presence:43:289059:290595",
+    "suite": "grounding",
+    "question_type": "presence",
+    "category_id": 43,
+    "category": "tennis racket",
+    "question": "Does this image contain a tennis racket?",
+    "examples": [
+      {
+        "example_id": "grounding:val2014:presence:43:289059:290595:1",
+        "image_id": 290595,
+        "image_split": "val2014",
+        "question": "Does this image contain a tennis racket?",
+        "target": "no",
+        "canonical_answer": "no",
+        "answers": [
+          "no"
+        ],
+        "category_id": 43
+      },
+      {
+        "example_id": "grounding:val2014:presence:43:289059:290595:0",
+        "image_id": 289059,
+        "image_split": "val2014",
+        "question": "Does this image contain a tennis racket?",
+        "target": "yes",
+        "canonical_answer": "yes",
+        "answers": [
+          "yes"
+        ],
+        "category_id": 43
+      }
+    ]
+  },
+  {
+    "pair_id": "grounding:val2014:counting:77:30407:203539",
+    "suite": "grounding",
+    "question_type": "counting",
+    "category_id": 77,
+    "category": "cell phone",
+    "question": "How many cell phones can you see?",
+    "examples": [
+      {
+        "example_id": "grounding:val2014:counting:77:30407:203539:0",
+        "image_id": 203539,
+        "image_split": "val2014",
+        "question": "How many cell phones can you see?",
+        "target": "1",
+        "canonical_answer": "1",
+        "answers": [
+          "1"
+        ],
+        "category_id": 77
+      },
+      {
+        "example_id": "grounding:val2014:counting:77:30407:203539:1",
+        "image_id": 30407,
+        "image_split": "val2014",
+        "question": "How many cell phones can you see?",
+        "target": "4",
+        "canonical_answer": "4",
+        "answers": [
+          "4"
+        ],
+        "category_id": 77
+      }
+    ]
+  },
+  {
+    "pair_id": "grounding:val2014:counting:15:407868:516805",
+    "suite": "grounding",
+    "question_type": "counting",
+    "category_id": 15,
+    "category": "bench",
+    "question": "How many benches can you see?",
+    "examples": [
+      {
+        "example_id": "grounding:val2014:counting:15:407868:516805:0",
+        "image_id": 516805,
+        "image_split": "val2014",
+        "question": "How many benches can you see?",
+        "target": "2",
+        "canonical_answer": "2",
+        "answers": [
+          "2"
+        ],
+        "category_id": 15
+      },
+      {
+        "example_id": "grounding:val2014:counting:15:407868:516805:1",
+        "image_id": 407868,
+        "image_split": "val2014",
+        "question": "How many benches can you see?",
+        "target": "3",
+        "canonical_answer": "3",
+        "answers": [
+          "3"
+        ],
+        "category_id": 15
+      }
+    ]
+  },
+  {
+    "pair_id": "grounding:val2014:counting:9:129175:186218",
+    "suite": "grounding",
+    "question_type": "counting",
+    "category_id": 9,
+    "category": "boat",
+    "question": "How many boats can you see?",
+    "examples": [
+      {
+        "example_id": "grounding:val2014:counting:9:129175:186218:0",
+        "image_id": 129175,
+        "image_split": "val2014",
+        "question": "How many boats can you see?",
+        "target": "4",
+        "canonical_answer": "4",
+        "answers": [
+          "4"
+        ],
+        "category_id": 9
+      },
+      {
+        "example_id": "grounding:val2014:counting:9:129175:186218:1",
+        "image_id": 186218,
+        "image_split": "val2014",
+        "question": "How many boats can you see?",
+        "target": "1",
+        "canonical_answer": "1",
+        "answers": [
+          "1"
+        ],
+        "category_id": 9
+      }
+    ]
+  },
+  {
+    "pair_id": "grounding:val2014:counting:61:19275:521142",
+    "suite": "grounding",
+    "question_type": "counting",
+    "category_id": 61,
+    "category": "cake",
+    "question": "How many cakes can you see?",
+    "examples": [
+      {
+        "example_id": "grounding:val2014:counting:61:19275:521142:0",
+        "image_id": 521142,
+        "image_split": "val2014",
+        "question": "How many cakes can you see?",
+        "target": "1",
+        "canonical_answer": "1",
+        "answers": [
+          "1"
+        ],
+        "category_id": 61
+      },
+      {
+        "example_id": "grounding:val2014:counting:61:19275:521142:1",
+        "image_id": 19275,
+        "image_split": "val2014",
+        "question": "How many cakes can you see?",
+        "target": "2",
+        "canonical_answer": "2",
+        "answers": [
+          "2"
+        ],
+        "category_id": 61
+      }
+    ]
+  },
+  {
+    "pair_id": "grounding:val2014:counting:85:244111:471578",
+    "suite": "grounding",
+    "question_type": "counting",
+    "category_id": 85,
+    "category": "clock",
+    "question": "How many clocks can you see?",
+    "examples": [
+      {
+        "example_id": "grounding:val2014:counting:85:244111:471578:1",
+        "image_id": 244111,
+        "image_split": "val2014",
+        "question": "How many clocks can you see?",
+        "target": "3",
+        "canonical_answer": "3",
+        "answers": [
+          "3"
+        ],
+        "category_id": 85
+      },
+      {
+        "example_id": "grounding:val2014:counting:85:244111:471578:0",
+        "image_id": 471578,
+        "image_split": "val2014",
+        "question": "How many clocks can you see?",
+        "target": "1",
+        "canonical_answer": "1",
+        "answers": [
+          "1"
+        ],
+        "category_id": 85
+      }
+    ]
+  },
+  {
+    "pair_id": "grounding:val2014:counting:5:55432:178189",
+    "suite": "grounding",
+    "question_type": "counting",
+    "category_id": 5,
+    "category": "airplane",
+    "question": "How many airplanes can you see?",
+    "examples": [
+      {
+        "example_id": "grounding:val2014:counting:5:55432:178189:0",
+        "image_id": 178189,
+        "image_split": "val2014",
+        "question": "How many airplanes can you see?",
+        "target": "2",
+        "canonical_answer": "2",
+        "answers": [
+          "2"
+        ],
+        "category_id": 5
+      },
+      {
+        "example_id": "grounding:val2014:counting:5:55432:178189:1",
+        "image_id": 55432,
+        "image_split": "val2014",
+        "question": "How many airplanes can you see?",
+        "target": "3",
+        "canonical_answer": "3",
+        "answers": [
+          "3"
+        ],
+        "category_id": 5
+      }
+    ]
+  },
+  {
+    "pair_id": "grounding:val2014:counting:51:155974:501760",
+    "suite": "grounding",
+    "question_type": "counting",
+    "category_id": 51,
+    "category": "bowl",
+    "question": "How many bowls can you see?",
+    "examples": [
+      {
+        "example_id": "grounding:val2014:counting:51:155974:501760:1",
+        "image_id": 155974,
+        "image_split": "val2014",
+        "question": "How many bowls can you see?",
+        "target": "4",
+        "canonical_answer": "4",
+        "answers": [
+          "4"
+        ],
+        "category_id": 51
+      },
+      {
+        "example_id": "grounding:val2014:counting:51:155974:501760:0",
+        "image_id": 501760,
+        "image_split": "val2014",
+        "question": "How many bowls can you see?",
+        "target": "3",
+        "canonical_answer": "3",
+        "answers": [
+          "3"
+        ],
+        "category_id": 51
+      }
+    ]
+  },
+  {
+    "pair_id": "grounding:val2014:counting:65:173081:309889",
+    "suite": "grounding",
+    "question_type": "counting",
+    "category_id": 65,
+    "category": "bed",
+    "question": "How many beds can you see?",
+    "examples": [
+      {
+        "example_id": "grounding:val2014:counting:65:173081:309889:0",
+        "image_id": 173081,
+        "image_split": "val2014",
+        "question": "How many beds can you see?",
+        "target": "4",
+        "canonical_answer": "4",
+        "answers": [
+          "4"
+        ],
+        "category_id": 65
+      },
+      {
+        "example_id": "grounding:val2014:counting:65:173081:309889:1",
+        "image_id": 309889,
+        "image_split": "val2014",
+        "question": "How many beds can you see?",
+        "target": "2",
+        "canonical_answer": "2",
+        "answers": [
+          "2"
+        ],
+        "category_id": 65
+      }
+    ]
+  },
+  {
+    "pair_id": "grounding:val2014:counting:70:109648:474519",
+    "suite": "grounding",
+    "question_type": "counting",
+    "category_id": 70,
+    "category": "toilet",
+    "question": "How many toilets can you see?",
+    "examples": [
+      {
+        "example_id": "grounding:val2014:counting:70:109648:474519:1",
+        "image_id": 474519,
+        "image_split": "val2014",
+        "question": "How many toilets can you see?",
+        "target": "2",
+        "canonical_answer": "2",
+        "answers": [
+          "2"
+        ],
+        "category_id": 70
+      },
+      {
+        "example_id": "grounding:val2014:counting:70:109648:474519:0",
+        "image_id": 109648,
+        "image_split": "val2014",
+        "question": "How many toilets can you see?",
+        "target": "4",
+        "canonical_answer": "4",
+        "answers": [
+          "4"
+        ],
+        "category_id": 70
+      }
+    ]
+  },
+  {
+    "pair_id": "grounding:val2014:counting:25:57350:414109",
+    "suite": "grounding",
+    "question_type": "counting",
+    "category_id": 25,
+    "category": "giraffe",
+    "question": "How many giraffes can you see?",
+    "examples": [
+      {
+        "example_id": "grounding:val2014:counting:25:57350:414109:1",
+        "image_id": 57350,
+        "image_split": "val2014",
+        "question": "How many giraffes can you see?",
+        "target": "3",
+        "canonical_answer": "3",
+        "answers": [
+          "3"
+        ],
+        "category_id": 25
+      },
+      {
+        "example_id": "grounding:val2014:counting:25:57350:414109:0",
+        "image_id": 414109,
+        "image_split": "val2014",
+        "question": "How many giraffes can you see?",
+        "target": "1",
+        "canonical_answer": "1",
+        "answers": [
+          "1"
+        ],
+        "category_id": 25
+      }
+    ]
+  },
+  {
+    "pair_id": "grounding:val2014:counting:39:269689:464312",
+    "suite": "grounding",
+    "question_type": "counting",
+    "category_id": 39,
+    "category": "baseball bat",
+    "question": "How many baseball bats can you see?",
+    "examples": [
+      {
+        "example_id": "grounding:val2014:counting:39:269689:464312:0",
+        "image_id": 464312,
+        "image_split": "val2014",
+        "question": "How many baseball bats can you see?",
+        "target": "1",
+        "canonical_answer": "1",
+        "answers": [
+          "1"
+        ],
+        "category_id": 39
+      },
+      {
+        "example_id": "grounding:val2014:counting:39:269689:464312:1",
+        "image_id": 269689,
+        "image_split": "val2014",
+        "question": "How many baseball bats can you see?",
+        "target": "3",
+        "canonical_answer": "3",
+        "answers": [
+          "3"
+        ],
+        "category_id": 39
+      }
+    ]
+  },
+  {
+    "pair_id": "grounding:val2014:counting:74:39211:244613",
+    "suite": "grounding",
+    "question_type": "counting",
+    "category_id": 74,
+    "category": "mouse",
+    "question": "How many mice can you see?",
+    "examples": [
+      {
+        "example_id": "grounding:val2014:counting:74:39211:244613:0",
+        "image_id": 244613,
+        "image_split": "val2014",
+        "question": "How many mice can you see?",
+        "target": "2",
+        "canonical_answer": "2",
+        "answers": [
+          "2"
+        ],
+        "category_id": 74
+      },
+      {
+        "example_id": "grounding:val2014:counting:74:39211:244613:1",
+        "image_id": 39211,
+        "image_split": "val2014",
+        "question": "How many mice can you see?",
+        "target": "3",
+        "canonical_answer": "3",
+        "answers": [
+          "3"
+        ],
+        "category_id": 74
+      }
+    ]
+  }
+]

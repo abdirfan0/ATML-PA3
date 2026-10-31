@@ -19,3 +19,14 @@ __pycache__/
 /task1/results/**/cache/
 /task1/smoke/
 /task1/smoke_evaluation/
+*.npy
+*.npz
+*.tar
+*.tar.gz
+*.tar.*
+/task2/assets/
+/task2/data/annotations/
+/task2/data/downloads/
+/task2/data/tokenized_examples.json
+/task2/data/calibration_text_ids.json
+

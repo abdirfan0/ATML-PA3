@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "images": 6528,
+  "shards": 26,
+  "image_bytes": 1043309152,
+  "archive_bytes": 1048463360,
+  "verified_existing_images": 0,
+  "images_prepared_this_session": 6528,
+  "elapsed_seconds_this_session": 169.38335242799985,
+  "manifest_sha256": "31f9c26f846eaaee0ef96a026b94aad6490a1d0368103eabab7484b332f0ff4b",
+  "label_review_pages": 22,
+  "label_review_status": "pending human review",
+  "gpu_used": false,
+  "image_policy": "Original JPEG bytes, verified size, dimensions, full RGB decode and SHA256. No resizing/re-encoding of stored input images; no resampling/replacement of unavailable images."
+}
