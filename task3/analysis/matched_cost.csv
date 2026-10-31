@@ -1,0 +1,5 @@
+dataset,family,adaptive_accuracy,adaptive_cost,nearest_fixed_N,fixed_accuracy,fixed_cost,cost_difference,note
+math,agreement,0.736375,10139.981000000002,16,0.7311250000000001,10677.742750000001,-537.7617499999997,Nearest observed mean cost; not exactly matched compute.
+math,quality,0.7317499999999998,7663.055375,8,0.7178749999999999,5344.108500000001,2318.9468749999987,Nearest observed mean cost; not exactly matched compute.
+mathvista,agreement,0.612625,3290.3146250000004,8,0.598625,2229.902,1060.4126250000004,Nearest observed mean cost; not exactly matched compute.
+mathvista,quality,0.615625,3613.0415,16,0.608625,4461.8425,-848.8009999999999,Nearest observed mean cost; not exactly matched compute.

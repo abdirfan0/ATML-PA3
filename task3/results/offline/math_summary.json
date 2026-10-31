@@ -1,0 +1,1426 @@
+{
+  "dataset": "math",
+  "held_out_questions": 800,
+  "orders_per_question": 10,
+  "bootstrap_resamples": 1000,
+  "bootstrap_unit": "question after averaging its ten orders",
+  "fixed": [
+    {
+      "dataset": "math",
+      "budget": 1,
+      "method": "FirstAns",
+      "questions": 800,
+      "accuracy": 0.6435,
+      "token_cost": 669.772625,
+      "rollouts": 1.0,
+      "oracle_coverage": 0.6435,
+      "pool_oracle_coverage": 0.6435,
+      "distinct_groups": 1.0,
+      "sampling_failure": 0.35650000000000004,
+      "selection_failure": 0.0,
+      "accuracy_ci95": [
+        0.613371875,
+        0.668875
+      ],
+      "difference_vs_SC": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "difference_vs_FirstAns": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "dataset": "math",
+      "budget": 1,
+      "method": "SC",
+      "questions": 800,
+      "accuracy": 0.6435,
+      "token_cost": 669.772625,
+      "rollouts": 1.0,
+      "oracle_coverage": 0.6435,
+      "pool_oracle_coverage": 0.6435,
+      "distinct_groups": 1.0,
+      "sampling_failure": 0.35650000000000004,
+      "selection_failure": 0.0,
+      "accuracy_ci95": [
+        0.613371875,
+        0.668875
+      ],
+      "difference_vs_SC": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "difference_vs_FirstAns": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "dataset": "math",
+      "budget": 1,
+      "method": "LogPBest",
+      "questions": 800,
+      "accuracy": 0.6435,
+      "token_cost": 669.772625,
+      "rollouts": 1.0,
+      "oracle_coverage": 0.6435,
+      "pool_oracle_coverage": 0.6435,
+      "distinct_groups": 1.0,
+      "sampling_failure": 0.35650000000000004,
+      "selection_failure": 0.0,
+      "accuracy_ci95": [
+        0.613371875,
+        0.668875
+      ],
+      "difference_vs_SC": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "difference_vs_FirstAns": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "dataset": "math",
+      "budget": 1,
+      "method": "SelfCertBest",
+      "questions": 800,
+      "accuracy": 0.6435,
+      "token_cost": 669.772625,
+      "rollouts": 1.0,
+      "oracle_coverage": 0.6435,
+      "pool_oracle_coverage": 0.6435,
+      "distinct_groups": 1.0,
+      "sampling_failure": 0.35650000000000004,
+      "selection_failure": 0.0,
+      "accuracy_ci95": [
+        0.613371875,
+        0.668875
+      ],
+      "difference_vs_SC": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "difference_vs_FirstAns": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "dataset": "math",
+      "budget": 1,
+      "method": "SelfCertRWC",
+      "questions": 800,
+      "accuracy": 0.6435,
+      "token_cost": 669.772625,
+      "rollouts": 1.0,
+      "oracle_coverage": 0.6435,
+      "pool_oracle_coverage": 0.6435,
+      "distinct_groups": 1.0,
+      "sampling_failure": 0.35650000000000004,
+      "selection_failure": 0.0,
+      "accuracy_ci95": [
+        0.613371875,
+        0.668875
+      ],
+      "difference_vs_SC": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "difference_vs_FirstAns": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "dataset": "math",
+      "budget": 1,
+      "method": "Shortest",
+      "questions": 800,
+      "accuracy": 0.6435,
+      "token_cost": 669.772625,
+      "rollouts": 1.0,
+      "oracle_coverage": 0.6435,
+      "pool_oracle_coverage": 0.6435,
+      "distinct_groups": 1.0,
+      "sampling_failure": 0.35650000000000004,
+      "selection_failure": 0.0,
+      "accuracy_ci95": [
+        0.613371875,
+        0.668875
+      ],
+      "difference_vs_SC": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "difference_vs_FirstAns": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "dataset": "math",
+      "budget": 2,
+      "method": "FirstAns",
+      "questions": 800,
+      "accuracy": 0.6435,
+      "token_cost": 669.772625,
+      "rollouts": 1.0,
+      "oracle_coverage": 0.6435,
+      "pool_oracle_coverage": 0.7248750000000002,
+      "distinct_groups": 1.3708749999999998,
+      "sampling_failure": 0.35650000000000004,
+      "selection_failure": 0.0,
+      "accuracy_ci95": [
+        0.613371875,
+        0.668875
+      ],
+      "difference_vs_SC": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "difference_vs_FirstAns": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "dataset": "math",
+      "budget": 2,
+      "method": "SC",
+      "questions": 800,
+      "accuracy": 0.6435,
+      "token_cost": 1339.8655,
+      "rollouts": 2.0,
+      "oracle_coverage": 0.7248750000000002,
+      "pool_oracle_coverage": 0.7248750000000002,
+      "distinct_groups": 1.3708749999999998,
+      "sampling_failure": 0.275125,
+      "selection_failure": 0.08137500000000002,
+      "accuracy_ci95": [
+        0.613371875,
+        0.668875
+      ],
+      "difference_vs_SC": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "difference_vs_FirstAns": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "dataset": "math",
+      "budget": 2,
+      "method": "LogPBest",
+      "questions": 800,
+      "accuracy": 0.6579999999999999,
+      "token_cost": 1339.8655,
+      "rollouts": 2.0,
+      "oracle_coverage": 0.7248750000000002,
+      "pool_oracle_coverage": 0.7248750000000002,
+      "distinct_groups": 1.3708749999999998,
+      "sampling_failure": 0.275125,
+      "selection_failure": 0.066875,
+      "accuracy_ci95": [
+        0.62698125,
+        0.6845031249999999
+      ],
+      "difference_vs_SC": {
+        "mean": 0.014499999999999999,
+        "ci95": [
+          0.007749999999999999,
+          0.020999999999999998
+        ]
+      },
+      "difference_vs_FirstAns": {
+        "mean": 0.014499999999999999,
+        "ci95": [
+          0.007749999999999999,
+          0.020999999999999998
+        ]
+      }
+    },
+    {
+      "dataset": "math",
+      "budget": 2,
+      "method": "SelfCertBest",
+      "questions": 800,
+      "accuracy": 0.667625,
+      "token_cost": 1339.8655,
+      "rollouts": 2.0,
+      "oracle_coverage": 0.7248750000000002,
+      "pool_oracle_coverage": 0.7248750000000002,
+      "distinct_groups": 1.3708749999999998,
+      "sampling_failure": 0.275125,
+      "selection_failure": 0.057249999999999995,
+      "accuracy_ci95": [
+        0.63661875,
+        0.6931375
+      ],
+      "difference_vs_SC": {
+        "mean": 0.024125,
+        "ci95": [
+          0.017124999999999998,
+          0.03125
+        ]
+      },
+      "difference_vs_FirstAns": {
+        "mean": 0.024125,
+        "ci95": [
+          0.017124999999999998,
+          0.03125
+        ]
+      }
+    },
+    {
+      "dataset": "math",
+      "budget": 2,
+      "method": "SelfCertRWC",
+      "questions": 800,
+      "accuracy": 0.667625,
+      "token_cost": 1339.8655,
+      "rollouts": 2.0,
+      "oracle_coverage": 0.7248750000000002,
+      "pool_oracle_coverage": 0.7248750000000002,
+      "distinct_groups": 1.3708749999999998,
+      "sampling_failure": 0.275125,
+      "selection_failure": 0.057249999999999995,
+      "accuracy_ci95": [
+        0.63661875,
+        0.6931375
+      ],
+      "difference_vs_SC": {
+        "mean": 0.024125,
+        "ci95": [
+          0.017124999999999998,
+          0.03125
+        ]
+      },
+      "difference_vs_FirstAns": {
+        "mean": 0.024125,
+        "ci95": [
+          0.017124999999999998,
+          0.03125
+        ]
+      }
+    },
+    {
+      "dataset": "math",
+      "budget": 2,
+      "method": "Shortest",
+      "questions": 800,
+      "accuracy": 0.652875,
+      "token_cost": 1339.8655,
+      "rollouts": 2.0,
+      "oracle_coverage": 0.7248750000000002,
+      "pool_oracle_coverage": 0.7248750000000002,
+      "distinct_groups": 1.3708749999999998,
+      "sampling_failure": 0.275125,
+      "selection_failure": 0.072,
+      "accuracy_ci95": [
+        0.621375,
+        0.679753125
+      ],
+      "difference_vs_SC": {
+        "mean": 0.009375,
+        "ci95": [
+          0.0022499999999999994,
+          0.016253124999999997
+        ]
+      },
+      "difference_vs_FirstAns": {
+        "mean": 0.009375,
+        "ci95": [
+          0.0022499999999999994,
+          0.016253124999999997
+        ]
+      }
+    },
+    {
+      "dataset": "math",
+      "budget": 4,
+      "method": "FirstAns",
+      "questions": 800,
+      "accuracy": 0.6435,
+      "token_cost": 669.772625,
+      "rollouts": 1.0,
+      "oracle_coverage": 0.6435,
+      "pool_oracle_coverage": 0.7907500000000001,
+      "distinct_groups": 1.9277499999999999,
+      "sampling_failure": 0.35650000000000004,
+      "selection_failure": 0.0,
+      "accuracy_ci95": [
+        0.613371875,
+        0.668875
+      ],
+      "difference_vs_SC": {
+        "mean": -0.048499999999999995,
+        "ci95": [
+          -0.056253125,
+          -0.040374999999999994
+        ]
+      },
+      "difference_vs_FirstAns": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "dataset": "math",
+      "budget": 4,
+      "method": "SC",
+      "questions": 800,
+      "accuracy": 0.6919999999999998,
+      "token_cost": 2679.694125,
+      "rollouts": 4.0,
+      "oracle_coverage": 0.7907500000000001,
+      "pool_oracle_coverage": 0.7907500000000001,
+      "distinct_groups": 1.9277499999999999,
+      "sampling_failure": 0.20924999999999996,
+      "selection_failure": 0.09875,
+      "accuracy_ci95": [
+        0.659625,
+        0.7191312500000001
+      ],
+      "difference_vs_SC": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "difference_vs_FirstAns": {
+        "mean": 0.048499999999999995,
+        "ci95": [
+          0.040374999999999994,
+          0.056253125
+        ]
+      }
+    },
+    {
+      "dataset": "math",
+      "budget": 4,
+      "method": "LogPBest",
+      "questions": 800,
+      "accuracy": 0.672375,
+      "token_cost": 2679.694125,
+      "rollouts": 4.0,
+      "oracle_coverage": 0.7907500000000001,
+      "pool_oracle_coverage": 0.7907500000000001,
+      "distinct_groups": 1.9277499999999999,
+      "sampling_failure": 0.20924999999999996,
+      "selection_failure": 0.11837500000000001,
+      "accuracy_ci95": [
+        0.642734375,
+        0.699634375
+      ],
+      "difference_vs_SC": {
+        "mean": -0.019625,
+        "ci95": [
+          -0.028874999999999998,
+          -0.009746875
+        ]
+      },
+      "difference_vs_FirstAns": {
+        "mean": 0.028875,
+        "ci95": [
+          0.01875,
+          0.038875
+        ]
+      }
+    },
+    {
+      "dataset": "math",
+      "budget": 4,
+      "method": "SelfCertBest",
+      "questions": 800,
+      "accuracy": 0.6877500000000001,
+      "token_cost": 2679.694125,
+      "rollouts": 4.0,
+      "oracle_coverage": 0.7907500000000001,
+      "pool_oracle_coverage": 0.7907500000000001,
+      "distinct_groups": 1.9277499999999999,
+      "sampling_failure": 0.20924999999999996,
+      "selection_failure": 0.10300000000000001,
+      "accuracy_ci95": [
+        0.65749375,
+        0.7141281250000001
+      ],
+      "difference_vs_SC": {
+        "mean": -0.004249999999999999,
+        "ci95": [
+          -0.012875,
+          0.005
+        ]
+      },
+      "difference_vs_FirstAns": {
+        "mean": 0.044250000000000005,
+        "ci95": [
+          0.034125,
+          0.05512499999999999
+        ]
+      }
+    },
+    {
+      "dataset": "math",
+      "budget": 4,
+      "method": "SelfCertRWC",
+      "questions": 800,
+      "accuracy": 0.6970000000000001,
+      "token_cost": 2679.694125,
+      "rollouts": 4.0,
+      "oracle_coverage": 0.7907500000000001,
+      "pool_oracle_coverage": 0.7907500000000001,
+      "distinct_groups": 1.9277499999999999,
+      "sampling_failure": 0.20924999999999996,
+      "selection_failure": 0.09375,
+      "accuracy_ci95": [
+        0.665359375,
+        0.7240031250000001
+      ],
+      "difference_vs_SC": {
+        "mean": 0.005,
+        "ci95": [
+          -0.0014999999999999992,
+          0.011750000000000003
+        ]
+      },
+      "difference_vs_FirstAns": {
+        "mean": 0.0535,
+        "ci95": [
+          0.044625000000000005,
+          0.063253125
+        ]
+      }
+    },
+    {
+      "dataset": "math",
+      "budget": 4,
+      "method": "Shortest",
+      "questions": 800,
+      "accuracy": 0.652,
+      "token_cost": 2679.694125,
+      "rollouts": 4.0,
+      "oracle_coverage": 0.7907500000000001,
+      "pool_oracle_coverage": 0.7907500000000001,
+      "distinct_groups": 1.9277499999999999,
+      "sampling_failure": 0.20924999999999996,
+      "selection_failure": 0.13875,
+      "accuracy_ci95": [
+        0.620375,
+        0.67913125
+      ],
+      "difference_vs_SC": {
+        "mean": -0.04,
+        "ci95": [
+          -0.05013125,
+          -0.029749999999999995
+        ]
+      },
+      "difference_vs_FirstAns": {
+        "mean": 0.0085,
+        "ci95": [
+          -0.0015062499999999991,
+          0.018631249999999995
+        ]
+      }
+    },
+    {
+      "dataset": "math",
+      "budget": 8,
+      "method": "FirstAns",
+      "questions": 800,
+      "accuracy": 0.6435,
+      "token_cost": 669.772625,
+      "rollouts": 1.0,
+      "oracle_coverage": 0.6435,
+      "pool_oracle_coverage": 0.8434999999999999,
+      "distinct_groups": 2.74075,
+      "sampling_failure": 0.35650000000000004,
+      "selection_failure": 0.0,
+      "accuracy_ci95": [
+        0.613371875,
+        0.668875
+      ],
+      "difference_vs_SC": {
+        "mean": -0.074375,
+        "ci95": [
+          -0.085378125,
+          -0.06375
+        ]
+      },
+      "difference_vs_FirstAns": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "dataset": "math",
+      "budget": 8,
+      "method": "SC",
+      "questions": 800,
+      "accuracy": 0.7178749999999999,
+      "token_cost": 5344.108500000001,
+      "rollouts": 8.0,
+      "oracle_coverage": 0.8434999999999999,
+      "pool_oracle_coverage": 0.8434999999999999,
+      "distinct_groups": 2.74075,
+      "sampling_failure": 0.15649999999999997,
+      "selection_failure": 0.125625,
+      "accuracy_ci95": [
+        0.6849906250000001,
+        0.7473781250000001
+      ],
+      "difference_vs_SC": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "difference_vs_FirstAns": {
+        "mean": 0.074375,
+        "ci95": [
+          0.06375,
+          0.08537812499999999
+        ]
+      }
+    },
+    {
+      "dataset": "math",
+      "budget": 8,
+      "method": "LogPBest",
+      "questions": 800,
+      "accuracy": 0.675375,
+      "token_cost": 5344.108500000001,
+      "rollouts": 8.0,
+      "oracle_coverage": 0.8434999999999999,
+      "pool_oracle_coverage": 0.8434999999999999,
+      "distinct_groups": 2.74075,
+      "sampling_failure": 0.15649999999999997,
+      "selection_failure": 0.168125,
+      "accuracy_ci95": [
+        0.64549375,
+        0.7032531250000001
+      ],
+      "difference_vs_SC": {
+        "mean": -0.0425,
+        "ci95": [
+          -0.0565,
+          -0.028996875000000002
+        ]
+      },
+      "difference_vs_FirstAns": {
+        "mean": 0.031875,
+        "ci95": [
+          0.019246875,
+          0.04425
+        ]
+      }
+    },
+    {
+      "dataset": "math",
+      "budget": 8,
+      "method": "SelfCertBest",
+      "questions": 800,
+      "accuracy": 0.7013750000000001,
+      "token_cost": 5344.108500000001,
+      "rollouts": 8.0,
+      "oracle_coverage": 0.8434999999999999,
+      "pool_oracle_coverage": 0.8434999999999999,
+      "distinct_groups": 2.74075,
+      "sampling_failure": 0.15649999999999997,
+      "selection_failure": 0.142125,
+      "accuracy_ci95": [
+        0.6709968749999999,
+        0.7273781250000001
+      ],
+      "difference_vs_SC": {
+        "mean": -0.0165,
+        "ci95": [
+          -0.02825,
+          -0.0037468750000000037
+        ]
+      },
+      "difference_vs_FirstAns": {
+        "mean": 0.057874999999999996,
+        "ci95": [
+          0.04549062500000001,
+          0.070003125
+        ]
+      }
+    },
+    {
+      "dataset": "math",
+      "budget": 8,
+      "method": "SelfCertRWC",
+      "questions": 800,
+      "accuracy": 0.7286250000000001,
+      "token_cost": 5344.108500000001,
+      "rollouts": 8.0,
+      "oracle_coverage": 0.8434999999999999,
+      "pool_oracle_coverage": 0.8434999999999999,
+      "distinct_groups": 2.74075,
+      "sampling_failure": 0.15649999999999997,
+      "selection_failure": 0.114875,
+      "accuracy_ci95": [
+        0.6967375,
+        0.7560031250000001
+      ],
+      "difference_vs_SC": {
+        "mean": 0.010749999999999997,
+        "ci95": [
+          0.004621874999999998,
+          0.016878124999999997
+        ]
+      },
+      "difference_vs_FirstAns": {
+        "mean": 0.085125,
+        "ci95": [
+          0.07362187499999999,
+          0.09662812500000001
+        ]
+      }
+    },
+    {
+      "dataset": "math",
+      "budget": 8,
+      "method": "Shortest",
+      "questions": 800,
+      "accuracy": 0.645625,
+      "token_cost": 5344.108500000001,
+      "rollouts": 8.0,
+      "oracle_coverage": 0.8434999999999999,
+      "pool_oracle_coverage": 0.8434999999999999,
+      "distinct_groups": 2.74075,
+      "sampling_failure": 0.15649999999999997,
+      "selection_failure": 0.19787500000000002,
+      "accuracy_ci95": [
+        0.613740625,
+        0.675003125
+      ],
+      "difference_vs_SC": {
+        "mean": -0.07225000000000001,
+        "ci95": [
+          -0.08625624999999999,
+          -0.057621875
+        ]
+      },
+      "difference_vs_FirstAns": {
+        "mean": 0.0021249999999999984,
+        "ci95": [
+          -0.010003125000000003,
+          0.015503124999999998
+        ]
+      }
+    },
+    {
+      "dataset": "math",
+      "budget": 16,
+      "method": "FirstAns",
+      "questions": 800,
+      "accuracy": 0.6435,
+      "token_cost": 669.772625,
+      "rollouts": 1.0,
+      "oracle_coverage": 0.6435,
+      "pool_oracle_coverage": 0.8845000000000002,
+      "distinct_groups": 4.00425,
+      "sampling_failure": 0.35650000000000004,
+      "selection_failure": 0.0,
+      "accuracy_ci95": [
+        0.613371875,
+        0.668875
+      ],
+      "difference_vs_SC": {
+        "mean": -0.08762500000000001,
+        "ci95": [
+          -0.101125,
+          -0.07424687499999999
+        ]
+      },
+      "difference_vs_FirstAns": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "dataset": "math",
+      "budget": 16,
+      "method": "SC",
+      "questions": 800,
+      "accuracy": 0.7311250000000001,
+      "token_cost": 10677.742750000001,
+      "rollouts": 16.0,
+      "oracle_coverage": 0.8845000000000002,
+      "pool_oracle_coverage": 0.8845000000000002,
+      "distinct_groups": 4.00425,
+      "sampling_failure": 0.1155,
+      "selection_failure": 0.153375,
+      "accuracy_ci95": [
+        0.6972468749999999,
+        0.7610031249999999
+      ],
+      "difference_vs_SC": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "difference_vs_FirstAns": {
+        "mean": 0.08762500000000001,
+        "ci95": [
+          0.07424687499999999,
+          0.101125
+        ]
+      }
+    },
+    {
+      "dataset": "math",
+      "budget": 16,
+      "method": "LogPBest",
+      "questions": 800,
+      "accuracy": 0.6638749999999999,
+      "token_cost": 10677.742750000001,
+      "rollouts": 16.0,
+      "oracle_coverage": 0.8845000000000002,
+      "pool_oracle_coverage": 0.8845000000000002,
+      "distinct_groups": 4.00425,
+      "sampling_failure": 0.1155,
+      "selection_failure": 0.220625,
+      "accuracy_ci95": [
+        0.6333531250000001,
+        0.6927593750000001
+      ],
+      "difference_vs_SC": {
+        "mean": -0.06724999999999999,
+        "ci95": [
+          -0.08500312500000001,
+          -0.048865625
+        ]
+      },
+      "difference_vs_FirstAns": {
+        "mean": 0.020375,
+        "ci95": [
+          0.004874999999999997,
+          0.03588437499999999
+        ]
+      }
+    },
+    {
+      "dataset": "math",
+      "budget": 16,
+      "method": "SelfCertBest",
+      "questions": 800,
+      "accuracy": 0.7069999999999999,
+      "token_cost": 10677.742750000001,
+      "rollouts": 16.0,
+      "oracle_coverage": 0.8845000000000002,
+      "pool_oracle_coverage": 0.8845000000000002,
+      "distinct_groups": 4.00425,
+      "sampling_failure": 0.1155,
+      "selection_failure": 0.1775,
+      "accuracy_ci95": [
+        0.6757468749999999,
+        0.7345
+      ],
+      "difference_vs_SC": {
+        "mean": -0.024125,
+        "ci95": [
+          -0.040003125,
+          -0.008125
+        ]
+      },
+      "difference_vs_FirstAns": {
+        "mean": 0.0635,
+        "ci95": [
+          0.048621875,
+          0.079125
+        ]
+      }
+    },
+    {
+      "dataset": "math",
+      "budget": 16,
+      "method": "SelfCertRWC",
+      "questions": 800,
+      "accuracy": 0.7465,
+      "token_cost": 10677.742750000001,
+      "rollouts": 16.0,
+      "oracle_coverage": 0.8845000000000002,
+      "pool_oracle_coverage": 0.8845000000000002,
+      "distinct_groups": 4.00425,
+      "sampling_failure": 0.1155,
+      "selection_failure": 0.138,
+      "accuracy_ci95": [
+        0.7136218750000001,
+        0.7741312499999999
+      ],
+      "difference_vs_SC": {
+        "mean": 0.015375000000000002,
+        "ci95": [
+          0.008621875,
+          0.022378124999999995
+        ]
+      },
+      "difference_vs_FirstAns": {
+        "mean": 0.10300000000000001,
+        "ci95": [
+          0.08837187499999999,
+          0.11712499999999998
+        ]
+      }
+    },
+    {
+      "dataset": "math",
+      "budget": 16,
+      "method": "Shortest",
+      "questions": 800,
+      "accuracy": 0.631625,
+      "token_cost": 10677.742750000001,
+      "rollouts": 16.0,
+      "oracle_coverage": 0.8845000000000002,
+      "pool_oracle_coverage": 0.8845000000000002,
+      "distinct_groups": 4.00425,
+      "sampling_failure": 0.1155,
+      "selection_failure": 0.252875,
+      "accuracy_ci95": [
+        0.5989937500000001,
+        0.6611312500000001
+      ],
+      "difference_vs_SC": {
+        "mean": -0.09949999999999999,
+        "ci95": [
+          -0.1195,
+          -0.08174687500000001
+        ]
+      },
+      "difference_vs_FirstAns": {
+        "mean": -0.011875000000000004,
+        "ci95": [
+          -0.027374999999999997,
+          0.0051249999999999985
+        ]
+      }
+    },
+    {
+      "dataset": "math",
+      "budget": 32,
+      "method": "FirstAns",
+      "questions": 800,
+      "accuracy": 0.6435,
+      "token_cost": 669.772625,
+      "rollouts": 1.0,
+      "oracle_coverage": 0.6435,
+      "pool_oracle_coverage": 0.91375,
+      "distinct_groups": 5.905,
+      "sampling_failure": 0.35650000000000004,
+      "selection_failure": 0.0,
+      "accuracy_ci95": [
+        0.613371875,
+        0.668875
+      ],
+      "difference_vs_SC": {
+        "mean": -0.094375,
+        "ci95": [
+          -0.11100625000000001,
+          -0.07849375
+        ]
+      },
+      "difference_vs_FirstAns": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "dataset": "math",
+      "budget": 32,
+      "method": "SC",
+      "questions": 800,
+      "accuracy": 0.737875,
+      "token_cost": 21347.0175,
+      "rollouts": 32.0,
+      "oracle_coverage": 0.91375,
+      "pool_oracle_coverage": 0.91375,
+      "distinct_groups": 5.905,
+      "sampling_failure": 0.08625,
+      "selection_failure": 0.17587499999999998,
+      "accuracy_ci95": [
+        0.70424375,
+        0.7686406250000001
+      ],
+      "difference_vs_SC": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "difference_vs_FirstAns": {
+        "mean": 0.094375,
+        "ci95": [
+          0.07849375,
+          0.11100625000000001
+        ]
+      }
+    },
+    {
+      "dataset": "math",
+      "budget": 32,
+      "method": "LogPBest",
+      "questions": 800,
+      "accuracy": 0.64,
+      "token_cost": 21347.0175,
+      "rollouts": 32.0,
+      "oracle_coverage": 0.91375,
+      "pool_oracle_coverage": 0.91375,
+      "distinct_groups": 5.905,
+      "sampling_failure": 0.08625,
+      "selection_failure": 0.27375,
+      "accuracy_ci95": [
+        0.605,
+        0.6725
+      ],
+      "difference_vs_SC": {
+        "mean": -0.09787500000000002,
+        "ci95": [
+          -0.124125,
+          -0.07200000000000001
+        ]
+      },
+      "difference_vs_FirstAns": {
+        "mean": -0.003499999999999999,
+        "ci95": [
+          -0.024249999999999997,
+          0.017756249999999994
+        ]
+      }
+    },
+    {
+      "dataset": "math",
+      "budget": 32,
+      "method": "SelfCertBest",
+      "questions": 800,
+      "accuracy": 0.70625,
+      "token_cost": 21347.0175,
+      "rollouts": 32.0,
+      "oracle_coverage": 0.91375,
+      "pool_oracle_coverage": 0.91375,
+      "distinct_groups": 5.905,
+      "sampling_failure": 0.08625,
+      "selection_failure": 0.2075,
+      "accuracy_ci95": [
+        0.6737187499999999,
+        0.7375
+      ],
+      "difference_vs_SC": {
+        "mean": -0.03162499999999999,
+        "ci95": [
+          -0.055628125,
+          -0.008371875
+        ]
+      },
+      "difference_vs_FirstAns": {
+        "mean": 0.06275,
+        "ci95": [
+          0.04324687499999999,
+          0.083125
+        ]
+      }
+    },
+    {
+      "dataset": "math",
+      "budget": 32,
+      "method": "SelfCertRWC",
+      "questions": 800,
+      "accuracy": 0.7555,
+      "token_cost": 21347.0175,
+      "rollouts": 32.0,
+      "oracle_coverage": 0.91375,
+      "pool_oracle_coverage": 0.91375,
+      "distinct_groups": 5.905,
+      "sampling_failure": 0.08625,
+      "selection_failure": 0.15825,
+      "accuracy_ci95": [
+        0.7217375,
+        0.7837624999999999
+      ],
+      "difference_vs_SC": {
+        "mean": 0.017625,
+        "ci95": [
+          0.006746875000000001,
+          0.028006249999999993
+        ]
+      },
+      "difference_vs_FirstAns": {
+        "mean": 0.11199999999999999,
+        "ci95": [
+          0.09512499999999999,
+          0.13037812499999998
+        ]
+      }
+    },
+    {
+      "dataset": "math",
+      "budget": 32,
+      "method": "Shortest",
+      "questions": 800,
+      "accuracy": 0.62375,
+      "token_cost": 21347.0175,
+      "rollouts": 32.0,
+      "oracle_coverage": 0.91375,
+      "pool_oracle_coverage": 0.91375,
+      "distinct_groups": 5.905,
+      "sampling_failure": 0.08625,
+      "selection_failure": 0.29,
+      "accuracy_ci95": [
+        0.58875,
+        0.657146875
+      ],
+      "difference_vs_SC": {
+        "mean": -0.11412500000000002,
+        "ci95": [
+          -0.140875,
+          -0.08961562499999999
+        ]
+      },
+      "difference_vs_FirstAns": {
+        "mean": -0.01975,
+        "ci95": [
+          -0.041625,
+          0.0026499999999999736
+        ]
+      }
+    }
+  ],
+  "adaptive": [
+    {
+      "dataset": "math",
+      "family": "agreement",
+      "setting": {
+        "family": "agreement",
+        "tau": 0.625,
+        "gamma": 0.0
+      },
+      "questions": 800,
+      "accuracy": {
+        "mean": 0.736375,
+        "ci95": [
+          0.7023718750000001,
+          0.767253125
+        ]
+      },
+      "difference_vs_fixed32_SC": {
+        "mean": -0.0014999999999999992,
+        "ci95": [
+          -0.004999999999999999,
+          0.0015000000000000005
+        ]
+      },
+      "token_cost": 10139.981000000002,
+      "mean_rollouts": 11.824000000000002,
+      "stop_counts": {
+        "4": 5302,
+        "8": 469,
+        "16": 106,
+        "32": 2123
+      },
+      "stop_fractions": {
+        "4": 0.66275,
+        "8": 0.058625,
+        "16": 0.01325,
+        "32": 0.265375
+      },
+      "incorrect_early_stop_rate": 0.0825,
+      "fixed32_recoverable_early_stop_rate": 0.006375,
+      "retrospective_full_pool_correct_fraction_buckets": {
+        "none": {
+          "questions": 69,
+          "mean_rollouts": 23.402898550724636,
+          "accuracy": 0.0
+        },
+        "low": {
+          "questions": 142,
+          "mean_rollouts": 25.56056338028169,
+          "accuracy": 0.14084507042253522
+        },
+        "middle": {
+          "questions": 152,
+          "mean_rollouts": 15.794736842105262,
+          "accuracy": 0.8703947368421052
+        },
+        "high": {
+          "questions": 437,
+          "mean_rollouts": 4.151029748283753,
+          "accuracy": 0.9995423340961098
+        }
+      }
+    },
+    {
+      "dataset": "math",
+      "family": "quality",
+      "setting": {
+        "family": "quality",
+        "tau": 0.5,
+        "gamma": 0.0
+      },
+      "questions": 800,
+      "accuracy": {
+        "mean": 0.7317499999999998,
+        "ci95": [
+          0.698371875,
+          0.7611249999999999
+        ]
+      },
+      "difference_vs_fixed32_SC": {
+        "mean": -0.0061249999999999985,
+        "ci95": [
+          -0.012124999999999999,
+          -0.000749999999999999
+        ]
+      },
+      "token_cost": 7663.055375,
+      "mean_rollouts": 9.0075,
+      "stop_counts": {
+        "4": 6109,
+        "8": 465,
+        "16": 108,
+        "32": 1318
+      },
+      "stop_fractions": {
+        "4": 0.763625,
+        "8": 0.058125,
+        "16": 0.0135,
+        "32": 0.16475
+      },
+      "incorrect_early_stop_rate": 0.144,
+      "fixed32_recoverable_early_stop_rate": 0.016375,
+      "retrospective_full_pool_correct_fraction_buckets": {
+        "none": {
+          "questions": 69,
+          "mean_rollouts": 18.515942028985506,
+          "accuracy": 0.0
+        },
+        "low": {
+          "questions": 142,
+          "mean_rollouts": 19.43380281690141,
+          "accuracy": 0.15
+        },
+        "middle": {
+          "questions": 152,
+          "mean_rollouts": 9.123684210526315,
+          "accuracy": 0.8401315789473685
+        },
+        "high": {
+          "questions": 437,
+          "mean_rollouts": 4.077803203661327,
+          "accuracy": 0.9986270022883296
+        }
+      }
+    }
+  ],
+  "signals": {
+    "length": {
+      "quartile_accuracy_gap": {
+        "mean": -0.0459375,
+        "ci95": [
+          -0.06250390625,
+          -0.029375
+        ]
+      },
+      "spearman_correctness": {
+        "mean": -0.07632595054396821,
+        "defined_questions": 469,
+        "undefined_questions": 331
+      },
+      "spearman_length": {
+        "mean": 1.0,
+        "defined_questions": 800,
+        "undefined_questions": 0
+      }
+    },
+    "logp": {
+      "quartile_accuracy_gap": {
+        "mean": 0.07828125,
+        "ci95": [
+          0.061875,
+          0.09312890624999999
+        ]
+      },
+      "spearman_correctness": {
+        "mean": 0.13401181953820637,
+        "defined_questions": 469,
+        "undefined_questions": 331
+      },
+      "spearman_length": {
+        "mean": 0.22450990220048075,
+        "defined_questions": 800,
+        "undefined_questions": 0
+      }
+    },
+    "self_certainty": {
+      "quartile_accuracy_gap": {
+        "mean": 0.11984375,
+        "ci95": [
+          0.10375,
+          0.1371875
+        ]
+      },
+      "spearman_correctness": {
+        "mean": 0.19804108649285113,
+        "defined_questions": 469,
+        "undefined_questions": 331
+      },
+      "spearman_length": {
+        "mean": -0.16109595817293734,
+        "defined_questions": 800,
+        "undefined_questions": 0
+      }
+    }
+  },
+  "visual_signals": {},
+  "math_parse_audit": {
+    "questions_with_unparseable_gold": 0,
+    "unique_per_question_unparseable_predictions": 2
+  },
+  "normalization_audit": {
+    "candidate_rows": 25600,
+    "raw_missing_extractions": 428,
+    "normalized_no_answer": 428,
+    "capped_rollouts": 429
+  },
+  "case_selection_rule": "Lexicographically first held-out question meeting each stated failure/disagreement condition; earliest qualifying saved order for stopping; descriptive post-hoc examples.",
+  "cases": [
+    {
+      "kind": "premature_stop_recoverable",
+      "family": "agreement",
+      "sample_id": "test:1423",
+      "accuracy": 0.0,
+      "token_cost": 2990,
+      "rollouts": 4,
+      "oracle_coverage": 0.0,
+      "pool_oracle_coverage": 0.0,
+      "distinct_groups": 2,
+      "sampling_failure": 1.0,
+      "selection_failure": 0.0,
+      "selected_rollout_id": 8,
+      "stop_n": 4,
+      "order_index": 4,
+      "incorrect_early_stop": true,
+      "fixed32_would_recover": true
+    },
+    {
+      "kind": "premature_stop_recoverable",
+      "family": "quality",
+      "sample_id": "test:1153",
+      "accuracy": 0.0,
+      "token_cost": 4322,
+      "rollouts": 4,
+      "oracle_coverage": 0.0,
+      "pool_oracle_coverage": 0.0,
+      "distinct_groups": 3,
+      "sampling_failure": 1.0,
+      "selection_failure": 0.0,
+      "selected_rollout_id": 25,
+      "stop_n": 4,
+      "order_index": 8,
+      "incorrect_early_stop": true,
+      "fixed32_would_recover": true
+    },
+    {
+      "kind": "SC_wrong_SelfCertBest_correct",
+      "sample_id": "test:1230",
+      "order_index": 0,
+      "SC_rollout": 20,
+      "SelfCertBest_rollout": 7
+    },
+    {
+      "kind": "SC_correct_SelfCertBest_wrong",
+      "sample_id": "test:1153",
+      "order_index": 0,
+      "SC_rollout": 3,
+      "SelfCertBest_rollout": 9
+    }
+  ],
+  "identity": {
+    "version": "pa3-task3-offline-v1",
+    "scorer_sha256": "8dd126dce5dc1bec1dbb63e43c2bf2c12ad78daf09c1c4126aa0169dacea14d7",
+    "preparation_sha256": "149c36d8cd6aeab3674ad7261d68d8e4780ee9045acf9ef1490988a97b47e172",
+    "prepared_manifest_sha256": "623e8841ec6a945b91c35fa7d566938af5abf225a43c2479a2d5b648f8e50dd6",
+    "source_sha256": {
+      "task3_selection.py": "1ace168286e5f4e18b9e472157001603debaff2331fa4653595cd1532d46d048",
+      "task3_offline.py": "ee70767021558dce0deae909fba0361eb93f7071156d6e0665254ca1773e653c",
+      "test_task3_offline_cpu.py": "9f7b5b4c3ca64f88a2eac575c5f6bd9ce39ecded91f9f3c8378580d7c43f460d"
+    },
+    "quartile_policy": "8 highest/lowest candidates per question, ties by saved order 0; full-pool retrospective diagnostics",
+    "correlations": "Spearman across candidates within question; Pearson confidence/vision across tokens within rollout then mean within question; undefined correlations retained as null and counted",
+    "rwc": "Exact integer units proportional to prescribed descending-average-rank weights; vote ties by earliest supporting candidate",
+    "zero_tokens": "This export was audited to have none; fail if that assumption changes."
+  },
+  "frozen_policy_sha256": "92720eb01d802525d5997768f865bc1cb38490d65c6180c9f4f87d388ae17370"
+}

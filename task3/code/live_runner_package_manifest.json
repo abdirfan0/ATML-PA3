@@ -1,0 +1,18 @@
+{
+  "version": "pa3-task3-live-runner-package-v1",
+  "files": {
+    "task3_live_runtime.py": "3f99bc042c17c3f990e029c05584a60bfa7dd3cd21b145ce4a982b9bebbd25bd",
+    "task3_live_run.py": "3abf0afb68f7e813fa968721e9ecb62d3d300b8d31a27ec130d092a70ba3c615",
+    "task3_live_gpu_setup.py": "ca5d0587bd4c6d660cc220c213fae037b259d577880024848d795a6a51f74392",
+    "test_task3_live_runner_cpu.py": "f3d1277dbf8ef70f9f11aff0d6c1938dac1f61b115fb6ab9547d98afbdb58088",
+    "LIVE_RUNNER_README.md": "e3185c699cb2500f22e684ffc87bc97ba28703ec2e0e0854dc1cedd03ea6a9ae"
+  },
+  "required_source": {
+    "task3_answers.py": "0655711d57d35a0c0caccfc50425227b0c2c778f785b899bd328cb550dfc0a53",
+    "task3_scorer_preflight.py": "662254df1480191a629064e38d1f00956edd55d26579b189f34d305e4b549994",
+    "test_task3_answers_cpu.py": "0750208d2666be560ebdcb2f68f8be9ec1da715cae84fdc2d43f246fba58a00e",
+    "task3_live_spec.py": "c427abf5f65d370a5c38eaf8f863c2100490c1672544194bae092fc46307e445",
+    "task3_live_assets.py": "a9cd81594cc5466f2301eb2989e012b24573afa090a2cfa17875769d393f713e",
+    "test_task3_live_cpu.py": "8a0e93bfbc2f157055ddd43e1fb5fe86fa3784f07e91d440010165d122390bd8"
+  }
+}

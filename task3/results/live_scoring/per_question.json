@@ -1,0 +1,3902 @@
+[
+  {
+    "sample_id": "test:943",
+    "gold_answer": "14",
+    "call_correct": {
+      "single_long": true,
+      "parallel_0": true,
+      "parallel_1": true,
+      "parallel_2": true,
+      "revision": true
+    },
+    "call_extracted_answers": {
+      "single_long": "14",
+      "parallel_0": "14",
+      "parallel_1": "14",
+      "parallel_2": "14",
+      "revision": "14"
+    },
+    "parallel_groups": [
+      "MATH_GROUP_00",
+      "MATH_GROUP_00",
+      "MATH_GROUP_00"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": true,
+        "answer": "14",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 106,
+        "output_tokens": 423,
+        "retained_output_tokens": 422,
+        "seconds": 16.312513689999946,
+        "peak_gpu_allocated_bytes": 6208583680
+      },
+      "parallel": {
+        "correct": true,
+        "answer": "14",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 318,
+        "output_tokens": 1270,
+        "retained_output_tokens": 1267,
+        "seconds": 49.04759877399988,
+        "peak_gpu_allocated_bytes": 6211275776
+      },
+      "sequential": {
+        "correct": true,
+        "answer": "14",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 636,
+        "output_tokens": 748,
+        "retained_output_tokens": 746,
+        "seconds": 28.76826397900004,
+        "peak_gpu_allocated_bytes": 6244965376
+      }
+    }
+  },
+  {
+    "sample_id": "test:2688",
+    "gold_answer": "-1",
+    "call_correct": {
+      "single_long": true,
+      "parallel_0": true,
+      "parallel_1": true,
+      "parallel_2": true,
+      "revision": true
+    },
+    "call_extracted_answers": {
+      "single_long": "-1",
+      "parallel_0": "-1",
+      "parallel_1": "-1",
+      "parallel_2": "-1",
+      "revision": "-1"
+    },
+    "parallel_groups": [
+      "MATH_GROUP_00",
+      "MATH_GROUP_00",
+      "MATH_GROUP_00"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": true,
+        "answer": "-1",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 71,
+        "output_tokens": 625,
+        "retained_output_tokens": 624,
+        "seconds": 23.897687271999985,
+        "peak_gpu_allocated_bytes": 6214742016
+      },
+      "parallel": {
+        "correct": true,
+        "answer": "-1",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 213,
+        "output_tokens": 2396,
+        "retained_output_tokens": 2393,
+        "seconds": 91.51788651899994,
+        "peak_gpu_allocated_bytes": 6224958464
+      },
+      "sequential": {
+        "correct": true,
+        "answer": "-1",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 946,
+        "output_tokens": 1490,
+        "retained_output_tokens": 1488,
+        "seconds": 57.00644472499994,
+        "peak_gpu_allocated_bytes": 6286309888
+      }
+    }
+  },
+  {
+    "sample_id": "test:3504",
+    "gold_answer": "216",
+    "call_correct": {
+      "single_long": true,
+      "parallel_0": false,
+      "parallel_1": false,
+      "parallel_2": false,
+      "revision": false
+    },
+    "call_extracted_answers": {
+      "single_long": "216",
+      "parallel_0": "2520",
+      "parallel_1": null,
+      "parallel_2": null,
+      "revision": "2520"
+    },
+    "parallel_groups": [
+      "MATH_GROUP_00",
+      "NO_ANSWER",
+      "NO_ANSWER"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_1",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": true,
+        "answer": "216",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 60,
+        "output_tokens": 946,
+        "retained_output_tokens": 945,
+        "seconds": 36.152787966999995,
+        "peak_gpu_allocated_bytes": 6226173440
+      },
+      "parallel": {
+        "correct": false,
+        "answer": null,
+        "extraction_failed": true,
+        "selected_truncated": true,
+        "truncated_calls": 3,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 180,
+        "output_tokens": 3072,
+        "retained_output_tokens": 3072,
+        "seconds": 117.87311458700003,
+        "peak_gpu_allocated_bytes": 6229049856
+      },
+      "sequential": {
+        "correct": false,
+        "answer": "2520",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 1,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 1182,
+        "output_tokens": 2028,
+        "retained_output_tokens": 2027,
+        "seconds": 78.05370611899991,
+        "peak_gpu_allocated_bytes": 6316374016
+      }
+    }
+  },
+  {
+    "sample_id": "test:4335",
+    "gold_answer": "5040",
+    "call_correct": {
+      "single_long": true,
+      "parallel_0": true,
+      "parallel_1": true,
+      "parallel_2": true,
+      "revision": true
+    },
+    "call_extracted_answers": {
+      "single_long": "5040",
+      "parallel_0": "5040",
+      "parallel_1": "5040",
+      "parallel_2": "5040",
+      "revision": "5040"
+    },
+    "parallel_groups": [
+      "MATH_GROUP_00",
+      "MATH_GROUP_00",
+      "MATH_GROUP_00"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": true,
+        "answer": "5040",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 83,
+        "output_tokens": 264,
+        "retained_output_tokens": 263,
+        "seconds": 10.17778484900009,
+        "peak_gpu_allocated_bytes": 6201871360
+      },
+      "parallel": {
+        "correct": true,
+        "answer": "5040",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 249,
+        "output_tokens": 868,
+        "retained_output_tokens": 865,
+        "seconds": 33.23000322699977,
+        "peak_gpu_allocated_bytes": 6204010496
+      },
+      "sequential": {
+        "correct": true,
+        "answer": "5040",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 525,
+        "output_tokens": 544,
+        "retained_output_tokens": 542,
+        "seconds": 20.810539497000036,
+        "peak_gpu_allocated_bytes": 6234418176
+      }
+    }
+  },
+  {
+    "sample_id": "test:2460",
+    "gold_answer": "154",
+    "call_correct": {
+      "single_long": false,
+      "parallel_0": false,
+      "parallel_1": false,
+      "parallel_2": true,
+      "revision": true
+    },
+    "call_extracted_answers": {
+      "single_long": "58",
+      "parallel_0": null,
+      "parallel_1": null,
+      "parallel_2": "154",
+      "revision": "154"
+    },
+    "parallel_groups": [
+      "NO_ANSWER",
+      "NO_ANSWER",
+      "MATH_GROUP_00"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": false,
+        "answer": "58",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 110,
+        "output_tokens": 801,
+        "retained_output_tokens": 800,
+        "seconds": 30.76355650299979,
+        "peak_gpu_allocated_bytes": 6222671872
+      },
+      "parallel": {
+        "correct": false,
+        "answer": null,
+        "extraction_failed": true,
+        "selected_truncated": true,
+        "truncated_calls": 2,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 330,
+        "output_tokens": 3048,
+        "retained_output_tokens": 3047,
+        "seconds": 117.13666480599977,
+        "peak_gpu_allocated_bytes": 6230895616
+      },
+      "sequential": {
+        "correct": true,
+        "answer": "154",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 1,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 1282,
+        "output_tokens": 2115,
+        "retained_output_tokens": 2114,
+        "seconds": 81.52667885499977,
+        "peak_gpu_allocated_bytes": 6321902592
+      }
+    }
+  },
+  {
+    "sample_id": "test:1324",
+    "gold_answer": "\\frac{3}{16}",
+    "call_correct": {
+      "single_long": false,
+      "parallel_0": false,
+      "parallel_1": false,
+      "parallel_2": true,
+      "revision": false
+    },
+    "call_extracted_answers": {
+      "single_long": "\\frac{13}{16}",
+      "parallel_0": "\\frac{1}{2}",
+      "parallel_1": "\\frac{1}{2}",
+      "parallel_2": "\\frac{3}{16}",
+      "revision": "\\frac{1}{2}"
+    },
+    "parallel_groups": [
+      "MATH_GROUP_00",
+      "MATH_GROUP_00",
+      "MATH_GROUP_01"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": false,
+        "answer": "\\frac{13}{16}",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 148,
+        "output_tokens": 725,
+        "retained_output_tokens": 724,
+        "seconds": 27.91087222499982,
+        "peak_gpu_allocated_bytes": 6221271552
+      },
+      "parallel": {
+        "correct": false,
+        "answer": "\\frac{1}{2}",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 444,
+        "output_tokens": 1801,
+        "retained_output_tokens": 1798,
+        "seconds": 69.90363373700006,
+        "peak_gpu_allocated_bytes": 6221087232
+      },
+      "sequential": {
+        "correct": false,
+        "answer": "\\frac{1}{2}",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 865,
+        "output_tokens": 1053,
+        "retained_output_tokens": 1051,
+        "seconds": 40.68261814099992,
+        "peak_gpu_allocated_bytes": 6267945984
+      }
+    }
+  },
+  {
+    "sample_id": "test:2340",
+    "gold_answer": "6",
+    "call_correct": {
+      "single_long": true,
+      "parallel_0": true,
+      "parallel_1": true,
+      "parallel_2": true,
+      "revision": true
+    },
+    "call_extracted_answers": {
+      "single_long": "6",
+      "parallel_0": "6",
+      "parallel_1": "6",
+      "parallel_2": "6",
+      "revision": "6"
+    },
+    "parallel_groups": [
+      "MATH_GROUP_00",
+      "MATH_GROUP_00",
+      "MATH_GROUP_00"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": true,
+        "answer": "6",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 87,
+        "output_tokens": 699,
+        "retained_output_tokens": 698,
+        "seconds": 26.90661273799992,
+        "peak_gpu_allocated_bytes": 6218061824
+      },
+      "parallel": {
+        "correct": true,
+        "answer": "6",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 261,
+        "output_tokens": 2694,
+        "retained_output_tokens": 2691,
+        "seconds": 103.72875099499993,
+        "peak_gpu_allocated_bytes": 6228719616
+      },
+      "sequential": {
+        "correct": true,
+        "answer": "6",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 963,
+        "output_tokens": 1414,
+        "retained_output_tokens": 1412,
+        "seconds": 54.585482805999845,
+        "peak_gpu_allocated_bytes": 6286429184
+      }
+    }
+  },
+  {
+    "sample_id": "test:1577",
+    "gold_answer": "14",
+    "call_correct": {
+      "single_long": false,
+      "parallel_0": false,
+      "parallel_1": true,
+      "parallel_2": true,
+      "revision": false
+    },
+    "call_extracted_answers": {
+      "single_long": "5",
+      "parallel_0": "20",
+      "parallel_1": "14",
+      "parallel_2": "14",
+      "revision": "20"
+    },
+    "parallel_groups": [
+      "MATH_GROUP_01",
+      "MATH_GROUP_00",
+      "MATH_GROUP_00"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_1",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": false,
+        "answer": "5",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 366,
+        "output_tokens": 200,
+        "retained_output_tokens": 199,
+        "seconds": 7.7023163259998455,
+        "peak_gpu_allocated_bytes": 6225310720
+      },
+      "parallel": {
+        "correct": true,
+        "answer": "14",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 1098,
+        "output_tokens": 908,
+        "retained_output_tokens": 905,
+        "seconds": 35.1236615189996,
+        "peak_gpu_allocated_bytes": 6225310720
+      },
+      "sequential": {
+        "correct": false,
+        "answer": "20",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 1029,
+        "output_tokens": 546,
+        "retained_output_tokens": 544,
+        "seconds": 21.073919989999922,
+        "peak_gpu_allocated_bytes": 6260904448
+      }
+    }
+  },
+  {
+    "sample_id": "test:639",
+    "gold_answer": "-9",
+    "call_correct": {
+      "single_long": true,
+      "parallel_0": true,
+      "parallel_1": true,
+      "parallel_2": true,
+      "revision": true
+    },
+    "call_extracted_answers": {
+      "single_long": "-9",
+      "parallel_0": "-9",
+      "parallel_1": "-9",
+      "parallel_2": "-9",
+      "revision": "-9"
+    },
+    "parallel_groups": [
+      "MATH_GROUP_00",
+      "MATH_GROUP_00",
+      "MATH_GROUP_00"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": true,
+        "answer": "-9",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 74,
+        "output_tokens": 401,
+        "retained_output_tokens": 400,
+        "seconds": 15.339887636999947,
+        "peak_gpu_allocated_bytes": 6206592000
+      },
+      "parallel": {
+        "correct": true,
+        "answer": "-9",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 222,
+        "output_tokens": 1037,
+        "retained_output_tokens": 1034,
+        "seconds": 39.85182725500022,
+        "peak_gpu_allocated_bytes": 6206186496
+      },
+      "sequential": {
+        "correct": true,
+        "answer": "-9",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 575,
+        "output_tokens": 748,
+        "retained_output_tokens": 746,
+        "seconds": 28.84890716000018,
+        "peak_gpu_allocated_bytes": 6241489408
+      }
+    }
+  },
+  {
+    "sample_id": "test:2892",
+    "gold_answer": "-71",
+    "call_correct": {
+      "single_long": false,
+      "parallel_0": false,
+      "parallel_1": false,
+      "parallel_2": false,
+      "revision": false
+    },
+    "call_extracted_answers": {
+      "single_long": "157",
+      "parallel_0": null,
+      "parallel_1": "0",
+      "parallel_2": null,
+      "revision": "63"
+    },
+    "parallel_groups": [
+      "NO_ANSWER",
+      "MATH_GROUP_00",
+      "NO_ANSWER"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": false,
+        "answer": "157",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 98,
+        "output_tokens": 1008,
+        "retained_output_tokens": 1007,
+        "seconds": 38.68179409100003,
+        "peak_gpu_allocated_bytes": 6229863424
+      },
+      "parallel": {
+        "correct": false,
+        "answer": null,
+        "extraction_failed": true,
+        "selected_truncated": true,
+        "truncated_calls": 2,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 294,
+        "output_tokens": 3010,
+        "retained_output_tokens": 3009,
+        "seconds": 115.49916185200004,
+        "peak_gpu_allocated_bytes": 6230453248
+      },
+      "sequential": {
+        "correct": false,
+        "answer": "63",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 1,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 1258,
+        "output_tokens": 2167,
+        "retained_output_tokens": 2166,
+        "seconds": 83.20425210300004,
+        "peak_gpu_allocated_bytes": 6320464896
+      }
+    }
+  },
+  {
+    "sample_id": "test:4702",
+    "gold_answer": "59",
+    "call_correct": {
+      "single_long": true,
+      "parallel_0": false,
+      "parallel_1": false,
+      "parallel_2": false,
+      "revision": false
+    },
+    "call_extracted_answers": {
+      "single_long": "59",
+      "parallel_0": "-21",
+      "parallel_1": "-59",
+      "parallel_2": null,
+      "revision": "-21"
+    },
+    "parallel_groups": [
+      "MATH_GROUP_00",
+      "MATH_GROUP_01",
+      "NO_ANSWER"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": true,
+        "answer": "59",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 78,
+        "output_tokens": 562,
+        "retained_output_tokens": 561,
+        "seconds": 21.74487973300006,
+        "peak_gpu_allocated_bytes": 6212676608
+      },
+      "parallel": {
+        "correct": false,
+        "answer": "-21",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 1,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 234,
+        "output_tokens": 2095,
+        "retained_output_tokens": 2093,
+        "seconds": 80.7936431119997,
+        "peak_gpu_allocated_bytes": 6229715968
+      },
+      "sequential": {
+        "correct": false,
+        "answer": "-21",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 689,
+        "output_tokens": 921,
+        "retained_output_tokens": 919,
+        "seconds": 35.58409648099996,
+        "peak_gpu_allocated_bytes": 6254672384
+      }
+    }
+  },
+  {
+    "sample_id": "test:1709",
+    "gold_answer": "75",
+    "call_correct": {
+      "single_long": false,
+      "parallel_0": false,
+      "parallel_1": false,
+      "parallel_2": false,
+      "revision": false
+    },
+    "call_extracted_answers": {
+      "single_long": "50",
+      "parallel_0": null,
+      "parallel_1": "50",
+      "parallel_2": "50",
+      "revision": "200\\%"
+    },
+    "parallel_groups": [
+      "NO_ANSWER",
+      "MATH_GROUP_00",
+      "MATH_GROUP_00"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_1",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": false,
+        "answer": "50",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 250,
+        "output_tokens": 810,
+        "retained_output_tokens": 809,
+        "seconds": 31.100500388,
+        "peak_gpu_allocated_bytes": 6228169728
+      },
+      "parallel": {
+        "correct": false,
+        "answer": "50",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 1,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 750,
+        "output_tokens": 2606,
+        "retained_output_tokens": 2604,
+        "seconds": 100.71273663399984,
+        "peak_gpu_allocated_bytes": 6236061696
+      },
+      "sequential": {
+        "correct": false,
+        "answer": "200\\%",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 1,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 1562,
+        "output_tokens": 2134,
+        "retained_output_tokens": 2133,
+        "seconds": 82.11991976900026,
+        "peak_gpu_allocated_bytes": 6339154944
+      }
+    }
+  },
+  {
+    "sample_id": "test:4041",
+    "gold_answer": "56",
+    "call_correct": {
+      "single_long": true,
+      "parallel_0": true,
+      "parallel_1": true,
+      "parallel_2": true,
+      "revision": true
+    },
+    "call_extracted_answers": {
+      "single_long": "56",
+      "parallel_0": "56",
+      "parallel_1": "56",
+      "parallel_2": "56",
+      "revision": "56"
+    },
+    "parallel_groups": [
+      "MATH_GROUP_00",
+      "MATH_GROUP_00",
+      "MATH_GROUP_00"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": true,
+        "answer": "56",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 85,
+        "output_tokens": 229,
+        "retained_output_tokens": 228,
+        "seconds": 8.809753125000043,
+        "peak_gpu_allocated_bytes": 6200653824
+      },
+      "parallel": {
+        "correct": true,
+        "answer": "56",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 255,
+        "output_tokens": 821,
+        "retained_output_tokens": 818,
+        "seconds": 31.552731219999714,
+        "peak_gpu_allocated_bytes": 6203235328
+      },
+      "sequential": {
+        "correct": true,
+        "answer": "56",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 471,
+        "output_tokens": 528,
+        "retained_output_tokens": 526,
+        "seconds": 20.330549504999908,
+        "peak_gpu_allocated_bytes": 6227708928
+      }
+    }
+  },
+  {
+    "sample_id": "test:2119",
+    "gold_answer": "28",
+    "call_correct": {
+      "single_long": false,
+      "parallel_0": false,
+      "parallel_1": false,
+      "parallel_2": false,
+      "revision": false
+    },
+    "call_extracted_answers": {
+      "single_long": "21",
+      "parallel_0": "10.5",
+      "parallel_1": "21",
+      "parallel_2": "14",
+      "revision": "10.5"
+    },
+    "parallel_groups": [
+      "MATH_GROUP_00",
+      "MATH_GROUP_02",
+      "MATH_GROUP_01"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": false,
+        "answer": "21",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 119,
+        "output_tokens": 1074,
+        "retained_output_tokens": 1073,
+        "seconds": 40.93407904900005,
+        "peak_gpu_allocated_bytes": 6233071616
+      },
+      "parallel": {
+        "correct": false,
+        "answer": "10.5",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 357,
+        "output_tokens": 2779,
+        "retained_output_tokens": 2776,
+        "seconds": 106.69997978199945,
+        "peak_gpu_allocated_bytes": 6230232064
+      },
+      "sequential": {
+        "correct": false,
+        "answer": "10.5",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 1088,
+        "output_tokens": 1389,
+        "retained_output_tokens": 1387,
+        "seconds": 53.3412974820003,
+        "peak_gpu_allocated_bytes": 6297575936
+      }
+    }
+  },
+  {
+    "sample_id": "test:2087",
+    "gold_answer": "7",
+    "call_correct": {
+      "single_long": true,
+      "parallel_0": false,
+      "parallel_1": true,
+      "parallel_2": false,
+      "revision": false
+    },
+    "call_extracted_answers": {
+      "single_long": "7",
+      "parallel_0": "-8",
+      "parallel_1": "7",
+      "parallel_2": "3",
+      "revision": "-8"
+    },
+    "parallel_groups": [
+      "MATH_GROUP_00",
+      "MATH_GROUP_02",
+      "MATH_GROUP_01"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": true,
+        "answer": "7",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 319,
+        "output_tokens": 438,
+        "retained_output_tokens": 437,
+        "seconds": 16.907530454000153,
+        "peak_gpu_allocated_bytes": 6220070400
+      },
+      "parallel": {
+        "correct": false,
+        "answer": "-8",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 957,
+        "output_tokens": 1540,
+        "retained_output_tokens": 1537,
+        "seconds": 59.14618845300038,
+        "peak_gpu_allocated_bytes": 6221790720
+      },
+      "sequential": {
+        "correct": false,
+        "answer": "-8",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 1191,
+        "output_tokens": 997,
+        "retained_output_tokens": 995,
+        "seconds": 38.37857109200013,
+        "peak_gpu_allocated_bytes": 6285949952
+      }
+    }
+  },
+  {
+    "sample_id": "test:4549",
+    "gold_answer": "11",
+    "call_correct": {
+      "single_long": false,
+      "parallel_0": false,
+      "parallel_1": false,
+      "parallel_2": false,
+      "revision": false
+    },
+    "call_extracted_answers": {
+      "single_long": "4",
+      "parallel_0": null,
+      "parallel_1": "6",
+      "parallel_2": null,
+      "revision": "6"
+    },
+    "parallel_groups": [
+      "NO_ANSWER",
+      "MATH_GROUP_00",
+      "NO_ANSWER"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": false,
+        "answer": "4",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 141,
+        "output_tokens": 1067,
+        "retained_output_tokens": 1066,
+        "seconds": 41.0149067680004,
+        "peak_gpu_allocated_bytes": 6233626112
+      },
+      "parallel": {
+        "correct": false,
+        "answer": null,
+        "extraction_failed": true,
+        "selected_truncated": true,
+        "truncated_calls": 2,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 423,
+        "output_tokens": 2833,
+        "retained_output_tokens": 2832,
+        "seconds": 108.69424223100032,
+        "peak_gpu_allocated_bytes": 6232040960
+      },
+      "sequential": {
+        "correct": false,
+        "answer": "6",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 1,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 1344,
+        "output_tokens": 2159,
+        "retained_output_tokens": 2158,
+        "seconds": 82.93804363800018,
+        "peak_gpu_allocated_bytes": 6326923264
+      }
+    }
+  },
+  {
+    "sample_id": "test:2732",
+    "gold_answer": "\\frac{266664}{5}",
+    "call_correct": {
+      "single_long": false,
+      "parallel_0": false,
+      "parallel_1": false,
+      "parallel_2": false,
+      "revision": false
+    },
+    "call_extracted_answers": {
+      "single_long": "11111",
+      "parallel_0": "52777.8",
+      "parallel_1": "54690.3",
+      "parallel_2": "2222.2",
+      "revision": "52777.8"
+    },
+    "parallel_groups": [
+      "MATH_GROUP_01",
+      "MATH_GROUP_02",
+      "MATH_GROUP_00"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": false,
+        "answer": "11111",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 85,
+        "output_tokens": 675,
+        "retained_output_tokens": 674,
+        "seconds": 25.888417095000023,
+        "peak_gpu_allocated_bytes": 6217102336
+      },
+      "parallel": {
+        "correct": false,
+        "answer": "52777.8",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 255,
+        "output_tokens": 2291,
+        "retained_output_tokens": 2288,
+        "seconds": 87.96220726199999,
+        "peak_gpu_allocated_bytes": 6221270016
+      },
+      "sequential": {
+        "correct": false,
+        "answer": "52777.8",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 995,
+        "output_tokens": 1332,
+        "retained_output_tokens": 1330,
+        "seconds": 51.22585573199967,
+        "peak_gpu_allocated_bytes": 6290504704
+      }
+    }
+  },
+  {
+    "sample_id": "test:1433",
+    "gold_answer": "\\frac{1}{4}",
+    "call_correct": {
+      "single_long": true,
+      "parallel_0": true,
+      "parallel_1": true,
+      "parallel_2": true,
+      "revision": true
+    },
+    "call_extracted_answers": {
+      "single_long": "\\frac{1}{4}",
+      "parallel_0": "\\frac{1}{4}",
+      "parallel_1": "\\frac{1}{4}",
+      "parallel_2": "\\frac{1}{4}",
+      "revision": "\\frac{1}{4}"
+    },
+    "parallel_groups": [
+      "MATH_GROUP_00",
+      "MATH_GROUP_00",
+      "MATH_GROUP_00"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": true,
+        "answer": "\\frac{1}{4}",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 75,
+        "output_tokens": 346,
+        "retained_output_tokens": 345,
+        "seconds": 13.319013197999993,
+        "peak_gpu_allocated_bytes": 6204600320
+      },
+      "parallel": {
+        "correct": true,
+        "answer": "\\frac{1}{4}",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 225,
+        "output_tokens": 989,
+        "retained_output_tokens": 986,
+        "seconds": 37.99946274499962,
+        "peak_gpu_allocated_bytes": 6204157952
+      },
+      "sequential": {
+        "correct": true,
+        "answer": "\\frac{1}{4}",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 509,
+        "output_tokens": 582,
+        "retained_output_tokens": 580,
+        "seconds": 22.378324747999613,
+        "peak_gpu_allocated_bytes": 6233459712
+      }
+    }
+  },
+  {
+    "sample_id": "test:3285",
+    "gold_answer": "0",
+    "call_correct": {
+      "single_long": false,
+      "parallel_0": false,
+      "parallel_1": false,
+      "parallel_2": false,
+      "revision": false
+    },
+    "call_extracted_answers": {
+      "single_long": "207578",
+      "parallel_0": null,
+      "parallel_1": null,
+      "parallel_2": null,
+      "revision": null
+    },
+    "parallel_groups": [
+      "NO_ANSWER",
+      "NO_ANSWER",
+      "NO_ANSWER"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": false,
+        "answer": "207578",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 151,
+        "output_tokens": 1474,
+        "retained_output_tokens": 1473,
+        "seconds": 56.74809228000004,
+        "peak_gpu_allocated_bytes": 6249005568
+      },
+      "parallel": {
+        "correct": false,
+        "answer": null,
+        "extraction_failed": true,
+        "selected_truncated": true,
+        "truncated_calls": 3,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 453,
+        "output_tokens": 3072,
+        "retained_output_tokens": 3072,
+        "seconds": 118.18463980800016,
+        "peak_gpu_allocated_bytes": 6232409600
+      },
+      "sequential": {
+        "correct": false,
+        "answer": null,
+        "extraction_failed": true,
+        "selected_truncated": true,
+        "truncated_calls": 2,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 1364,
+        "output_tokens": 3072,
+        "retained_output_tokens": 3072,
+        "seconds": 117.96151178799937,
+        "peak_gpu_allocated_bytes": 6327696384
+      }
+    }
+  },
+  {
+    "sample_id": "test:29",
+    "gold_answer": "16",
+    "call_correct": {
+      "single_long": true,
+      "parallel_0": true,
+      "parallel_1": true,
+      "parallel_2": false,
+      "revision": true
+    },
+    "call_extracted_answers": {
+      "single_long": "16",
+      "parallel_0": "16",
+      "parallel_1": "16",
+      "parallel_2": "-16",
+      "revision": "16"
+    },
+    "parallel_groups": [
+      "MATH_GROUP_01",
+      "MATH_GROUP_01",
+      "MATH_GROUP_00"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": true,
+        "answer": "16",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 87,
+        "output_tokens": 475,
+        "retained_output_tokens": 474,
+        "seconds": 18.202959945000202,
+        "peak_gpu_allocated_bytes": 6209800192
+      },
+      "parallel": {
+        "correct": true,
+        "answer": "16",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 261,
+        "output_tokens": 1151,
+        "retained_output_tokens": 1148,
+        "seconds": 44.18855791899978,
+        "peak_gpu_allocated_bytes": 6209394688
+      },
+      "sequential": {
+        "correct": true,
+        "answer": "16",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 499,
+        "output_tokens": 611,
+        "retained_output_tokens": 609,
+        "seconds": 23.43371481200029,
+        "peak_gpu_allocated_bytes": 6230823936
+      }
+    }
+  },
+  {
+    "sample_id": "test:2948",
+    "gold_answer": "1+\\sqrt 2,\\ 1-\\sqrt 2,\\ 2+\\sqrt 3,\\ 2-\\sqrt 3",
+    "call_correct": {
+      "single_long": false,
+      "parallel_0": false,
+      "parallel_1": false,
+      "parallel_2": false,
+      "revision": false
+    },
+    "call_extracted_answers": {
+      "single_long": "1 \\text{ and } 2",
+      "parallel_0": null,
+      "parallel_1": "-1",
+      "parallel_2": null,
+      "revision": "-1, -3 + i\\sqrt{2}, -3 - i\\sqrt{2}"
+    },
+    "parallel_groups": [
+      "NO_ANSWER",
+      "MATH_GROUP_00",
+      "NO_ANSWER"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": false,
+        "answer": "1 \\text{ and } 2",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 82,
+        "output_tokens": 1417,
+        "retained_output_tokens": 1416,
+        "seconds": 54.48192762300005,
+        "peak_gpu_allocated_bytes": 6244357120
+      },
+      "parallel": {
+        "correct": false,
+        "answer": null,
+        "extraction_failed": true,
+        "selected_truncated": true,
+        "truncated_calls": 2,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 246,
+        "output_tokens": 2944,
+        "retained_output_tokens": 2943,
+        "seconds": 112.9323029229995,
+        "peak_gpu_allocated_bytes": 6229863424
+      },
+      "sequential": {
+        "correct": false,
+        "answer": "-1, -3 + i\\sqrt{2}, -3 - i\\sqrt{2}",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 1,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 1226,
+        "output_tokens": 2214,
+        "retained_output_tokens": 2213,
+        "seconds": 85.09502501799989,
+        "peak_gpu_allocated_bytes": 6318545920
+      }
+    }
+  },
+  {
+    "sample_id": "test:1997",
+    "gold_answer": "120",
+    "call_correct": {
+      "single_long": true,
+      "parallel_0": true,
+      "parallel_1": true,
+      "parallel_2": true,
+      "revision": true
+    },
+    "call_extracted_answers": {
+      "single_long": "120",
+      "parallel_0": "120^\\circ",
+      "parallel_1": "120^\\circ",
+      "parallel_2": "120",
+      "revision": "120^\\circ"
+    },
+    "parallel_groups": [
+      "MATH_GROUP_00",
+      "MATH_GROUP_00",
+      "MATH_GROUP_00"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": true,
+        "answer": "120",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 79,
+        "output_tokens": 435,
+        "retained_output_tokens": 434,
+        "seconds": 16.82498270499991,
+        "peak_gpu_allocated_bytes": 6208030720
+      },
+      "parallel": {
+        "correct": true,
+        "answer": "120^\\circ",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 237,
+        "output_tokens": 1296,
+        "retained_output_tokens": 1293,
+        "seconds": 49.939446468999904,
+        "peak_gpu_allocated_bytes": 6208841728
+      },
+      "sequential": {
+        "correct": true,
+        "answer": "120^\\circ",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 652,
+        "output_tokens": 767,
+        "retained_output_tokens": 765,
+        "seconds": 29.442943884000215,
+        "peak_gpu_allocated_bytes": 6250117632
+      }
+    }
+  },
+  {
+    "sample_id": "test:414",
+    "gold_answer": "1",
+    "call_correct": {
+      "single_long": false,
+      "parallel_0": false,
+      "parallel_1": false,
+      "parallel_2": false,
+      "revision": false
+    },
+    "call_extracted_answers": {
+      "single_long": "-2, 1",
+      "parallel_0": "-2, 1",
+      "parallel_1": "-2, 1",
+      "parallel_2": "-2, 1",
+      "revision": "-2, 1"
+    },
+    "parallel_groups": [
+      "MATH_GROUP_00",
+      "MATH_GROUP_00",
+      "MATH_GROUP_00"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": false,
+        "answer": "-2, 1",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 78,
+        "output_tokens": 717,
+        "retained_output_tokens": 716,
+        "seconds": 27.497203609999815,
+        "peak_gpu_allocated_bytes": 6218393600
+      },
+      "parallel": {
+        "correct": false,
+        "answer": "-2, 1",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 234,
+        "output_tokens": 2000,
+        "retained_output_tokens": 1997,
+        "seconds": 77.00679756999989,
+        "peak_gpu_allocated_bytes": 6216623104
+      },
+      "sequential": {
+        "correct": false,
+        "answer": "-2, 1",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 862,
+        "output_tokens": 1249,
+        "retained_output_tokens": 1247,
+        "seconds": 47.9169203030001,
+        "peak_gpu_allocated_bytes": 6275404800
+      }
+    }
+  },
+  {
+    "sample_id": "test:1808",
+    "gold_answer": "2",
+    "call_correct": {
+      "single_long": true,
+      "parallel_0": true,
+      "parallel_1": true,
+      "parallel_2": true,
+      "revision": true
+    },
+    "call_extracted_answers": {
+      "single_long": "2",
+      "parallel_0": "2",
+      "parallel_1": "2",
+      "parallel_2": "2",
+      "revision": "2"
+    },
+    "parallel_groups": [
+      "MATH_GROUP_00",
+      "MATH_GROUP_00",
+      "MATH_GROUP_00"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": true,
+        "answer": "2",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 95,
+        "output_tokens": 558,
+        "retained_output_tokens": 557,
+        "seconds": 21.353965115999927,
+        "peak_gpu_allocated_bytes": 6213156864
+      },
+      "parallel": {
+        "correct": true,
+        "answer": "2",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 285,
+        "output_tokens": 1753,
+        "retained_output_tokens": 1750,
+        "seconds": 67.26882919299987,
+        "peak_gpu_allocated_bytes": 6215000064
+      },
+      "sequential": {
+        "correct": true,
+        "answer": "2",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 777,
+        "output_tokens": 1023,
+        "retained_output_tokens": 1021,
+        "seconds": 39.35602501700032,
+        "peak_gpu_allocated_bytes": 6263180288
+      }
+    }
+  },
+  {
+    "sample_id": "test:4962",
+    "gold_answer": "(4,\\pi)",
+    "call_correct": {
+      "single_long": false,
+      "parallel_0": true,
+      "parallel_1": true,
+      "parallel_2": true,
+      "revision": true
+    },
+    "call_extracted_answers": {
+      "single_long": "(4, 0)",
+      "parallel_0": "(4, \\pi)",
+      "parallel_1": "(4, \\pi)",
+      "parallel_2": "(4, \\pi)",
+      "revision": "(4, \\pi)"
+    },
+    "parallel_groups": [
+      "MATH_GROUP_00",
+      "MATH_GROUP_00",
+      "MATH_GROUP_00"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": false,
+        "answer": "(4, 0)",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 90,
+        "output_tokens": 390,
+        "retained_output_tokens": 389,
+        "seconds": 15.001756430000114,
+        "peak_gpu_allocated_bytes": 6206776320
+      },
+      "parallel": {
+        "correct": true,
+        "answer": "(4, \\pi)",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 270,
+        "output_tokens": 996,
+        "retained_output_tokens": 993,
+        "seconds": 38.04469436799991,
+        "peak_gpu_allocated_bytes": 6206518272
+      },
+      "sequential": {
+        "correct": true,
+        "answer": "(4, \\pi)",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 600,
+        "output_tokens": 689,
+        "retained_output_tokens": 687,
+        "seconds": 26.40857828499975,
+        "peak_gpu_allocated_bytes": 6242567168
+      }
+    }
+  },
+  {
+    "sample_id": "test:274",
+    "gold_answer": "2",
+    "call_correct": {
+      "single_long": true,
+      "parallel_0": true,
+      "parallel_1": true,
+      "parallel_2": true,
+      "revision": true
+    },
+    "call_extracted_answers": {
+      "single_long": "2",
+      "parallel_0": "2",
+      "parallel_1": "2",
+      "parallel_2": "2",
+      "revision": "2"
+    },
+    "parallel_groups": [
+      "MATH_GROUP_00",
+      "MATH_GROUP_00",
+      "MATH_GROUP_00"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": true,
+        "answer": "2",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 78,
+        "output_tokens": 513,
+        "retained_output_tokens": 512,
+        "seconds": 19.574783878999824,
+        "peak_gpu_allocated_bytes": 6210870272
+      },
+      "parallel": {
+        "correct": true,
+        "answer": "2",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 234,
+        "output_tokens": 1583,
+        "retained_output_tokens": 1580,
+        "seconds": 60.42846005399997,
+        "peak_gpu_allocated_bytes": 6212639744
+      },
+      "sequential": {
+        "correct": true,
+        "answer": "2",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 754,
+        "output_tokens": 1043,
+        "retained_output_tokens": 1041,
+        "seconds": 39.87525243099981,
+        "peak_gpu_allocated_bytes": 6262461440
+      }
+    }
+  },
+  {
+    "sample_id": "test:916",
+    "gold_answer": "14",
+    "call_correct": {
+      "single_long": true,
+      "parallel_0": false,
+      "parallel_1": true,
+      "parallel_2": true,
+      "revision": false
+    },
+    "call_extracted_answers": {
+      "single_long": "14",
+      "parallel_0": "12",
+      "parallel_1": "14",
+      "parallel_2": "14",
+      "revision": "12"
+    },
+    "parallel_groups": [
+      "MATH_GROUP_00",
+      "MATH_GROUP_01",
+      "MATH_GROUP_01"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_1",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": true,
+        "answer": "14",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 89,
+        "output_tokens": 345,
+        "retained_output_tokens": 344,
+        "seconds": 13.23422301499977,
+        "peak_gpu_allocated_bytes": 6205079552
+      },
+      "parallel": {
+        "correct": true,
+        "answer": "14",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 267,
+        "output_tokens": 1113,
+        "retained_output_tokens": 1110,
+        "seconds": 42.5878316229996,
+        "peak_gpu_allocated_bytes": 6206333952
+      },
+      "sequential": {
+        "correct": false,
+        "answer": "12",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 583,
+        "output_tokens": 720,
+        "retained_output_tokens": 718,
+        "seconds": 27.610431807999703,
+        "peak_gpu_allocated_bytes": 6240650240
+      }
+    }
+  },
+  {
+    "sample_id": "test:534",
+    "gold_answer": "56",
+    "call_correct": {
+      "single_long": true,
+      "parallel_0": false,
+      "parallel_1": false,
+      "parallel_2": true,
+      "revision": false
+    },
+    "call_extracted_answers": {
+      "single_long": "56",
+      "parallel_0": "52",
+      "parallel_1": "50",
+      "parallel_2": "56",
+      "revision": "52"
+    },
+    "parallel_groups": [
+      "MATH_GROUP_01",
+      "MATH_GROUP_00",
+      "MATH_GROUP_02"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": true,
+        "answer": "56",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 106,
+        "output_tokens": 286,
+        "retained_output_tokens": 285,
+        "seconds": 10.968863538999813,
+        "peak_gpu_allocated_bytes": 6203531264
+      },
+      "parallel": {
+        "correct": false,
+        "answer": "52",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 318,
+        "output_tokens": 1743,
+        "retained_output_tokens": 1740,
+        "seconds": 66.69250112799955,
+        "peak_gpu_allocated_bytes": 6218872832
+      },
+      "sequential": {
+        "correct": false,
+        "answer": "52",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 951,
+        "output_tokens": 1218,
+        "retained_output_tokens": 1216,
+        "seconds": 46.672219964000305,
+        "peak_gpu_allocated_bytes": 6282920448
+      }
+    }
+  },
+  {
+    "sample_id": "test:2177",
+    "gold_answer": "18",
+    "call_correct": {
+      "single_long": true,
+      "parallel_0": false,
+      "parallel_1": false,
+      "parallel_2": false,
+      "revision": false
+    },
+    "call_extracted_answers": {
+      "single_long": "18",
+      "parallel_0": null,
+      "parallel_1": null,
+      "parallel_2": "0",
+      "revision": "0"
+    },
+    "parallel_groups": [
+      "NO_ANSWER",
+      "NO_ANSWER",
+      "MATH_GROUP_00"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": true,
+        "answer": "18",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 167,
+        "output_tokens": 1081,
+        "retained_output_tokens": 1080,
+        "seconds": 41.323971223000626,
+        "peak_gpu_allocated_bytes": 6235101696
+      },
+      "parallel": {
+        "correct": false,
+        "answer": null,
+        "extraction_failed": true,
+        "selected_truncated": true,
+        "truncated_calls": 2,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 501,
+        "output_tokens": 2839,
+        "retained_output_tokens": 2838,
+        "seconds": 108.6912458730003,
+        "peak_gpu_allocated_bytes": 6232999424
+      },
+      "sequential": {
+        "correct": false,
+        "answer": "0",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 1,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 1396,
+        "output_tokens": 2391,
+        "retained_output_tokens": 2390,
+        "seconds": 91.77149779199954,
+        "peak_gpu_allocated_bytes": 6328939520
+      }
+    }
+  },
+  {
+    "sample_id": "test:1043",
+    "gold_answer": "2",
+    "call_correct": {
+      "single_long": true,
+      "parallel_0": true,
+      "parallel_1": true,
+      "parallel_2": true,
+      "revision": true
+    },
+    "call_extracted_answers": {
+      "single_long": "2",
+      "parallel_0": "2",
+      "parallel_1": "2",
+      "parallel_2": "2",
+      "revision": "2"
+    },
+    "parallel_groups": [
+      "MATH_GROUP_00",
+      "MATH_GROUP_00",
+      "MATH_GROUP_00"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": true,
+        "answer": "2",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 75,
+        "output_tokens": 570,
+        "retained_output_tokens": 569,
+        "seconds": 21.98085281099975,
+        "peak_gpu_allocated_bytes": 6212861952
+      },
+      "parallel": {
+        "correct": true,
+        "answer": "2",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 225,
+        "output_tokens": 1711,
+        "retained_output_tokens": 1708,
+        "seconds": 66.15425686800063,
+        "peak_gpu_allocated_bytes": 6214041600
+      },
+      "sequential": {
+        "correct": true,
+        "answer": "2",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 698,
+        "output_tokens": 945,
+        "retained_output_tokens": 943,
+        "seconds": 36.49990639400039,
+        "peak_gpu_allocated_bytes": 6256110080
+      }
+    }
+  },
+  {
+    "sample_id": "test:373",
+    "gold_answer": "11",
+    "call_correct": {
+      "single_long": true,
+      "parallel_0": true,
+      "parallel_1": true,
+      "parallel_2": true,
+      "revision": true
+    },
+    "call_extracted_answers": {
+      "single_long": "11",
+      "parallel_0": "11",
+      "parallel_1": "11",
+      "parallel_2": "11",
+      "revision": "11"
+    },
+    "parallel_groups": [
+      "MATH_GROUP_00",
+      "MATH_GROUP_00",
+      "MATH_GROUP_00"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": true,
+        "answer": "11",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 84,
+        "output_tokens": 320,
+        "retained_output_tokens": 319,
+        "seconds": 12.409347034000348,
+        "peak_gpu_allocated_bytes": 6203973632
+      },
+      "parallel": {
+        "correct": true,
+        "answer": "11",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 252,
+        "output_tokens": 807,
+        "retained_output_tokens": 804,
+        "seconds": 31.06654590799917,
+        "peak_gpu_allocated_bytes": 6203087872
+      },
+      "sequential": {
+        "correct": true,
+        "answer": "11",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 501,
+        "output_tokens": 514,
+        "retained_output_tokens": 512,
+        "seconds": 19.841630969000107,
+        "peak_gpu_allocated_bytes": 6231423488
+      }
+    }
+  },
+  {
+    "sample_id": "test:1379",
+    "gold_answer": "\\frac{10}{19}",
+    "call_correct": {
+      "single_long": false,
+      "parallel_0": false,
+      "parallel_1": false,
+      "parallel_2": false,
+      "revision": false
+    },
+    "call_extracted_answers": {
+      "single_long": "\\frac{16}{19}",
+      "parallel_0": "\\frac{3}{19}",
+      "parallel_1": "0",
+      "parallel_2": "\\frac{9}{38}",
+      "revision": "\\frac{17}{19}"
+    },
+    "parallel_groups": [
+      "MATH_GROUP_01",
+      "MATH_GROUP_00",
+      "MATH_GROUP_02"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": false,
+        "answer": "\\frac{16}{19}",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 96,
+        "output_tokens": 500,
+        "retained_output_tokens": 499,
+        "seconds": 19.168413020000116,
+        "peak_gpu_allocated_bytes": 6211054592
+      },
+      "parallel": {
+        "correct": false,
+        "answer": "\\frac{3}{19}",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 288,
+        "output_tokens": 1497,
+        "retained_output_tokens": 1494,
+        "seconds": 57.628705054999955,
+        "peak_gpu_allocated_bytes": 6216549376
+      },
+      "sequential": {
+        "correct": false,
+        "answer": "\\frac{17}{19}",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 687,
+        "output_tokens": 782,
+        "retained_output_tokens": 780,
+        "seconds": 30.21690437699999,
+        "peak_gpu_allocated_bytes": 6252276224
+      }
+    }
+  },
+  {
+    "sample_id": "test:196",
+    "gold_answer": "81",
+    "call_correct": {
+      "single_long": false,
+      "parallel_0": true,
+      "parallel_1": true,
+      "parallel_2": true,
+      "revision": true
+    },
+    "call_extracted_answers": {
+      "single_long": "119",
+      "parallel_0": "81",
+      "parallel_1": "81",
+      "parallel_2": "81",
+      "revision": "81"
+    },
+    "parallel_groups": [
+      "MATH_GROUP_00",
+      "MATH_GROUP_00",
+      "MATH_GROUP_00"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": false,
+        "answer": "119",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 81,
+        "output_tokens": 625,
+        "retained_output_tokens": 624,
+        "seconds": 23.871548228999927,
+        "peak_gpu_allocated_bytes": 6215111680
+      },
+      "parallel": {
+        "correct": true,
+        "answer": "81",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 243,
+        "output_tokens": 2323,
+        "retained_output_tokens": 2320,
+        "seconds": 89.27183829999922,
+        "peak_gpu_allocated_bytes": 6221933568
+      },
+      "sequential": {
+        "correct": true,
+        "answer": "81",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 985,
+        "output_tokens": 1464,
+        "retained_output_tokens": 1462,
+        "seconds": 55.82686321500023,
+        "peak_gpu_allocated_bytes": 6289785856
+      }
+    }
+  },
+  {
+    "sample_id": "test:2134",
+    "gold_answer": "15",
+    "call_correct": {
+      "single_long": false,
+      "parallel_0": true,
+      "parallel_1": true,
+      "parallel_2": true,
+      "revision": true
+    },
+    "call_extracted_answers": {
+      "single_long": "20",
+      "parallel_0": "15",
+      "parallel_1": "15",
+      "parallel_2": "15",
+      "revision": "15"
+    },
+    "parallel_groups": [
+      "MATH_GROUP_00",
+      "MATH_GROUP_00",
+      "MATH_GROUP_00"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": false,
+        "answer": "20",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 106,
+        "output_tokens": 898,
+        "retained_output_tokens": 897,
+        "seconds": 34.355499673999475,
+        "peak_gpu_allocated_bytes": 6226101248
+      },
+      "parallel": {
+        "correct": true,
+        "answer": "15",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 318,
+        "output_tokens": 2442,
+        "retained_output_tokens": 2439,
+        "seconds": 93.22864857900004,
+        "peak_gpu_allocated_bytes": 6225843200
+      },
+      "sequential": {
+        "correct": true,
+        "answer": "15",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 1045,
+        "output_tokens": 1445,
+        "retained_output_tokens": 1443,
+        "seconds": 55.202938936000464,
+        "peak_gpu_allocated_bytes": 6293979648
+      }
+    }
+  },
+  {
+    "sample_id": "test:771",
+    "gold_answer": "\\frac{160}{33}",
+    "call_correct": {
+      "single_long": true,
+      "parallel_0": true,
+      "parallel_1": true,
+      "parallel_2": true,
+      "revision": true
+    },
+    "call_extracted_answers": {
+      "single_long": "\\frac{160}{33}",
+      "parallel_0": "\\frac{160}{33}",
+      "parallel_1": "\\frac{160}{33}",
+      "parallel_2": "\\frac{160}{33}",
+      "revision": "\\frac{160}{33}"
+    },
+    "parallel_groups": [
+      "MATH_GROUP_00",
+      "MATH_GROUP_00",
+      "MATH_GROUP_00"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": true,
+        "answer": "\\frac{160}{33}",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 126,
+        "output_tokens": 471,
+        "retained_output_tokens": 470,
+        "seconds": 18.065959927999756,
+        "peak_gpu_allocated_bytes": 6211091456
+      },
+      "parallel": {
+        "correct": true,
+        "answer": "\\frac{160}{33}",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 378,
+        "output_tokens": 1507,
+        "retained_output_tokens": 1504,
+        "seconds": 57.69571929799986,
+        "peak_gpu_allocated_bytes": 6215036928
+      },
+      "sequential": {
+        "correct": true,
+        "answer": "\\frac{160}{33}",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 749,
+        "output_tokens": 868,
+        "retained_output_tokens": 866,
+        "seconds": 33.302159374999974,
+        "peak_gpu_allocated_bytes": 6256110080
+      }
+    }
+  },
+  {
+    "sample_id": "test:3572",
+    "gold_answer": "22",
+    "call_correct": {
+      "single_long": true,
+      "parallel_0": true,
+      "parallel_1": true,
+      "parallel_2": false,
+      "revision": true
+    },
+    "call_extracted_answers": {
+      "single_long": "22",
+      "parallel_0": "22",
+      "parallel_1": "22",
+      "parallel_2": "4",
+      "revision": "22"
+    },
+    "parallel_groups": [
+      "MATH_GROUP_00",
+      "MATH_GROUP_00",
+      "MATH_GROUP_01"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": true,
+        "answer": "22",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 96,
+        "output_tokens": 1027,
+        "retained_output_tokens": 1026,
+        "seconds": 39.73012288500013,
+        "peak_gpu_allocated_bytes": 6230490112
+      },
+      "parallel": {
+        "correct": true,
+        "answer": "22",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 288,
+        "output_tokens": 2570,
+        "retained_output_tokens": 2567,
+        "seconds": 99.03027091600052,
+        "peak_gpu_allocated_bytes": 6228535296
+      },
+      "sequential": {
+        "correct": true,
+        "answer": "22",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 983,
+        "output_tokens": 1407,
+        "retained_output_tokens": 1405,
+        "seconds": 53.973306876000606,
+        "peak_gpu_allocated_bytes": 6287747584
+      }
+    }
+  },
+  {
+    "sample_id": "test:2358",
+    "gold_answer": "2 \\sqrt{5}",
+    "call_correct": {
+      "single_long": false,
+      "parallel_0": false,
+      "parallel_1": false,
+      "parallel_2": false,
+      "revision": false
+    },
+    "call_extracted_answers": {
+      "single_long": "\\sqrt{5}",
+      "parallel_0": null,
+      "parallel_1": null,
+      "parallel_2": null,
+      "revision": "\\sqrt{3}"
+    },
+    "parallel_groups": [
+      "NO_ANSWER",
+      "NO_ANSWER",
+      "NO_ANSWER"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": false,
+        "answer": "\\sqrt{5}",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 96,
+        "output_tokens": 999,
+        "retained_output_tokens": 998,
+        "seconds": 38.19641084000068,
+        "peak_gpu_allocated_bytes": 6229457920
+      },
+      "parallel": {
+        "correct": false,
+        "answer": null,
+        "extraction_failed": true,
+        "selected_truncated": true,
+        "truncated_calls": 3,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 288,
+        "output_tokens": 3072,
+        "retained_output_tokens": 3072,
+        "seconds": 117.42099264799981,
+        "peak_gpu_allocated_bytes": 6230379520
+      },
+      "sequential": {
+        "correct": false,
+        "answer": "\\sqrt{3}",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 1,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 1254,
+        "output_tokens": 1958,
+        "retained_output_tokens": 1957,
+        "seconds": 75.07173136300025,
+        "peak_gpu_allocated_bytes": 6320225280
+      }
+    }
+  },
+  {
+    "sample_id": "test:2019",
+    "gold_answer": "5",
+    "call_correct": {
+      "single_long": true,
+      "parallel_0": true,
+      "parallel_1": true,
+      "parallel_2": true,
+      "revision": true
+    },
+    "call_extracted_answers": {
+      "single_long": "5",
+      "parallel_0": "5",
+      "parallel_1": "5",
+      "parallel_2": "5",
+      "revision": "5"
+    },
+    "parallel_groups": [
+      "MATH_GROUP_00",
+      "MATH_GROUP_00",
+      "MATH_GROUP_00"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": true,
+        "answer": "5",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 68,
+        "output_tokens": 307,
+        "retained_output_tokens": 306,
+        "seconds": 11.857934673000273,
+        "peak_gpu_allocated_bytes": 6202903552
+      },
+      "parallel": {
+        "correct": true,
+        "answer": "5",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 204,
+        "output_tokens": 1297,
+        "retained_output_tokens": 1294,
+        "seconds": 49.714336820001336,
+        "peak_gpu_allocated_bytes": 6211607552
+      },
+      "sequential": {
+        "correct": true,
+        "answer": "5",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 565,
+        "output_tokens": 704,
+        "retained_output_tokens": 702,
+        "seconds": 27.025443782001275,
+        "peak_gpu_allocated_bytes": 6241010176
+      }
+    }
+  },
+  {
+    "sample_id": "test:4144",
+    "gold_answer": "5",
+    "call_correct": {
+      "single_long": true,
+      "parallel_0": true,
+      "parallel_1": true,
+      "parallel_2": true,
+      "revision": true
+    },
+    "call_extracted_answers": {
+      "single_long": "5",
+      "parallel_0": "5",
+      "parallel_1": "5",
+      "parallel_2": "5",
+      "revision": "5"
+    },
+    "parallel_groups": [
+      "MATH_GROUP_00",
+      "MATH_GROUP_00",
+      "MATH_GROUP_00"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": true,
+        "answer": "5",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 77,
+        "output_tokens": 422,
+        "retained_output_tokens": 421,
+        "seconds": 16.684729709999374,
+        "peak_gpu_allocated_bytes": 6207476736
+      },
+      "parallel": {
+        "correct": true,
+        "answer": "5",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 231,
+        "output_tokens": 1123,
+        "retained_output_tokens": 1120,
+        "seconds": 43.63669133999974,
+        "peak_gpu_allocated_bytes": 6207661056
+      },
+      "sequential": {
+        "correct": true,
+        "answer": "5",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 565,
+        "output_tokens": 661,
+        "retained_output_tokens": 659,
+        "seconds": 25.799821497000266,
+        "peak_gpu_allocated_bytes": 6240164864
+      }
+    }
+  },
+  {
+    "sample_id": "test:3314",
+    "gold_answer": "15",
+    "call_correct": {
+      "single_long": true,
+      "parallel_0": true,
+      "parallel_1": true,
+      "parallel_2": true,
+      "revision": true
+    },
+    "call_extracted_answers": {
+      "single_long": "15",
+      "parallel_0": "15",
+      "parallel_1": "15",
+      "parallel_2": "15",
+      "revision": "15"
+    },
+    "parallel_groups": [
+      "MATH_GROUP_00",
+      "MATH_GROUP_00",
+      "MATH_GROUP_00"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": true,
+        "answer": "15",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 67,
+        "output_tokens": 598,
+        "retained_output_tokens": 597,
+        "seconds": 23.591381162999824,
+        "peak_gpu_allocated_bytes": 6213599232
+      },
+      "parallel": {
+        "correct": true,
+        "answer": "15",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 201,
+        "output_tokens": 1392,
+        "retained_output_tokens": 1389,
+        "seconds": 54.49098587999924,
+        "peak_gpu_allocated_bytes": 6210205696
+      },
+      "sequential": {
+        "correct": true,
+        "answer": "15",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 552,
+        "output_tokens": 671,
+        "retained_output_tokens": 669,
+        "seconds": 26.211483383000086,
+        "peak_gpu_allocated_bytes": 6239933440
+      }
+    }
+  },
+  {
+    "sample_id": "test:3239",
+    "gold_answer": "4",
+    "call_correct": {
+      "single_long": true,
+      "parallel_0": true,
+      "parallel_1": true,
+      "parallel_2": true,
+      "revision": true
+    },
+    "call_extracted_answers": {
+      "single_long": "4",
+      "parallel_0": "4",
+      "parallel_1": "4",
+      "parallel_2": "4",
+      "revision": "4"
+    },
+    "parallel_groups": [
+      "MATH_GROUP_00",
+      "MATH_GROUP_00",
+      "MATH_GROUP_00"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": true,
+        "answer": "4",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 74,
+        "output_tokens": 343,
+        "retained_output_tokens": 342,
+        "seconds": 13.360450078999747,
+        "peak_gpu_allocated_bytes": 6204452864
+      },
+      "parallel": {
+        "correct": true,
+        "answer": "4",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 222,
+        "output_tokens": 959,
+        "retained_output_tokens": 956,
+        "seconds": 37.81263816499995,
+        "peak_gpu_allocated_bytes": 6205374464
+      },
+      "sequential": {
+        "correct": true,
+        "answer": "4",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 492,
+        "output_tokens": 620,
+        "retained_output_tokens": 618,
+        "seconds": 24.561750308999763,
+        "peak_gpu_allocated_bytes": 6231542784
+      }
+    }
+  },
+  {
+    "sample_id": "test:4678",
+    "gold_answer": "6",
+    "call_correct": {
+      "single_long": true,
+      "parallel_0": true,
+      "parallel_1": false,
+      "parallel_2": true,
+      "revision": true
+    },
+    "call_extracted_answers": {
+      "single_long": "6",
+      "parallel_0": "6",
+      "parallel_1": "105",
+      "parallel_2": "6",
+      "revision": "6"
+    },
+    "parallel_groups": [
+      "MATH_GROUP_01",
+      "MATH_GROUP_00",
+      "MATH_GROUP_01"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": true,
+        "answer": "6",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 85,
+        "output_tokens": 1038,
+        "retained_output_tokens": 1037,
+        "seconds": 39.98750854299942,
+        "peak_gpu_allocated_bytes": 6230490112
+      },
+      "parallel": {
+        "correct": true,
+        "answer": "6",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 255,
+        "output_tokens": 2814,
+        "retained_output_tokens": 2811,
+        "seconds": 110.45243396700062,
+        "peak_gpu_allocated_bytes": 6229789696
+      },
+      "sequential": {
+        "correct": true,
+        "answer": "6",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 1089,
+        "output_tokens": 1658,
+        "retained_output_tokens": 1656,
+        "seconds": 64.40706944700014,
+        "peak_gpu_allocated_bytes": 6302178304
+      }
+    }
+  },
+  {
+    "sample_id": "test:1122",
+    "gold_answer": "5",
+    "call_correct": {
+      "single_long": true,
+      "parallel_0": true,
+      "parallel_1": true,
+      "parallel_2": true,
+      "revision": true
+    },
+    "call_extracted_answers": {
+      "single_long": "5",
+      "parallel_0": "5",
+      "parallel_1": "5",
+      "parallel_2": "5",
+      "revision": "5"
+    },
+    "parallel_groups": [
+      "MATH_GROUP_00",
+      "MATH_GROUP_00",
+      "MATH_GROUP_00"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": true,
+        "answer": "5",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 65,
+        "output_tokens": 761,
+        "retained_output_tokens": 760,
+        "seconds": 29.258959566999692,
+        "peak_gpu_allocated_bytes": 6219536384
+      },
+      "parallel": {
+        "correct": true,
+        "answer": "5",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 195,
+        "output_tokens": 1521,
+        "retained_output_tokens": 1518,
+        "seconds": 58.17219579899938,
+        "peak_gpu_allocated_bytes": 6210980864
+      },
+      "sequential": {
+        "correct": true,
+        "answer": "5",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 690,
+        "output_tokens": 925,
+        "retained_output_tokens": 923,
+        "seconds": 35.57926089799912,
+        "peak_gpu_allocated_bytes": 6256349696
+      }
+    }
+  },
+  {
+    "sample_id": "test:4168",
+    "gold_answer": "0.6",
+    "call_correct": {
+      "single_long": true,
+      "parallel_0": true,
+      "parallel_1": true,
+      "parallel_2": true,
+      "revision": true
+    },
+    "call_extracted_answers": {
+      "single_long": "0.6",
+      "parallel_0": "0.6",
+      "parallel_1": "0.6",
+      "parallel_2": "0.6",
+      "revision": "0.6"
+    },
+    "parallel_groups": [
+      "MATH_GROUP_00",
+      "MATH_GROUP_00",
+      "MATH_GROUP_00"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": true,
+        "answer": "0.6",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 54,
+        "output_tokens": 286,
+        "retained_output_tokens": 285,
+        "seconds": 10.961884960000134,
+        "peak_gpu_allocated_bytes": 6201611776
+      },
+      "parallel": {
+        "correct": true,
+        "answer": "0.6",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 162,
+        "output_tokens": 1047,
+        "retained_output_tokens": 1044,
+        "seconds": 40.19383677600035,
+        "peak_gpu_allocated_bytes": 6204967424
+      },
+      "sequential": {
+        "correct": true,
+        "answer": "0.6",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 522,
+        "output_tokens": 751,
+        "retained_output_tokens": 749,
+        "seconds": 28.79402420399947,
+        "peak_gpu_allocated_bytes": 6237535232
+      }
+    }
+  },
+  {
+    "sample_id": "test:1300",
+    "gold_answer": "1",
+    "call_correct": {
+      "single_long": true,
+      "parallel_0": true,
+      "parallel_1": true,
+      "parallel_2": true,
+      "revision": true
+    },
+    "call_extracted_answers": {
+      "single_long": "1",
+      "parallel_0": "1",
+      "parallel_1": "1",
+      "parallel_2": "1",
+      "revision": "1"
+    },
+    "parallel_groups": [
+      "MATH_GROUP_00",
+      "MATH_GROUP_00",
+      "MATH_GROUP_00"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": true,
+        "answer": "1",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 68,
+        "output_tokens": 182,
+        "retained_output_tokens": 181,
+        "seconds": 7.009700397000415,
+        "peak_gpu_allocated_bytes": 6198293504
+      },
+      "parallel": {
+        "correct": true,
+        "answer": "1",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 204,
+        "output_tokens": 669,
+        "retained_output_tokens": 666,
+        "seconds": 25.64502413399896,
+        "peak_gpu_allocated_bytes": 6200616960
+      },
+      "sequential": {
+        "correct": true,
+        "answer": "1",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 382,
+        "output_tokens": 415,
+        "retained_output_tokens": 413,
+        "seconds": 15.949854422999124,
+        "peak_gpu_allocated_bytes": 6219793408
+      }
+    }
+  },
+  {
+    "sample_id": "test:4516",
+    "gold_answer": "\\frac{25 \\sqrt{10}}{4}",
+    "call_correct": {
+      "single_long": false,
+      "parallel_0": false,
+      "parallel_1": false,
+      "parallel_2": false,
+      "revision": false
+    },
+    "call_extracted_answers": {
+      "single_long": "4\\sqrt{10}",
+      "parallel_0": null,
+      "parallel_1": null,
+      "parallel_2": null,
+      "revision": "4\\sqrt{10}"
+    },
+    "parallel_groups": [
+      "NO_ANSWER",
+      "NO_ANSWER",
+      "NO_ANSWER"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": false,
+        "answer": "4\\sqrt{10}",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 122,
+        "output_tokens": 1153,
+        "retained_output_tokens": 1152,
+        "seconds": 44.17390618599984,
+        "peak_gpu_allocated_bytes": 6236095488
+      },
+      "parallel": {
+        "correct": false,
+        "answer": null,
+        "extraction_failed": true,
+        "selected_truncated": true,
+        "truncated_calls": 3,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 366,
+        "output_tokens": 3072,
+        "retained_output_tokens": 3072,
+        "seconds": 118.04302350099897,
+        "peak_gpu_allocated_bytes": 6231337984
+      },
+      "sequential": {
+        "correct": false,
+        "answer": "4\\sqrt{10}",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 1,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 1306,
+        "output_tokens": 1902,
+        "retained_output_tokens": 1901,
+        "seconds": 72.9543423060004,
+        "peak_gpu_allocated_bytes": 6324257792
+      }
+    }
+  },
+  {
+    "sample_id": "test:1903",
+    "gold_answer": "80",
+    "call_correct": {
+      "single_long": false,
+      "parallel_0": false,
+      "parallel_1": false,
+      "parallel_2": false,
+      "revision": false
+    },
+    "call_extracted_answers": {
+      "single_long": "70",
+      "parallel_0": "100",
+      "parallel_1": "75",
+      "parallel_2": "55",
+      "revision": "100"
+    },
+    "parallel_groups": [
+      "MATH_GROUP_00",
+      "MATH_GROUP_02",
+      "MATH_GROUP_01"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": false,
+        "answer": "70",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 200,
+        "output_tokens": 636,
+        "retained_output_tokens": 635,
+        "seconds": 24.5500029599998,
+        "peak_gpu_allocated_bytes": 6219909120
+      },
+      "parallel": {
+        "correct": false,
+        "answer": "100",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 600,
+        "output_tokens": 1351,
+        "retained_output_tokens": 1348,
+        "seconds": 52.090132640000775,
+        "peak_gpu_allocated_bytes": 6213676032
+      },
+      "sequential": {
+        "correct": false,
+        "answer": "100",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 904,
+        "output_tokens": 886,
+        "retained_output_tokens": 884,
+        "seconds": 34.26861760999964,
+        "peak_gpu_allocated_bytes": 6265816064
+      }
+    }
+  },
+  {
+    "sample_id": "test:1916",
+    "gold_answer": "144",
+    "call_correct": {
+      "single_long": false,
+      "parallel_0": false,
+      "parallel_1": false,
+      "parallel_2": false,
+      "revision": false
+    },
+    "call_extracted_answers": {
+      "single_long": "96",
+      "parallel_0": "168",
+      "parallel_1": "120",
+      "parallel_2": "120",
+      "revision": "168"
+    },
+    "parallel_groups": [
+      "MATH_GROUP_01",
+      "MATH_GROUP_00",
+      "MATH_GROUP_00"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_1",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": false,
+        "answer": "96",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 188,
+        "output_tokens": 370,
+        "retained_output_tokens": 369,
+        "seconds": 14.52889540399974,
+        "peak_gpu_allocated_bytes": 6209654272
+      },
+      "parallel": {
+        "correct": false,
+        "answer": "120",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 564,
+        "output_tokens": 1346,
+        "retained_output_tokens": 1343,
+        "seconds": 51.893088069999976,
+        "peak_gpu_allocated_bytes": 6215371264
+      },
+      "sequential": {
+        "correct": false,
+        "answer": "168",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 938,
+        "output_tokens": 1016,
+        "retained_output_tokens": 1014,
+        "seconds": 39.5834290570001,
+        "peak_gpu_allocated_bytes": 6271329280
+      }
+    }
+  },
+  {
+    "sample_id": "test:3409",
+    "gold_answer": "3",
+    "call_correct": {
+      "single_long": false,
+      "parallel_0": true,
+      "parallel_1": false,
+      "parallel_2": true,
+      "revision": true
+    },
+    "call_extracted_answers": {
+      "single_long": "7",
+      "parallel_0": "3",
+      "parallel_1": "7",
+      "parallel_2": "3",
+      "revision": "3"
+    },
+    "parallel_groups": [
+      "MATH_GROUP_00",
+      "MATH_GROUP_01",
+      "MATH_GROUP_00"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": false,
+        "answer": "7",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 80,
+        "output_tokens": 820,
+        "retained_output_tokens": 819,
+        "seconds": 32.25287508400015,
+        "peak_gpu_allocated_bytes": 6222266368
+      },
+      "parallel": {
+        "correct": true,
+        "answer": "3",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 240,
+        "output_tokens": 2230,
+        "retained_output_tokens": 2227,
+        "seconds": 87.7450768689996,
+        "peak_gpu_allocated_bytes": 6224441344
+      },
+      "sequential": {
+        "correct": true,
+        "answer": "3",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 819,
+        "output_tokens": 1001,
+        "retained_output_tokens": 999,
+        "seconds": 39.45814670500022,
+        "peak_gpu_allocated_bytes": 6270011904
+      }
+    }
+  },
+  {
+    "sample_id": "test:3617",
+    "gold_answer": "9",
+    "call_correct": {
+      "single_long": true,
+      "parallel_0": true,
+      "parallel_1": true,
+      "parallel_2": true,
+      "revision": true
+    },
+    "call_extracted_answers": {
+      "single_long": "9",
+      "parallel_0": "9",
+      "parallel_1": "9",
+      "parallel_2": "9",
+      "revision": "9"
+    },
+    "parallel_groups": [
+      "MATH_GROUP_00",
+      "MATH_GROUP_00",
+      "MATH_GROUP_00"
+    ],
+    "selected_calls": {
+      "single_long": "single_long",
+      "parallel": "parallel_0",
+      "sequential": "revision"
+    },
+    "strategies": {
+      "single_long": {
+        "correct": true,
+        "answer": "9",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "single_long"
+        ],
+        "input_tokens": 54,
+        "output_tokens": 280,
+        "retained_output_tokens": 279,
+        "seconds": 11.023731704000056,
+        "peak_gpu_allocated_bytes": 6201390592
+      },
+      "parallel": {
+        "correct": true,
+        "answer": "9",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "parallel_1",
+          "parallel_2"
+        ],
+        "input_tokens": 162,
+        "output_tokens": 707,
+        "retained_output_tokens": 704,
+        "seconds": 27.782899201000873,
+        "peak_gpu_allocated_bytes": 6201390592
+      },
+      "sequential": {
+        "correct": true,
+        "answer": "9",
+        "extraction_failed": false,
+        "selected_truncated": false,
+        "truncated_calls": 0,
+        "calls": [
+          "parallel_0",
+          "revision"
+        ],
+        "input_tokens": 324,
+        "output_tokens": 349,
+        "retained_output_tokens": 347,
+        "seconds": 13.790882382000746,
+        "peak_gpu_allocated_bytes": 6213807104
+      }
+    }
+  }
+]

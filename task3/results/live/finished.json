@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "identity": {
+    "runner_sha256": "a91f5aeb5153231e172b3a88b60c693a2eceea0f7f2aaf7c406905331e9f737f",
+    "gpu_environment_sha256": "b7d8a21aeef3194f0149dcacb7ddb974242790e5d739d2adbc35fd8946225068",
+    "assets_sha256": "fd304d1226c7a1091b3cc000cbd38110b63a1fc64821a9176ee8c51d0689cf7c"
+  },
+  "questions": 50,
+  "physical_calls": 250,
+  "strategy_comparisons": 150,
+  "physical_output_tokens": 152303,
+  "physical_retained_output_tokens": 152078,
+  "physical_generation_seconds": 5862.896765669995,
+  "peak_gpu_allocated_bytes": 6339154944,
+  "peak_gpu_reserved_bytes": 6465519616,
+  "call_manifest_sha256": "b04ce274f7754725a8d3cd909cbec0b9d65fdf5537d3c45ca4271752ae108cef",
+  "strategy_costs_sha256": "ec6534710b0241ddf77778f3612f78978c2997d8b6395a34e8603ebe27261b7a",
+  "session": {
+    "identity": {
+      "runner_sha256": "a91f5aeb5153231e172b3a88b60c693a2eceea0f7f2aaf7c406905331e9f737f",
+      "gpu_environment_sha256": "b7d8a21aeef3194f0149dcacb7ddb974242790e5d739d2adbc35fd8946225068",
+      "assets_sha256": "fd304d1226c7a1091b3cc000cbd38110b63a1fc64821a9176ee8c51d0689cf7c"
+    },
+    "staging": {
+      "seconds": 189.00575225900002,
+      "copied_bytes": 6183463416,
+      "local_path": "/content/pa3_task3_live_model/aa8e72537993ba99e69dfaafa59ed015b17504d1"
+    },
+    "loading": {
+      "seconds": 7.538167674999954,
+      "parameters": 3085938688,
+      "dtype": "float16",
+      "quantization": false,
+      "batch_size": 1,
+      "attn_implementation": "sdpa",
+      "model_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1"
+    },
+    "smoke_seconds": 4.719192165999971,
+    "status": "queue_finished",
+    "new_calls": 250,
+    "reused_calls": 0,
+    "elapsed_seconds": 6088.616612229001
+  },
+  "model_unchanged": true,
+  "gold_answers_loaded_for_generation": false,
+  "note": "Required live GPU generation complete. Score responses, create plots/notebook and organize repository on CPU."
+}

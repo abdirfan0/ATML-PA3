@@ -1,0 +1,46 @@
+{
+  "version": "pa3-task3-live-v1",
+  "model_id": "Qwen/Qwen2.5-3B-Instruct",
+  "model_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "dataset_id": "DigitalLearningGmbH/MATH-lighteval",
+  "dataset_revision": "0530c78699ea5e8eb5530600900e1f328b48acad",
+  "dtype": "float16",
+  "quantization": false,
+  "batch_size": 1,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "repetition_penalty": 1.0,
+  "do_sample": true,
+  "calls": {
+    "single_long": 3072,
+    "parallel_0": 1024,
+    "parallel_1": 1024,
+    "parallel_2": 1024,
+    "revision": 2048
+  },
+  "strategies": {
+    "single_long": [
+      "single_long"
+    ],
+    "parallel": [
+      "parallel_0",
+      "parallel_1",
+      "parallel_2"
+    ],
+    "sequential": [
+      "parallel_0",
+      "revision"
+    ]
+  },
+  "system": "You are a helpful assistant.",
+  "instruction": "Think step by step inside <think> </think> tags, then give your final answer inside \\boxed{}.",
+  "revision_instruction": "Review the solution above. Identify and correct any errors; if it is correct, retain its answer. Give your final answer inside \\boxed{}.",
+  "seed_rule": "SHA256 of 6304:version:sample_id:call, first eight bytes big-endian modulo 2**31; independently reseed each call",
+  "shared_initial": "parallel_0 reused verbatim as the initial assistant response for revision; charge its full input/output/runtime to both parallel and sequential strategies",
+  "extraction": "Frozen scorer last literal boxed answer, balanced braces; absent/empty/unclosed last box -> missing; no fallback",
+  "time_scope": "End-to-end per-call inference with CUDA synchronization; exclude model loading and separate smoke/warmup; count revision prompt and all critique output",
+  "cost_scope": "Record complete generated IDs including termination and retained IDs excluding final EOS separately; actual output allowance/cost includes termination tokens",
+  "physical_calls_per_question": 5,
+  "physical_max_output_tokens_per_question": 8192
+}

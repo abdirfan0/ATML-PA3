@@ -1,0 +1,8 @@
+{
+  "version": "pa3-task3-live-scoring-v1",
+  "files": {
+    "task3_live_score.py": "24eb686ead5e540ae1637294e81d75d85a9c6983dc5061d7aa26164c04a63f1e",
+    "test_task3_live_scoring_cpu.py": "faa0f1ddb5bcc5085305226a8b9cee04df8dc1274a4400dbff08d9c0d7048092",
+    "LIVE_SCORING_README.md": "7b92151da1d97fab1aec237fb510b54787c90e52f55da4ec88e9c2837ded3fa5"
+  }
+}

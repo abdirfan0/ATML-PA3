@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "version": "pa3-task3-live-scoring-v1",
+  "files": {
+    "per_question.json": "5b175cc17a335bd8d4e9741fc4d9e8b91b8aa1157a1cf84a342dcfb46580a89a",
+    "revision_examples.json": "9c7acd5d830f22e27a3a25b90aa40a9adb906213ae7d10e488df771d0c8af2e0",
+    "strategies.csv": "0b9242646c5a4a4f3597ae6dd3c4217a0a240a5a3522ab7c4b3c6a534e21b6c0",
+    "summary.json": "64e769bf3bceb5f760ff94d44d6df98c94deca13c21a5bb3b38c192bdefb002b"
+  }
+}

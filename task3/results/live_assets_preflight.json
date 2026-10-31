@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "questions": 50,
+  "original_math_questions_verified": true,
+  "original_math_subset_ids_verified": 1000,
+  "model_id": "Qwen/Qwen2.5-3B-Instruct",
+  "model_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "weight_files": 2,
+  "weight_GiB": 5.748054936528206,
+  "max_base_input_tokens": 366,
+  "model_context_tokens": 32768,
+  "independent_call_seeds": 250,
+  "physical_calls": 250,
+  "max_physical_output_tokens": 409600,
+  "packages": {
+    "torch": "2.11.0+cpu",
+    "transformers": "5.21.0",
+    "datasets": "4.8.5",
+    "accelerate": "1.15.0",
+    "huggingface_hub": "1.33.0",
+    "tokenizers": "0.23.3",
+    "numpy": "2.1.3",
+    "safetensors": "0.8.0",
+    "math-verify": "0.9.0",
+    "sympy": "1.14.0"
+  },
+  "model_loaded": false,
+  "gpu_used": false,
+  "seconds_this_session": 162.33150945599937,
+  "assets_sha256": "fd304d1226c7a1091b3cc000cbd38110b63a1fc64821a9176ee8c51d0689cf7c"
+}

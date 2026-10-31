@@ -1,0 +1,310 @@
+{
+  "version": "pa3-task3-live-scoring-v1",
+  "passed": true,
+  "questions": 50,
+  "physical_calls": 250,
+  "gpu_used_for_scoring": false,
+  "generation_identity": {
+    "runner_sha256": "a91f5aeb5153231e172b3a88b60c693a2eceea0f7f2aaf7c406905331e9f737f",
+    "gpu_environment_sha256": "b7d8a21aeef3194f0149dcacb7ddb974242790e5d739d2adbc35fd8946225068",
+    "assets_sha256": "fd304d1226c7a1091b3cc000cbd38110b63a1fc64821a9176ee8c51d0689cf7c"
+  },
+  "bootstrap": {
+    "unit": "question",
+    "resamples": 1000,
+    "seed": 6304,
+    "paired": true,
+    "interval": "percentile 95%"
+  },
+  "strategies": {
+    "single_long": {
+      "correct": {
+        "mean": 0.6,
+        "ci95": [
+          0.46,
+          0.74
+        ]
+      },
+      "input_tokens": {
+        "mean": 108.38,
+        "ci95": [
+          92.73899999999999,
+          125.48
+        ]
+      },
+      "output_tokens": {
+        "mean": 631.8,
+        "ci95": [
+          545.0524999999999,
+          719.17
+        ]
+      },
+      "retained_output_tokens": {
+        "mean": 630.8,
+        "ci95": [
+          544.0524999999999,
+          718.17
+        ]
+      },
+      "seconds": {
+        "mean": 24.315954746479974,
+        "ci95": [
+          20.993714689750913,
+          27.672201036431982
+        ]
+      },
+      "peak_gpu_allocated_bytes": {
+        "mean": 6216740771.84,
+        "ci95": [
+          6213306349.056,
+          6220129830.912001
+        ]
+      },
+      "extraction_failed": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "selected_truncated": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "correct_questions": 30,
+      "total_truncated_calls": 0
+    },
+    "parallel": {
+      "correct": {
+        "mean": 0.6,
+        "ci95": [
+          0.46,
+          0.74
+        ]
+      },
+      "input_tokens": {
+        "mean": 325.14,
+        "ci95": [
+          278.21700000000004,
+          376.44
+        ]
+      },
+      "output_tokens": {
+        "mean": 1840.1,
+        "ci95": [
+          1636.2135,
+          2060.6634999999997
+        ]
+      },
+      "retained_output_tokens": {
+        "mean": 1837.58,
+        "ci95": [
+          1633.4735,
+          2058.2205
+        ]
+      },
+      "seconds": {
+        "mean": 70.83216284743992,
+        "ci95": [
+          62.991073602226855,
+          79.32724726940236
+        ]
+      },
+      "peak_gpu_allocated_bytes": {
+        "mean": 6218055546.88,
+        "ci95": [
+          6215214443.5199995,
+          6220981888.768
+        ]
+      },
+      "extraction_failed": {
+        "mean": 0.18,
+        "ci95": [
+          0.08,
+          0.3
+        ]
+      },
+      "selected_truncated": {
+        "mean": 0.18,
+        "ci95": [
+          0.08,
+          0.3
+        ]
+      },
+      "correct_questions": 30,
+      "total_truncated_calls": 24
+    },
+    "sequential": {
+      "correct": {
+        "mean": 0.58,
+        "ci95": [
+          0.44,
+          0.72
+        ]
+      },
+      "input_tokens": {
+        "mean": 856.48,
+        "ci95": [
+          771.5174999999999,
+          938.3145
+        ]
+      },
+      "output_tokens": {
+        "mean": 1176.68,
+        "ci95": [
+          1008.3595,
+          1348.1765
+        ]
+      },
+      "retained_output_tokens": {
+        "mean": 1174.9,
+        "ci95": [
+          1006.498,
+          1346.518
+        ]
+      },
+      "seconds": {
+        "mean": 45.294423208640026,
+        "ci95": [
+          38.842937638852064,
+          51.89821274758605
+        ]
+      },
+      "peak_gpu_allocated_bytes": {
+        "mean": 6271236997.12,
+        "ci95": [
+          6261877378.56,
+          6280643024.127999
+        ]
+      },
+      "extraction_failed": {
+        "mean": 0.02,
+        "ci95": [
+          0.0,
+          0.06
+        ]
+      },
+      "selected_truncated": {
+        "mean": 0.02,
+        "ci95": [
+          0.0,
+          0.06
+        ]
+      },
+      "correct_questions": 29,
+      "total_truncated_calls": 11
+    }
+  },
+  "paired_differences": {
+    "parallel_minus_single_long": {
+      "correct": {
+        "mean": 0.0,
+        "ci95": [
+          -0.12,
+          0.12
+        ]
+      },
+      "input_tokens": {
+        "mean": 216.76,
+        "ci95": [
+          185.47799999999998,
+          250.96
+        ]
+      },
+      "output_tokens": {
+        "mean": 1208.3,
+        "ci95": [
+          1073.671,
+          1357.9
+        ]
+      },
+      "seconds": {
+        "mean": 46.516208100959936,
+        "ci95": [
+          41.42960298223788,
+          52.25335598562861
+        ]
+      }
+    },
+    "sequential_minus_single_long": {
+      "correct": {
+        "mean": -0.02,
+        "ci95": [
+          -0.14,
+          0.1
+        ]
+      },
+      "input_tokens": {
+        "mean": 748.1,
+        "ci95": [
+          670.1315,
+          826.6455
+        ]
+      },
+      "output_tokens": {
+        "mean": 544.88,
+        "ci95": [
+          446.236,
+          647.6080000000001
+        ]
+      },
+      "seconds": {
+        "mean": 20.97846846216005,
+        "ci95": [
+          17.20014971785489,
+          24.935356240205955
+        ]
+      }
+    },
+    "sequential_minus_parallel": {
+      "correct": {
+        "mean": -0.02,
+        "ci95": [
+          -0.1,
+          0.04
+        ]
+      },
+      "input_tokens": {
+        "mean": 531.34,
+        "ci95": [
+          460.4155,
+          606.6235
+        ]
+      },
+      "output_tokens": {
+        "mean": -663.42,
+        "ci95": [
+          -758.963,
+          -575.038
+        ]
+      },
+      "seconds": {
+        "mean": -25.537739638799884,
+        "ci95": [
+          -29.21354454667776,
+          -22.136460033507916
+        ]
+      }
+    }
+  },
+  "revision_transitions": {
+    "False_to_False": 21,
+    "False_to_True": 1,
+    "True_to_False": 0,
+    "True_to_True": 28
+  },
+  "cost_notes": [
+    "Generated output cost includes final EOS; retained output is reported separately.",
+    "Parallel means three independent batch-one samples executed serially; time is their summed runtime.",
+    "Sequential includes the shared initial call and the full revision prompt/output; the final revision is always selected.",
+    "Peak GPU memory is the measured allocated peak per strategy, not the sum across its calls.",
+    "Fifty questions give limited precision; intervals describe sampling uncertainty for this fixed run."
+  ],
+  "physical_generation_seconds": 5862.896765669995,
+  "source_sha256": "24eb686ead5e540ae1637294e81d75d85a9c6983dc5061d7aa26164c04a63f1e",
+  "call_manifest_sha256": "b04ce274f7754725a8d3cd909cbec0b9d65fdf5537d3c45ca4271752ae108cef",
+  "references_sha256": "a4f102b1adc685608af77c43b4fb831416819f498c1dd6f62248e53a1e93a141"
+}

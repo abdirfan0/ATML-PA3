@@ -1,0 +1,10 @@
+{
+  "version": "pa3-task3-finalization-v1",
+  "files": {
+    "finalize_task3.py": "900b9ce6b09b67d0f64e8fe19ecc23db606db064535a6b5053088750f3ea607f",
+    "task3_analyze.py": "76e1c986ee3a401474f4d915c5b63047b9e3088b2250622b0f73903c552529a8",
+    "task3_restore_assets.py": "b373ea5b3fdc2246e55d56237e401748837d24974968cbbdadc68fcfca348e95",
+    "FINALIZATION_README.md": "967a74d857d1507197f0c6a7e02cb9dd7df3e3eb110ba84237cfaa3d632d7d90"
+  },
+  "required_live_score_sha256": "24eb686ead5e540ae1637294e81d75d85a9c6983dc5061d7aa26164c04a63f1e"
+}

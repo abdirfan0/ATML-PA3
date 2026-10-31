@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "version": "pa3-task3-offline-v1",
+    "scorer_sha256": "8dd126dce5dc1bec1dbb63e43c2bf2c12ad78daf09c1c4126aa0169dacea14d7",
+    "preparation_sha256": "149c36d8cd6aeab3674ad7261d68d8e4780ee9045acf9ef1490988a97b47e172",
+    "prepared_manifest_sha256": "623e8841ec6a945b91c35fa7d566938af5abf225a43c2479a2d5b648f8e50dd6",
+    "source_sha256": {
+      "task3_selection.py": "1ace168286e5f4e18b9e472157001603debaff2331fa4653595cd1532d46d048",
+      "task3_offline.py": "ee70767021558dce0deae909fba0361eb93f7071156d6e0665254ca1773e653c",
+      "test_task3_offline_cpu.py": "9f7b5b4c3ca64f88a2eac575c5f6bd9ce39ecded91f9f3c8378580d7c43f460d"
+    },
+    "quartile_policy": "8 highest/lowest candidates per question, ties by saved order 0; full-pool retrospective diagnostics",
+    "correlations": "Spearman across candidates within question; Pearson confidence/vision across tokens within rollout then mean within question; undefined correlations retained as null and counted",
+    "rwc": "Exact integer units proportional to prescribed descending-average-rank weights; vote ties by earliest supporting candidate",
+    "zero_tokens": "This export was audited to have none; fail if that assumption changes."
+  },
+  "sha256": "636aa698a5bfd60cbd47f16d51b355414fc5f4ddee8d8f11e05dbb8e44ac1a3b",
+  "seconds": 5.7375862869998855,
+  "questions": 50
+}

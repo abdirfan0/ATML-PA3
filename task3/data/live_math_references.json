@@ -1,0 +1,306 @@
+{
+  "dataset_id": "DigitalLearningGmbH/MATH-lighteval",
+  "dataset_revision": "0530c78699ea5e8eb5530600900e1f328b48acad",
+  "references": [
+    {
+      "sample_id": "test:943",
+      "source_test_row_index": 943,
+      "gold_answer": "14",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:2688",
+      "source_test_row_index": 2688,
+      "gold_answer": "-1",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:3504",
+      "source_test_row_index": 3504,
+      "gold_answer": "216",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:4335",
+      "source_test_row_index": 4335,
+      "gold_answer": "5040",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:2460",
+      "source_test_row_index": 2460,
+      "gold_answer": "154",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:1324",
+      "source_test_row_index": 1324,
+      "gold_answer": "\\frac{3}{16}",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:2340",
+      "source_test_row_index": 2340,
+      "gold_answer": "6",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:1577",
+      "source_test_row_index": 1577,
+      "gold_answer": "14",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:639",
+      "source_test_row_index": 639,
+      "gold_answer": "-9",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:2892",
+      "source_test_row_index": 2892,
+      "gold_answer": "-71",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:4702",
+      "source_test_row_index": 4702,
+      "gold_answer": "59",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:1709",
+      "source_test_row_index": 1709,
+      "gold_answer": "75",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:4041",
+      "source_test_row_index": 4041,
+      "gold_answer": "56",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:2119",
+      "source_test_row_index": 2119,
+      "gold_answer": "28",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:2087",
+      "source_test_row_index": 2087,
+      "gold_answer": "7",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:4549",
+      "source_test_row_index": 4549,
+      "gold_answer": "11",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:2732",
+      "source_test_row_index": 2732,
+      "gold_answer": "\\frac{266664}{5}",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:1433",
+      "source_test_row_index": 1433,
+      "gold_answer": "\\frac{1}{4}",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:3285",
+      "source_test_row_index": 3285,
+      "gold_answer": "0",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:29",
+      "source_test_row_index": 29,
+      "gold_answer": "16",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:2948",
+      "source_test_row_index": 2948,
+      "gold_answer": "1+\\sqrt 2,\\ 1-\\sqrt 2,\\ 2+\\sqrt 3,\\ 2-\\sqrt 3",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:1997",
+      "source_test_row_index": 1997,
+      "gold_answer": "120",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:414",
+      "source_test_row_index": 414,
+      "gold_answer": "1",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:1808",
+      "source_test_row_index": 1808,
+      "gold_answer": "2",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:4962",
+      "source_test_row_index": 4962,
+      "gold_answer": "(4,\\pi)",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:274",
+      "source_test_row_index": 274,
+      "gold_answer": "2",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:916",
+      "source_test_row_index": 916,
+      "gold_answer": "14",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:534",
+      "source_test_row_index": 534,
+      "gold_answer": "56",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:2177",
+      "source_test_row_index": 2177,
+      "gold_answer": "18",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:1043",
+      "source_test_row_index": 1043,
+      "gold_answer": "2",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:373",
+      "source_test_row_index": 373,
+      "gold_answer": "11",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:1379",
+      "source_test_row_index": 1379,
+      "gold_answer": "\\frac{10}{19}",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:196",
+      "source_test_row_index": 196,
+      "gold_answer": "81",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:2134",
+      "source_test_row_index": 2134,
+      "gold_answer": "15",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:771",
+      "source_test_row_index": 771,
+      "gold_answer": "\\frac{160}{33}",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:3572",
+      "source_test_row_index": 3572,
+      "gold_answer": "22",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:2358",
+      "source_test_row_index": 2358,
+      "gold_answer": "2 \\sqrt{5}",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:2019",
+      "source_test_row_index": 2019,
+      "gold_answer": "5",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:4144",
+      "source_test_row_index": 4144,
+      "gold_answer": "5",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:3314",
+      "source_test_row_index": 3314,
+      "gold_answer": "15",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:3239",
+      "source_test_row_index": 3239,
+      "gold_answer": "4",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:4678",
+      "source_test_row_index": 4678,
+      "gold_answer": "6",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:1122",
+      "source_test_row_index": 1122,
+      "gold_answer": "5",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:4168",
+      "source_test_row_index": 4168,
+      "gold_answer": "0.6",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:1300",
+      "source_test_row_index": 1300,
+      "gold_answer": "1",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:4516",
+      "source_test_row_index": 4516,
+      "gold_answer": "\\frac{25 \\sqrt{10}}{4}",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:1903",
+      "source_test_row_index": 1903,
+      "gold_answer": "80",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:1916",
+      "source_test_row_index": 1916,
+      "gold_answer": "144",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:3409",
+      "source_test_row_index": 3409,
+      "gold_answer": "3",
+      "source_field": "solution_last_literal_box"
+    },
+    {
+      "sample_id": "test:3617",
+      "source_test_row_index": 3617,
+      "gold_answer": "9",
+      "source_field": "solution_last_literal_box"
+    }
+  ]
+}

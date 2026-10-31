@@ -1,0 +1,20 @@
+{
+  "version": "pa3-task3-live-assets-package-v1",
+  "files": {
+    "task3_live_spec.py": "c427abf5f65d370a5c38eaf8f863c2100490c1672544194bae092fc46307e445",
+    "task3_live_assets.py": "a9cd81594cc5466f2301eb2989e012b24573afa090a2cfa17875769d393f713e",
+    "test_task3_live_cpu.py": "8a0e93bfbc2f157055ddd43e1fb5fe86fa3784f07e91d440010165d122390bd8",
+    "LIVE_ASSETS_README.md": "5fad177eea0b7e1ecd9a89c8f892d9b5667f408d336599f865248d042ee02859"
+  },
+  "required_source": {
+    "task3_answers.py": "0655711d57d35a0c0caccfc50425227b0c2c778f785b899bd328cb550dfc0a53",
+    "task3_scorer_preflight.py": "662254df1480191a629064e38d1f00956edd55d26579b189f34d305e4b549994",
+    "test_task3_answers_cpu.py": "0750208d2666be560ebdcb2f68f8be9ec1da715cae84fdc2d43f246fba58a00e",
+    "task3_prepare.py": "02da51c017901e06915f35f2f815e927d43909d6bb7c07180530b4c27c201bbd",
+    "task3_pool.py": "9cce085591901910e4416a67c54cb003640b41d604e1336b2890ae82e06d264c",
+    "test_task3_prepare_cpu.py": "1371d594b255c11f97e5f564cf8d029a1ac3fd82a48df308c0bf625b51068368",
+    "task3_selection.py": "1ace168286e5f4e18b9e472157001603debaff2331fa4653595cd1532d46d048",
+    "task3_offline.py": "ee70767021558dce0deae909fba0361eb93f7071156d6e0665254ca1773e653c",
+    "test_task3_offline_cpu.py": "9f7b5b4c3ca64f88a2eac575c5f6bd9ce39ecded91f9f3c8378580d7c43f460d"
+  }
+}

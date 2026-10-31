@@ -1,0 +1,14 @@
+{
+  "version": "pa3-task3-prepared-v1",
+  "scorer_sha256": "8dd126dce5dc1bec1dbb63e43c2bf2c12ad78daf09c1c4126aa0169dacea14d7",
+  "inventory_sha256": "7baf72f883529196e9494c4b79abf92370f72652c5147f2df2882e2e1d31dfb3",
+  "question_splits_sha256": "baad186eea972bd792827ebac43c836474081c42b8d7f079eff57726a951e761",
+  "candidate_orders_sha256": "3c10544f47915a8189c015005f6f30bab2490730a24dab7a436bacf156b1e6a4",
+  "source_sha256": {
+    "task3_prepare.py": "02da51c017901e06915f35f2f815e927d43909d6bb7c07180530b4c27c201bbd",
+    "task3_pool.py": "9cce085591901910e4416a67c54cb003640b41d604e1336b2890ae82e06d264c",
+    "test_task3_prepare_cpu.py": "1371d594b255c11f97e5f564cf8d029a1ac3fd82a48df308c0bf625b51068368"
+  },
+  "vision_ratio": "img_attn_total / (img_attn_total + prompt_text_attn_total + generated_text_attn_total); no per-group-size correction",
+  "storage": "50 questions per NPZ shard; UTF-8 JSON uint8 metadata; packed token arrays/offsets; allow_pickle=False"
+}

@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "gpu_used": false,
+  "checks": [
+    "Frozen source and input identities",
+    "All 40 offline chunk hashes; 2000 questions and 64000 candidates",
+    "Saved splits, nested candidate orders, selected IDs and retained-token costs",
+    "Development-only adaptive grid selection and frozen thresholds",
+    "All held-out fixed/adaptive summaries and paired bootstrap intervals",
+    "All 250 live call hashes, prompt/seed/cap/EOS/revision/cost records",
+    "Live gold-free voting, frozen grading, paired intervals and revision transitions"
+  ],
+  "limits": "Raw parquet/NPZ/model bytes are external and not re-read by this report audit. Token-level measurements retain original preparation hashes and audit receipts.",
+  "live_manifest_sha256": "b04ce274f7754725a8d3cd909cbec0b9d65fdf5537d3c45ca4271752ae108cef",
+  "offline_finished_sha256": "eac46d7332eb468e18434e11ffb96db2d6cdee65565778087278dd0f42ac60a7",
+  "source_sha256": "76e1c986ee3a401474f4d915c5b63047b9e3088b2250622b0f73903c552529a8"
+}

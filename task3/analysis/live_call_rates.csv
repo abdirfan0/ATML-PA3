@@ -1,0 +1,6 @@
+call,questions,extraction_failed,truncated,reached_cap,mean_input_tokens,mean_output_tokens,mean_seconds
+single_long,50,0,0,0,108.38,631.8,24.315954746479974
+parallel_0,50,9,10,10,108.38,602.52,23.18460548916002
+parallel_1,50,6,6,6,108.38,610.84,23.506930038759947
+parallel_2,50,8,8,8,108.38,626.74,24.14062731951995
+revision,50,1,1,1,748.1,574.16,22.109817719480006

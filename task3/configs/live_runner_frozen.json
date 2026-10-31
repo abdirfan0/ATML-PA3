@@ -1,0 +1,22 @@
+{
+  "version": "pa3-task3-live-runner-v1",
+  "assets_sha256": "fd304d1226c7a1091b3cc000cbd38110b63a1fc64821a9176ee8c51d0689cf7c",
+  "prompts_sha256": "e0b45da684f1e38cf27bd2d83d764a5cbaff0b494ae6154aaa5e3156190f2e7e",
+  "recipe_sha256": "ba5008af5b5dabb54fbb43a46b2bc7fbc66cde4b958794e28996ff3727ee8061",
+  "source_sha256": {
+    "task3_live_runtime.py": "3f99bc042c17c3f990e029c05584a60bfa7dd3cd21b145ce4a982b9bebbd25bd",
+    "task3_live_run.py": "3abf0afb68f7e813fa968721e9ecb62d3d300b8d31a27ec130d092a70ba3c615",
+    "task3_live_gpu_setup.py": "ca5d0587bd4c6d660cc220c213fae037b259d577880024848d795a6a51f74392",
+    "test_task3_live_runner_cpu.py": "f3d1277dbf8ef70f9f11aff0d6c1938dac1f61b115fb6ab9547d98afbdb58088"
+  },
+  "physical_calls": 250,
+  "main_call_order": [
+    "parallel_0",
+    "parallel_1",
+    "parallel_2",
+    "single_long",
+    "revision"
+  ],
+  "generation_only": true,
+  "timing": "CUDA-synchronized prompt construction/tokenization, input transfer, generation, output decode and balanced-box extraction; exclude loading, smoke and disk persistence"
+}

@@ -1,0 +1,51 @@
+{
+  "rule": "First three saved held-out questions per dataset and first two candidates of saved order 0; fixed before quality/correctness analysis.",
+  "datasets": {
+    "math": [
+      {
+        "sample_id": "test:943",
+        "rollout_ids": [
+          1,
+          0
+        ]
+      },
+      {
+        "sample_id": "test:2688",
+        "rollout_ids": [
+          8,
+          5
+        ]
+      },
+      {
+        "sample_id": "test:3504",
+        "rollout_ids": [
+          26,
+          11
+        ]
+      }
+    ],
+    "mathvista": [
+      {
+        "sample_id": "99",
+        "rollout_ids": [
+          1,
+          0
+        ]
+      },
+      {
+        "sample_id": "425",
+        "rollout_ids": [
+          8,
+          5
+        ]
+      },
+      {
+        "sample_id": "601",
+        "rollout_ids": [
+          26,
+          11
+        ]
+      }
+    ]
+  }
+}
