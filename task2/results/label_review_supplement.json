@@ -1,0 +1,1654 @@
+{
+  "version": "pa3-task2-label-review-supplement-v1",
+  "review_date": "2026-11-09",
+  "manual_reference": {
+    "page": 10,
+    "section": "What to Watch For",
+    "quote": "COCO annotations can omit objects or contain ambiguous counts. Inspect labels independently of model predictions; keep evaluation images out of training and replay.",
+    "interpretation": "Requires label inspection independent of predictions; does not explicitly require the student personally to review all 88 pairs."
+  },
+  "timing": "Supplementary inspection after training; predictions and correctness were not used to choose label judgments. Original pretraining assistant notes are preserved separately.",
+  "pages_covered": 22,
+  "policy": "Original examples, targets, primary scores, and previous notes remain unchanged. Uncertainty flags are limitations, not definitive label errors, relabels, or exclusions. Contact-sheet inspection cannot establish exhaustive object counts.",
+  "pairs": [
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:counting:15:407868:516805",
+      "sheet": "grounding_dev_01.jpg",
+      "position_on_sheet": 1,
+      "question": "How many benches can you see?",
+      "review_observations": {
+        "pair": 1,
+        "category": "bench",
+        "image_ids": [
+          516805,
+          407868
+        ],
+        "references": [
+          2,
+          3
+        ],
+        "observed_counts": [
+          2,
+          3
+        ],
+        "status": [
+          "supported",
+          "supported"
+        ],
+        "notes": [
+          "conjoined picnic structure contains two benches and a table.",
+          ""
+        ]
+      },
+      "previous_review_status": "ambiguity_or_small_object_flag",
+      "previous_review_notes": [
+        {
+          "image_id": 407868,
+          "target": "3",
+          "note": "Benches are small/background objects; the annotated count is difficult to verify at contact-sheet resolution."
+        }
+      ]
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:counting:25:57350:414109",
+      "sheet": "grounding_dev_01.jpg",
+      "position_on_sheet": 2,
+      "question": "How many giraffes can you see?",
+      "review_observations": {
+        "pair": 2,
+        "category": "giraffe",
+        "image_ids": [
+          57350,
+          414109
+        ],
+        "references": [
+          3,
+          1
+        ],
+        "observed_counts": [
+          3,
+          1
+        ],
+        "status": [
+          "supported",
+          "supported"
+        ],
+        "notes": [
+          "Confirmed two background giraffes in addition to foreground giraffe after closer inspection.",
+          ""
+        ]
+      },
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:counting:39:269689:464312",
+      "sheet": "grounding_dev_01.jpg",
+      "position_on_sheet": 3,
+      "question": "How many baseball bats can you see?",
+      "review_observations": {
+        "pair": 3,
+        "category": "baseball bat",
+        "image_ids": [
+          464312,
+          269689
+        ],
+        "references": [
+          1,
+          3
+        ],
+        "observed_counts": [
+          1,
+          3
+        ],
+        "status": [
+          "supported",
+          "supported"
+        ],
+        "notes": [
+          "",
+          "One bat on the ground was harder to identify but judged clearly a baseball bat during review."
+        ]
+      },
+      "previous_review_status": "ambiguity_or_small_object_flag",
+      "previous_review_notes": [
+        {
+          "image_id": 269689,
+          "target": "3",
+          "note": "Additional baseball bats are background equipment; the count depends on including those small objects."
+        }
+      ]
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:counting:51:155974:501760",
+      "sheet": "grounding_dev_01.jpg",
+      "position_on_sheet": 4,
+      "question": "How many bowls can you see?",
+      "review_observations": {
+        "pair": 4,
+        "category": "bowl",
+        "image_ids": [
+          155974,
+          501760
+        ],
+        "references": [
+          4,
+          3
+        ],
+        "observed_counts": [
+          4,
+          3
+        ],
+        "status": [
+          "ambiguous",
+          "supported"
+        ],
+        "notes": [
+          "Four bowls identified, plus a snowman-decorated container that could count as an additional bowl.",
+          ""
+        ]
+      },
+      "previous_review_status": "ambiguity_or_small_object_flag",
+      "previous_review_notes": [
+        {
+          "image_id": 155974,
+          "target": "4",
+          "note": "Bowl count depends on classifying partially occluded refrigerator containers as bowls."
+        }
+      ]
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:counting:5:55432:178189",
+      "sheet": "grounding_dev_02.jpg",
+      "position_on_sheet": 1,
+      "question": "How many airplanes can you see?",
+      "review_observations": {
+        "pair": 5,
+        "category": "airplane",
+        "image_ids": [
+          178189,
+          55432
+        ],
+        "references": [
+          2,
+          3
+        ],
+        "observed_counts": [
+          2,
+          3
+        ],
+        "status": [
+          "supported",
+          "supported"
+        ],
+        "notes": [
+          "One plane identifiable only by tail.",
+          "One plane identifiable only by tail."
+        ]
+      },
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:counting:61:19275:521142",
+      "sheet": "grounding_dev_02.jpg",
+      "position_on_sheet": 2,
+      "question": "How many cakes can you see?",
+      "review_observations": {
+        "pair": 6,
+        "category": "cake",
+        "image_ids": [
+          521142,
+          19275
+        ],
+        "references": [
+          1,
+          2
+        ],
+        "observed_counts": [
+          1,
+          2
+        ],
+        "status": [
+          "supported",
+          "supported"
+        ],
+        "notes": [
+          "",
+          ""
+        ]
+      },
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:counting:65:173081:309889",
+      "sheet": "grounding_dev_02.jpg",
+      "position_on_sheet": 3,
+      "question": "How many beds can you see?",
+      "review_observations": {
+        "pair": 7,
+        "category": "bed",
+        "image_ids": [
+          173081,
+          309889
+        ],
+        "references": [
+          4,
+          2
+        ],
+        "observed_counts": [
+          4,
+          2
+        ],
+        "status": [
+          "supported",
+          "supported"
+        ],
+        "notes": [
+          "",
+          ""
+        ]
+      },
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:counting:70:109648:474519",
+      "sheet": "grounding_dev_02.jpg",
+      "position_on_sheet": 4,
+      "question": "How many toilets can you see?",
+      "review_observations": {
+        "pair": 8,
+        "category": "toilet",
+        "image_ids": [
+          474519,
+          109648
+        ],
+        "references": [
+          2,
+          4
+        ],
+        "visible_instances": [
+          2,
+          4
+        ],
+        "status": [
+          "reflection_count_issue",
+          "category_wording_ambiguity"
+        ],
+        "notes": [
+          "The review identifies second depiction as mirror reflection of the same physical toilet; two depictions do not establish two distinct toilets.",
+          "The review identifies all four fixtures as urinals rather than toilets; count supported but question category wording ambiguous."
+        ]
+      },
+      "previous_review_status": "ambiguity_or_small_object_flag",
+      "previous_review_notes": [
+        {
+          "image_id": 109648,
+          "target": "4",
+          "note": "The toilet category includes urinals here; category scope differs from ordinary seated-toilet wording."
+        }
+      ]
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:counting:74:39211:244613",
+      "sheet": "grounding_dev_03.jpg",
+      "position_on_sheet": 1,
+      "question": "How many mice can you see?",
+      "review_observations": {
+        "pair": 9,
+        "category": "mouse",
+        "image_ids": [
+          244613,
+          39211
+        ],
+        "references": [
+          2,
+          3
+        ],
+        "observed_counts": [
+          2,
+          3
+        ],
+        "status": [
+          "supported",
+          "supported"
+        ],
+        "notes": [
+          "",
+          ""
+        ]
+      },
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:counting:77:30407:203539",
+      "sheet": "grounding_dev_03.jpg",
+      "position_on_sheet": 2,
+      "question": "How many cell phones can you see?",
+      "review_observations": {
+        "pair": 10,
+        "category": "cell phone",
+        "image_ids": [
+          203539,
+          30407
+        ],
+        "references": [
+          1,
+          4
+        ],
+        "observed_counts": [
+          1,
+          4
+        ],
+        "status": [
+          "supported",
+          "supported"
+        ],
+        "notes": [
+          "",
+          ""
+        ]
+      },
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:counting:85:244111:471578",
+      "sheet": "grounding_dev_03.jpg",
+      "position_on_sheet": 3,
+      "question": "How many clocks can you see?",
+      "review_observations": {
+        "pair": 11,
+        "category": "clock",
+        "image_ids": [
+          244111,
+          471578
+        ],
+        "references": [
+          3,
+          1
+        ],
+        "observed_counts": [
+          3,
+          1
+        ],
+        "status": [
+          "supported",
+          "supported"
+        ],
+        "notes": [
+          "",
+          ""
+        ]
+      },
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:counting:9:129175:186218",
+      "sheet": "grounding_dev_03.jpg",
+      "position_on_sheet": 4,
+      "question": "How many boats can you see?",
+      "review_observations": {
+        "pair": 12,
+        "category": "boat",
+        "image_ids": [
+          129175,
+          186218
+        ],
+        "references": [
+          4,
+          1
+        ],
+        "observed_counts": [
+          4,
+          1
+        ],
+        "status": [
+          "supported",
+          "supported"
+        ],
+        "notes": [
+          "",
+          ""
+        ]
+      },
+      "previous_review_status": "ambiguity_or_small_object_flag",
+      "previous_review_notes": [
+        {
+          "image_id": 186218,
+          "target": "1",
+          "note": "Boat is largely implied by the foreground setting/partial structure rather than shown as a separate whole object."
+        }
+      ]
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:presence:10:154830:192079",
+      "sheet": "grounding_dev_04.jpg",
+      "position_on_sheet": 1,
+      "question": "Does this image contain a traffic light?",
+      "review_observations": {
+        "pair": 13,
+        "category": "traffic light",
+        "image_ids": [
+          154830,
+          192079
+        ],
+        "references": [
+          "yes",
+          "no"
+        ],
+        "human_answers": [
+          "yes",
+          "no"
+        ],
+        "status": [
+          "supported",
+          "supported"
+        ],
+        "notes": [
+          "",
+          ""
+        ]
+      },
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:presence:13:273083:464006",
+      "sheet": "grounding_dev_04.jpg",
+      "position_on_sheet": 2,
+      "question": "Does this image contain a stop sign?",
+      "review_observations": {
+        "pair": 14,
+        "category": "stop sign",
+        "image_ids": [
+          464006,
+          273083
+        ],
+        "references": [
+          "yes",
+          "no"
+        ],
+        "human_answers": [
+          "yes",
+          "no"
+        ],
+        "status": [
+          "supported",
+          "supported"
+        ],
+        "notes": [
+          "",
+          ""
+        ]
+      },
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:presence:27:98895:323528",
+      "sheet": "grounding_dev_04.jpg",
+      "position_on_sheet": 3,
+      "question": "Does this image contain a backpack?",
+      "review_observations": {
+        "pair": 15,
+        "category": "backpack",
+        "image_ids": [
+          323528,
+          98895
+        ],
+        "references": [
+          "yes",
+          "no"
+        ],
+        "human_answers": [
+          "yes",
+          "no"
+        ],
+        "status": [
+          "supported",
+          "supported"
+        ],
+        "notes": [
+          "",
+          ""
+        ]
+      },
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:presence:33:31392:487438",
+      "sheet": "grounding_dev_04.jpg",
+      "position_on_sheet": 4,
+      "question": "Does this image contain a suitcase?",
+      "review_observations": {
+        "pair": 16,
+        "category": "suitcase",
+        "image_ids": [
+          31392,
+          487438
+        ],
+        "references": [
+          "no",
+          "yes"
+        ],
+        "human_answers": [
+          "no",
+          "yes"
+        ],
+        "status": [
+          "supported",
+          "supported"
+        ],
+        "notes": [
+          "",
+          ""
+        ]
+      },
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:presence:40:29563:460623",
+      "sheet": "grounding_dev_05.jpg",
+      "position_on_sheet": 1,
+      "question": "Does this image contain a baseball glove?",
+      "supplementary_notes": [],
+      "review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:presence:43:289059:290595",
+      "sheet": "grounding_dev_05.jpg",
+      "position_on_sheet": 2,
+      "question": "Does this image contain a tennis racket?",
+      "supplementary_notes": [],
+      "review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:presence:51:183287:368994",
+      "sheet": "grounding_dev_05.jpg",
+      "position_on_sheet": 3,
+      "question": "Does this image contain a bowl?",
+      "supplementary_notes": [],
+      "review_status": "uncertain_at_contact_sheet_resolution",
+      "previous_review_status": "ambiguity_or_small_object_flag",
+      "previous_review_notes": [
+        {
+          "image_id": 368994,
+          "target": "yes",
+          "note": "Positive bowl is hard to isolate among the clutter; inspect original image if interpreting an error."
+        }
+      ]
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:presence:52:440562:489798",
+      "sheet": "grounding_dev_05.jpg",
+      "position_on_sheet": 4,
+      "question": "Does this image contain a banana?",
+      "supplementary_notes": [],
+      "review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:presence:56:344415:512729",
+      "sheet": "grounding_dev_06.jpg",
+      "position_on_sheet": 1,
+      "question": "Does this image contain broccoli?",
+      "supplementary_notes": [],
+      "review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:presence:78:248232:313130",
+      "sheet": "grounding_dev_06.jpg",
+      "position_on_sheet": 2,
+      "question": "Does this image contain a microwave?",
+      "supplementary_notes": [],
+      "review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:presence:7:230212:452684",
+      "sheet": "grounding_dev_06.jpg",
+      "position_on_sheet": 3,
+      "question": "Does this image contain a train?",
+      "supplementary_notes": [],
+      "review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "dev",
+      "pair_id": "grounding:val2014:presence:80:434089:530384",
+      "sheet": "grounding_dev_06.jpg",
+      "position_on_sheet": 4,
+      "question": "Does this image contain a toaster?",
+      "supplementary_notes": [],
+      "review_status": "uncertain_at_contact_sheet_resolution",
+      "previous_review_status": "ambiguity_or_small_object_flag",
+      "previous_review_notes": [
+        {
+          "image_id": 530384,
+          "target": "yes",
+          "note": "Positive toaster is a small kitchen object; resizing to 224 can remove identifying detail."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:13:433904:478857",
+      "sheet": "grounding_test_01.jpg",
+      "position_on_sheet": 1,
+      "question": "How many stop signs can you see?",
+      "supplementary_notes": [
+        {
+          "image_id": 478857,
+          "target": "3",
+          "note": "Two foreground stop signs are clear; a possible distant third is too small to verify confidently."
+        }
+      ],
+      "review_status": "uncertain_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:14:164830:532085",
+      "sheet": "grounding_test_01.jpg",
+      "position_on_sheet": 2,
+      "question": "How many parking meters can you see?",
+      "supplementary_notes": [
+        {
+          "image_id": 532085,
+          "target": "4",
+          "note": "Four distinct parking-meter instances are not confidently separable at contact-sheet resolution; meter heads and mounting units may differ."
+        }
+      ],
+      "review_status": "uncertain_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:17:253177:449379",
+      "sheet": "grounding_test_01.jpg",
+      "position_on_sheet": 3,
+      "question": "How many cats can you see?",
+      "supplementary_notes": [
+        {
+          "image_id": 449379,
+          "target": "4",
+          "note": "Overlapping cats make the fourth annotated instance difficult to separate confidently."
+        }
+      ],
+      "review_status": "uncertain_at_contact_sheet_resolution",
+      "previous_review_status": "ambiguity_or_small_object_flag",
+      "previous_review_notes": [
+        {
+          "image_id": 253177,
+          "target": "3",
+          "note": "Cats are depicted in framed pictures; ordinary physical-animal counts need not match annotated depicted instances."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:18:176474:355240",
+      "sheet": "grounding_test_01.jpg",
+      "position_on_sheet": 4,
+      "question": "How many dogs can you see?",
+      "supplementary_notes": [],
+      "review_status": "uncertain_at_contact_sheet_resolution",
+      "previous_review_status": "ambiguity_or_small_object_flag",
+      "previous_review_notes": [
+        {
+          "image_id": 355240,
+          "target": "2",
+          "note": "Dog count includes a reflection of the same physical animal. The annotation-defined count is not a unique-animal count."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:19:242342:492407",
+      "sheet": "grounding_test_02.jpg",
+      "position_on_sheet": 1,
+      "question": "How many horses can you see?",
+      "supplementary_notes": [],
+      "review_status": "uncertain_at_contact_sheet_resolution",
+      "previous_review_status": "ambiguity_or_small_object_flag",
+      "previous_review_notes": [
+        {
+          "image_id": 492407,
+          "target": "3",
+          "note": "Only two horses are immediately clear; third annotated instance may be occluded or small."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:21:41635:60687",
+      "sheet": "grounding_test_02.jpg",
+      "position_on_sheet": 2,
+      "question": "How many cows can you see?",
+      "supplementary_notes": [],
+      "review_status": "uncertain_at_contact_sheet_resolution",
+      "previous_review_status": "ambiguity_or_small_object_flag",
+      "previous_review_notes": [
+        {
+          "image_id": 41635,
+          "target": "4",
+          "note": "Cows overlap/are partially occluded; four-instance count is not unambiguous at contact-sheet scale."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:22:477389:549182",
+      "sheet": "grounding_test_02.jpg",
+      "position_on_sheet": 3,
+      "question": "How many elephants can you see?",
+      "supplementary_notes": [],
+      "review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:25:5418:329939",
+      "sheet": "grounding_test_02.jpg",
+      "position_on_sheet": 4,
+      "question": "How many giraffes can you see?",
+      "supplementary_notes": [],
+      "review_status": "uncertain_at_contact_sheet_resolution",
+      "previous_review_status": "ambiguity_or_small_object_flag",
+      "previous_review_notes": [
+        {
+          "image_id": 329939,
+          "target": "4",
+          "note": "Giraffes overlap/are partially visible; four-instance count is not unambiguous at contact-sheet scale."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:28:81956:372817",
+      "sheet": "grounding_test_03.jpg",
+      "position_on_sheet": 1,
+      "question": "How many umbrellas can you see?",
+      "supplementary_notes": [
+        {
+          "image_id": 372817,
+          "target": "3",
+          "note": "The possible third umbrella is cropped near the upper-left edge; exact count is uncertain."
+        }
+      ],
+      "review_status": "uncertain_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:2:50145:99341",
+      "sheet": "grounding_test_03.jpg",
+      "position_on_sheet": 2,
+      "question": "How many bicycles can you see?",
+      "supplementary_notes": [],
+      "review_status": "uncertain_at_contact_sheet_resolution",
+      "previous_review_status": "ambiguity_or_small_object_flag",
+      "previous_review_notes": [
+        {
+          "image_id": 50145,
+          "target": "4",
+          "note": "Several bicycles are small or partly hidden behind the foreground bicycle/person."
+        },
+        {
+          "image_id": 99341,
+          "target": "2",
+          "note": "Count concerns small parked bicycles in the background, not the foreground activity."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:36:4554:579696",
+      "sheet": "grounding_test_03.jpg",
+      "position_on_sheet": 3,
+      "question": "How many snowboards can you see?",
+      "supplementary_notes": [
+        {
+          "image_id": 4554,
+          "target": "3",
+          "note": "Foreground and background snow equipment overlap; three snowboard instances are not confidently isolated."
+        },
+        {
+          "image_id": 579696,
+          "target": "2",
+          "note": "Some narrow equipment may be skis rather than snowboards; exact category-specific count is uncertain."
+        }
+      ],
+      "review_status": "uncertain_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:3:34482:376625",
+      "sheet": "grounding_test_03.jpg",
+      "position_on_sheet": 4,
+      "question": "How many cars can you see?",
+      "supplementary_notes": [
+        {
+          "image_id": 376625,
+          "target": "3",
+          "note": "Small vehicles behind the tram make the annotated car count difficult to verify."
+        },
+        {
+          "image_id": 34482,
+          "target": "1",
+          "note": "The vehicle is partly cropped/occluded behind a parking meter; vehicle class is uncertain."
+        }
+      ],
+      "review_status": "uncertain_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:40:191925:323930",
+      "sheet": "grounding_test_04.jpg",
+      "position_on_sheet": 1,
+      "question": "How many baseball gloves can you see?",
+      "supplementary_notes": [],
+      "review_status": "uncertain_at_contact_sheet_resolution",
+      "previous_review_status": "ambiguity_or_small_object_flag",
+      "previous_review_notes": [
+        {
+          "image_id": 191925,
+          "target": "3",
+          "note": "Three baseball-glove annotations cannot all be confidently isolated in the contact sheet."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:43:499884:512139",
+      "sheet": "grounding_test_04.jpg",
+      "position_on_sheet": 2,
+      "question": "How many tennis rackets can you see?",
+      "supplementary_notes": [
+        {
+          "image_id": 499884,
+          "target": "4",
+          "note": "Some rackets overlap the team members; four distinct rackets are difficult to verify confidently."
+        }
+      ],
+      "review_status": "uncertain_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:48:113720:472930",
+      "sheet": "grounding_test_04.jpg",
+      "position_on_sheet": 3,
+      "question": "How many forks can you see?",
+      "supplementary_notes": [
+        {
+          "image_id": 113720,
+          "target": "3",
+          "note": "A third fork is not confidently isolated among the table objects and held cutlery."
+        },
+        {
+          "image_id": 472930,
+          "target": "1",
+          "note": "Several small cutlery items are visible; distinguishing forks from other utensils is uncertain."
+        }
+      ],
+      "review_status": "uncertain_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:55:42215:373577",
+      "sheet": "grounding_test_04.jpg",
+      "position_on_sheet": 4,
+      "question": "How many oranges can you see?",
+      "supplementary_notes": [],
+      "review_status": "uncertain_at_contact_sheet_resolution",
+      "previous_review_status": "ambiguity_or_small_object_flag",
+      "previous_review_notes": [
+        {
+          "image_id": 373577,
+          "target": "4",
+          "note": "Orange count depends on small partly occluded fruit among mixed produce."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:56:255912:439982",
+      "sheet": "grounding_test_05.jpg",
+      "position_on_sheet": 1,
+      "question": "How many broccoli pieces can you see?",
+      "supplementary_notes": [],
+      "review_status": "uncertain_at_contact_sheet_resolution",
+      "previous_review_status": "ambiguity_or_small_object_flag",
+      "previous_review_notes": [
+        {
+          "image_id": 439982,
+          "target": "2",
+          "note": "Broccoli is annotated in groups; target 2 should not be interpreted as the number of individual visible florets/pieces."
+        },
+        {
+          "image_id": 255912,
+          "target": "1",
+          "note": "Broccoli grouping/category is ambiguous within the salad; target 1 is annotation-based rather than a clear floret count."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:57:213881:506736",
+      "sheet": "grounding_test_05.jpg",
+      "position_on_sheet": 2,
+      "question": "How many carrots can you see?",
+      "supplementary_notes": [
+        {
+          "image_id": 506736,
+          "target": "4",
+          "note": "Overlapping and cropped carrots make an exact four-instance count uncertain."
+        }
+      ],
+      "review_status": "uncertain_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:58:118246:159598",
+      "sheet": "grounding_test_05.jpg",
+      "position_on_sheet": 3,
+      "question": "How many hot dogs can you see?",
+      "supplementary_notes": [
+        {
+          "image_id": 118246,
+          "target": "3",
+          "note": "The number of sausages may differ from the number of assembled hot dogs/buns; counting unit is ambiguous."
+        }
+      ],
+      "review_status": "uncertain_at_contact_sheet_resolution",
+      "previous_review_status": "ambiguity_or_small_object_flag",
+      "previous_review_notes": [
+        {
+          "image_id": 159598,
+          "target": "4",
+          "note": "Displayed hot dogs are partially obscured by vending-machine windows; four instances are hard to verify."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:61:321798:522427",
+      "sheet": "grounding_test_05.jpg",
+      "position_on_sheet": 4,
+      "question": "How many cakes can you see?",
+      "supplementary_notes": [
+        {
+          "image_id": 321798,
+          "target": "2",
+          "note": "Bread and dessert portions in the airline meal are not confidently classifiable as two cakes."
+        }
+      ],
+      "review_status": "uncertain_at_contact_sheet_resolution",
+      "previous_review_status": "ambiguity_or_small_object_flag",
+      "previous_review_notes": [
+        {
+          "image_id": 522427,
+          "target": "4",
+          "note": "Cake category includes small cupcakes; category granularity affects the count."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:64:120745:221105",
+      "sheet": "grounding_test_06.jpg",
+      "position_on_sheet": 1,
+      "question": "How many potted plants can you see?",
+      "supplementary_notes": [],
+      "review_status": "uncertain_at_contact_sheet_resolution",
+      "previous_review_status": "ambiguity_or_small_object_flag",
+      "previous_review_notes": [
+        {
+          "image_id": 120745,
+          "target": "3",
+          "note": "Potted plants are small background/window objects; count is hard to verify in the sheet."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:67:331817:550051",
+      "sheet": "grounding_test_06.jpg",
+      "position_on_sheet": 2,
+      "question": "How many dining tables can you see?",
+      "supplementary_notes": [
+        {
+          "image_id": 550051,
+          "target": "3",
+          "note": "Outdoor tables overlap behind people, chairs, and umbrella poles; exact count is uncertain."
+        }
+      ],
+      "review_status": "uncertain_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:6:339368:524450",
+      "sheet": "grounding_test_06.jpg",
+      "position_on_sheet": 3,
+      "question": "How many buses can you see?",
+      "supplementary_notes": [],
+      "review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:70:23696:221869",
+      "sheet": "grounding_test_06.jpg",
+      "position_on_sheet": 4,
+      "question": "How many toilets can you see?",
+      "supplementary_notes": [
+        {
+          "image_id": 221869,
+          "target": "1",
+          "note": "A toilet is not clearly isolated behind the shower glass and vanity at contact-sheet resolution."
+        }
+      ],
+      "review_status": "uncertain_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:73:20935:153563",
+      "sheet": "grounding_test_07.jpg",
+      "position_on_sheet": 1,
+      "question": "How many laptops can you see?",
+      "supplementary_notes": [
+        {
+          "image_id": 20935,
+          "target": "3",
+          "note": "Several laptops are partially occluded among the foreground group and background tables; exact count is uncertain."
+        },
+        {
+          "image_id": 153563,
+          "target": "4",
+          "note": "Overlapping screens and cropped laptops make four distinct units difficult to verify confidently."
+        }
+      ],
+      "review_status": "uncertain_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:76:136533:411277",
+      "sheet": "grounding_test_07.jpg",
+      "position_on_sheet": 2,
+      "question": "How many keyboards can you see?",
+      "supplementary_notes": [],
+      "review_status": "uncertain_at_contact_sheet_resolution",
+      "previous_review_status": "ambiguity_or_small_object_flag",
+      "previous_review_notes": [
+        {
+          "image_id": 411277,
+          "target": "3",
+          "note": "Multiple computers and separate keyboards make the inclusion of integrated laptop keyboards/category coverage ambiguous."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:77:105538:265176",
+      "sheet": "grounding_test_07.jpg",
+      "position_on_sheet": 3,
+      "question": "How many cell phones can you see?",
+      "supplementary_notes": [
+        {
+          "image_id": 265176,
+          "target": "4",
+          "note": "Several phones are small and partially hidden by hands; four distinct phones are difficult to verify confidently."
+        }
+      ],
+      "review_status": "uncertain_at_contact_sheet_resolution",
+      "previous_review_status": "ambiguity_or_small_object_flag",
+      "previous_review_notes": [
+        {
+          "image_id": 105538,
+          "target": "3",
+          "note": "Small docked handheld devices may be music players or phones; the COCO cell-phone category determines the target."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:78:133515:246327",
+      "sheet": "grounding_test_07.jpg",
+      "position_on_sheet": 4,
+      "question": "How many microwaves can you see?",
+      "supplementary_notes": [],
+      "review_status": "uncertain_at_contact_sheet_resolution",
+      "previous_review_status": "ambiguity_or_small_object_flag",
+      "previous_review_notes": [
+        {
+          "image_id": 246327,
+          "target": "2",
+          "note": "Two annotated microwaves include visually similar kitchen appliances; the second instance is not clear at this scale."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:81:442128:574145",
+      "sheet": "grounding_test_08.jpg",
+      "position_on_sheet": 1,
+      "question": "How many sinks can you see?",
+      "supplementary_notes": [],
+      "review_status": "uncertain_at_contact_sheet_resolution",
+      "previous_review_status": "ambiguity_or_small_object_flag",
+      "previous_review_notes": [
+        {
+          "image_id": 442128,
+          "target": "3",
+          "note": "Sink count can depend on treating multiple basins as separate instances; distant basins are difficult to inspect."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:86:123017:322475",
+      "sheet": "grounding_test_08.jpg",
+      "position_on_sheet": 2,
+      "question": "How many vases can you see?",
+      "supplementary_notes": [
+        {
+          "image_id": 123017,
+          "target": "3",
+          "note": "Small tabletop containers may be cups or vases; three vases are not unambiguous."
+        }
+      ],
+      "review_status": "uncertain_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:88:81070:202199",
+      "sheet": "grounding_test_08.jpg",
+      "position_on_sheet": 3,
+      "question": "How many teddy bears can you see?",
+      "supplementary_notes": [],
+      "review_status": "uncertain_at_contact_sheet_resolution",
+      "previous_review_status": "ambiguity_or_small_object_flag",
+      "previous_review_notes": [
+        {
+          "image_id": 81070,
+          "target": "2",
+          "note": "Teddy bears are small among many market toys and balloons; category-specific count is hard to verify."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:counting:9:290179:337777",
+      "sheet": "grounding_test_08.jpg",
+      "position_on_sheet": 4,
+      "question": "How many boats can you see?",
+      "supplementary_notes": [],
+      "review_status": "uncertain_at_contact_sheet_resolution",
+      "previous_review_status": "ambiguity_or_small_object_flag",
+      "previous_review_notes": [
+        {
+          "image_id": 290179,
+          "target": "3",
+          "note": "There are small/distant boats on the river; annotation coverage may not equal a literal count of every visible vessel."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:11:39988:425555",
+      "sheet": "grounding_test_09.jpg",
+      "position_on_sheet": 1,
+      "question": "Does this image contain a fire hydrant?",
+      "supplementary_notes": [],
+      "review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:14:258078:357743",
+      "sheet": "grounding_test_09.jpg",
+      "position_on_sheet": 2,
+      "question": "Does this image contain a parking meter?",
+      "supplementary_notes": [],
+      "review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:15:8787:31093",
+      "sheet": "grounding_test_09.jpg",
+      "position_on_sheet": 3,
+      "question": "Does this image contain a bench?",
+      "supplementary_notes": [],
+      "review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:16:414560:417876",
+      "sheet": "grounding_test_09.jpg",
+      "position_on_sheet": 4,
+      "question": "Does this image contain a bird?",
+      "supplementary_notes": [],
+      "review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:1:40821:473573",
+      "sheet": "grounding_test_10.jpg",
+      "position_on_sheet": 1,
+      "question": "Does this image contain a person?",
+      "supplementary_notes": [],
+      "review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:22:3703:451952",
+      "sheet": "grounding_test_10.jpg",
+      "position_on_sheet": 2,
+      "question": "Does this image contain an elephant?",
+      "supplementary_notes": [],
+      "review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:25:424155:474471",
+      "sheet": "grounding_test_10.jpg",
+      "position_on_sheet": 3,
+      "question": "Does this image contain a giraffe?",
+      "supplementary_notes": [],
+      "review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:27:107068:389655",
+      "sheet": "grounding_test_10.jpg",
+      "position_on_sheet": 4,
+      "question": "Does this image contain a backpack?",
+      "supplementary_notes": [],
+      "review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:28:181714:285534",
+      "sheet": "grounding_test_11.jpg",
+      "position_on_sheet": 1,
+      "question": "Does this image contain an umbrella?",
+      "supplementary_notes": [],
+      "review_status": "uncertain_at_contact_sheet_resolution",
+      "previous_review_status": "ambiguity_or_small_object_flag",
+      "previous_review_notes": [
+        {
+          "image_id": 181714,
+          "target": "yes",
+          "note": "Umbrellas are depicted in artwork rather than photographed physical umbrellas."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:32:86147:174871",
+      "sheet": "grounding_test_11.jpg",
+      "position_on_sheet": 2,
+      "question": "Does this image contain a tie?",
+      "supplementary_notes": [],
+      "review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:33:242679:535578",
+      "sheet": "grounding_test_11.jpg",
+      "position_on_sheet": 3,
+      "question": "Does this image contain a suitcase?",
+      "supplementary_notes": [
+        {
+          "image_id": 242679,
+          "target": "yes",
+          "note": "Only a narrow blue portion of the possible suitcase appears at the right edge; identification is uncertain."
+        }
+      ],
+      "review_status": "uncertain_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:34:153971:157807",
+      "sheet": "grounding_test_11.jpg",
+      "position_on_sheet": 4,
+      "question": "Does this image contain a frisbee?",
+      "supplementary_notes": [],
+      "review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:40:286313:480311",
+      "sheet": "grounding_test_12.jpg",
+      "position_on_sheet": 1,
+      "question": "Does this image contain a baseball glove?",
+      "supplementary_notes": [],
+      "review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:42:100283:525666",
+      "sheet": "grounding_test_12.jpg",
+      "position_on_sheet": 2,
+      "question": "Does this image contain a surfboard?",
+      "supplementary_notes": [],
+      "review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:48:73278:320864",
+      "sheet": "grounding_test_12.jpg",
+      "position_on_sheet": 3,
+      "question": "Does this image contain a fork?",
+      "supplementary_notes": [],
+      "review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:49:313340:447991",
+      "sheet": "grounding_test_12.jpg",
+      "position_on_sheet": 4,
+      "question": "Does this image contain a knife?",
+      "supplementary_notes": [],
+      "review_status": "uncertain_at_contact_sheet_resolution",
+      "previous_review_status": "ambiguity_or_small_object_flag",
+      "previous_review_notes": [
+        {
+          "image_id": 313340,
+          "target": "yes",
+          "note": "Positive knife is small/obscured on the desk; not confidently identifiable in the contact sheet."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:50:9527:517987",
+      "sheet": "grounding_test_13.jpg",
+      "position_on_sheet": 1,
+      "question": "Does this image contain a spoon?",
+      "supplementary_notes": [],
+      "review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:51:272117:523938",
+      "sheet": "grounding_test_13.jpg",
+      "position_on_sheet": 2,
+      "question": "Does this image contain a bowl?",
+      "supplementary_notes": [],
+      "review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:52:281882:494800",
+      "sheet": "grounding_test_13.jpg",
+      "position_on_sheet": 3,
+      "question": "Does this image contain a banana?",
+      "supplementary_notes": [],
+      "review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:53:309933:534983",
+      "sheet": "grounding_test_13.jpg",
+      "position_on_sheet": 4,
+      "question": "Does this image contain an apple?",
+      "supplementary_notes": [],
+      "review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:54:52726:417608",
+      "sheet": "grounding_test_14.jpg",
+      "position_on_sheet": 1,
+      "question": "Does this image contain a sandwich?",
+      "supplementary_notes": [],
+      "review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:55:37958:249404",
+      "sheet": "grounding_test_14.jpg",
+      "position_on_sheet": 2,
+      "question": "Does this image contain an orange?",
+      "supplementary_notes": [],
+      "review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:57:9572:83565",
+      "sheet": "grounding_test_14.jpg",
+      "position_on_sheet": 3,
+      "question": "Does this image contain a carrot?",
+      "supplementary_notes": [],
+      "review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:60:148957:279209",
+      "sheet": "grounding_test_14.jpg",
+      "position_on_sheet": 4,
+      "question": "Does this image contain a donut?",
+      "supplementary_notes": [],
+      "review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:62:115846:326667",
+      "sheet": "grounding_test_15.jpg",
+      "position_on_sheet": 1,
+      "question": "Does this image contain a chair?",
+      "supplementary_notes": [],
+      "review_status": "uncertain_at_contact_sheet_resolution",
+      "previous_review_status": "ambiguity_or_small_object_flag",
+      "previous_review_notes": [
+        {
+          "image_id": 115846,
+          "target": "yes",
+          "note": "Positive chair is mostly dark/occluded behind the foreground table."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:67:374083:477542",
+      "sheet": "grounding_test_15.jpg",
+      "position_on_sheet": 2,
+      "question": "Does this image contain a dining table?",
+      "supplementary_notes": [
+        {
+          "image_id": 374083,
+          "target": "yes",
+          "note": "The food surface could be a kitchen counter or dining table; category boundary is unclear."
+        }
+      ],
+      "review_status": "uncertain_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:6:105912:248980",
+      "sheet": "grounding_test_15.jpg",
+      "position_on_sheet": 3,
+      "question": "Does this image contain a bus?",
+      "supplementary_notes": [],
+      "review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:76:245971:466239",
+      "sheet": "grounding_test_15.jpg",
+      "position_on_sheet": 4,
+      "question": "Does this image contain a keyboard?",
+      "supplementary_notes": [],
+      "review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:78:317424:397404",
+      "sheet": "grounding_test_16.jpg",
+      "position_on_sheet": 1,
+      "question": "Does this image contain a microwave?",
+      "supplementary_notes": [],
+      "review_status": "uncertain_at_contact_sheet_resolution",
+      "previous_review_status": "ambiguity_or_small_object_flag",
+      "previous_review_notes": [
+        {
+          "image_id": 397404,
+          "target": "yes",
+          "note": "Positive microwave is partly obscured in the kitchen; not confidently identifiable at sheet resolution."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:88:341957:526723",
+      "sheet": "grounding_test_16.jpg",
+      "position_on_sheet": 2,
+      "question": "Does this image contain a teddy bear?",
+      "supplementary_notes": [],
+      "review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:8:121242:147806",
+      "sheet": "grounding_test_16.jpg",
+      "position_on_sheet": 3,
+      "question": "Does this image contain a truck?",
+      "supplementary_notes": [],
+      "review_status": "uncertain_at_contact_sheet_resolution",
+      "previous_review_status": "ambiguity_or_small_object_flag",
+      "previous_review_notes": [
+        {
+          "image_id": 121242,
+          "target": "yes",
+          "note": "Foreground vehicle is a horse-drawn carriage; any truck annotation may refer to a small background object or a category ambiguity."
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "pair_id": "grounding:val2014:presence:9:378873:499393",
+      "sheet": "grounding_test_16.jpg",
+      "position_on_sheet": 4,
+      "question": "Does this image contain a boat?",
+      "supplementary_notes": [],
+      "review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_status": "no_obvious_issue_at_contact_sheet_resolution",
+      "previous_review_notes": []
+    }
+  ],
+  "pairs_reviewed": 88
+}
