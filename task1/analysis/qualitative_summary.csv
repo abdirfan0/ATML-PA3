@@ -1,8 +1,8 @@
-condition,strict_json_passes_of_2,strict_template_passes_of_2,truncated_of_6,math_framing_of_6
-baseline,0,1,0,0
-full_mid,1,1,2,2
-full_final,1,1,1,3
-l2sp_final,1,1,1,2
-lora4_final,2,1,0,0
-lora16_final,1,1,0,0
-oplora16_final,1,0,0,1
+condition,strict_json_passes_of_2,strict_template_passes_of_2,truncated_of_6,math_framing_of_6,mild_repetition_of_6,severe_repetition_of_6,high_coherence_relevance_of_6,reviewed_of_6
+baseline,0,1,0,0,0,0,3,6
+full_mid,1,1,2,2,1,2,1,6
+full_final,1,1,1,3,2,1,2,6
+l2sp_final,1,1,1,2,1,1,2,6
+lora4_final,2,1,0,0,1,0,4,6
+lora16_final,1,1,0,0,2,0,2,6
+oplora16_final,1,0,0,1,2,0,3,6

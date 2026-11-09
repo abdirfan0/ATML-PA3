@@ -48,7 +48,7 @@ These diagnostics reuse 64 original-model activation inputs at the last prompt t
 
 GSM8K truncation rates are below 1% for every condition. Flexible extraction has no missing answers except one LoRA-16 example (1/1319). The stock strict-match metric is zero in all conditions; this is not the assigned primary score. The strict filter expects an exact phrase pattern; the saved strict score alone does not distinguish failed extraction from an incorrect extracted answer. Report flexible-extraction exact match, retain stock filters, and interpret extraction separately from correctness. The CPU Drive audit also recomputes these rates and exact scores from per-example saved outputs.
 
-The fixed qualitative subset uses two predetermined underlying questions × three formats × seven conditions. Draft row-level annotations and excerpts are in `qualitative_annotations_draft.csv`; the rubric distinguishes strict format validity, relevance, repetition, unnecessary mathematical framing, inappropriate content and cap flags. They require student review.
+The fixed qualitative subset uses two predetermined underlying questions × three formats × seven conditions. All 42 row-level annotations and excerpts were reviewed individually by Abdullah Irfan with assistant guidance on 9 November 2026. The authoritative file is `qualitative_annotations_reviewed.csv`; the rubric distinguishes strict format validity, relevance, repetition, unnecessary mathematical framing, inappropriate content and cap flags. Original drafts remain as provenance, and `qualitative_review_receipt.json` records the review changes. These are descriptive judgments, not independent blinded ratings.
 
 Aligned illustrative examples were chosen from this required subset to show role confusion, repetition and format compliance; they were not selected as representative accuracy estimates:
 
@@ -59,6 +59,6 @@ Aligned illustrative examples were chosen from this required subset to show role
 
 No overt harmful recommendation was observed in these 42 responses. This limited subset cannot establish a general safety property or justify claims of emergent misalignment. Unhelpful role reversal, vague advice and occasional dismissive language remain relevant quality issues.
 
-## Remaining submission work
+## Submission status
 
-Run the CPU Drive finalizer to verify and preserve per-example benchmark outputs and the original preparation manifest. Review the draft qualitative labels; preserve the original Colab notebook if available. Import the resulting folder into the public PA3 GitHub repository. Tasks 2/3 and the combined eight-page report remain separate work. No additional Task 1 GPU run is indicated by this small-file audit.
+Task 1 training, evaluation and its 42-response qualitative review are complete. The original executed experiment records and human-reviewed annotations are preserved in the repository. Keep the large model states in the Drive experiment folder. The combined eight-page report is prepared separately; Task 2's image-label review has its own status. No additional Task 1 GPU run is required for this annotation update.

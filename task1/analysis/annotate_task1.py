@@ -1,6 +1,11 @@
 import csv,json,re
 from pathlib import Path
 p=Path(__file__).resolve().parents[1]
+# Prefer the authoritative student review once it exists.
+if (p/'analysis/qualitative_annotations_reviewed.csv').is_file():
+ from summarize_reviewed import summarize
+ summarize(p)
+ raise SystemExit(0)
 # Interpretive notes drafted by the assistant after reading the fixed responses.
 notes={
 'baseline':[

@@ -1,6 +1,6 @@
 # Task 1: mathematical adaptation and retention
 
-**Status:** five completed runs, seven completed evaluation conditions, 28 aggregate benchmark results, 168 qualitative responses. Small-file evidence audit passed. The CPU Drive finalizer checks the large-state file sizes and the per-example benchmark outputs; its result belongs in `analysis/drive_audit.json`. No further GPU work is scheduled.
+**Status:** five completed runs, seven completed evaluation conditions, 28 aggregate benchmark results, 168 qualitative responses; all 42 required qualitative annotations reviewed by Abdullah Irfan. Small-file evidence audit passed. The CPU Drive finalizer checks the large-state file sizes and the per-example benchmark outputs; its result belongs in `analysis/drive_audit.json`. No further GPU work is scheduled.
 
 ## Files
 
@@ -14,7 +14,7 @@
 | `checkpoints/` | Small training logs, setup, run identities, displacement and recovery metadata; tensor states excluded |
 | `results/evaluation/` | Original metrics and qualitative responses; finalizer adds `*_samples.jsonl.gz` |
 | `results/diagnostics/` | FP32 local weight/activation diagnostic results |
-| `analysis/` | CPU audit, tables, response grouping, draft annotations and interpretation |
+| `analysis/` | CPU audit, tables, response grouping, reviewed annotations, preserved original drafts and interpretation |
 | `figures/` | PNG/PDF figures rebuilt from saved evidence |
 
 ## Recorded recipe
@@ -44,7 +44,7 @@ python task1/analysis/analyze_task1.py
 python task1/analysis/annotate_task1.py
 ```
 
-Review draft interpretive annotations before submission. `annotate_task1.py` overwrites draft CSV/JSON output, so preserve any manual edits in its notes/rubric or save a separate reviewed file.
+All 42 required responses were reviewed individually by Abdullah Irfan with assistant guidance on 9 November 2026. `analysis/qualitative_annotations_reviewed.csv` is authoritative; the original assistant drafts remain as provenance. `annotate_task1.py` now prefers the reviewed file and regenerates JSON, summary counts and a review receipt without overwriting the CSV. See `analysis/qualitative_review_summary.md` and `analysis/qualitative_review_receipt.json`. No model inference is performed.
 
 ## Reproduce from scratch
 
